@@ -2,6 +2,18 @@
 
 The existing `LFI games` folder is the main project folder and the classroom folder.
 
+## Download
+
+The playable Windows EXE is available through GitHub Releases.
+
+Current version: `v0.7.0`
+
+Download `My Day Learning Town.exe` from the Releases page:
+
+```text
+https://github.com/sungwoo651/My-Day-Learning-Town/releases
+```
+
 ## Run The Game
 
 Double-click this file in the main `LFI games` folder:
