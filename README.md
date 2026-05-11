@@ -1,147 +1,96 @@
 # My Day Learning Town
 
-**Current Version:** 0.7  
-**Full Release Target:** Before June 18, 2026
+The existing `LFI games` folder is the main project folder and the classroom folder.
 
-## Overview
+## Run The Game
 
-**My Day Learning Town** is a collection of interactive educational games designed for children with extensive support needs, primarily within the kindergarten to Grade 3 age range or instructional level.
+Double-click this file in the main `LFI games` folder:
 
-The project includes multiple game-based learning activities across:
+```text
+My Day Learning Town.exe
+```
 
-- Literacy
-- Mathematics
-- Science
-- Social Studies
+Do not use a nested `LFI Games` folder. Do not use `release/` as the classroom copy.
 
-Each game is designed to support repeated practice of mastery-level skills. The activities are intentionally structured so that students can experience success, build fluency, and practice targeted academic concepts through accessible, interactive gameplay.
+## Copy To Another Windows Computer
 
-## Instructional Purpose
+Copy the whole `LFI games` folder.
 
-The goal of this project is to provide accessible educational games that support students who benefit from:
+Do not copy only `My Day Learning Town.exe`. The EXE needs the nearby Electron support files, including `resources/`, `locales/`, DLL files, PNG assets, and Kokoro WAV audio files.
 
-- Clear visual presentation
-- Repeated opportunities to respond
-- Predictable task structure
-- Reduced task complexity
-- Immediate practice with foundational academic skills
-- Activities designed around achievable mastery expectations
+## Refresh The Desktop App
 
-Rather than emphasizing speed, competition, or complex game mechanics, **My Day Learning Town** focuses on meaningful practice, task completion, and student accomplishment.
+From the main `LFI games` folder:
 
-## Learning Domains
+```powershell
+npm install
+npm run desktop:package
+```
 
-### Literacy
+The packaging script may create `release/` temporarily, but it must remove it after the root runtime is refreshed.
 
-Literacy games may include activities related to:
+## Development Run
 
-- Letter recognition
-- Letter sounds
-- Word-level skills
-- Sentence-level understanding
-- Punctuation and early writing concepts
+```powershell
+npm install
+npm run dev
+```
 
-### Mathematics
+Open the Vite local URL in Chrome for development only. Do not open `index.html` directly with `file://`.
 
-Mathematics games may include activities related to:
+## Audio
 
-- Number recognition
-- Counting
-- Quantity comparison
-- Ten-frame representations
-- Basic operations
-- Foundational math visuals
+Kokoro local WAV audio is the primary student speech system. The current local voice target is Kokoro `af_heart`.
 
-### Science
+Browser/default speech is emergency fallback only when a local WAV is missing or cannot play. Microsoft, Google, OpenAI, and other cloud voices are not the normal classroom speech path.
 
-Science games may include activities related to:
+Students replay directions by clicking the visible guiding sentence. There is no separate Repeat button in the current shell.
 
-- Basic classification
-- Properties of objects
-- Early science vocabulary
-- Observable features in everyday contexts
+## Images
 
-### Social Studies
+Runtime student-facing images must be PNG. New or replacement student-facing images must come from `/imagegen` and must be wired into runtime before they count as complete.
 
-Social studies games may include activities related to:
+Do not create SVG placeholders. Do not use SVG icons, SVG backgrounds, SVG arrows, SVG game images, or SVG category images.
 
-- Community concepts
-- Everyday routines
-- Places, people, and roles
-- Functional understanding of the world around the student
+Current runtime image folders:
 
-## Design Principles
+```text
+public/assets/generated/current/
+public/assets/rasterized/exact/
+```
 
-This project is built around several instructional and accessibility principles:
+## Current QA
 
-- Skills are presented in manageable steps.
-- Game complexity is intentionally limited to support task completion.
-- Visuals are used to support understanding.
-- Activities are designed for repeated practice.
-- The goal is student accomplishment, not unnecessary difficulty.
-- Content is intended to support students who require extensive instructional support.
+Use this file as the current QA reference:
 
-## Development Status
+```text
+CURRENT_QA_SUMMARY.md
+```
 
-This project is currently in **Version 0.7**.
+Older recovery, remediation, packaging, image, audio, and screen reports were merged or removed. Do not rely on old package copies or stale reports.
 
-The current version is functional but still under active revision. Some images, audio files, instructional examples, and visual supports are placeholders or require correction before the full release.
+## Project Structure
 
-## Upcoming Updates
+```text
+My Day Learning Town.exe          Classroom start file
+resources/                       Electron packaged app resources
+locales/                         Electron language resources
+electron/                        Electron wrapper source
+public/assets/audio/kokoro/      Local Kokoro WAV speech files
+public/assets/generated/current/ Current generated PNG learning visuals
+public/assets/rasterized/exact/  PNG versions of exact diagrams and symbols
+src/content/                     JSON game content and audio manifest
+src/game/                        Shared shell, templates, and systems
+scripts/make-windows-exe.ps1     Refreshes the Windows desktop package
+```
 
-Planned updates include:
+## Quick QA Commands
 
-- Replace stick figure images.
-- Replace incorrect images, including examples such as flat shapes incorrectly used for spheres and characters with incorrect body features.
-- Replace punctuation instruction recordings. The current guide was not recorded with punctuation. A future version may use audio recordings with realistic punctuation examples while displaying simplified question text without punctuation.
-- Replace letter sound audio. Current audio may state sounds as “slash p slash” rather than producing the actual phoneme sound, such as /p/.
-- Revise the terms of service.
-- Replace math visuals so that they match the ten-frame instructional format more consistently.
-
-## Full Release Timeline
-
-The target timeline for the full release is:
-
-**Before June 18, 2026**
-
-## Intended Users
-
-This project may be useful for:
-
-- Special education teachers
-- Related service providers
-- Families
-- Students with extensive support needs
-- Classrooms using repeated practice for foundational academic skills
-- Educational settings focused on accessible instruction
-
-## Current Limitations
-
-Because this project is still in development, users should review activities before using them with students. Some content may need to be corrected, replaced, or adjusted before classroom implementation.
-
-Known areas under revision include:
-
-- Image accuracy
-- Character visuals
-- Letter sound audio
-- Punctuation examples
-- Math representations
-- Terms of service language
-
-## License
-
-This project is provided for **noncommercial educational use**.
-
-Source code is licensed under the **PolyForm Noncommercial License 1.0.0**, unless otherwise stated.
-
-Commercial use, resale, paid redistribution, monetized platform use, or incorporation into a commercial product requires separate written permission from the copyright holder.
-
-Game assets, characters, images, audio, lesson content, curriculum materials, and branding are not included for commercial reuse unless separately authorized.
-
-## Attribution
-
-Copyright © 2026 Sungwoo Kang.
-
-## Disclaimer
-
-This project is an educational support tool. It is not a replacement for individualized instruction, professional judgment, or legally required educational programming. Teachers and service providers should review all activities and determine whether the content is appropriate for each student’s instructional needs.
+```powershell
+npm run qa:no-svg
+npm run audio:extract
+npm run audio:generate
+npm run qa:audio
+npm run build
+npm run desktop:package
+```

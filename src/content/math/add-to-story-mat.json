@@ -1,0 +1,454 @@
+﻿{
+  "id": "add-to-story-mat",
+  "title": "Add To Story Mat",
+  "category": "math",
+  "template": "drag-match",
+  "directions": "Listen to the story. Drag more objects in. Then tap how many all together.",
+  "environment": "classroom math table",
+  "rounds": [
+    {
+      "id": "apples-bowl-2",
+      "mode": "add-to-story",
+      "context": "Apples in a bowl",
+      "prompt": "There is 1 apple. Put 1 more in.",
+      "instruction": "There is 1 apple. Put 1 more in.",
+      "startCount": 1,
+      "addCount": 1,
+      "totalCount": 2,
+      "objectName": "apple",
+      "objectImage": "/assets/generated/current/imagegen-set-apple.png",
+      "storyMatLabel": "apple bowl",
+      "options": [
+        {
+          "id": "1",
+          "label": "1"
+        },
+        {
+          "id": "2",
+          "label": "2"
+        },
+        {
+          "id": "3",
+          "label": "3"
+        }
+      ],
+      "correctChoiceId": "2",
+      "praise": "You made 2 all together."
+    },
+    {
+      "id": "crayons-cup-3",
+      "mode": "add-to-story",
+      "context": "Crayons in a cup",
+      "prompt": "There are 2 crayons. Put 1 more in.",
+      "instruction": "There are 2 crayons. Put 1 more in.",
+      "startCount": 2,
+      "addCount": 1,
+      "totalCount": 3,
+      "objectName": "crayon",
+      "objectImage": "/assets/generated/current/imagegen-unit-crayon.png",
+      "storyMatLabel": "crayon cup",
+      "options": [
+        {
+          "id": "2",
+          "label": "2"
+        },
+        {
+          "id": "3",
+          "label": "3"
+        },
+        {
+          "id": "4",
+          "label": "4"
+        }
+      ],
+      "correctChoiceId": "3",
+      "praise": "Nice work finding the total."
+    },
+    {
+      "id": "balls-basket-4",
+      "mode": "add-to-story",
+      "context": "Balls in a basket",
+      "prompt": "There are 2 balls. Put 2 more in.",
+      "instruction": "There are 2 balls. Put 2 more in.",
+      "startCount": 2,
+      "addCount": 2,
+      "totalCount": 4,
+      "objectName": "ball",
+      "objectImage": "/assets/generated/current/imagegen-soccer-ball.png",
+      "storyMatLabel": "ball basket",
+      "options": [
+        {
+          "id": "3",
+          "label": "3"
+        },
+        {
+          "id": "4",
+          "label": "4"
+        },
+        {
+          "id": "5",
+          "label": "5"
+        }
+      ],
+      "correctChoiceId": "4",
+      "praise": "Great job adding more."
+    },
+    {
+      "id": "apples-lunch-box-5",
+      "mode": "add-to-story",
+      "context": "Apples in a lunch box",
+      "prompt": "There are 3 apples. Put 2 more in.",
+      "instruction": "There are 3 apples. Put 2 more in.",
+      "startCount": 3,
+      "addCount": 2,
+      "totalCount": 5,
+      "objectName": "apple",
+      "objectImage": "/assets/generated/current/imagegen-set-apple.png",
+      "storyMatLabel": "lunch box",
+      "options": [
+        {
+          "id": "4",
+          "label": "4"
+        },
+        {
+          "id": "5",
+          "label": "5"
+        },
+        {
+          "id": "6",
+          "label": "6"
+        }
+      ],
+      "correctChoiceId": "5",
+      "praise": "You made 5 all together."
+    },
+    {
+      "id": "books-shelf-5",
+      "mode": "add-to-story",
+      "context": "Books on a shelf",
+      "prompt": "There are 4 books. Put 1 more in.",
+      "instruction": "There are 4 books. Put 1 more in.",
+      "startCount": 4,
+      "addCount": 1,
+      "totalCount": 5,
+      "objectName": "book",
+      "objectImage": "/assets/generated/current/imagegen-measure-book.png",
+      "storyMatLabel": "book shelf",
+      "options": [
+        {
+          "id": "4",
+          "label": "4"
+        },
+        {
+          "id": "5",
+          "label": "5"
+        },
+        {
+          "id": "6",
+          "label": "6"
+        }
+      ],
+      "correctChoiceId": "5",
+      "praise": "Nice work finding the total."
+    },
+    {
+      "id": "cups-tray-6",
+      "mode": "add-to-story",
+      "context": "Cups on a tray",
+      "prompt": "There are 5 cups. Put 1 more in.",
+      "instruction": "There are 5 cups. Put 1 more in.",
+      "startCount": 5,
+      "addCount": 1,
+      "totalCount": 6,
+      "objectName": "cup",
+      "objectImage": "/assets/generated/current/imagegen-cup.png",
+      "storyMatLabel": "cup tray",
+      "options": [
+        {
+          "id": "5",
+          "label": "5"
+        },
+        {
+          "id": "6",
+          "label": "6"
+        },
+        {
+          "id": "7",
+          "label": "7"
+        }
+      ],
+      "correctChoiceId": "6",
+      "praise": "You made 6 all together."
+    },
+    {
+      "id": "crayons-cup-7",
+      "mode": "add-to-story",
+      "context": "Crayons in a cup",
+      "prompt": "There are 4 crayons. Put 3 more in.",
+      "instruction": "There are 4 crayons. Put 3 more in.",
+      "startCount": 4,
+      "addCount": 3,
+      "totalCount": 7,
+      "objectName": "crayon",
+      "objectImage": "/assets/generated/current/imagegen-unit-crayon.png",
+      "storyMatLabel": "crayon cup",
+      "options": [
+        {
+          "id": "6",
+          "label": "6"
+        },
+        {
+          "id": "7",
+          "label": "7"
+        },
+        {
+          "id": "8",
+          "label": "8"
+        }
+      ],
+      "correctChoiceId": "7",
+      "praise": "Great job adding more."
+    },
+    {
+      "id": "balls-basket-8",
+      "mode": "add-to-story",
+      "context": "Balls in a basket",
+      "prompt": "There are 5 balls. Put 3 more in.",
+      "instruction": "There are 5 balls. Put 3 more in.",
+      "startCount": 5,
+      "addCount": 3,
+      "totalCount": 8,
+      "objectName": "ball",
+      "objectImage": "/assets/generated/current/imagegen-soccer-ball.png",
+      "storyMatLabel": "ball basket",
+      "options": [
+        {
+          "id": "7",
+          "label": "7"
+        },
+        {
+          "id": "8",
+          "label": "8"
+        },
+        {
+          "id": "9",
+          "label": "9"
+        }
+      ],
+      "correctChoiceId": "8",
+      "praise": "Nice work finding the total."
+    },
+    {
+      "id": "books-shelf-8",
+      "mode": "add-to-story",
+      "context": "Books on a shelf",
+      "prompt": "There are 6 books. Put 2 more in.",
+      "instruction": "There are 6 books. Put 2 more in.",
+      "startCount": 6,
+      "addCount": 2,
+      "totalCount": 8,
+      "objectName": "book",
+      "objectImage": "/assets/generated/current/imagegen-measure-book.png",
+      "storyMatLabel": "book shelf",
+      "options": [
+        {
+          "id": "7",
+          "label": "7"
+        },
+        {
+          "id": "8",
+          "label": "8"
+        },
+        {
+          "id": "9",
+          "label": "9"
+        }
+      ],
+      "correctChoiceId": "8",
+      "praise": "You made 8 all together."
+    },
+    {
+      "id": "apples-bowl-9",
+      "mode": "add-to-story",
+      "context": "Apples in a bowl",
+      "prompt": "There are 7 apples. Put 2 more in.",
+      "instruction": "There are 7 apples. Put 2 more in.",
+      "startCount": 7,
+      "addCount": 2,
+      "totalCount": 9,
+      "objectName": "apple",
+      "objectImage": "/assets/generated/current/imagegen-set-apple.png",
+      "storyMatLabel": "apple bowl",
+      "options": [
+        {
+          "id": "8",
+          "label": "8"
+        },
+        {
+          "id": "9",
+          "label": "9"
+        },
+        {
+          "id": "10",
+          "label": "10"
+        }
+      ],
+      "correctChoiceId": "9",
+      "praise": "Nice work finding the total."
+    },
+    {
+      "id": "cookies-plate-10",
+      "mode": "add-to-story",
+      "context": "Cookies on a plate",
+      "prompt": "There are 5 cookies. Put 5 more in.",
+      "instruction": "There are 5 cookies. Put 5 more in.",
+      "startCount": 5,
+      "addCount": 5,
+      "totalCount": 10,
+      "objectName": "cookie",
+      "objectImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "storyMatLabel": "cookie plate",
+      "options": [
+        {
+          "id": "8",
+          "label": "8"
+        },
+        {
+          "id": "9",
+          "label": "9"
+        },
+        {
+          "id": "10",
+          "label": "10"
+        }
+      ],
+      "correctChoiceId": "10",
+      "praise": "You made 10 all together."
+    },
+    {
+      "id": "pencils-cup-9",
+      "mode": "add-to-story",
+      "context": "Pencils in a cup",
+      "prompt": "There are 8 pencils. Put 1 more in.",
+      "instruction": "There are 8 pencils. Put 1 more in.",
+      "startCount": 8,
+      "addCount": 1,
+      "totalCount": 9,
+      "objectName": "pencil",
+      "objectImage": "/assets/generated/current/imagegen-school-pencil.png",
+      "storyMatLabel": "pencil cup",
+      "options": [
+        {
+          "id": "8",
+          "label": "8"
+        },
+        {
+          "id": "9",
+          "label": "9"
+        },
+        {
+          "id": "10",
+          "label": "10"
+        }
+      ],
+      "correctChoiceId": "9",
+      "praise": "Great job adding more."
+    },
+    {
+      "id": "cups-tray-10",
+      "mode": "add-to-story",
+      "context": "Cups on a tray",
+      "prompt": "There are 6 cups. Put 4 more in.",
+      "instruction": "There are 6 cups. Put 4 more in.",
+      "startCount": 6,
+      "addCount": 4,
+      "totalCount": 10,
+      "objectName": "cup",
+      "objectImage": "/assets/generated/current/imagegen-cup.png",
+      "storyMatLabel": "cup tray",
+      "options": [
+        {
+          "id": "8",
+          "label": "8"
+        },
+        {
+          "id": "9",
+          "label": "9"
+        },
+        {
+          "id": "10",
+          "label": "10"
+        }
+      ],
+      "correctChoiceId": "10",
+      "praise": "Nice work finding the total."
+    },
+    {
+      "id": "apples-lunch-box-7",
+      "mode": "add-to-story",
+      "context": "Apples in a lunch box",
+      "prompt": "There are 3 apples. Put 4 more in.",
+      "instruction": "There are 3 apples. Put 4 more in.",
+      "startCount": 3,
+      "addCount": 4,
+      "totalCount": 7,
+      "objectName": "apple",
+      "objectImage": "/assets/generated/current/imagegen-set-apple.png",
+      "storyMatLabel": "lunch box",
+      "options": [
+        {
+          "id": "6",
+          "label": "6"
+        },
+        {
+          "id": "7",
+          "label": "7"
+        },
+        {
+          "id": "8",
+          "label": "8"
+        }
+      ],
+      "correctChoiceId": "7",
+      "praise": "You made 7 all together."
+    },
+    {
+      "id": "crayons-cup-8",
+      "mode": "add-to-story",
+      "context": "Crayons in a cup",
+      "prompt": "There are 2 crayons. Put 6 more in.",
+      "instruction": "There are 2 crayons. Put 6 more in.",
+      "startCount": 2,
+      "addCount": 6,
+      "totalCount": 8,
+      "objectName": "crayon",
+      "objectImage": "/assets/generated/current/imagegen-unit-crayon.png",
+      "storyMatLabel": "crayon cup",
+      "options": [
+        {
+          "id": "7",
+          "label": "7"
+        },
+        {
+          "id": "8",
+          "label": "8"
+        },
+        {
+          "id": "9",
+          "label": "9"
+        }
+      ],
+      "correctChoiceId": "8",
+      "praise": "Great job adding more."
+    }
+  ],
+  "model": {
+    "title": "Add more",
+    "instruction": "Add objects to the basket.",
+    "targetWord": "",
+    "sceneImage": "/assets/generated/current/teaching-add-one-more-apple.png",
+    "matchingLabel": "",
+    "explanation": ""
+  }
+}
+

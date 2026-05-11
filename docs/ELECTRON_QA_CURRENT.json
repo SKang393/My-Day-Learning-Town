@@ -1,0 +1,1563 @@
+{
+  "target": "http://127.0.0.1:5173/",
+  "generatedAt": "2026-04-27T05:14:41.642Z",
+  "sizes": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "started": true,
+      "shot": "docs\\qa-screenshots\\home-1920x1080.png",
+      "state": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a learning area",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      }
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "started": true,
+      "shot": "docs\\qa-screenshots\\home-1366x768.png",
+      "state": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a learning area",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      }
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "started": true,
+      "shot": "docs\\qa-screenshots\\home-1280x720.png",
+      "state": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a learning area",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      }
+    },
+    {
+      "width": 1100,
+      "height": 700,
+      "started": true,
+      "shot": "docs\\qa-screenshots\\home-1100x700.png",
+      "state": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a learning area",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "started": true,
+      "shot": "docs\\qa-screenshots\\home-1024x768.png",
+      "state": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a learning area",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      }
+    }
+  ],
+  "areas": [
+    {
+      "area": "Literacy",
+      "shot": "docs\\qa-screenshots\\area-literacy.png",
+      "state": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Literacy game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 10
+      }
+    },
+    {
+      "area": "Math",
+      "shot": "docs\\qa-screenshots\\area-math.png",
+      "state": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      }
+    },
+    {
+      "area": "Science",
+      "shot": "docs\\qa-screenshots\\area-science.png",
+      "state": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Science game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      }
+    },
+    {
+      "area": "Social Studies",
+      "shot": "docs\\qa-screenshots\\area-social-studies.png",
+      "state": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6
+      }
+    }
+  ],
+  "routes": [
+    {
+      "area": "Literacy",
+      "game": "CVC Build Tray",
+      "screenshot": "literacy-cvc",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\literacy-cvc-model.png",
+      "shot": "docs\\qa-screenshots\\literacy-cvc.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Literacy game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 10
+      },
+      "modelState": {
+        "title": "CVC Build Tray",
+        "instruction": "Look. Put the sounds in order.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "CVC Build Tray",
+        "instruction": "Build hat. Drag h, a, t into the boxes. Progress: 1/12.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Literacy game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 10
+      }
+    },
+    {
+      "area": "Literacy",
+      "game": "Long A Match",
+      "screenshot": "literacy-long-vowel",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\literacy-long-vowel-model.png",
+      "shot": "docs\\qa-screenshots\\literacy-long-vowel.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Literacy game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 10
+      },
+      "modelState": {
+        "title": "Long A Match",
+        "instruction": "Long A says /ā/.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Long A Match",
+        "instruction": "Listen to the word. Choose its picture. Progress: 1/10.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 3
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Literacy game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 10
+      }
+    },
+    {
+      "area": "Literacy",
+      "game": "Sight Word Snack Grab",
+      "screenshot": "literacy-sight-word",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\literacy-sight-word-model.png",
+      "shot": "docs\\qa-screenshots\\literacy-sight-word.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Literacy game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 10
+      },
+      "modelState": {
+        "title": "Sight Word Snack Grab",
+        "instruction": "First, look at the picture and the blank. Then listen to the sentence and choose the word that fits.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 2
+      },
+      "gameState": {
+        "title": "Sight Word Snack Grab",
+        "instruction": "Look at the picture and sentence. Choose the word that makes sense. Progress: 1/15.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Literacy game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 10
+      }
+    },
+    {
+      "area": "Literacy",
+      "game": "Opinion Builder",
+      "screenshot": "literacy-opinion",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\literacy-opinion-model.png",
+      "shot": "docs\\qa-screenshots\\literacy-opinion.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Literacy game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 10
+      },
+      "modelState": {
+        "title": "Opinion Builder",
+        "instruction": "Put the opinion parts in order.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Opinion Builder",
+        "instruction": "Drag the cards to make: I like books because I can read. Progress: 1/10.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Literacy game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 10
+      }
+    },
+    {
+      "area": "Literacy",
+      "game": "Context Clue Match",
+      "screenshot": "literacy-context",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\literacy-context-model.png",
+      "shot": "docs\\qa-screenshots\\literacy-context.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Literacy game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 10
+      },
+      "modelState": {
+        "title": "Context Clue Match",
+        "instruction": "Look at the clue picture. Choose the answer.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Context Clue Match",
+        "instruction": "I open it to go in a room. Progress: 1/10.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Literacy game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 10
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Number Parking Lot",
+      "screenshot": "math-number-parking",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\math-number-parking-model.png",
+      "shot": "docs\\qa-screenshots\\math-number-parking.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      },
+      "modelState": {
+        "title": "Number Parking Lot",
+        "instruction": "Dots show the number.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Number Parking Lot",
+        "instruction": "Find 13. Progress: 1/20.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 0
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Shape Hunt",
+      "screenshot": "math-shape-hunt",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\math-shape-hunt-model.png",
+      "shot": "docs\\qa-screenshots\\math-shape-hunt.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      },
+      "modelState": {
+        "title": "Shape Hunt",
+        "instruction": "A flat shape is like a drawing. A solid shape is like an object you can hold.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 2
+      },
+      "gameState": {
+        "title": "Shape Hunt",
+        "instruction": "Listen for the shape name: pentagon. Tap the matching picture. Progress: 1/18.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 3
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Make a Set",
+      "screenshot": "math-make-set",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\math-make-set-model.png",
+      "shot": "docs\\qa-screenshots\\math-make-set.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      },
+      "modelState": {
+        "title": "Make a Set",
+        "instruction": "Put objects in the ten-frame.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Make a Set",
+        "instruction": "Make a set of 9. Put one object in each box. Press Done when finished. Progress: 1/15.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 10
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Add To Story Mat",
+      "screenshot": "math-addition",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\math-addition-model.png",
+      "shot": "docs\\qa-screenshots\\math-addition.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      },
+      "modelState": {
+        "title": "Add To Story Mat",
+        "instruction": "Add objects to the basket.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Add To Story Mat",
+        "instruction": "There are 5 balls. Put 3 more in. Progress: 1/15.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Subtraction Story Mat",
+      "screenshot": "math-subtraction",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\math-subtraction-model.png",
+      "shot": "docs\\qa-screenshots\\math-subtraction.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      },
+      "modelState": {
+        "title": "Subtraction Story Mat",
+        "instruction": "Move objects away from the basket.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Subtraction Story Mat",
+        "instruction": "There are 10 balls. Take away 5. Progress: 1/10.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 10
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Measure Classroom Items",
+      "screenshot": "math-measure",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\math-measure-model.png",
+      "shot": "docs\\qa-screenshots\\math-measure.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      },
+      "modelState": {
+        "title": "Measure Classroom Items",
+        "instruction": "Put units end to end.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Measure Classroom Items",
+        "instruction": "How long is the pencil box? Progress: 1/12.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 8
+      }
+    },
+    {
+      "area": "Science",
+      "game": "Material Sort Lab",
+      "screenshot": "science-material",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\science-material-model.png",
+      "shot": "docs\\qa-screenshots\\science-material.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Science game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "modelState": {
+        "title": "Material Sort Lab",
+        "instruction": "Look at how each object feels.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Material Sort Lab",
+        "instruction": "Where does the sponge go? Progress: 1/10.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Science game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      }
+    },
+    {
+      "area": "Science",
+      "game": "School Garden Helper",
+      "screenshot": "science-garden",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\science-garden-model.png",
+      "shot": "docs\\qa-screenshots\\science-garden.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Science game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "modelState": {
+        "title": "School Garden Helper",
+        "instruction": "Look at the plant helper pictures.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "School Garden Helper",
+        "instruction": "What does a seed need first? Progress: 1/10.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Science game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      }
+    },
+    {
+      "area": "Science",
+      "game": "Land and Water Map Builder",
+      "screenshot": "science-land-water",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\science-land-water-model.png",
+      "shot": "docs\\qa-screenshots\\science-land-water.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Science game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "modelState": {
+        "title": "Land and Water Map Builder",
+        "instruction": "Look at land and water places.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Land and Water Map Builder",
+        "instruction": "Sort the stream. Progress: 1/10.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Science game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      }
+    },
+    {
+      "area": "Science",
+      "game": "Water on Earth",
+      "screenshot": "science-water",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\science-water-model.png",
+      "shot": "docs\\qa-screenshots\\science-water.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Science game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "modelState": {
+        "title": "Water on Earth",
+        "instruction": "Look at liquid water and ice.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Water on Earth",
+        "instruction": "Which picture shows water? Progress: 1/10.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Science game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      }
+    },
+    {
+      "area": "Social Studies",
+      "game": "Community Helper Match",
+      "screenshot": "social-helper",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\social-helper-model.png",
+      "shot": "docs\\qa-screenshots\\social-helper.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6
+      },
+      "modelState": {
+        "title": "Community Helper Match",
+        "instruction": "Look at the problem. Choose the helper.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Community Helper Match",
+        "instruction": "Who helps students cross the street? Progress: 1/10.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6
+      }
+    },
+    {
+      "area": "Social Studies",
+      "game": "My School Map",
+      "screenshot": "social-school-map",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\social-school-map-model.png",
+      "shot": "docs\\qa-screenshots\\social-school-map.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6
+      },
+      "modelState": {
+        "title": "My School Map",
+        "instruction": "Look at the school map.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "My School Map",
+        "instruction": "Where is the office? Progress: 1/10.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6
+      }
+    },
+    {
+      "area": "Social Studies",
+      "game": "How People Earn Money",
+      "screenshot": "social-earn-money",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\social-earn-money-model.png",
+      "shot": "docs\\qa-screenshots\\social-earn-money.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6
+      },
+      "modelState": {
+        "title": "How People Earn Money",
+        "instruction": "Look at the work. Choose the job.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "How People Earn Money",
+        "instruction": "Maya teaches students. Progress: 1/10.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6
+      }
+    },
+    {
+      "area": "Social Studies",
+      "game": "Save for a Goal",
+      "screenshot": "social-save-goal",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\social-save-goal-model.png",
+      "shot": "docs\\qa-screenshots\\social-save-goal.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6
+      },
+      "modelState": {
+        "title": "Save for a Goal",
+        "instruction": "Look at the cost and money.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Save for a Goal",
+        "instruction": "Snack costs 3 dollars. Have 4 dollars. Progress: 1/10.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 3
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6
+      }
+    },
+    {
+      "area": "Social Studies",
+      "game": "Help Our Community",
+      "screenshot": "social-help-community",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\social-help-community-model.png",
+      "shot": "docs\\qa-screenshots\\social-help-community.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6
+      },
+      "modelState": {
+        "title": "Help Our Community",
+        "instruction": "Look at the problem. Choose a helpful action.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Help Our Community",
+        "instruction": "What helps the playground? Progress: 1/10.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6
+      }
+    },
+    {
+      "area": "Social Studies",
+      "game": "Then and Now",
+      "screenshot": "social-then-now",
+      "clicked": true,
+      "backClicked": true,
+      "modelShot": "docs\\qa-screenshots\\social-then-now-model.png",
+      "shot": "docs\\qa-screenshots\\social-then-now.png",
+      "areaState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6
+      },
+      "modelState": {
+        "title": "Then and Now",
+        "instruction": "Sort old things and new things.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1
+      },
+      "gameState": {
+        "title": "Then and Now",
+        "instruction": "Sort the picture. Progress: 1/14.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4
+      },
+      "backState": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "settingsOpen": false,
+        "scroll": {
+          "bodyOverflowX": false,
+          "bodyOverflowY": false,
+          "rootOverflowX": false,
+          "rootOverflowY": false
+        },
+        "overflowingLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6
+      }
+    }
+  ],
+  "splashShot": "docs\\qa-screenshots\\splash-1920x1080.png",
+  "settingsState": {
+    "title": "My Day Learning Town",
+    "instruction": "Choose a learning area",
+    "settingsOpen": true,
+    "scroll": {
+      "bodyOverflowX": false,
+      "bodyOverflowY": false,
+      "rootOverflowX": false,
+      "rootOverflowY": false
+    },
+    "overflowingLabels": [],
+    "brokenImages": [],
+    "visibleImageCount": 4
+  },
+  "settingsShot": "docs\\qa-screenshots\\settings-panel.png"
+}

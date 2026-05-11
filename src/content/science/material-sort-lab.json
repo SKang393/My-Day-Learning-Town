@@ -1,0 +1,288 @@
+{
+    "id":  "material-sort-lab",
+    "title":  "Material Sort Lab",
+    "category":  "science",
+    "template":  "drag-match",
+    "directions":  "Look at the object. Sort it by how it feels or looks.",
+    "environment":  "classroom science table",
+    "rounds":  [
+                   {
+                       "id":  "hard-rock",
+                       "mode":  "material-sort",
+                       "prompt":  "Where does the rock go?",
+                       "instruction":  "Where does the rock go?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-material-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "hard",
+                                        "label":  "hard",
+                                        "image":  "/assets/generated/current/rock.png"
+                                    },
+                                    {
+                                        "id":  "soft",
+                                        "label":  "soft",
+                                        "image":  "/assets/generated/current/cushion.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "rock",
+                                    "label":  "rock",
+                                    "image":  "/assets/generated/current/rock.png"
+                                },
+                       "correctBinId":  "hard",
+                       "praise":  "Nice work sorting hard."
+                   },
+                   {
+                       "id":  "soft-cushion",
+                       "mode":  "material-sort",
+                       "prompt":  "Where does the cushion go?",
+                       "instruction":  "Where does the cushion go?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-material-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "hard",
+                                        "label":  "hard",
+                                        "image":  "/assets/generated/current/rock.png"
+                                    },
+                                    {
+                                        "id":  "soft",
+                                        "label":  "soft",
+                                        "image":  "/assets/generated/current/cushion.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "cushion",
+                                    "label":  "cushion",
+                                    "image":  "/assets/generated/current/cushion.png"
+                                },
+                       "correctBinId":  "soft",
+                       "praise":  "Nice work sorting soft."
+                   },
+                   {
+                       "id":  "rough-sandpaper",
+                       "mode":  "material-sort",
+                       "prompt":  "Where does sandpaper go?",
+                       "instruction":  "Where does sandpaper go?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-material-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "rough",
+                                        "label":  "rough",
+                                        "image":  "/assets/generated/current/sandpaper.png"
+                                    },
+                                    {
+                                        "id":  "smooth",
+                                        "label":  "smooth",
+                                        "image":  "/assets/generated/current/smooth-tile.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "sandpaper",
+                                    "label":  "sandpaper",
+                                    "image":  "/assets/generated/current/sandpaper.png"
+                                },
+                       "correctBinId":  "rough",
+                       "praise":  "Nice work sorting rough."
+                   },
+                   {
+                       "id":  "smooth-tile",
+                       "mode":  "material-sort",
+                       "prompt":  "Where does the tile go?",
+                       "instruction":  "Where does the tile go?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-material-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "rough",
+                                        "label":  "rough",
+                                        "image":  "/assets/generated/current/sandpaper.png"
+                                    },
+                                    {
+                                        "id":  "smooth",
+                                        "label":  "smooth",
+                                        "image":  "/assets/generated/current/smooth-tile.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "tile",
+                                    "label":  "tile",
+                                    "image":  "/assets/generated/current/smooth-tile.png"
+                                },
+                       "correctBinId":  "smooth",
+                       "praise":  "Nice work sorting smooth."
+                   },
+                   {
+                       "id":  "shiny-spoon",
+                       "mode":  "material-sort",
+                       "prompt":  "Where does the spoon go?",
+                       "instruction":  "Where does the spoon go?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-material-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "shiny",
+                                        "label":  "shiny",
+                                        "image":  "/assets/generated/current/metal-spoon.png"
+                                    },
+                                    {
+                                        "id":  "dull",
+                                        "label":  "dull",
+                                        "image":  "/assets/generated/current/cardboard.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "spoon",
+                                    "label":  "spoon",
+                                    "image":  "/assets/generated/current/metal-spoon.png"
+                                },
+                       "correctBinId":  "shiny",
+                       "praise":  "Nice work sorting shiny."
+                   },
+                   {
+                       "id":  "dull-cardboard",
+                       "mode":  "material-sort",
+                       "prompt":  "Where does cardboard go?",
+                       "instruction":  "Where does cardboard go?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-material-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "shiny",
+                                        "label":  "shiny",
+                                        "image":  "/assets/generated/current/metal-spoon.png"
+                                    },
+                                    {
+                                        "id":  "dull",
+                                        "label":  "dull",
+                                        "image":  "/assets/generated/current/cardboard.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "cardboard",
+                                    "label":  "cardboard",
+                                    "image":  "/assets/generated/current/cardboard.png"
+                                },
+                       "correctBinId":  "dull",
+                       "praise":  "Nice work sorting dull."
+                   },
+                   {
+                       "id":  "soft-paper-towel",
+                       "mode":  "material-sort",
+                       "prompt":  "Where does the paper towel go?",
+                       "instruction":  "Where does the paper towel go?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-material-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "hard",
+                                        "label":  "hard",
+                                        "image":  "/assets/generated/current/rock.png"
+                                    },
+                                    {
+                                        "id":  "soft",
+                                        "label":  "soft",
+                                        "image":  "/assets/generated/current/cushion.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "paper towel",
+                                    "label":  "paper towel",
+                                    "image":  "/assets/generated/current/paper-towel.png"
+                                },
+                       "correctBinId":  "soft",
+                       "praise":  "Nice work sorting soft."
+                   },
+                   {
+                       "id":  "smooth-bottle",
+                       "mode":  "material-sort",
+                       "prompt":  "Where does the bottle go?",
+                       "instruction":  "Where does the bottle go?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-material-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "rough",
+                                        "label":  "rough",
+                                        "image":  "/assets/generated/current/sandpaper.png"
+                                    },
+                                    {
+                                        "id":  "smooth",
+                                        "label":  "smooth",
+                                        "image":  "/assets/generated/current/smooth-tile.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "bottle",
+                                    "label":  "bottle",
+                                    "image":  "/assets/generated/current/plastic-bottle.png"
+                                },
+                       "correctBinId":  "smooth",
+                       "praise":  "Nice work sorting smooth."
+                   },
+                   {
+                       "id":  "soft-sponge",
+                       "mode":  "material-sort",
+                       "prompt":  "Where does the sponge go?",
+                       "instruction":  "Where does the sponge go?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-material-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "hard",
+                                        "label":  "hard",
+                                        "image":  "/assets/generated/current/rock.png"
+                                    },
+                                    {
+                                        "id":  "soft",
+                                        "label":  "soft",
+                                        "image":  "/assets/generated/current/cushion.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "sponge",
+                                    "label":  "sponge",
+                                    "image":  "/assets/generated/current/imagegen-sponge.png"
+                                },
+                       "correctBinId":  "soft",
+                       "praise":  "Nice work sorting soft."
+                   },
+                   {
+                       "id":  "smooth-raincoat",
+                       "mode":  "material-sort",
+                       "prompt":  "Where does the raincoat go?",
+                       "instruction":  "Where does the raincoat go?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-material-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "rough",
+                                        "label":  "rough",
+                                        "image":  "/assets/generated/current/sandpaper.png"
+                                    },
+                                    {
+                                        "id":  "smooth",
+                                        "label":  "smooth",
+                                        "image":  "/assets/generated/current/smooth-tile.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "raincoat",
+                                    "label":  "raincoat",
+                                    "image":  "/assets/generated/current/raincoat.png"
+                                },
+                       "correctBinId":  "smooth",
+                       "praise":  "Nice work sorting smooth."
+                   }
+               ],
+    "model":  {
+                  "title":  "Sort materials",
+                  "instruction":  "Look at how each object feels.",
+                  "targetWord":  "",
+                  "sceneImage":  "/assets/generated/current/teaching-material-sort-properties.png",
+                  "matchingLabel":  "",
+                  "explanation":  ""
+              }
+}

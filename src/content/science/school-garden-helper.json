@@ -1,0 +1,288 @@
+{
+    "id":  "school-garden-helper",
+    "title":  "School Garden Helper",
+    "category":  "science",
+    "template":  "choose-1-of-3",
+    "directions":  "Look at the garden picture. Tap what helps the plant or flower.",
+    "environment":  "school garden",
+    "rounds":  [
+                   {
+                       "id":  "plant-water",
+                       "mode":  "garden-helper",
+                       "prompt":  "What does the plant need?",
+                       "instruction":  "What does the plant need?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/imagegen-dry-plant.png",
+                       "options":  [
+                                       {
+                                           "id":  "water",
+                                           "label":  "water",
+                                           "image":  "/assets/generated/current/liquid-pouring.png"
+                                       },
+                                       {
+                                           "id":  "rock",
+                                           "label":  "rock",
+                                           "image":  "/assets/generated/current/rock.png"
+                                       },
+                                       {
+                                           "id":  "shoe",
+                                           "label":  "shoe",
+                                           "image":  "/assets/generated/current/imagegen-shoe.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "water",
+                       "praise":  "Great job choosing water."
+                   },
+                   {
+                       "id":  "plant-sun",
+                       "mode":  "garden-helper",
+                       "prompt":  "What gives light to help the plant grow?",
+                       "instruction":  "What gives light to help the plant grow?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/sun-rays-plant.png",
+                       "options":  [
+                                       {
+                                           "id":  "sun",
+                                           "label":  "sun",
+                                           "image":  "/assets/generated/current/imagegen-sun.png"
+                                       },
+                                       {
+                                           "id":  "cup",
+                                           "label":  "cup",
+                                           "image":  "/assets/generated/current/imagegen-cup.png"
+                                       },
+                                       {
+                                           "id":  "ball",
+                                           "label":  "ball",
+                                           "image":  "/assets/generated/current/imagegen-soccer-ball.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "sun",
+                       "praise":  "Nice work finding sunlight."
+                   },
+                   {
+                       "id":  "seed-soil",
+                       "mode":  "garden-helper",
+                       "prompt":  "What does a seed need first?",
+                       "instruction":  "What does a seed need first?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/seed-into-soil.png",
+                       "options":  [
+                                       {
+                                           "id":  "soil",
+                                           "label":  "soil",
+                                           "image":  "/assets/generated/current/soil.png"
+                                       },
+                                       {
+                                           "id":  "desk",
+                                           "label":  "desk",
+                                           "image":  "/assets/generated/current/imagegen-measure-desk-edge.png"
+                                       },
+                                       {
+                                           "id":  "sock",
+                                           "label":  "sock",
+                                           "image":  "/assets/generated/current/imagegen-sock.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "soil",
+                       "praise":  "Nice work putting the seed in soil."
+                   },
+                   {
+                       "id":  "flower-butterfly",
+                       "mode":  "garden-helper",
+                       "prompt":  "Which living thing helps a flower?",
+                       "instruction":  "Which living thing helps a flower?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-garden-butterfly-flower.png",
+                       "options":  [
+                                       {
+                                           "id":  "butterfly",
+                                           "label":  "butterfly",
+                                           "image":  "/assets/generated/current/butterfly-flower.png"
+                                       },
+                                       {
+                                           "id":  "dog",
+                                           "label":  "dog",
+                                           "image":  "/assets/generated/current/cvc-dog.png"
+                                       },
+                                       {
+                                           "id":  "cat",
+                                           "label":  "cat",
+                                           "image":  "/assets/generated/current/cvc-cat.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "butterfly",
+                       "praise":  "Great job finding the butterfly."
+                   },
+                   {
+                       "id":  "flower",
+                       "mode":  "garden-helper",
+                       "prompt":  "Which picture is a flower?",
+                       "instruction":  "Which picture is a flower?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-garden-flower-card.png",
+                       "options":  [
+                                       {
+                                           "id":  "flower",
+                                           "label":  "flower",
+                                           "image":  "/assets/generated/current/flower.png"
+                                       },
+                                       {
+                                           "id":  "seed",
+                                           "label":  "seed",
+                                           "image":  "/assets/generated/current/seed.png"
+                                       },
+                                       {
+                                           "id":  "cup",
+                                           "label":  "cup",
+                                           "image":  "/assets/generated/current/imagegen-cup.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "flower",
+                       "praise":  "Nice work finding the flower."
+                   },
+                   {
+                       "id":  "seed",
+                       "mode":  "garden-helper",
+                       "prompt":  "Which picture is a seed?",
+                       "instruction":  "Which picture is a seed?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-garden-seed-card.png",
+                       "options":  [
+                                       {
+                                           "id":  "seed",
+                                           "label":  "seed",
+                                           "image":  "/assets/generated/current/seed.png"
+                                       },
+                                       {
+                                           "id":  "soil",
+                                           "label":  "soil",
+                                           "image":  "/assets/generated/current/soil.png"
+                                       },
+                                       {
+                                           "id":  "fish",
+                                           "label":  "fish",
+                                           "image":  "/assets/generated/current/fish.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "seed",
+                       "praise":  "Nice work finding the seed."
+                   },
+                   {
+                       "id":  "empty-cup",
+                       "mode":  "garden-helper",
+                       "prompt":  "Which cup is empty?",
+                       "instruction":  "Which cup is empty?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-garden-empty-cup-card.png",
+                       "options":  [
+                                       {
+                                           "id":  "cup",
+                                           "label":  "cup",
+                                           "image":  "/assets/generated/current/imagegen-cup.png"
+                                       },
+                                       {
+                                           "id":  "water",
+                                           "label":  "water",
+                                           "image":  "/assets/generated/current/liquid-cup-icon.png"
+                                       },
+                                       {
+                                           "id":  "fish",
+                                           "label":  "fish",
+                                           "image":  "/assets/generated/current/fish.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "cup",
+                       "praise":  "Nice work finding the empty cup."
+                   },
+                   {
+                       "id":  "fish",
+                       "mode":  "garden-helper",
+                       "prompt":  "Which picture is a fish?",
+                       "instruction":  "Which picture is a fish?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-garden-fish-card.png",
+                       "options":  [
+                                       {
+                                           "id":  "fish",
+                                           "label":  "fish",
+                                           "image":  "/assets/generated/current/fish.png"
+                                       },
+                                       {
+                                           "id":  "pond",
+                                           "label":  "pond",
+                                           "image":  "/assets/generated/current/lake.png"
+                                       },
+                                       {
+                                           "id":  "sock",
+                                           "label":  "sock",
+                                           "image":  "/assets/generated/current/imagegen-sock.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "fish",
+                       "praise":  "Nice work finding the fish."
+                   },
+                   {
+                       "id":  "plant-soil",
+                       "mode":  "garden-helper",
+                       "prompt":  "What can a plant grow in?",
+                       "instruction":  "What can a plant grow in?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-garden-soil-card.png",
+                       "options":  [
+                                       {
+                                           "id":  "soil",
+                                           "label":  "soil",
+                                           "image":  "/assets/generated/current/soil.png"
+                                       },
+                                       {
+                                           "id":  "road",
+                                           "label":  "road",
+                                           "image":  "/assets/generated/current/road.png"
+                                       },
+                                       {
+                                           "id":  "hat",
+                                           "label":  "hat",
+                                           "image":  "/assets/generated/current/cvc-hat.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "soil",
+                       "praise":  "Nice work choosing soil."
+                   },
+                   {
+                       "id":  "plant-water-2",
+                       "mode":  "garden-helper",
+                       "prompt":  "The plant is dry. What helps?",
+                       "instruction":  "The plant is dry. What helps?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/imagegen-dry-plant.png",
+                       "options":  [
+                                       {
+                                           "id":  "water",
+                                           "label":  "water",
+                                           "image":  "/assets/generated/current/liquid-pouring.png"
+                                       },
+                                       {
+                                           "id":  "ball",
+                                           "label":  "ball",
+                                           "image":  "/assets/generated/current/imagegen-soccer-ball.png"
+                                       },
+                                       {
+                                           "id":  "desk",
+                                           "label":  "desk",
+                                           "image":  "/assets/generated/current/imagegen-measure-desk-edge.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "water",
+                       "praise":  "Great job choosing water."
+                   }
+               ],
+    "model":  {
+                  "title":  "Plants need help",
+                  "instruction":  "Look at the plant helper pictures.",
+                  "targetWord":  "",
+                  "sceneImage":  "/assets/generated/current/teaching-garden-helper-plant-needs.png",
+                  "matchingLabel":  "",
+                  "explanation":  ""
+              }
+}

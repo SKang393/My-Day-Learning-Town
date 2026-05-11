@@ -1,0 +1,508 @@
+﻿{
+  "id": "shape-hunt",
+  "title": "Shape Hunt",
+  "category": "math",
+  "template": "choose-1-of-3",
+  "directions": "Listen for the shape name. Tap the picture that matches.",
+  "environment": "classroom shape table",
+  "rounds": [
+    {
+      "id": "shape-1",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "circle",
+      "instruction": "Listen for the shape name: circle. Tap the matching picture.",
+      "options": [
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cylinder",
+          "label": "cylinder",
+          "image": "/assets/rasterized/exact/shape-cylinder-3d.png"
+        }
+      ],
+      "correctChoiceId": "circle",
+      "praise": "Great job finding the circle. It is a flat shape."
+    },
+    {
+      "id": "shape-2",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "square",
+      "instruction": "Listen for the shape name: square. Tap the matching picture.",
+      "options": [
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "correctChoiceId": "square",
+      "praise": "Great job finding the square. It is a flat shape."
+    },
+    {
+      "id": "shape-3",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "rectangle",
+      "instruction": "Listen for the shape name: rectangle. Tap the matching picture.",
+      "options": [
+        {
+          "id": "rectangle",
+          "label": "rectangle",
+          "image": "/assets/rasterized/exact/shape-rectangle-flat.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "correctChoiceId": "rectangle",
+      "praise": "Great job finding the rectangle. It is a flat shape."
+    },
+    {
+      "id": "shape-4",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "triangle",
+      "instruction": "Listen for the shape name: triangle. Tap the matching picture.",
+      "options": [
+        {
+          "id": "triangle",
+          "label": "triangle",
+          "image": "/assets/rasterized/exact/shape-triangle-flat.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cylinder",
+          "label": "cylinder",
+          "image": "/assets/rasterized/exact/shape-cylinder-3d.png"
+        }
+      ],
+      "correctChoiceId": "triangle",
+      "praise": "Great job finding the triangle. It is a flat shape."
+    },
+    {
+      "id": "shape-5",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "pentagon",
+      "instruction": "Listen for the shape name: pentagon. Tap the matching picture.",
+      "options": [
+        {
+          "id": "pentagon",
+          "label": "pentagon",
+          "image": "/assets/rasterized/exact/shape-pentagon-flat.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "correctChoiceId": "pentagon",
+      "praise": "Great job finding the pentagon. It is a flat shape."
+    },
+    {
+      "id": "shape-6",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "hexagon",
+      "instruction": "Listen for the shape name: hexagon. Tap the matching picture.",
+      "options": [
+        {
+          "id": "hexagon",
+          "label": "hexagon",
+          "image": "/assets/rasterized/exact/shape-hexagon-flat.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "correctChoiceId": "hexagon",
+      "praise": "Great job finding the hexagon. It is a flat shape."
+    },
+    {
+      "id": "shape-7",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "octagon",
+      "instruction": "Listen for the shape name: octagon. Tap the matching picture.",
+      "options": [
+        {
+          "id": "octagon",
+          "label": "octagon",
+          "image": "/assets/rasterized/exact/shape-octagon-flat.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cylinder",
+          "label": "cylinder",
+          "image": "/assets/rasterized/exact/shape-cylinder-3d.png"
+        }
+      ],
+      "correctChoiceId": "octagon",
+      "praise": "Great job finding the octagon. It is a flat shape."
+    },
+    {
+      "id": "shape-8",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "sphere",
+      "instruction": "Listen for the shape name: sphere. Tap the matching picture.",
+      "options": [
+        {
+          "id": "sphere",
+          "label": "sphere",
+          "image": "/assets/rasterized/exact/shape-sphere-3d.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "correctChoiceId": "sphere",
+      "praise": "Great job finding the sphere. It is a solid shape."
+    },
+    {
+      "id": "shape-9",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "cube",
+      "instruction": "Listen for the shape name: cube. Tap the matching picture.",
+      "options": [
+        {
+          "id": "cube",
+          "label": "cube",
+          "image": "/assets/rasterized/exact/shape-cube-3d.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "correctChoiceId": "cube",
+      "praise": "Great job finding the cube. It is a solid shape."
+    },
+    {
+      "id": "shape-10",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "cone",
+      "instruction": "Listen for the shape name: cone. Tap the matching picture.",
+      "options": [
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cylinder",
+          "label": "cylinder",
+          "image": "/assets/rasterized/exact/shape-cylinder-3d.png"
+        }
+      ],
+      "correctChoiceId": "cone",
+      "praise": "Great job finding the cone. It is a solid shape."
+    },
+    {
+      "id": "shape-11",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "cylinder",
+      "instruction": "Listen for the shape name: cylinder. Tap the matching picture.",
+      "options": [
+        {
+          "id": "cylinder",
+          "label": "cylinder",
+          "image": "/assets/rasterized/exact/shape-cylinder-3d.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "correctChoiceId": "cylinder",
+      "praise": "Great job finding the cylinder. It is a solid shape."
+    },
+    {
+      "id": "shape-12",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "rectangle",
+      "instruction": "Listen for the shape name: rectangle. Tap the matching picture.",
+      "options": [
+        {
+          "id": "rectangle",
+          "label": "rectangle",
+          "image": "/assets/rasterized/exact/shape-rectangle-flat.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "correctChoiceId": "rectangle",
+      "praise": "Great job finding the rectangle. It is a flat shape."
+    },
+    {
+      "id": "shape-13",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "sphere",
+      "instruction": "Listen for the shape name: sphere. Tap the matching picture.",
+      "options": [
+        {
+          "id": "sphere",
+          "label": "sphere",
+          "image": "/assets/rasterized/exact/shape-sphere-3d.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cylinder",
+          "label": "cylinder",
+          "image": "/assets/rasterized/exact/shape-cylinder-3d.png"
+        }
+      ],
+      "correctChoiceId": "sphere",
+      "praise": "Great job finding the sphere. It is a solid shape."
+    },
+    {
+      "id": "shape-14",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "cylinder",
+      "instruction": "Listen for the shape name: cylinder. Tap the matching picture.",
+      "options": [
+        {
+          "id": "cylinder",
+          "label": "cylinder",
+          "image": "/assets/rasterized/exact/shape-cylinder-3d.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "correctChoiceId": "cylinder",
+      "praise": "Great job finding the cylinder. It is a solid shape."
+    },
+    {
+      "id": "shape-15",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "hexagon",
+      "instruction": "Listen for the shape name: hexagon. Tap the matching picture.",
+      "options": [
+        {
+          "id": "hexagon",
+          "label": "hexagon",
+          "image": "/assets/rasterized/exact/shape-hexagon-flat.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "correctChoiceId": "hexagon",
+      "praise": "Great job finding the hexagon. It is a flat shape."
+    },
+    {
+      "id": "shape-16",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "pentagon",
+      "instruction": "Listen for the shape name: pentagon. Tap the matching picture.",
+      "options": [
+        {
+          "id": "pentagon",
+          "label": "pentagon",
+          "image": "/assets/rasterized/exact/shape-pentagon-flat.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cylinder",
+          "label": "cylinder",
+          "image": "/assets/rasterized/exact/shape-cylinder-3d.png"
+        }
+      ],
+      "correctChoiceId": "pentagon",
+      "praise": "Great job finding the pentagon. It is a flat shape."
+    },
+    {
+      "id": "shape-17",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "octagon",
+      "instruction": "Listen for the shape name: octagon. Tap the matching picture.",
+      "options": [
+        {
+          "id": "octagon",
+          "label": "octagon",
+          "image": "/assets/rasterized/exact/shape-octagon-flat.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "correctChoiceId": "octagon",
+      "praise": "Great job finding the octagon. It is a flat shape."
+    },
+    {
+      "id": "shape-18",
+      "mode": "shape-hunt",
+      "context": "Look at the shape pictures.",
+      "prompt": "Which picture matches the shape?",
+      "targetWord": "cube",
+      "instruction": "Listen for the shape name: cube. Tap the matching picture.",
+      "options": [
+        {
+          "id": "cube",
+          "label": "cube",
+          "image": "/assets/rasterized/exact/shape-cube-3d.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "correctChoiceId": "cube",
+      "praise": "Great job finding the cube. It is a solid shape."
+    }
+  ],
+  "model": {
+    "title": "Look at shape features",
+    "instruction": "A flat shape is like a drawing. A solid shape is like an object you can hold.",
+    "targetWord": "circle",
+    "targetImage": "/assets/rasterized/exact/shape-circle-flat.png",
+    "matchingImage": "/assets/rasterized/exact/shape-sphere-3d.png",
+    "matchingLabel": "sphere",
+    "arrowLabel": "flat or solid",
+    "explanation": "Look carefully. A circle is flat. A sphere is solid.",
+    "sceneImage": "/assets/generated/current/teaching-shape-hunt-circle-sphere.png"
+  }
+}
+

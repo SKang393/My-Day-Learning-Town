@@ -1,0 +1,239 @@
+﻿{
+  "id": "save-for-a-goal",
+  "title": "Save for a Goal",
+  "category": "social-studies",
+  "template": "choose-1-of-3",
+  "directions": "Listen to the price and money. Choose buy now or save more.",
+  "environment": "school store and home",
+  "rounds": [
+    {
+      "id": "save-1",
+      "mode": "save-goal",
+      "prompt": "Can you buy it now?",
+      "instruction": "Toy truck costs 8 dollars. Have 5 dollars.",
+      "context": "Toy truck costs 8 dollars. Have 5 dollars.",
+      "targetImage": "/assets/generated/current/imagegen-toy-truck-price-8.png",
+      "options": [
+        {
+          "id": "buy",
+          "label": "buy now",
+          "image": "/assets/generated/current/buy-now-register.png"
+        },
+        {
+          "id": "save",
+          "label": "save more",
+          "image": "/assets/generated/current/save-more-piggy.png"
+        }
+      ],
+      "correctChoiceId": "save",
+      "praise": "Nice work choosing what to do with money."
+    },
+    {
+      "id": "save-2",
+      "mode": "save-goal",
+      "prompt": "Can you buy it now?",
+      "instruction": "Toy truck costs 8 dollars. Have 10 dollars.",
+      "context": "Toy truck costs 8 dollars. Have 10 dollars.",
+      "targetImage": "/assets/generated/current/imagegen-toy-truck-price-8.png",
+      "options": [
+        {
+          "id": "buy",
+          "label": "buy now",
+          "image": "/assets/generated/current/buy-now-register.png"
+        },
+        {
+          "id": "save",
+          "label": "save more",
+          "image": "/assets/generated/current/save-more-piggy.png"
+        }
+      ],
+      "correctChoiceId": "buy",
+      "praise": "Nice work choosing what to do with money."
+    },
+    {
+      "id": "save-3",
+      "mode": "save-goal",
+      "prompt": "Can you buy it now?",
+      "instruction": "Pizza costs 4 dollars. Have 2 dollars.",
+      "context": "Pizza costs 4 dollars. Have 2 dollars.",
+      "targetImage": "/assets/generated/current/shares-pizza-2-equal.png",
+      "options": [
+        {
+          "id": "buy",
+          "label": "buy now",
+          "image": "/assets/generated/current/buy-now-register.png"
+        },
+        {
+          "id": "save",
+          "label": "save more",
+          "image": "/assets/generated/current/save-more-piggy.png"
+        }
+      ],
+      "correctChoiceId": "save",
+      "praise": "Nice work choosing what to do with money."
+    },
+    {
+      "id": "save-4",
+      "mode": "save-goal",
+      "prompt": "Can you buy it now?",
+      "instruction": "Pizza costs 4 dollars. Have 5 dollars.",
+      "context": "Pizza costs 4 dollars. Have 5 dollars.",
+      "targetImage": "/assets/generated/current/shares-pizza-2-equal.png",
+      "options": [
+        {
+          "id": "buy",
+          "label": "buy now",
+          "image": "/assets/generated/current/buy-now-register.png"
+        },
+        {
+          "id": "save",
+          "label": "save more",
+          "image": "/assets/generated/current/save-more-piggy.png"
+        }
+      ],
+      "correctChoiceId": "buy",
+      "praise": "Nice work choosing what to do with money."
+    },
+    {
+      "id": "save-5",
+      "mode": "save-goal",
+      "prompt": "Can you buy it now?",
+      "instruction": "Book costs 6 dollars. Have 3 dollars.",
+      "context": "Book costs 6 dollars. Have 3 dollars.",
+      "targetImage": "/assets/generated/current/imagegen-measure-book.png",
+      "options": [
+        {
+          "id": "buy",
+          "label": "buy now",
+          "image": "/assets/generated/current/buy-now-register.png"
+        },
+        {
+          "id": "save",
+          "label": "save more",
+          "image": "/assets/generated/current/save-more-piggy.png"
+        }
+      ],
+      "correctChoiceId": "save",
+      "praise": "Nice work choosing what to do with money."
+    },
+    {
+      "id": "save-6",
+      "mode": "save-goal",
+      "prompt": "Can you buy it now?",
+      "instruction": "Book costs 6 dollars. Have 7 dollars.",
+      "context": "Book costs 6 dollars. Have 7 dollars.",
+      "targetImage": "/assets/generated/current/imagegen-measure-book.png",
+      "options": [
+        {
+          "id": "buy",
+          "label": "buy now",
+          "image": "/assets/generated/current/buy-now-register.png"
+        },
+        {
+          "id": "save",
+          "label": "save more",
+          "image": "/assets/generated/current/save-more-piggy.png"
+        }
+      ],
+      "correctChoiceId": "buy",
+      "praise": "Nice work choosing what to do with money."
+    },
+    {
+      "id": "save-7",
+      "mode": "save-goal",
+      "prompt": "Can you buy it now?",
+      "instruction": "Toy truck costs 8 dollars. Have 5 dollars.",
+      "context": "Toy truck costs 8 dollars. Have 5 dollars.",
+      "targetImage": "/assets/generated/current/imagegen-toy-truck-price-8.png",
+      "options": [
+        {
+          "id": "buy",
+          "label": "buy now",
+          "image": "/assets/generated/current/buy-now-register.png"
+        },
+        {
+          "id": "save",
+          "label": "save more",
+          "image": "/assets/generated/current/save-more-piggy.png"
+        }
+      ],
+      "correctChoiceId": "save",
+      "praise": "Nice work choosing what to do with money."
+    },
+    {
+      "id": "save-8",
+      "mode": "save-goal",
+      "prompt": "Can you buy it now?",
+      "instruction": "Snack costs 3 dollars. Have 4 dollars.",
+      "context": "Snack costs 3 dollars. Have 4 dollars.",
+      "targetImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "options": [
+        {
+          "id": "buy",
+          "label": "buy now",
+          "image": "/assets/generated/current/buy-now-register.png"
+        },
+        {
+          "id": "save",
+          "label": "save more",
+          "image": "/assets/generated/current/save-more-piggy.png"
+        }
+      ],
+      "correctChoiceId": "buy",
+      "praise": "Nice work choosing what to do with money."
+    },
+    {
+      "id": "save-9",
+      "mode": "save-goal",
+      "prompt": "Can you buy it now?",
+      "instruction": "Game costs 10 dollars. Have 6 dollars.",
+      "context": "Game costs 10 dollars. Have 6 dollars.",
+      "targetImage": "/assets/generated/current/play-puzzle.png",
+      "options": [
+        {
+          "id": "buy",
+          "label": "buy now",
+          "image": "/assets/generated/current/buy-now-register.png"
+        },
+        {
+          "id": "save",
+          "label": "save more",
+          "image": "/assets/generated/current/save-more-piggy.png"
+        }
+      ],
+      "correctChoiceId": "save",
+      "praise": "Nice work choosing what to do with money."
+    },
+    {
+      "id": "save-10",
+      "mode": "save-goal",
+      "prompt": "Can you buy it now?",
+      "instruction": "Game costs 10 dollars. Have 12 dollars.",
+      "context": "Game costs 10 dollars. Have 12 dollars.",
+      "targetImage": "/assets/generated/current/play-puzzle.png",
+      "options": [
+        {
+          "id": "buy",
+          "label": "buy now",
+          "image": "/assets/generated/current/buy-now-register.png"
+        },
+        {
+          "id": "save",
+          "label": "save more",
+          "image": "/assets/generated/current/save-more-piggy.png"
+        }
+      ],
+      "correctChoiceId": "buy",
+      "praise": "Nice work choosing what to do with money."
+    }
+  ],
+  "model": {
+    "title": "Buy now or save more",
+    "instruction": "Look at the cost and money.",
+    "targetWord": "",
+    "sceneImage": "/assets/generated/current/teaching-save-goal-truck-8.png",
+    "matchingLabel": "",
+    "explanation": ""
+  }
+}
+

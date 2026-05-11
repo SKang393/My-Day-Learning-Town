@@ -1,0 +1,289 @@
+﻿{
+  "id": "how-people-earn-money",
+  "title": "How People Earn Money",
+  "category": "social-studies",
+  "template": "choose-1-of-3",
+  "directions": "Listen to the job clue. Choose the worker who does that job.",
+  "environment": "school and neighborhood jobs",
+  "rounds": [
+    {
+      "id": "earn-teacher",
+      "mode": "earn-money",
+      "prompt": "Which job matches the clue?",
+      "instruction": "Maya teaches students.",
+      "context": "Maya teaches students.",
+      "targetImage": "/assets/generated/current/teacher-teaching-scene.png",
+      "options": [
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        },
+        {
+          "id": "driver",
+          "label": "bus driver",
+          "image": "/assets/generated/current/imagegen-bus-driver.png"
+        },
+        {
+          "id": "nurse",
+          "label": "nurse",
+          "image": "/assets/generated/current/nurse.png"
+        }
+      ],
+      "correctChoiceId": "teacher",
+      "praise": "Nice work finding the teacher."
+    },
+    {
+      "id": "earn-driver",
+      "mode": "earn-money",
+      "prompt": "Which job matches the clue?",
+      "instruction": "Carlos drives students to school.",
+      "context": "Carlos drives students to school.",
+      "targetImage": "/assets/generated/current/imagegen-bus-driver.png",
+      "options": [
+        {
+          "id": "driver",
+          "label": "bus driver",
+          "image": "/assets/generated/current/imagegen-bus-driver.png"
+        },
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        },
+        {
+          "id": "nurse",
+          "label": "nurse",
+          "image": "/assets/generated/current/nurse.png"
+        }
+      ],
+      "correctChoiceId": "driver",
+      "praise": "Nice work finding the bus driver."
+    },
+    {
+      "id": "earn-nurse",
+      "mode": "earn-money",
+      "prompt": "Which job matches the clue?",
+      "instruction": "Ari helps a student with a hurt knee.",
+      "context": "Ari helps a student with a hurt knee.",
+      "targetImage": "/assets/generated/current/hurt-knee.png",
+      "options": [
+        {
+          "id": "nurse",
+          "label": "nurse",
+          "image": "/assets/generated/current/nurse.png"
+        },
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        },
+        {
+          "id": "driver",
+          "label": "bus driver",
+          "image": "/assets/generated/current/imagegen-bus-driver.png"
+        }
+      ],
+      "correctChoiceId": "nurse",
+      "praise": "Nice work finding the nurse."
+    },
+    {
+      "id": "earn-cashier",
+      "mode": "earn-money",
+      "prompt": "Which job matches the clue?",
+      "instruction": "Jina scans food at the register.",
+      "context": "Jina scans food at the register.",
+      "targetImage": "/assets/generated/current/cashier-working-scene.png",
+      "options": [
+        {
+          "id": "cashier",
+          "label": "cashier",
+          "image": "/assets/generated/current/cashier-choice.png"
+        },
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        },
+        {
+          "id": "driver",
+          "label": "bus driver",
+          "image": "/assets/generated/current/imagegen-bus-driver.png"
+        }
+      ],
+      "correctChoiceId": "cashier",
+      "praise": "Nice work finding the cashier."
+    },
+    {
+      "id": "earn-mail",
+      "mode": "earn-money",
+      "prompt": "Which job matches the clue?",
+      "instruction": "Omar brings a package to a door.",
+      "context": "Omar brings a package to a door.",
+      "targetImage": "/assets/generated/current/package-door-scene.png",
+      "options": [
+        {
+          "id": "mail",
+          "label": "mail carrier",
+          "image": "/assets/generated/current/mail-carrier-choice.png"
+        },
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        },
+        {
+          "id": "driver",
+          "label": "bus driver",
+          "image": "/assets/generated/current/imagegen-bus-driver.png"
+        }
+      ],
+      "correctChoiceId": "mail",
+      "praise": "Nice work finding the mail carrier."
+    },
+    {
+      "id": "earn-library",
+      "mode": "earn-money",
+      "prompt": "Which job matches the clue?",
+      "instruction": "Nia helps students find books.",
+      "context": "Nia helps students find books.",
+      "targetImage": "/assets/generated/current/library-reading-scene.png",
+      "options": [
+        {
+          "id": "librarian",
+          "label": "librarian",
+          "image": "/assets/generated/current/librarian.png"
+        },
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        },
+        {
+          "id": "driver",
+          "label": "bus driver",
+          "image": "/assets/generated/current/imagegen-bus-driver.png"
+        }
+      ],
+      "correctChoiceId": "librarian",
+      "praise": "Nice work finding the librarian."
+    },
+    {
+      "id": "earn-crossing",
+      "mode": "earn-money",
+      "prompt": "Which job matches the clue?",
+      "instruction": "Ben helps children cross the street.",
+      "context": "Ben helps children cross the street.",
+      "targetImage": "/assets/generated/current/street-crossing-situation.png",
+      "options": [
+        {
+          "id": "guard",
+          "label": "crossing guard",
+          "image": "/assets/generated/current/imagegen-crossing-guard.png"
+        },
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        },
+        {
+          "id": "driver",
+          "label": "bus driver",
+          "image": "/assets/generated/current/imagegen-bus-driver.png"
+        }
+      ],
+      "correctChoiceId": "guard",
+      "praise": "Nice work finding the crossing guard."
+    },
+    {
+      "id": "earn-teacher-2",
+      "mode": "earn-money",
+      "prompt": "Which job matches the clue?",
+      "instruction": "Lena writes letters on the board.",
+      "context": "Lena writes letters on the board.",
+      "targetImage": "/assets/generated/current/teacher-teaching-scene.png",
+      "options": [
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        },
+        {
+          "id": "driver",
+          "label": "bus driver",
+          "image": "/assets/generated/current/imagegen-bus-driver.png"
+        },
+        {
+          "id": "nurse",
+          "label": "nurse",
+          "image": "/assets/generated/current/nurse.png"
+        }
+      ],
+      "correctChoiceId": "teacher",
+      "praise": "Nice work finding the teacher."
+    },
+    {
+      "id": "earn-driver-2",
+      "mode": "earn-money",
+      "prompt": "Which job matches the clue?",
+      "instruction": "Sam sits at the school bus wheel.",
+      "context": "Sam sits at the school bus wheel.",
+      "targetImage": "/assets/generated/current/imagegen-bus-driver.png",
+      "options": [
+        {
+          "id": "driver",
+          "label": "bus driver",
+          "image": "/assets/generated/current/imagegen-bus-driver.png"
+        },
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        },
+        {
+          "id": "nurse",
+          "label": "nurse",
+          "image": "/assets/generated/current/nurse.png"
+        }
+      ],
+      "correctChoiceId": "driver",
+      "praise": "Nice work finding the bus driver."
+    },
+    {
+      "id": "earn-cashier-2",
+      "mode": "earn-money",
+      "prompt": "Which job matches the clue?",
+      "instruction": "Tara gives change at the store.",
+      "context": "Tara gives change at the store.",
+      "targetImage": "/assets/generated/current/cashier-working-scene.png",
+      "options": [
+        {
+          "id": "cashier",
+          "label": "cashier",
+          "image": "/assets/generated/current/cashier-choice.png"
+        },
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        },
+        {
+          "id": "driver",
+          "label": "bus driver",
+          "image": "/assets/generated/current/imagegen-bus-driver.png"
+        }
+      ],
+      "correctChoiceId": "cashier",
+      "praise": "Nice work finding the cashier."
+    }
+  ],
+  "model": {
+    "title": "People earn money by working",
+    "instruction": "Look at the work. Choose the job.",
+    "targetWord": "",
+    "sceneImage": "/assets/generated/current/teaching-earn-money-work-pay.png",
+    "matchingLabel": "",
+    "explanation": ""
+  }
+}
+

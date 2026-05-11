@@ -1,0 +1,396 @@
+{
+    "id":  "then-and-now",
+    "title":  "Then and Now",
+    "category":  "social-studies",
+    "template":  "drag-match",
+    "directions":  "Drag the picture to Then or Now.",
+    "environment":  "classroom then and now table",
+    "rounds":  [
+                   {
+                       "id":  "old-phone",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "old-phone",
+                                    "label":  "old phone",
+                                    "image":  "/assets/generated/current/old-phone.png"
+                                },
+                       "correctBinId":  "then",
+                       "praise":  "Nice work sorting old phone."
+                   },
+                   {
+                       "id":  "smartphone",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "smartphone",
+                                    "label":  "smartphone",
+                                    "image":  "/assets/generated/current/smartphone.png"
+                                },
+                       "correctBinId":  "now",
+                       "praise":  "Nice work sorting smartphone."
+                   },
+                   {
+                       "id":  "candle",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "candle",
+                                    "label":  "candle",
+                                    "image":  "/assets/generated/current/candle.png"
+                                },
+                       "correctBinId":  "then",
+                       "praise":  "Nice work sorting candle."
+                   },
+                   {
+                       "id":  "light-bulb",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "light-bulb",
+                                    "label":  "light bulb",
+                                    "image":  "/assets/generated/current/light-bulb.png"
+                                },
+                       "correctBinId":  "now",
+                       "praise":  "Nice work sorting light bulb."
+                   },
+                   {
+                       "id":  "letter",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "letter",
+                                    "label":  "letter",
+                                    "image":  "/assets/generated/current/letter.png"
+                                },
+                       "correctBinId":  "then",
+                       "praise":  "Nice work sorting letter."
+                   },
+                   {
+                       "id":  "email",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "email",
+                                    "label":  "email",
+                                    "image":  "/assets/generated/current/email.png"
+                                },
+                       "correctBinId":  "now",
+                       "praise":  "Nice work sorting email."
+                   },
+                   {
+                       "id":  "whiteboard",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "whiteboard",
+                                    "label":  "whiteboard",
+                                    "image":  "/assets/generated/current/whiteboard.png"
+                                },
+                       "correctBinId":  "then",
+                       "praise":  "Nice work sorting whiteboard."
+                   },
+                   {
+                       "id":  "smartboard",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "smartboard",
+                                    "label":  "smart board",
+                                    "image":  "/assets/generated/current/smartboard.png"
+                                },
+                       "correctBinId":  "now",
+                       "praise":  "Nice work sorting smart board."
+                   },
+                   {
+                       "id":  "typewriter",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "typewriter",
+                                    "label":  "typewriter",
+                                    "image":  "/assets/generated/current/typewriter.png"
+                                },
+                       "correctBinId":  "then",
+                       "praise":  "Nice work sorting typewriter."
+                   },
+                   {
+                       "id":  "laptop",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "laptop",
+                                    "label":  "laptop",
+                                    "image":  "/assets/generated/current/laptop.png"
+                                },
+                       "correctBinId":  "now",
+                       "praise":  "Nice work sorting laptop."
+                   },
+                   {
+                       "id":  "wagon",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "wagon",
+                                    "label":  "horse wagon",
+                                    "image":  "/assets/generated/current/wagon.png"
+                                },
+                       "correctBinId":  "then",
+                       "praise":  "Nice work sorting horse wagon."
+                   },
+                   {
+                       "id":  "car",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "car",
+                                    "label":  "car",
+                                    "image":  "/assets/generated/current/car.png"
+                                },
+                       "correctBinId":  "now",
+                       "praise":  "Nice work sorting car."
+                   },
+                   {
+                       "id":  "paper-map",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "paper-map",
+                                    "label":  "paper map",
+                                    "image":  "/assets/generated/current/paper-map.png"
+                                },
+                       "correctBinId":  "then",
+                       "praise":  "Nice work sorting paper map."
+                   },
+                   {
+                       "id":  "gps",
+                       "mode":  "then-now",
+                       "prompt":  "Sort the picture.",
+                       "instruction":  "Sort the picture.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-then-now-sort-table.png",
+                       "bins":  [
+                                    {
+                                        "id":  "then",
+                                        "label":  "then",
+                                        "image":  "/assets/generated/current/grandpa-bin.png"
+                                    },
+                                    {
+                                        "id":  "now",
+                                        "label":  "now",
+                                        "image":  "/assets/generated/current/child-bin.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "gps",
+                                    "label":  "GPS",
+                                    "image":  "/assets/generated/current/gps.png"
+                                },
+                       "correctBinId":  "now",
+                       "praise":  "Nice work sorting GPS."
+                   }
+               ],
+    "model":  {
+                  "title":  "Then and now",
+                  "instruction":  "Sort old things and new things.",
+                  "targetWord":  "",
+                  "sceneImage":  "/assets/generated/current/teaching-then-now-sort.png",
+                  "matchingLabel":  "",
+                  "explanation":  ""
+              }
+}

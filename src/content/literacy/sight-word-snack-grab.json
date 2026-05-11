@@ -1,0 +1,397 @@
+﻿{
+  "id": "sight-word-snack-grab",
+  "title": "Sight Word Snack Grab",
+  "category": "literacy",
+  "template": "choose-1-of-3",
+  "directions": "Look at the picture and sentence frame. Listen to the whole sentence. Choose the sight word that makes sense.",
+  "environment": "cafeteria snack table",
+  "rounds": [
+    {
+      "id": "sw-1",
+      "prompt": "___ eat snack.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "I",
+      "praise": "Great job. I fits the sentence.",
+      "options": [
+        {
+          "id": "I",
+          "label": "I"
+        },
+        {
+          "id": "go",
+          "label": "go"
+        },
+        {
+          "id": "the",
+          "label": "the"
+        }
+      ],
+      "targetImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "sentence": "I eat snack."
+    },
+    {
+      "id": "sw-2",
+      "prompt": "I see ___ cup.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "a",
+      "praise": "Great job. a fits the sentence.",
+      "options": [
+        {
+          "id": "see",
+          "label": "see"
+        },
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "we",
+          "label": "we"
+        }
+      ],
+      "targetImage": "/assets/generated/current/imagegen-cup.png",
+      "sentence": "I see a cup."
+    },
+    {
+      "id": "sw-3",
+      "prompt": "___ tray is full.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "the",
+      "praise": "Great job. the fits the sentence.",
+      "options": [
+        {
+          "id": "my",
+          "label": "my"
+        },
+        {
+          "id": "to",
+          "label": "to"
+        },
+        {
+          "id": "the",
+          "label": "the"
+        }
+      ],
+      "targetImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "sentence": "The tray is full."
+    },
+    {
+      "id": "sw-4",
+      "prompt": "We ___ to lunch.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "go",
+      "praise": "Great job. go fits the sentence.",
+      "options": [
+        {
+          "id": "go",
+          "label": "go"
+        },
+        {
+          "id": "is",
+          "label": "is"
+        },
+        {
+          "id": "like",
+          "label": "like"
+        }
+      ],
+      "targetImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "sentence": "We go to lunch."
+    },
+    {
+      "id": "sw-5",
+      "prompt": "I ___ an apple.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "see",
+      "praise": "Great job. see fits the sentence.",
+      "options": [
+        {
+          "id": "we",
+          "label": "we"
+        },
+        {
+          "id": "see",
+          "label": "see"
+        },
+        {
+          "id": "a",
+          "label": "a"
+        }
+      ],
+      "targetImage": "/assets/generated/current/sight-apple.png",
+      "sentence": "I see an apple."
+    },
+    {
+      "id": "sw-6",
+      "prompt": "___ eat together.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "we",
+      "praise": "Great job. we fits the sentence.",
+      "options": [
+        {
+          "id": "the",
+          "label": "the"
+        },
+        {
+          "id": "I",
+          "label": "I"
+        },
+        {
+          "id": "we",
+          "label": "we"
+        }
+      ],
+      "targetImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "sentence": "We eat together."
+    },
+    {
+      "id": "sw-7",
+      "prompt": "I ___ apples.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "like",
+      "praise": "Great job. like fits the sentence.",
+      "options": [
+        {
+          "id": "like",
+          "label": "like"
+        },
+        {
+          "id": "my",
+          "label": "my"
+        },
+        {
+          "id": "go",
+          "label": "go"
+        }
+      ],
+      "targetImage": "/assets/generated/current/sight-apple.png",
+      "sentence": "I like apples."
+    },
+    {
+      "id": "sw-8",
+      "prompt": "My cup ___ blue.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "is",
+      "praise": "Great job. is fits the sentence.",
+      "options": [
+        {
+          "id": "to",
+          "label": "to"
+        },
+        {
+          "id": "is",
+          "label": "is"
+        },
+        {
+          "id": "see",
+          "label": "see"
+        }
+      ],
+      "targetImage": "/assets/generated/current/imagegen-cup.png",
+      "sentence": "My cup is blue."
+    },
+    {
+      "id": "sw-9",
+      "prompt": "___ snack is here.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "my",
+      "praise": "Great job. my fits the sentence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "we",
+          "label": "we"
+        },
+        {
+          "id": "my",
+          "label": "my"
+        }
+      ],
+      "targetImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "sentence": "My snack is here."
+    },
+    {
+      "id": "sw-10",
+      "prompt": "Go ___ the table.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "to",
+      "praise": "Great job. to fits the sentence.",
+      "options": [
+        {
+          "id": "to",
+          "label": "to"
+        },
+        {
+          "id": "the",
+          "label": "the"
+        },
+        {
+          "id": "is",
+          "label": "is"
+        }
+      ],
+      "targetImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "sentence": "Go to the table."
+    },
+    {
+      "id": "sw-11",
+      "prompt": "I ___ with my class.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "go",
+      "praise": "Great job. go fits the sentence.",
+      "options": [
+        {
+          "id": "see",
+          "label": "see"
+        },
+        {
+          "id": "go",
+          "label": "go"
+        },
+        {
+          "id": "my",
+          "label": "my"
+        }
+      ],
+      "targetImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "sentence": "I go with my class."
+    },
+    {
+      "id": "sw-12",
+      "prompt": "___ apple is red.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "the",
+      "praise": "Great job. the fits the sentence.",
+      "options": [
+        {
+          "id": "we",
+          "label": "we"
+        },
+        {
+          "id": "like",
+          "label": "like"
+        },
+        {
+          "id": "the",
+          "label": "the"
+        }
+      ],
+      "targetImage": "/assets/generated/current/sight-apple.png",
+      "sentence": "The apple is red."
+    },
+    {
+      "id": "sw-13",
+      "prompt": "___ have a tray.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "I",
+      "praise": "Great job. I fits the sentence.",
+      "options": [
+        {
+          "id": "is",
+          "label": "is"
+        },
+        {
+          "id": "I",
+          "label": "I"
+        },
+        {
+          "id": "to",
+          "label": "to"
+        }
+      ],
+      "targetImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "sentence": "I have a tray."
+    },
+    {
+      "id": "sw-14",
+      "prompt": "We ___ snack.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "like",
+      "praise": "Great job. like fits the sentence.",
+      "options": [
+        {
+          "id": "my",
+          "label": "my"
+        },
+        {
+          "id": "see",
+          "label": "see"
+        },
+        {
+          "id": "like",
+          "label": "like"
+        }
+      ],
+      "targetImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "sentence": "We like snack."
+    },
+    {
+      "id": "sw-15",
+      "prompt": "___ sit down.",
+      "instruction": "Look at the picture and sentence. Choose the word that makes sense.",
+      "context": "Snack sentence",
+      "mode": "snack-tray",
+      "correctChoiceId": "we",
+      "praise": "Great job. we fits the sentence.",
+      "options": [
+        {
+          "id": "we",
+          "label": "we"
+        },
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "go",
+          "label": "go"
+        }
+      ],
+      "targetImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "sentence": "We sit down."
+    }
+  ],
+  "model": {
+    "title": "How to fill the sentence",
+    "instruction": "First, look at the picture and the blank. Then listen to the sentence and choose the word that fits.",
+    "targetWord": "This is my bag.",
+    "targetImage": "/assets/generated/current/imagegen-bag.png",
+    "matchingImage": "/assets/generated/current/imagegen-bag.png",
+    "matchingLabel": "my",
+    "arrowLabel": "listen for the word",
+    "explanation": "The sentence says, This is my bag. The word my fits the blank.",
+    "sceneImage": "/assets/generated/current/teaching-sight-word-my.png"
+  }
+}
+

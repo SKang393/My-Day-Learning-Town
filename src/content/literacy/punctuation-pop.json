@@ -1,0 +1,289 @@
+﻿{
+  "id": "punctuation-pop",
+  "title": "Punctuation Pop",
+  "category": "literacy",
+  "template": "choose-1-of-3",
+  "directions": "Listen to the whole sentence. Choose the ending mark.",
+  "environment": "classroom writing board",
+  "rounds": [
+    {
+      "id": "punctuation-1",
+      "mode": "punctuation-pop",
+      "prompt": "I see a bus",
+      "instruction": "Listen to the sentence. Choose the ending mark.",
+      "context": "Writing board",
+      "options": [
+        {
+          "id": "period",
+          "label": ".",
+          "image": "/assets/rasterized/exact/punctuation-period.png"
+        },
+        {
+          "id": "question",
+          "label": "?",
+          "image": "/assets/rasterized/exact/punctuation-question.png"
+        },
+        {
+          "id": "exclamation",
+          "label": "!",
+          "image": "/assets/rasterized/exact/punctuation-exclamation.png"
+        }
+      ],
+      "correctChoiceId": "period",
+      "praise": "Great job. A period ends a telling sentence.",
+      "sentence": "I see a bus."
+    },
+    {
+      "id": "punctuation-2",
+      "mode": "punctuation-pop",
+      "prompt": "Do you see the dog",
+      "instruction": "Listen to the sentence. Choose the ending mark.",
+      "context": "Writing board",
+      "options": [
+        {
+          "id": "period",
+          "label": ".",
+          "image": "/assets/rasterized/exact/punctuation-period.png"
+        },
+        {
+          "id": "question",
+          "label": "?",
+          "image": "/assets/rasterized/exact/punctuation-question.png"
+        },
+        {
+          "id": "exclamation",
+          "label": "!",
+          "image": "/assets/rasterized/exact/punctuation-exclamation.png"
+        }
+      ],
+      "correctChoiceId": "question",
+      "praise": "Great job. A question mark ends an asking sentence.",
+      "sentence": "Do you see the dog?"
+    },
+    {
+      "id": "punctuation-3",
+      "mode": "punctuation-pop",
+      "prompt": "Wow, the ball is big",
+      "instruction": "Listen to the sentence. Choose the ending mark.",
+      "context": "Writing board",
+      "options": [
+        {
+          "id": "period",
+          "label": ".",
+          "image": "/assets/rasterized/exact/punctuation-period.png"
+        },
+        {
+          "id": "question",
+          "label": "?",
+          "image": "/assets/rasterized/exact/punctuation-question.png"
+        },
+        {
+          "id": "exclamation",
+          "label": "!",
+          "image": "/assets/rasterized/exact/punctuation-exclamation.png"
+        }
+      ],
+      "correctChoiceId": "exclamation",
+      "praise": "Great job. An exclamation point shows strong feeling.",
+      "sentence": "Wow, the ball is big!"
+    },
+    {
+      "id": "punctuation-4",
+      "mode": "punctuation-pop",
+      "prompt": "We eat lunch",
+      "instruction": "Listen to the sentence. Choose the ending mark.",
+      "context": "Writing board",
+      "options": [
+        {
+          "id": "period",
+          "label": ".",
+          "image": "/assets/rasterized/exact/punctuation-period.png"
+        },
+        {
+          "id": "question",
+          "label": "?",
+          "image": "/assets/rasterized/exact/punctuation-question.png"
+        },
+        {
+          "id": "exclamation",
+          "label": "!",
+          "image": "/assets/rasterized/exact/punctuation-exclamation.png"
+        }
+      ],
+      "correctChoiceId": "period",
+      "praise": "Great job. A period ends a telling sentence.",
+      "sentence": "We eat lunch."
+    },
+    {
+      "id": "punctuation-5",
+      "mode": "punctuation-pop",
+      "prompt": "Can I have a cup",
+      "instruction": "Listen to the sentence. Choose the ending mark.",
+      "context": "Writing board",
+      "options": [
+        {
+          "id": "period",
+          "label": ".",
+          "image": "/assets/rasterized/exact/punctuation-period.png"
+        },
+        {
+          "id": "question",
+          "label": "?",
+          "image": "/assets/rasterized/exact/punctuation-question.png"
+        },
+        {
+          "id": "exclamation",
+          "label": "!",
+          "image": "/assets/rasterized/exact/punctuation-exclamation.png"
+        }
+      ],
+      "correctChoiceId": "question",
+      "praise": "Great job. A question mark ends an asking sentence.",
+      "sentence": "Can I have a cup?"
+    },
+    {
+      "id": "punctuation-6",
+      "mode": "punctuation-pop",
+      "prompt": "Look at the sun",
+      "instruction": "Listen to the sentence. Choose the ending mark.",
+      "context": "Writing board",
+      "options": [
+        {
+          "id": "period",
+          "label": ".",
+          "image": "/assets/rasterized/exact/punctuation-period.png"
+        },
+        {
+          "id": "question",
+          "label": "?",
+          "image": "/assets/rasterized/exact/punctuation-question.png"
+        },
+        {
+          "id": "exclamation",
+          "label": "!",
+          "image": "/assets/rasterized/exact/punctuation-exclamation.png"
+        }
+      ],
+      "correctChoiceId": "exclamation",
+      "praise": "Great job. An exclamation point shows strong feeling.",
+      "sentence": "Look at the sun!"
+    },
+    {
+      "id": "punctuation-7",
+      "mode": "punctuation-pop",
+      "prompt": "My bag is red",
+      "instruction": "Listen to the sentence. Choose the ending mark.",
+      "context": "Writing board",
+      "options": [
+        {
+          "id": "period",
+          "label": ".",
+          "image": "/assets/rasterized/exact/punctuation-period.png"
+        },
+        {
+          "id": "question",
+          "label": "?",
+          "image": "/assets/rasterized/exact/punctuation-question.png"
+        },
+        {
+          "id": "exclamation",
+          "label": "!",
+          "image": "/assets/rasterized/exact/punctuation-exclamation.png"
+        }
+      ],
+      "correctChoiceId": "period",
+      "praise": "Great job. A period ends a telling sentence.",
+      "sentence": "My bag is red."
+    },
+    {
+      "id": "punctuation-8",
+      "mode": "punctuation-pop",
+      "prompt": "Is the door open",
+      "instruction": "Listen to the sentence. Choose the ending mark.",
+      "context": "Writing board",
+      "options": [
+        {
+          "id": "period",
+          "label": ".",
+          "image": "/assets/rasterized/exact/punctuation-period.png"
+        },
+        {
+          "id": "question",
+          "label": "?",
+          "image": "/assets/rasterized/exact/punctuation-question.png"
+        },
+        {
+          "id": "exclamation",
+          "label": "!",
+          "image": "/assets/rasterized/exact/punctuation-exclamation.png"
+        }
+      ],
+      "correctChoiceId": "question",
+      "praise": "Great job. A question mark ends an asking sentence.",
+      "sentence": "Is the door open?"
+    },
+    {
+      "id": "punctuation-9",
+      "mode": "punctuation-pop",
+      "prompt": "That cookie is yummy",
+      "instruction": "Listen to the sentence. Choose the ending mark.",
+      "context": "Writing board",
+      "options": [
+        {
+          "id": "period",
+          "label": ".",
+          "image": "/assets/rasterized/exact/punctuation-period.png"
+        },
+        {
+          "id": "question",
+          "label": "?",
+          "image": "/assets/rasterized/exact/punctuation-question.png"
+        },
+        {
+          "id": "exclamation",
+          "label": "!",
+          "image": "/assets/rasterized/exact/punctuation-exclamation.png"
+        }
+      ],
+      "correctChoiceId": "exclamation",
+      "praise": "Great job. An exclamation point shows strong feeling.",
+      "sentence": "That cookie is yummy!"
+    },
+    {
+      "id": "punctuation-10",
+      "mode": "punctuation-pop",
+      "prompt": "The book is on the desk",
+      "instruction": "Listen to the sentence. Choose the ending mark.",
+      "context": "Writing board",
+      "options": [
+        {
+          "id": "period",
+          "label": ".",
+          "image": "/assets/rasterized/exact/punctuation-period.png"
+        },
+        {
+          "id": "question",
+          "label": "?",
+          "image": "/assets/rasterized/exact/punctuation-question.png"
+        },
+        {
+          "id": "exclamation",
+          "label": "!",
+          "image": "/assets/rasterized/exact/punctuation-exclamation.png"
+        }
+      ],
+      "correctChoiceId": "period",
+      "praise": "Great job. A period ends a telling sentence.",
+      "sentence": "The book is on the desk."
+    }
+  ],
+  "model": {
+    "title": "Ending marks",
+    "instruction": "Look at each ending mark.",
+    "targetWord": "",
+    "sceneImage": "/assets/generated/current/teaching-punctuation-ending-marks.png",
+    "matchingLabel": "",
+    "explanation": ""
+  }
+}
+

@@ -1,0 +1,2108 @@
+{
+  "baseUrl": "http://127.0.0.1:5173/",
+  "generatedAt": "2026-05-07T04:22:44.570Z",
+  "splash": [
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs\\qa-screenshots\\splash-terms-1920x1080.png",
+      "message": "You need to agree to the Terms of Service to play this game. If you do not agree, please exit the game.",
+      "stateBefore": {
+        "title": "",
+        "instruction": "",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 0,
+        "assetImages": [],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      },
+      "blockedState": {
+        "title": "",
+        "instruction": "",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 0,
+        "assetImages": [],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "screenshot": "docs\\qa-screenshots\\splash-terms-1280x720.png",
+      "message": "You need to agree to the Terms of Service to play this game. If you do not agree, please exit the game.",
+      "stateBefore": {
+        "title": "",
+        "instruction": "",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 0,
+        "assetImages": [],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      },
+      "blockedState": {
+        "title": "",
+        "instruction": "",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 0,
+        "assetImages": [],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "viewport": {
+        "width": 1100,
+        "height": 700
+      },
+      "screenshot": "docs\\qa-screenshots\\splash-terms-1100x700.png",
+      "message": "You need to agree to the Terms of Service to play this game. If you do not agree, please exit the game.",
+      "stateBefore": {
+        "title": "",
+        "instruction": "",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 0,
+        "assetImages": [],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      },
+      "blockedState": {
+        "title": "",
+        "instruction": "",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 0,
+        "assetImages": [],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    }
+  ],
+  "home": [
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs\\qa-screenshots\\home-1920x1080.png",
+      "state": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a learning area",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-category-literacy.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-category-math.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-category-science.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-category-social-studies.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": true,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "screenshot": "docs\\qa-screenshots\\home-1280x720.png",
+      "state": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a learning area",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-category-literacy.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-category-math.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-category-science.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-category-social-studies.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": true,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "viewport": {
+        "width": 1100,
+        "height": 700
+      },
+      "screenshot": "docs\\qa-screenshots\\home-1100x700.png",
+      "state": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a learning area",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-category-literacy.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-category-math.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-category-science.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-category-social-studies.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": true,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    }
+  ],
+  "areas": [
+    {
+      "area": "Literacy",
+      "screenshot": "docs\\qa-screenshots\\area-literacy.png",
+      "firstPage": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Literacy game.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-same-sound.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-rhyme-house.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-cvc-build-tray.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-sight-word-snack-grab.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-fix-the-sentence.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-opinion-builder.png"
+        ],
+        "visibleGameTiles": 6,
+        "pageDots": [
+          {
+            "label": "Game page 1 of 2",
+            "current": true
+          },
+          {
+            "label": "Game page 2 of 2",
+            "current": false
+          }
+        ],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Math",
+      "screenshot": "docs\\qa-screenshots\\area-math.png",
+      "firstPage": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Math game.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-number-parking-lot.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-shape-sort.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-shape-hunt.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-equal-shares.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-measure-my-desk.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-make-a-set.png"
+        ],
+        "visibleGameTiles": 6,
+        "pageDots": [
+          {
+            "label": "Game page 1 of 2",
+            "current": true
+          },
+          {
+            "label": "Game page 2 of 2",
+            "current": false
+          }
+        ],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Science",
+      "screenshot": "docs\\qa-screenshots\\area-science.png",
+      "firstPage": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Science game.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-material-sort-lab.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-school-garden-helper.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-land-water-map-builder.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-water-on-earth-v2.png"
+        ],
+        "visibleGameTiles": 4,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Social Studies",
+      "screenshot": "docs\\qa-screenshots\\area-social-studies.png",
+      "firstPage": {
+        "title": "My Day Learning Town",
+        "instruction": "Choose a Social Studies game.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 6,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-community-helper-match.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-my-school-map.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-how-people-earn-money.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-save-for-a-goal.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-help-our-community.png",
+          "http://127.0.0.1:5173/assets/generated/current/game-icon-then-and-now.png"
+        ],
+        "visibleGameTiles": 6,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    }
+  ],
+  "routes": [
+    {
+      "area": "Literacy",
+      "game": "Same Sound, Not Same Sound",
+      "screenshot": "docs\\qa-screenshots\\literacy-same-sound.png",
+      "modelShot": "docs\\qa-screenshots\\literacy-same-sound-model.png",
+      "lockedState": {
+        "title": "Same Sound, Not Same Sound",
+        "instruction": "Look at the model. Bus and bag start the same way.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-same-sound-first-sound.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Same Sound, Not Same Sound",
+        "instruction": "Look at the model. Bus and bag start the same way.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-same-sound-first-sound.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Same Sound, Not Same Sound",
+        "instruction": "Tap the picture that starts like dog. Progress: 1/12.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/cvc-dog.png",
+          "http://127.0.0.1:5173/assets/generated/current/closed-door.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-playground-swing.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-cup.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Literacy",
+      "game": "Rhyme House",
+      "screenshot": "docs\\qa-screenshots\\literacy-rhyme-house.png",
+      "modelShot": "docs\\qa-screenshots\\literacy-rhyme-house-model.png",
+      "lockedState": {
+        "title": "Rhyme House",
+        "instruction": "Look at the model. Cat goes in the at rhyme house.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-rhyme-house-at.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Rhyme House",
+        "instruction": "Look at the model. Cat goes in the at rhyme house.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-rhyme-house-at.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Rhyme House",
+        "instruction": "Drag pan to the rhyme house. Progress: 1/12.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-pan.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Literacy",
+      "game": "CVC Build Tray",
+      "screenshot": "docs\\qa-screenshots\\literacy-cvc.png",
+      "modelShot": "docs\\qa-screenshots\\literacy-cvc-model.png",
+      "lockedState": {
+        "title": "CVC Build Tray",
+        "instruction": "Cat. c-a-t. /k/ /ae/ /t/.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-cvc-build-cat.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "CVC Build Tray",
+        "instruction": "Cat. c-a-t. /k/ /ae/ /t/.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-cvc-build-cat.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "CVC Build Tray",
+        "instruction": "Say /p/ /i/ /n/. Then drag p, i, n into the boxes. Progress: 1/12.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/cvc-pin.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Literacy",
+      "game": "Fix the Sentence",
+      "screenshot": "docs\\qa-screenshots\\literacy-fix-sentence.png",
+      "modelShot": "docs\\qa-screenshots\\literacy-fix-sentence-model.png",
+      "lockedState": {
+        "title": "Fix the Sentence",
+        "instruction": "Drag the words into order. A sentence starts with a capital letter and ends with punctuation.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-fix-sentence-order.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Fix the Sentence",
+        "instruction": "Drag the words into order. A sentence starts with a capital letter and ends with punctuation.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-fix-sentence-order.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Fix the Sentence",
+        "instruction": "Drag the words in order: We eat lunch. Progress: 1/12.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-snack-tray.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Literacy",
+      "game": "Long A Match",
+      "screenshot": "docs\\qa-screenshots\\literacy-long-vowel.png",
+      "modelShot": "docs\\qa-screenshots\\literacy-long-vowel-model.png",
+      "lockedState": {
+        "title": "Long A Match",
+        "instruction": "Long A says /ā/.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-long-a-patterns.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Long A Match",
+        "instruction": "Long A says /ā/.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-long-a-patterns.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Long A Match",
+        "instruction": "Listen to the word. Choose its picture. Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 3,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/cake.png",
+          "http://127.0.0.1:5173/assets/generated/current/cape.png",
+          "http://127.0.0.1:5173/assets/generated/current/alligator.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Literacy",
+      "game": "Sight Word Snack Grab",
+      "screenshot": "docs\\qa-screenshots\\literacy-sight-word.png",
+      "modelShot": "docs\\qa-screenshots\\literacy-sight-word-model.png",
+      "lockedState": {
+        "title": "Sight Word Snack Grab",
+        "instruction": "First, look at the picture and the blank. Then listen to the sentence and choose the word that fits.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-sight-word-my.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Sight Word Snack Grab",
+        "instruction": "First, look at the picture and the blank. Then listen to the sentence and choose the word that fits.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-sight-word-my.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Sight Word Snack Grab",
+        "instruction": "Look at the picture and sentence. Choose the word that makes sense. Progress: 1/15.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-snack-tray.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Literacy",
+      "game": "Opinion Builder",
+      "screenshot": "docs\\qa-screenshots\\literacy-opinion.png",
+      "modelShot": "docs\\qa-screenshots\\literacy-opinion-model.png",
+      "lockedState": {
+        "title": "Opinion Builder",
+        "instruction": "Put the opinion parts in order.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-opinion-builder.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Opinion Builder",
+        "instruction": "Put the opinion parts in order.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-opinion-builder.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Opinion Builder",
+        "instruction": "Drag the cards to make: I like my bag because it is red. Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-bag.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Literacy",
+      "game": "Story In Order",
+      "screenshot": "docs\\qa-screenshots\\literacy-story-order.png",
+      "modelShot": "docs\\qa-screenshots\\literacy-story-order-model.png",
+      "lockedState": {
+        "title": "Story In Order",
+        "instruction": "First means what happens at the beginning. Next happens after that. Last happens at the end.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-story-order-first-next-last.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Story In Order",
+        "instruction": "First means what happens at the beginning. Next happens after that. Last happens at the end.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-story-order-first-next-last.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Story In Order",
+        "instruction": "Put the crayon story in order. Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-crayon.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Literacy",
+      "game": "Punctuation Pop",
+      "screenshot": "docs\\qa-screenshots\\literacy-punctuation.png",
+      "modelShot": "docs\\qa-screenshots\\literacy-punctuation-model.png",
+      "lockedState": {
+        "title": "Punctuation Pop",
+        "instruction": "Look at each ending mark.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-punctuation-ending-marks.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Punctuation Pop",
+        "instruction": "Look at each ending mark.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-punctuation-ending-marks.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Punctuation Pop",
+        "instruction": "Listen to the sentence. Choose the ending mark. Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 3,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/rasterized/exact/punctuation-exclamation.png",
+          "http://127.0.0.1:5173/assets/rasterized/exact/punctuation-period.png",
+          "http://127.0.0.1:5173/assets/rasterized/exact/punctuation-question.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Literacy",
+      "game": "Context Clue Match",
+      "screenshot": "docs\\qa-screenshots\\literacy-context.png",
+      "modelShot": "docs\\qa-screenshots\\literacy-context-model.png",
+      "lockedState": {
+        "title": "Context Clue Match",
+        "instruction": "Look at the clue picture. Choose the answer.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-context-clue-sun.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Context Clue Match",
+        "instruction": "Look at the clue picture. Choose the answer.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-context-clue-sun.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Context Clue Match",
+        "instruction": "It is left by the door. Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/closed-door.png",
+          "http://127.0.0.1:5173/assets/generated/current/package-box.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-sun.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-cup.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Number Parking Lot",
+      "screenshot": "docs\\qa-screenshots\\math-number-parking.png",
+      "modelShot": "docs\\qa-screenshots\\math-number-parking-model.png",
+      "lockedState": {
+        "title": "Number Parking Lot",
+        "instruction": "Dots show the number. The small number tells the parking space.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-number-parking-dots-5.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Number Parking Lot",
+        "instruction": "Dots show the number. The small number tells the parking space.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-number-parking-dots-5.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Number Parking Lot",
+        "instruction": "Find 27. Progress: 1/30.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 0,
+        "assetImages": [],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Shape Sort",
+      "screenshot": "docs\\qa-screenshots\\math-shape-sort.png",
+      "modelShot": "docs\\qa-screenshots\\math-shape-sort-model.png",
+      "lockedState": {
+        "title": "Shape Sort",
+        "instruction": "Look at the shape. Drag it to flat shapes or solid shapes.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-shape-sort-flat-solid.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Shape Sort",
+        "instruction": "Look at the shape. Drag it to flat shapes or solid shapes.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-shape-sort-flat-solid.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Shape Sort",
+        "instruction": "Look at the shape. Drag it to the bin with the same shape picture. Progress: 1/18.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/rasterized/exact/shape-cube-3d.png",
+          "http://127.0.0.1:5173/assets/rasterized/exact/shape-sphere-3d.png",
+          "http://127.0.0.1:5173/assets/rasterized/exact/shape-circle-flat.png",
+          "http://127.0.0.1:5173/assets/rasterized/exact/shape-sphere-3d.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Shape Hunt",
+      "screenshot": "docs\\qa-screenshots\\math-shape-hunt.png",
+      "modelShot": "docs\\qa-screenshots\\math-shape-hunt-model.png",
+      "lockedState": {
+        "title": "Shape Hunt",
+        "instruction": "A flat shape is like a drawing. A solid shape is like an object you can hold.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-shape-hunt-circle-sphere.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Shape Hunt",
+        "instruction": "A flat shape is like a drawing. A solid shape is like an object you can hold.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-shape-hunt-circle-sphere.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Shape Hunt",
+        "instruction": "Listen for the shape name: square. Tap the matching picture. Progress: 1/18.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 3,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/rasterized/exact/shape-cone-3d.png",
+          "http://127.0.0.1:5173/assets/rasterized/exact/shape-square-flat.png",
+          "http://127.0.0.1:5173/assets/rasterized/exact/shape-circle-flat.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Equal Shares",
+      "screenshot": "docs\\qa-screenshots\\math-equal-shares.png",
+      "modelShot": "docs\\qa-screenshots\\math-equal-shares-model.png",
+      "lockedState": {
+        "title": "Equal Shares",
+        "instruction": "Equal shares are the same size. Not equal shares are different sizes.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-equal-shares.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Equal Shares",
+        "instruction": "Equal shares are the same size. Not equal shares are different sizes.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-equal-shares.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Equal Shares",
+        "instruction": "Which picture is not split fairly? Progress: 1/12.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 2,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/shares-brownie-1-3-unequal.png",
+          "http://127.0.0.1:5173/assets/generated/current/shares-pizza-2-equal.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Make a Set",
+      "screenshot": "docs\\qa-screenshots\\math-make-set.png",
+      "modelShot": "docs\\qa-screenshots\\math-make-set-model.png",
+      "lockedState": {
+        "title": "Make a Set",
+        "instruction": "Put objects in the ten-frame.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-make-set-five.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Make a Set",
+        "instruction": "Put objects in the ten-frame.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-make-set-five.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Make a Set",
+        "instruction": "Make a set of 5. Put one object in each box. Press Done when finished. Progress: 1/15.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 7,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-set-apple.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-set-apple.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-set-apple.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-set-apple.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-set-apple.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-set-apple.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-set-apple.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Add To Story Mat",
+      "screenshot": "docs\\qa-screenshots\\math-addition.png",
+      "modelShot": "docs\\qa-screenshots\\math-addition-model.png",
+      "lockedState": {
+        "title": "Add To Story Mat",
+        "instruction": "Add objects to the basket.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-add-one-more-apple.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Add To Story Mat",
+        "instruction": "Add objects to the basket.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-add-one-more-apple.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Add To Story Mat",
+        "instruction": "There are 4 crayons. Put 3 more in. Progress: 1/15.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 7,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-crayon.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-crayon.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-crayon.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-crayon.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-crayon.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-crayon.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-crayon.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Subtraction Story Mat",
+      "screenshot": "docs\\qa-screenshots\\math-subtraction.png",
+      "modelShot": "docs\\qa-screenshots\\math-subtraction-model.png",
+      "lockedState": {
+        "title": "Subtraction Story Mat",
+        "instruction": "Move objects away from the basket.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-subtract-one-apple.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Subtraction Story Mat",
+        "instruction": "Move objects away from the basket.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-subtract-one-apple.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Subtraction Story Mat",
+        "instruction": "There are 7 cookies. Take away 3. Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 7,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-snack-tray.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-snack-tray.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-snack-tray.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-snack-tray.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-snack-tray.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-snack-tray.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-snack-tray.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Math",
+      "game": "Measure Classroom Items",
+      "screenshot": "docs\\qa-screenshots\\math-measure.png",
+      "modelShot": "docs\\qa-screenshots\\math-measure-model.png",
+      "lockedState": {
+        "title": "Measure Classroom Items",
+        "instruction": "Put units end to end.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-measure-classroom-book.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Measure Classroom Items",
+        "instruction": "Put units end to end.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-measure-classroom-book.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Measure Classroom Items",
+        "instruction": "How long is the book? Progress: 1/12.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 9,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-measure-book.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-unit-paper-clip.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Science",
+      "game": "Material Sort Lab",
+      "screenshot": "docs\\qa-screenshots\\science-material.png",
+      "modelShot": "docs\\qa-screenshots\\science-material-model.png",
+      "lockedState": {
+        "title": "Material Sort Lab",
+        "instruction": "Look at how each object feels.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-material-sort-properties.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Material Sort Lab",
+        "instruction": "Look at how each object feels.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-material-sort-properties.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Material Sort Lab",
+        "instruction": "Where does the tile go? Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/ingame-material-sort-table.png",
+          "http://127.0.0.1:5173/assets/generated/current/smooth-tile.png",
+          "http://127.0.0.1:5173/assets/generated/current/sandpaper.png",
+          "http://127.0.0.1:5173/assets/generated/current/smooth-tile.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Science",
+      "game": "School Garden Helper",
+      "screenshot": "docs\\qa-screenshots\\science-garden.png",
+      "modelShot": "docs\\qa-screenshots\\science-garden-model.png",
+      "lockedState": {
+        "title": "School Garden Helper",
+        "instruction": "Look at the plant helper pictures.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-garden-helper-plant-needs.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "School Garden Helper",
+        "instruction": "Look at the plant helper pictures.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-garden-helper-plant-needs.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "School Garden Helper",
+        "instruction": "Which cup is empty? Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/ingame-garden-empty-cup-card.png",
+          "http://127.0.0.1:5173/assets/generated/current/liquid-cup-icon.png",
+          "http://127.0.0.1:5173/assets/generated/current/fish.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-cup.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Science",
+      "game": "Land and Water Map Builder",
+      "screenshot": "docs\\qa-screenshots\\science-land-water.png",
+      "modelShot": "docs\\qa-screenshots\\science-land-water-model.png",
+      "lockedState": {
+        "title": "Land and Water Map Builder",
+        "instruction": "Look at land and water places.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-land-water-sort.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Land and Water Map Builder",
+        "instruction": "Look at land and water places.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-land-water-sort.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Land and Water Map Builder",
+        "instruction": "Sort the lake. Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/ingame-land-water-sort-map.png",
+          "http://127.0.0.1:5173/assets/generated/current/lake.png",
+          "http://127.0.0.1:5173/assets/generated/current/soil.png",
+          "http://127.0.0.1:5173/assets/generated/current/lake.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Science",
+      "game": "Water on Earth",
+      "screenshot": "docs\\qa-screenshots\\science-water.png",
+      "modelShot": "docs\\qa-screenshots\\science-water-model.png",
+      "lockedState": {
+        "title": "Water on Earth",
+        "instruction": "Look at liquid water and ice.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-water-liquid-solid.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Water on Earth",
+        "instruction": "Look at liquid water and ice.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-water-liquid-solid.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Water on Earth",
+        "instruction": "Which picture shows solid water? Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/answer-water-solid-ice.png",
+          "http://127.0.0.1:5173/assets/generated/current/answer-water-solid-ice.png",
+          "http://127.0.0.1:5173/assets/generated/current/answer-water-liquid-cup.png",
+          "http://127.0.0.1:5173/assets/generated/current/soil.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Social Studies",
+      "game": "Community Helper Match",
+      "screenshot": "docs\\qa-screenshots\\social-helper.png",
+      "modelShot": "docs\\qa-screenshots\\social-helper-model.png",
+      "lockedState": {
+        "title": "Community Helper Match",
+        "instruction": "Look at the problem. Choose the helper.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-community-helper-problem-helper.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Community Helper Match",
+        "instruction": "Look at the problem. Choose the helper.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-community-helper-problem-helper.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Community Helper Match",
+        "instruction": "Who drives the school bus? Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-bus-driver.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-bus-driver.png",
+          "http://127.0.0.1:5173/assets/generated/current/nurse.png",
+          "http://127.0.0.1:5173/assets/generated/current/teacher-choice.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Social Studies",
+      "game": "My School Map",
+      "screenshot": "docs\\qa-screenshots\\social-school-map.png",
+      "modelShot": "docs\\qa-screenshots\\social-school-map-model.png",
+      "lockedState": {
+        "title": "My School Map",
+        "instruction": "Look at the school map.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-school-map-places.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "My School Map",
+        "instruction": "Look at the school map.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-school-map-places.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "My School Map",
+        "instruction": "Where do students read books? Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/ingame-school-map-board.png",
+          "http://127.0.0.1:5173/assets/generated/current/library-reading-scene.png",
+          "http://127.0.0.1:5173/assets/generated/current/classroom.png",
+          "http://127.0.0.1:5173/assets/generated/current/office.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Social Studies",
+      "game": "How People Earn Money",
+      "screenshot": "docs\\qa-screenshots\\social-earn-money.png",
+      "modelShot": "docs\\qa-screenshots\\social-earn-money-model.png",
+      "lockedState": {
+        "title": "How People Earn Money",
+        "instruction": "Look at the work. Choose the job.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-earn-money-work-pay.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "How People Earn Money",
+        "instruction": "Look at the work. Choose the job.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-earn-money-work-pay.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "How People Earn Money",
+        "instruction": "Maya teaches students. Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teacher-teaching-scene.png",
+          "http://127.0.0.1:5173/assets/generated/current/imagegen-bus-driver.png",
+          "http://127.0.0.1:5173/assets/generated/current/teacher-choice.png",
+          "http://127.0.0.1:5173/assets/generated/current/nurse.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Social Studies",
+      "game": "Save for a Goal",
+      "screenshot": "docs\\qa-screenshots\\social-save-goal.png",
+      "modelShot": "docs\\qa-screenshots\\social-save-goal-model.png",
+      "lockedState": {
+        "title": "Save for a Goal",
+        "instruction": "Look at the cost and money.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-save-goal-truck-8.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Save for a Goal",
+        "instruction": "Look at the cost and money.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-save-goal-truck-8.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Save for a Goal",
+        "instruction": "Pizza costs 4 dollars. Have 2 dollars. Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 3,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/shares-pizza-2-equal.png",
+          "http://127.0.0.1:5173/assets/generated/current/save-more-piggy.png",
+          "http://127.0.0.1:5173/assets/generated/current/buy-now-register.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Social Studies",
+      "game": "Help Our Community",
+      "screenshot": "docs\\qa-screenshots\\social-help-community.png",
+      "modelShot": "docs\\qa-screenshots\\social-help-community-model.png",
+      "lockedState": {
+        "title": "Help Our Community",
+        "instruction": "Look at the problem. Choose a helpful action.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-help-community-action.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Help Our Community",
+        "instruction": "Look at the problem. Choose a helpful action.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-help-community-action.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Help Our Community",
+        "instruction": "What helps in line? Progress: 1/10.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/students-line.png",
+          "http://127.0.0.1:5173/assets/generated/current/watch-tv.png",
+          "http://127.0.0.1:5173/assets/generated/current/wait-turn-cue.png",
+          "http://127.0.0.1:5173/assets/generated/current/kick-ball.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    },
+    {
+      "area": "Social Studies",
+      "game": "Then and Now",
+      "screenshot": "docs\\qa-screenshots\\social-then-now.png",
+      "modelShot": "docs\\qa-screenshots\\social-then-now-model.png",
+      "lockedState": {
+        "title": "Then and Now",
+        "instruction": "Sort old things and new things.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-then-now-sort.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "modelState": {
+        "title": "Then and Now",
+        "instruction": "Sort old things and new things.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 1,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/teaching-then-now-sort.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": true
+      },
+      "gameState": {
+        "title": "Then and Now",
+        "instruction": "Sort the picture. Progress: 1/14.",
+        "bodyScroll": false,
+        "overflowingLabels": [],
+        "gameTileTextLabels": [],
+        "brokenImages": [],
+        "visibleImageCount": 4,
+        "assetImages": [
+          "http://127.0.0.1:5173/assets/generated/current/ingame-then-now-sort-table.png",
+          "http://127.0.0.1:5173/assets/generated/current/grandpa-bin.png",
+          "http://127.0.0.1:5173/assets/generated/current/child-bin.png",
+          "http://127.0.0.1:5173/assets/generated/current/light-bulb.png"
+        ],
+        "visibleGameTiles": 0,
+        "pageDots": [],
+        "repeatButtonCount": 0,
+        "hasHomeGrid": false,
+        "hasStartGame": false,
+        "hasListenFirst": false
+      }
+    }
+  ],
+  "issues": []
+}

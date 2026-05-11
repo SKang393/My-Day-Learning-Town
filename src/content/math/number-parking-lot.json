@@ -1,0 +1,739 @@
+﻿{
+  "id": "number-parking-lot",
+  "title": "Number Parking Lot",
+  "category": "math",
+  "template": "choose-1-of-3",
+  "directions": "Listen for the number. Tap the matching parking space.",
+  "environment": "school parking lot",
+  "rounds": [
+    {
+      "id": "np-1",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 1.",
+      "context": "Park at 1.",
+      "targetWord": "1",
+      "options": [
+        {
+          "id": "1",
+          "label": "1"
+        },
+        {
+          "id": "3",
+          "label": "3"
+        },
+        {
+          "id": "4",
+          "label": "4"
+        }
+      ],
+      "correctChoiceId": "1",
+      "praise": "Great job finding 1."
+    },
+    {
+      "id": "np-2",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 2.",
+      "context": "Park at 2.",
+      "targetWord": "2",
+      "options": [
+        {
+          "id": "2",
+          "label": "2"
+        },
+        {
+          "id": "1",
+          "label": "1"
+        },
+        {
+          "id": "3",
+          "label": "3"
+        }
+      ],
+      "correctChoiceId": "2",
+      "praise": "Great job finding 2."
+    },
+    {
+      "id": "np-3",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 3.",
+      "context": "Park at 3.",
+      "targetWord": "3",
+      "options": [
+        {
+          "id": "3",
+          "label": "3"
+        },
+        {
+          "id": "2",
+          "label": "2"
+        },
+        {
+          "id": "4",
+          "label": "4"
+        }
+      ],
+      "correctChoiceId": "3",
+      "praise": "Great job finding 3."
+    },
+    {
+      "id": "np-4",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 4.",
+      "context": "Park at 4.",
+      "targetWord": "4",
+      "options": [
+        {
+          "id": "4",
+          "label": "4"
+        },
+        {
+          "id": "3",
+          "label": "3"
+        },
+        {
+          "id": "5",
+          "label": "5"
+        }
+      ],
+      "correctChoiceId": "4",
+      "praise": "Great job finding 4."
+    },
+    {
+      "id": "np-5",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 5.",
+      "context": "Park at 5.",
+      "targetWord": "5",
+      "options": [
+        {
+          "id": "5",
+          "label": "5"
+        },
+        {
+          "id": "4",
+          "label": "4"
+        },
+        {
+          "id": "6",
+          "label": "6"
+        }
+      ],
+      "correctChoiceId": "5",
+      "praise": "Great job finding 5."
+    },
+    {
+      "id": "np-6",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 6.",
+      "context": "Park at 6.",
+      "targetWord": "6",
+      "options": [
+        {
+          "id": "6",
+          "label": "6"
+        },
+        {
+          "id": "5",
+          "label": "5"
+        },
+        {
+          "id": "7",
+          "label": "7"
+        }
+      ],
+      "correctChoiceId": "6",
+      "praise": "Great job finding 6."
+    },
+    {
+      "id": "np-7",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 7.",
+      "context": "Park at 7.",
+      "targetWord": "7",
+      "options": [
+        {
+          "id": "7",
+          "label": "7"
+        },
+        {
+          "id": "6",
+          "label": "6"
+        },
+        {
+          "id": "8",
+          "label": "8"
+        }
+      ],
+      "correctChoiceId": "7",
+      "praise": "Great job finding 7."
+    },
+    {
+      "id": "np-8",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 8.",
+      "context": "Park at 8.",
+      "targetWord": "8",
+      "options": [
+        {
+          "id": "8",
+          "label": "8"
+        },
+        {
+          "id": "7",
+          "label": "7"
+        },
+        {
+          "id": "9",
+          "label": "9"
+        }
+      ],
+      "correctChoiceId": "8",
+      "praise": "Great job finding 8."
+    },
+    {
+      "id": "np-9",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 9.",
+      "context": "Park at 9.",
+      "targetWord": "9",
+      "options": [
+        {
+          "id": "9",
+          "label": "9"
+        },
+        {
+          "id": "8",
+          "label": "8"
+        },
+        {
+          "id": "10",
+          "label": "10"
+        }
+      ],
+      "correctChoiceId": "9",
+      "praise": "Great job finding 9."
+    },
+    {
+      "id": "np-10",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 10.",
+      "context": "Park at 10.",
+      "targetWord": "10",
+      "options": [
+        {
+          "id": "10",
+          "label": "10"
+        },
+        {
+          "id": "9",
+          "label": "9"
+        },
+        {
+          "id": "11",
+          "label": "11"
+        }
+      ],
+      "correctChoiceId": "10",
+      "praise": "Great job finding 10."
+    },
+    {
+      "id": "np-11",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 11.",
+      "context": "Park at 11.",
+      "targetWord": "11",
+      "options": [
+        {
+          "id": "11",
+          "label": "11"
+        },
+        {
+          "id": "10",
+          "label": "10"
+        },
+        {
+          "id": "12",
+          "label": "12"
+        }
+      ],
+      "correctChoiceId": "11",
+      "praise": "Great job finding 11."
+    },
+    {
+      "id": "np-12",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 12.",
+      "context": "Park at 12.",
+      "targetWord": "12",
+      "options": [
+        {
+          "id": "12",
+          "label": "12"
+        },
+        {
+          "id": "11",
+          "label": "11"
+        },
+        {
+          "id": "13",
+          "label": "13"
+        }
+      ],
+      "correctChoiceId": "12",
+      "praise": "Great job finding 12."
+    },
+    {
+      "id": "np-13",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 13.",
+      "context": "Park at 13.",
+      "targetWord": "13",
+      "options": [
+        {
+          "id": "13",
+          "label": "13"
+        },
+        {
+          "id": "12",
+          "label": "12"
+        },
+        {
+          "id": "14",
+          "label": "14"
+        }
+      ],
+      "correctChoiceId": "13",
+      "praise": "Great job finding 13."
+    },
+    {
+      "id": "np-14",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 14.",
+      "context": "Park at 14.",
+      "targetWord": "14",
+      "options": [
+        {
+          "id": "14",
+          "label": "14"
+        },
+        {
+          "id": "13",
+          "label": "13"
+        },
+        {
+          "id": "15",
+          "label": "15"
+        }
+      ],
+      "correctChoiceId": "14",
+      "praise": "Great job finding 14."
+    },
+    {
+      "id": "np-15",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 15.",
+      "context": "Park at 15.",
+      "targetWord": "15",
+      "options": [
+        {
+          "id": "15",
+          "label": "15"
+        },
+        {
+          "id": "14",
+          "label": "14"
+        },
+        {
+          "id": "16",
+          "label": "16"
+        }
+      ],
+      "correctChoiceId": "15",
+      "praise": "Great job finding 15."
+    },
+    {
+      "id": "np-16",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 16.",
+      "context": "Park at 16.",
+      "targetWord": "16",
+      "options": [
+        {
+          "id": "16",
+          "label": "16"
+        },
+        {
+          "id": "15",
+          "label": "15"
+        },
+        {
+          "id": "17",
+          "label": "17"
+        }
+      ],
+      "correctChoiceId": "16",
+      "praise": "Great job finding 16."
+    },
+    {
+      "id": "np-17",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 17.",
+      "context": "Park at 17.",
+      "targetWord": "17",
+      "options": [
+        {
+          "id": "17",
+          "label": "17"
+        },
+        {
+          "id": "16",
+          "label": "16"
+        },
+        {
+          "id": "18",
+          "label": "18"
+        }
+      ],
+      "correctChoiceId": "17",
+      "praise": "Great job finding 17."
+    },
+    {
+      "id": "np-18",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 18.",
+      "context": "Park at 18.",
+      "targetWord": "18",
+      "options": [
+        {
+          "id": "18",
+          "label": "18"
+        },
+        {
+          "id": "17",
+          "label": "17"
+        },
+        {
+          "id": "19",
+          "label": "19"
+        }
+      ],
+      "correctChoiceId": "18",
+      "praise": "Great job finding 18."
+    },
+    {
+      "id": "np-19",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 19.",
+      "context": "Park at 19.",
+      "targetWord": "19",
+      "options": [
+        {
+          "id": "19",
+          "label": "19"
+        },
+        {
+          "id": "18",
+          "label": "18"
+        },
+        {
+          "id": "20",
+          "label": "20"
+        }
+      ],
+      "correctChoiceId": "19",
+      "praise": "Great job finding 19."
+    },
+    {
+      "id": "np-20",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 20.",
+      "context": "Park at 20.",
+      "targetWord": "20",
+      "options": [
+        {
+          "id": "20",
+          "label": "20"
+        },
+        {
+          "id": "19",
+          "label": "19"
+        },
+        {
+          "id": "21",
+          "label": "21"
+        }
+      ],
+      "correctChoiceId": "20",
+      "praise": "Great job finding 20."
+    },
+    {
+      "id": "np-21",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 21.",
+      "context": "Park at 21.",
+      "targetWord": "21",
+      "options": [
+        {
+          "id": "21",
+          "label": "21"
+        },
+        {
+          "id": "20",
+          "label": "20"
+        },
+        {
+          "id": "22",
+          "label": "22"
+        }
+      ],
+      "correctChoiceId": "21",
+      "praise": "Great job finding 21."
+    },
+    {
+      "id": "np-22",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 22.",
+      "context": "Park at 22.",
+      "targetWord": "22",
+      "options": [
+        {
+          "id": "22",
+          "label": "22"
+        },
+        {
+          "id": "21",
+          "label": "21"
+        },
+        {
+          "id": "23",
+          "label": "23"
+        }
+      ],
+      "correctChoiceId": "22",
+      "praise": "Great job finding 22."
+    },
+    {
+      "id": "np-23",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 23.",
+      "context": "Park at 23.",
+      "targetWord": "23",
+      "options": [
+        {
+          "id": "23",
+          "label": "23"
+        },
+        {
+          "id": "22",
+          "label": "22"
+        },
+        {
+          "id": "24",
+          "label": "24"
+        }
+      ],
+      "correctChoiceId": "23",
+      "praise": "Great job finding 23."
+    },
+    {
+      "id": "np-24",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 24.",
+      "context": "Park at 24.",
+      "targetWord": "24",
+      "options": [
+        {
+          "id": "24",
+          "label": "24"
+        },
+        {
+          "id": "23",
+          "label": "23"
+        },
+        {
+          "id": "25",
+          "label": "25"
+        }
+      ],
+      "correctChoiceId": "24",
+      "praise": "Great job finding 24."
+    },
+    {
+      "id": "np-25",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 25.",
+      "context": "Park at 25.",
+      "targetWord": "25",
+      "options": [
+        {
+          "id": "25",
+          "label": "25"
+        },
+        {
+          "id": "24",
+          "label": "24"
+        },
+        {
+          "id": "26",
+          "label": "26"
+        }
+      ],
+      "correctChoiceId": "25",
+      "praise": "Great job finding 25."
+    },
+    {
+      "id": "np-26",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 26.",
+      "context": "Park at 26.",
+      "targetWord": "26",
+      "options": [
+        {
+          "id": "26",
+          "label": "26"
+        },
+        {
+          "id": "25",
+          "label": "25"
+        },
+        {
+          "id": "27",
+          "label": "27"
+        }
+      ],
+      "correctChoiceId": "26",
+      "praise": "Great job finding 26."
+    },
+    {
+      "id": "np-27",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 27.",
+      "context": "Park at 27.",
+      "targetWord": "27",
+      "options": [
+        {
+          "id": "27",
+          "label": "27"
+        },
+        {
+          "id": "26",
+          "label": "26"
+        },
+        {
+          "id": "28",
+          "label": "28"
+        }
+      ],
+      "correctChoiceId": "27",
+      "praise": "Great job finding 27."
+    },
+    {
+      "id": "np-28",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 28.",
+      "context": "Park at 28.",
+      "targetWord": "28",
+      "options": [
+        {
+          "id": "28",
+          "label": "28"
+        },
+        {
+          "id": "27",
+          "label": "27"
+        },
+        {
+          "id": "29",
+          "label": "29"
+        }
+      ],
+      "correctChoiceId": "28",
+      "praise": "Great job finding 28."
+    },
+    {
+      "id": "np-29",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 29.",
+      "context": "Park at 29.",
+      "targetWord": "29",
+      "options": [
+        {
+          "id": "29",
+          "label": "29"
+        },
+        {
+          "id": "28",
+          "label": "28"
+        },
+        {
+          "id": "30",
+          "label": "30"
+        }
+      ],
+      "correctChoiceId": "29",
+      "praise": "Great job finding 29."
+    },
+    {
+      "id": "np-30",
+      "mode": "parking-lot",
+      "prompt": "Which number?",
+      "instruction": "Find 30.",
+      "context": "Park at 30.",
+      "targetWord": "30",
+      "options": [
+        {
+          "id": "30",
+          "label": "30"
+        },
+        {
+          "id": "28",
+          "label": "28"
+        },
+        {
+          "id": "29",
+          "label": "29"
+        }
+      ],
+      "correctChoiceId": "30",
+      "praise": "Great job finding 30."
+    }
+  ],
+  "model": {
+    "title": "Parking spaces show numbers",
+    "instruction": "Dots show the number. The small number tells the parking space.",
+    "targetWord": "",
+    "sceneImage": "/assets/generated/current/teaching-number-parking-dots-5.png",
+    "matchingLabel": "",
+    "explanation": "Count the dots, then choose the matching parking space."
+  }
+}
+

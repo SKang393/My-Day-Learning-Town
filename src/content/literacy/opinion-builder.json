@@ -1,0 +1,479 @@
+﻿{
+  "id": "opinion-builder",
+  "title": "Opinion Builder",
+  "category": "literacy",
+  "template": "drag-sequence",
+  "directions": "Drag the cards into the opinion sentence frame.",
+  "environment": "classroom writing table",
+  "rounds": [
+    {
+      "id": "opinion-1",
+      "prompt": "Build the sentence.",
+      "instruction": "Drag the cards to make: I like apples because it is yummy.",
+      "context": "Snack table opinion",
+      "mode": "opinion-builder",
+      "sentence": "I like apples because it is yummy.",
+      "sentenceImage": "/assets/generated/current/sight-apple.png",
+      "slotLabels": [
+        "opinion",
+        "topic",
+        "because",
+        "reason",
+        "end"
+      ],
+      "sentenceParts": [
+        {
+          "id": "i-like",
+          "label": "I like"
+        },
+        {
+          "id": "apples",
+          "label": "apples"
+        },
+        {
+          "id": "because",
+          "label": "because"
+        },
+        {
+          "id": "yummy",
+          "label": "it is yummy"
+        },
+        {
+          "id": "period",
+          "label": "."
+        }
+      ],
+      "correctSequence": [
+        "i-like",
+        "apples",
+        "because",
+        "yummy",
+        "period"
+      ],
+      "praise": "Nice work making your sentence."
+    },
+    {
+      "id": "opinion-2",
+      "prompt": "Build the sentence.",
+      "instruction": "Drag the cards to make: I like recess because I can play.",
+      "context": "Playground opinion",
+      "mode": "opinion-builder",
+      "sentence": "I like recess because I can play.",
+      "sentenceImage": "/assets/generated/current/imagegen-playground-swing.png",
+      "slotLabels": [
+        "opinion",
+        "topic",
+        "because",
+        "reason",
+        "end"
+      ],
+      "sentenceParts": [
+        {
+          "id": "recess",
+          "label": "recess"
+        },
+        {
+          "id": "play",
+          "label": "I can play"
+        },
+        {
+          "id": "period",
+          "label": "."
+        },
+        {
+          "id": "i-like",
+          "label": "I like"
+        },
+        {
+          "id": "because",
+          "label": "because"
+        }
+      ],
+      "correctSequence": [
+        "i-like",
+        "recess",
+        "because",
+        "play",
+        "period"
+      ],
+      "praise": "Great job telling what you like."
+    },
+    {
+      "id": "opinion-3",
+      "prompt": "Build the sentence.",
+      "instruction": "Drag the cards to make: I like swings because it is fun.",
+      "context": "Playground opinion",
+      "mode": "opinion-builder",
+      "sentence": "I like swings because it is fun.",
+      "sentenceImage": "/assets/generated/current/imagegen-playground-swing.png",
+      "slotLabels": [
+        "opinion",
+        "topic",
+        "because",
+        "reason",
+        "end"
+      ],
+      "sentenceParts": [
+        {
+          "id": "fun",
+          "label": "it is fun"
+        },
+        {
+          "id": "i-like",
+          "label": "I like"
+        },
+        {
+          "id": "swings",
+          "label": "swings"
+        },
+        {
+          "id": "period",
+          "label": "."
+        },
+        {
+          "id": "because",
+          "label": "because"
+        }
+      ],
+      "correctSequence": [
+        "i-like",
+        "swings",
+        "because",
+        "fun",
+        "period"
+      ],
+      "praise": "You built an opinion sentence."
+    },
+    {
+      "id": "opinion-4",
+      "prompt": "Build the sentence.",
+      "instruction": "Drag the cards to make: I like pizza because it is yummy.",
+      "context": "Cafeteria opinion",
+      "mode": "opinion-builder",
+      "sentence": "I like pizza because it is yummy.",
+      "sentenceImage": "/assets/generated/current/shares-pizza-2-equal.png",
+      "slotLabels": [
+        "opinion",
+        "topic",
+        "because",
+        "reason",
+        "end"
+      ],
+      "sentenceParts": [
+        {
+          "id": "pizza",
+          "label": "pizza"
+        },
+        {
+          "id": "because",
+          "label": "because"
+        },
+        {
+          "id": "i-like",
+          "label": "I like"
+        },
+        {
+          "id": "yummy",
+          "label": "it is yummy"
+        },
+        {
+          "id": "period",
+          "label": "."
+        }
+      ],
+      "correctSequence": [
+        "i-like",
+        "pizza",
+        "because",
+        "yummy",
+        "period"
+      ],
+      "praise": "Nice work making your sentence."
+    },
+    {
+      "id": "opinion-5",
+      "prompt": "Build the sentence.",
+      "instruction": "Drag the cards to make: I like books because I can read.",
+      "context": "Library opinion",
+      "mode": "opinion-builder",
+      "sentence": "I like books because I can read.",
+      "sentenceImage": "/assets/generated/current/imagegen-measure-book.png",
+      "slotLabels": [
+        "opinion",
+        "topic",
+        "because",
+        "reason",
+        "end"
+      ],
+      "sentenceParts": [
+        {
+          "id": "books",
+          "label": "books"
+        },
+        {
+          "id": "read",
+          "label": "I can read"
+        },
+        {
+          "id": "because",
+          "label": "because"
+        },
+        {
+          "id": "period",
+          "label": "."
+        },
+        {
+          "id": "i-like",
+          "label": "I like"
+        }
+      ],
+      "correctSequence": [
+        "i-like",
+        "books",
+        "because",
+        "read",
+        "period"
+      ],
+      "praise": "Great job telling what you like."
+    },
+    {
+      "id": "opinion-6",
+      "prompt": "Build the sentence.",
+      "instruction": "Drag the cards to make: I like dogs because it is soft.",
+      "context": "Home opinion",
+      "mode": "opinion-builder",
+      "sentence": "I like dogs because it is soft.",
+      "sentenceImage": "/assets/generated/current/cvc-dog.png",
+      "slotLabels": [
+        "opinion",
+        "topic",
+        "because",
+        "reason",
+        "end"
+      ],
+      "sentenceParts": [
+        {
+          "id": "soft",
+          "label": "it is soft"
+        },
+        {
+          "id": "dogs",
+          "label": "dogs"
+        },
+        {
+          "id": "period",
+          "label": "."
+        },
+        {
+          "id": "because",
+          "label": "because"
+        },
+        {
+          "id": "i-like",
+          "label": "I like"
+        }
+      ],
+      "correctSequence": [
+        "i-like",
+        "dogs",
+        "because",
+        "soft",
+        "period"
+      ],
+      "praise": "You built an opinion sentence."
+    },
+    {
+      "id": "opinion-7",
+      "prompt": "Build the sentence.",
+      "instruction": "Drag the cards to make: I like my bag because it is red.",
+      "context": "School opinion",
+      "mode": "opinion-builder",
+      "sentence": "I like my bag because it is red.",
+      "sentenceImage": "/assets/generated/current/imagegen-bag.png",
+      "slotLabels": [
+        "opinion",
+        "topic",
+        "because",
+        "reason",
+        "end"
+      ],
+      "sentenceParts": [
+        {
+          "id": "my-bag",
+          "label": "my bag"
+        },
+        {
+          "id": "red",
+          "label": "it is red"
+        },
+        {
+          "id": "i-like",
+          "label": "I like"
+        },
+        {
+          "id": "because",
+          "label": "because"
+        },
+        {
+          "id": "period",
+          "label": "."
+        }
+      ],
+      "correctSequence": [
+        "i-like",
+        "my-bag",
+        "because",
+        "red",
+        "period"
+      ],
+      "praise": "Nice work making your sentence."
+    },
+    {
+      "id": "opinion-8",
+      "prompt": "Build the sentence.",
+      "instruction": "Drag the cards to make: I do not like naps because I can play.",
+      "context": "Home opinion",
+      "mode": "opinion-builder",
+      "sentence": "I do not like naps because I can play.",
+      "sentenceImage": "/assets/generated/current/cvc-bed.png",
+      "slotLabels": [
+        "opinion",
+        "topic",
+        "because",
+        "reason",
+        "end"
+      ],
+      "sentenceParts": [
+        {
+          "id": "naps",
+          "label": "naps"
+        },
+        {
+          "id": "play",
+          "label": "I can play"
+        },
+        {
+          "id": "i-do-not-like",
+          "label": "I do not like"
+        },
+        {
+          "id": "period",
+          "label": "."
+        },
+        {
+          "id": "because",
+          "label": "because"
+        }
+      ],
+      "correctSequence": [
+        "i-do-not-like",
+        "naps",
+        "because",
+        "play",
+        "period"
+      ],
+      "praise": "Great job telling what you like."
+    },
+    {
+      "id": "opinion-9",
+      "prompt": "Build the sentence.",
+      "instruction": "Drag the cards to make: I like lunch because it is yummy.",
+      "context": "Cafeteria opinion",
+      "mode": "opinion-builder",
+      "sentence": "I like lunch because it is yummy.",
+      "sentenceImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "slotLabels": [
+        "opinion",
+        "topic",
+        "because",
+        "reason",
+        "end"
+      ],
+      "sentenceParts": [
+        {
+          "id": "because",
+          "label": "because"
+        },
+        {
+          "id": "period",
+          "label": "."
+        },
+        {
+          "id": "lunch",
+          "label": "lunch"
+        },
+        {
+          "id": "i-like",
+          "label": "I like"
+        },
+        {
+          "id": "yummy",
+          "label": "it is yummy"
+        }
+      ],
+      "correctSequence": [
+        "i-like",
+        "lunch",
+        "because",
+        "yummy",
+        "period"
+      ],
+      "praise": "You built an opinion sentence."
+    },
+    {
+      "id": "opinion-10",
+      "prompt": "Build the sentence.",
+      "instruction": "Drag the cards to make: I like the park because it is fun.",
+      "context": "Neighborhood opinion",
+      "mode": "opinion-builder",
+      "sentence": "I like the park because it is fun.",
+      "sentenceImage": "/assets/generated/current/imagegen-playground-swing.png",
+      "slotLabels": [
+        "opinion",
+        "topic",
+        "because",
+        "reason",
+        "end"
+      ],
+      "sentenceParts": [
+        {
+          "id": "fun",
+          "label": "it is fun"
+        },
+        {
+          "id": "the-park",
+          "label": "the park"
+        },
+        {
+          "id": "because",
+          "label": "because"
+        },
+        {
+          "id": "i-like",
+          "label": "I like"
+        },
+        {
+          "id": "period",
+          "label": "."
+        }
+      ],
+      "correctSequence": [
+        "i-like",
+        "the-park",
+        "because",
+        "fun",
+        "period"
+      ],
+      "praise": "Nice work making your sentence."
+    }
+  ],
+  "model": {
+    "title": "Make an opinion sentence",
+    "instruction": "Put the opinion parts in order.",
+    "targetWord": "",
+    "sceneImage": "/assets/generated/current/teaching-opinion-builder.png",
+    "matchingLabel": "",
+    "explanation": ""
+  }
+}
+

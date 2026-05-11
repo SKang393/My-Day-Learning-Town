@@ -1,0 +1,289 @@
+﻿{
+  "id": "community-helper-match",
+  "title": "Community Helper Match",
+  "category": "social-studies",
+  "template": "choose-1-of-3",
+  "directions": "Look at the problem. Tap the helper who can help.",
+  "environment": "school and neighborhood",
+  "rounds": [
+    {
+      "id": "hurt-knee",
+      "mode": "community-helper",
+      "prompt": "Who helps with a hurt knee?",
+      "instruction": "Who helps with a hurt knee?",
+      "context": "",
+      "targetImage": "/assets/generated/current/hurt-knee.png",
+      "options": [
+        {
+          "id": "nurse",
+          "label": "nurse",
+          "image": "/assets/generated/current/nurse.png"
+        },
+        {
+          "id": "librarian",
+          "label": "librarian",
+          "image": "/assets/generated/current/librarian.png"
+        },
+        {
+          "id": "mail",
+          "label": "mail carrier",
+          "image": "/assets/generated/current/mail-carrier-choice.png"
+        }
+      ],
+      "correctChoiceId": "nurse",
+      "praise": "Nice work finding the nurse."
+    },
+    {
+      "id": "lost-book",
+      "mode": "community-helper",
+      "prompt": "Who helps with a library book?",
+      "instruction": "Who helps with a library book?",
+      "context": "",
+      "targetImage": "/assets/generated/current/library-reading-scene.png",
+      "options": [
+        {
+          "id": "custodian",
+          "label": "custodian",
+          "image": "/assets/generated/current/imagegen-custodian.png"
+        },
+        {
+          "id": "librarian",
+          "label": "librarian",
+          "image": "/assets/generated/current/librarian.png"
+        },
+        {
+          "id": "driver",
+          "label": "bus driver",
+          "image": "/assets/generated/current/imagegen-bus-driver.png"
+        }
+      ],
+      "correctChoiceId": "librarian",
+      "praise": "Nice work finding the librarian."
+    },
+    {
+      "id": "cross-street",
+      "mode": "community-helper",
+      "prompt": "Who helps students cross the street?",
+      "instruction": "Who helps students cross the street?",
+      "context": "",
+      "targetImage": "/assets/generated/current/street-crossing-situation.png",
+      "options": [
+        {
+          "id": "guard",
+          "label": "crossing guard",
+          "image": "/assets/generated/current/imagegen-crossing-guard.png"
+        },
+        {
+          "id": "nurse",
+          "label": "nurse",
+          "image": "/assets/generated/current/nurse.png"
+        },
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        }
+      ],
+      "correctChoiceId": "guard",
+      "praise": "Nice work finding the crossing guard."
+    },
+    {
+      "id": "trash-playground",
+      "mode": "community-helper",
+      "prompt": "Who helps clean trash on the playground?",
+      "instruction": "Who helps clean trash on the playground?",
+      "context": "",
+      "targetImage": "/assets/generated/current/trash-playground.png",
+      "options": [
+        {
+          "id": "mail",
+          "label": "mail carrier",
+          "image": "/assets/generated/current/mail-carrier-choice.png"
+        },
+        {
+          "id": "custodian",
+          "label": "custodian",
+          "image": "/assets/generated/current/imagegen-custodian.png"
+        },
+        {
+          "id": "librarian",
+          "label": "librarian",
+          "image": "/assets/generated/current/librarian.png"
+        }
+      ],
+      "correctChoiceId": "custodian",
+      "praise": "Nice work finding the custodian."
+    },
+    {
+      "id": "package",
+      "mode": "community-helper",
+      "prompt": "Who brings a package?",
+      "instruction": "Who brings a package?",
+      "context": "",
+      "targetImage": "/assets/generated/current/package-door-scene.png",
+      "options": [
+        {
+          "id": "mail",
+          "label": "mail carrier",
+          "image": "/assets/generated/current/mail-carrier-choice.png"
+        },
+        {
+          "id": "nurse",
+          "label": "nurse",
+          "image": "/assets/generated/current/nurse.png"
+        },
+        {
+          "id": "cashier",
+          "label": "cashier",
+          "image": "/assets/generated/current/cashier-choice.png"
+        }
+      ],
+      "correctChoiceId": "mail",
+      "praise": "Nice work finding the mail carrier."
+    },
+    {
+      "id": "bus",
+      "mode": "community-helper",
+      "prompt": "Who drives the school bus?",
+      "instruction": "Who drives the school bus?",
+      "context": "",
+      "targetImage": "/assets/generated/current/imagegen-bus-driver.png",
+      "options": [
+        {
+          "id": "driver",
+          "label": "bus driver",
+          "image": "/assets/generated/current/imagegen-bus-driver.png"
+        },
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        },
+        {
+          "id": "nurse",
+          "label": "nurse",
+          "image": "/assets/generated/current/nurse.png"
+        }
+      ],
+      "correctChoiceId": "driver",
+      "praise": "Nice work finding the bus driver."
+    },
+    {
+      "id": "class",
+      "mode": "community-helper",
+      "prompt": "Who teaches students?",
+      "instruction": "Who teaches students?",
+      "context": "",
+      "targetImage": "/assets/generated/current/teacher-teaching-scene.png",
+      "options": [
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        },
+        {
+          "id": "cashier",
+          "label": "cashier",
+          "image": "/assets/generated/current/cashier-choice.png"
+        },
+        {
+          "id": "guard",
+          "label": "crossing guard",
+          "image": "/assets/generated/current/imagegen-crossing-guard.png"
+        }
+      ],
+      "correctChoiceId": "teacher",
+      "praise": "Nice work finding the teacher."
+    },
+    {
+      "id": "buy-food",
+      "mode": "community-helper",
+      "prompt": "Who helps at the store register?",
+      "instruction": "Who helps at the store register?",
+      "context": "",
+      "targetImage": "/assets/generated/current/cashier-working-scene.png",
+      "options": [
+        {
+          "id": "cashier",
+          "label": "cashier",
+          "image": "/assets/generated/current/cashier-choice.png"
+        },
+        {
+          "id": "librarian",
+          "label": "librarian",
+          "image": "/assets/generated/current/librarian.png"
+        },
+        {
+          "id": "driver",
+          "label": "bus driver",
+          "image": "/assets/generated/current/imagegen-bus-driver.png"
+        }
+      ],
+      "correctChoiceId": "cashier",
+      "praise": "Nice work finding the cashier."
+    },
+    {
+      "id": "read-help",
+      "mode": "community-helper",
+      "prompt": "Who helps find a book?",
+      "instruction": "Who helps find a book?",
+      "context": "",
+      "targetImage": "/assets/generated/current/library-reading-scene.png",
+      "options": [
+        {
+          "id": "librarian",
+          "label": "librarian",
+          "image": "/assets/generated/current/librarian.png"
+        },
+        {
+          "id": "mail",
+          "label": "mail carrier",
+          "image": "/assets/generated/current/mail-carrier-choice.png"
+        },
+        {
+          "id": "nurse",
+          "label": "nurse",
+          "image": "/assets/generated/current/nurse.png"
+        }
+      ],
+      "correctChoiceId": "librarian",
+      "praise": "Nice work finding the librarian."
+    },
+    {
+      "id": "hurt-again",
+      "mode": "community-helper",
+      "prompt": "Who helps when a student is hurt?",
+      "instruction": "Who helps when a student is hurt?",
+      "context": "",
+      "targetImage": "/assets/generated/current/hurt-knee.png",
+      "options": [
+        {
+          "id": "nurse",
+          "label": "nurse",
+          "image": "/assets/generated/current/nurse.png"
+        },
+        {
+          "id": "teacher",
+          "label": "teacher",
+          "image": "/assets/generated/current/teacher-choice.png"
+        },
+        {
+          "id": "guard",
+          "label": "crossing guard",
+          "image": "/assets/generated/current/imagegen-crossing-guard.png"
+        }
+      ],
+      "correctChoiceId": "nurse",
+      "praise": "Nice work finding the nurse."
+    }
+  ],
+  "model": {
+    "title": "Helpers solve problems",
+    "instruction": "Look at the problem. Choose the helper.",
+    "targetWord": "",
+    "sceneImage": "/assets/generated/current/teaching-community-helper-problem-helper.png",
+    "matchingLabel": "",
+    "explanation": ""
+  }
+}
+

@@ -1,0 +1,274 @@
+﻿{
+  "id": "equal-shares",
+  "title": "Equal Shares",
+  "category": "math",
+  "template": "choose-1-of-3",
+  "directions": "Look at the parts. Tap equal or not equal shares.",
+  "environment": "cafeteria table",
+  "rounds": [
+    {
+      "id": "eq-1",
+      "mode": "equal-shares",
+      "context": "Look carefully at the equal-share picture.",
+      "prompt": "Which picture shows equal shares?",
+      "instruction": "Which picture shows equal shares?",
+      "options": [
+        {
+          "id": "pizza2",
+          "label": "pizza halves",
+          "image": "/assets/generated/current/shares-pizza-2-equal.png"
+        },
+        {
+          "id": "brownie",
+          "label": "unequal brownie",
+          "image": "/assets/generated/current/shares-brownie-1-3-unequal.png"
+        }
+      ],
+      "correctChoiceId": "pizza2",
+      "praise": "Great job finding equal shares."
+    },
+    {
+      "id": "eq-2",
+      "mode": "equal-shares",
+      "context": "Look carefully at the equal-share picture.",
+      "prompt": "Which picture is not equal?",
+      "instruction": "Which picture is not equal?",
+      "options": [
+        {
+          "id": "sandwich",
+          "label": "4 equal parts",
+          "image": "/assets/generated/current/shares-sandwich-4-equal.png"
+        },
+        {
+          "id": "brownie",
+          "label": "1 small and 1 large",
+          "image": "/assets/generated/current/shares-brownie-1-3-unequal.png"
+        }
+      ],
+      "correctChoiceId": "brownie",
+      "praise": "Nice work seeing the parts are different sizes."
+    },
+    {
+      "id": "eq-3",
+      "mode": "equal-shares",
+      "context": "Look carefully at the equal-share picture.",
+      "prompt": "Find 4 equal parts.",
+      "instruction": "Find 4 equal parts.",
+      "options": [
+        {
+          "id": "sandwich",
+          "label": "sandwich fourths",
+          "image": "/assets/generated/current/shares-sandwich-4-equal.png"
+        },
+        {
+          "id": "snack",
+          "label": "unequal snack",
+          "image": "/assets/generated/current/shares-snack-1-1-2-unequal.png"
+        }
+      ],
+      "correctChoiceId": "sandwich",
+      "praise": "You found the picture with equal parts."
+    },
+    {
+      "id": "eq-4",
+      "mode": "equal-shares",
+      "context": "Look carefully at the equal-share picture.",
+      "prompt": "Find 3 unequal parts.",
+      "instruction": "Find 3 unequal parts.",
+      "options": [
+        {
+          "id": "equal3",
+          "label": "3 equal parts",
+          "image": "/assets/generated/current/shares-sandwich-4-equal.png"
+        },
+        {
+          "id": "snack",
+          "label": "1, 1, and 2 parts",
+          "image": "/assets/generated/current/shares-snack-1-1-2-unequal.png"
+        }
+      ],
+      "correctChoiceId": "snack",
+      "praise": "Nice work finding not equal shares."
+    },
+    {
+      "id": "eq-5",
+      "mode": "equal-shares",
+      "context": "Look carefully at the equal-share picture.",
+      "prompt": "Which pizza has 2 equal halves?",
+      "instruction": "Which pizza has 2 equal halves?",
+      "options": [
+        {
+          "id": "pizza2",
+          "label": "2 equal halves",
+          "image": "/assets/generated/current/shares-pizza-2-equal.png"
+        },
+        {
+          "id": "pizza3",
+          "label": "unequal pizza",
+          "image": "/assets/generated/current/shares-snack-1-1-2-unequal.png"
+        }
+      ],
+      "correctChoiceId": "pizza2",
+      "praise": "Great job finding equal halves."
+    },
+    {
+      "id": "eq-6",
+      "mode": "equal-shares",
+      "context": "Look carefully at the equal-share picture.",
+      "prompt": "Which brownie is not equal?",
+      "instruction": "Which brownie is not equal?",
+      "options": [
+        {
+          "id": "brownieGood",
+          "label": "2 equal parts",
+          "image": "/assets/generated/current/shares-pizza-2-equal.png"
+        },
+        {
+          "id": "brownieBad",
+          "label": "1 to 3 parts",
+          "image": "/assets/generated/current/shares-brownie-1-3-unequal.png"
+        }
+      ],
+      "correctChoiceId": "brownieBad",
+      "praise": "Nice work seeing the different sizes."
+    },
+    {
+      "id": "eq-7",
+      "mode": "equal-shares",
+      "context": "Look carefully at the equal-share picture.",
+      "prompt": "Which one shows equal shares?",
+      "instruction": "Which one shows equal shares?",
+      "options": [
+        {
+          "id": "pizza4",
+          "label": "4 equal slices",
+          "image": "/assets/generated/current/shares-sandwich-4-equal.png"
+        },
+        {
+          "id": "pizzaBad",
+          "label": "unequal slices",
+          "image": "/assets/generated/current/shares-snack-1-1-2-unequal.png"
+        }
+      ],
+      "correctChoiceId": "pizza4",
+      "praise": "You found the picture with equal parts."
+    },
+    {
+      "id": "eq-8",
+      "mode": "equal-shares",
+      "context": "Look carefully at the equal-share picture.",
+      "prompt": "Which one is not equal?",
+      "instruction": "Which one is not equal?",
+      "options": [
+        {
+          "id": "snackGood",
+          "label": "3 equal parts",
+          "image": "/assets/generated/current/shares-sandwich-4-equal.png"
+        },
+        {
+          "id": "snackBad",
+          "label": "not equal parts",
+          "image": "/assets/generated/current/shares-snack-1-1-2-unequal.png"
+        }
+      ],
+      "correctChoiceId": "snackBad",
+      "praise": "Great job finding not equal shares."
+    },
+    {
+      "id": "eq-9",
+      "mode": "equal-shares",
+      "context": "Look carefully at the equal-share picture.",
+      "prompt": "Find equal fourths.",
+      "instruction": "Find equal fourths.",
+      "options": [
+        {
+          "id": "sandwich",
+          "label": "4 equal parts",
+          "image": "/assets/generated/current/shares-sandwich-4-equal.png"
+        },
+        {
+          "id": "brownie",
+          "label": "1 small and 1 large",
+          "image": "/assets/generated/current/shares-brownie-1-3-unequal.png"
+        }
+      ],
+      "correctChoiceId": "sandwich",
+      "praise": "Nice work finding equal fourths."
+    },
+    {
+      "id": "eq-10",
+      "mode": "equal-shares",
+      "context": "Look carefully at the equal-share picture.",
+      "prompt": "Find not equal shares.",
+      "instruction": "Find not equal shares.",
+      "options": [
+        {
+          "id": "pizza2",
+          "label": "2 equal halves",
+          "image": "/assets/generated/current/shares-pizza-2-equal.png"
+        },
+        {
+          "id": "pizzaBad",
+          "label": "not equal slices",
+          "image": "/assets/generated/current/shares-snack-1-1-2-unequal.png"
+        }
+      ],
+      "correctChoiceId": "pizzaBad",
+      "praise": "You found not equal shares."
+    },
+    {
+      "id": "eq-11",
+      "mode": "equal-shares",
+      "context": "Look carefully at the equal-share picture.",
+      "prompt": "Which picture is split fairly?",
+      "instruction": "Which picture is split fairly?",
+      "options": [
+        {
+          "id": "equal3",
+          "label": "3 equal parts",
+          "image": "/assets/generated/current/shares-sandwich-4-equal.png"
+        },
+        {
+          "id": "bad3",
+          "label": "1, 1, and 2 parts",
+          "image": "/assets/generated/current/shares-snack-1-1-2-unequal.png"
+        }
+      ],
+      "correctChoiceId": "equal3",
+      "praise": "Great job finding equal shares."
+    },
+    {
+      "id": "eq-12",
+      "mode": "equal-shares",
+      "context": "Look carefully at the equal-share picture.",
+      "prompt": "Which picture is not split fairly?",
+      "instruction": "Which picture is not split fairly?",
+      "options": [
+        {
+          "id": "good",
+          "label": "2 equal brownie parts",
+          "image": "/assets/generated/current/shares-pizza-2-equal.png"
+        },
+        {
+          "id": "bad",
+          "label": "1 small and 1 large",
+          "image": "/assets/generated/current/shares-brownie-1-3-unequal.png"
+        }
+      ],
+      "correctChoiceId": "bad",
+      "praise": "Nice work seeing not equal parts."
+    }
+  ],
+  "model": {
+    "title": "Equal shares",
+    "instruction": "Equal shares are the same size. Not equal shares are different sizes.",
+    "targetWord": "same size",
+    "targetImage": "/assets/generated/current/shares-pizza-2-equal.png",
+    "matchingImage": "/assets/generated/current/shares-brownie-1-3-unequal.png",
+    "matchingLabel": "different size",
+    "arrowLabel": "compare",
+    "explanation": "Look at the parts. Choose the picture that matches the question.",
+    "sceneImage": "/assets/generated/current/teaching-equal-shares.png"
+  }
+}
+

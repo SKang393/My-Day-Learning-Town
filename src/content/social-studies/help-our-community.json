@@ -1,0 +1,288 @@
+{
+    "id":  "help-our-community",
+    "title":  "Help Our Community",
+    "category":  "social-studies",
+    "template":  "choose-1-of-3",
+    "directions":  "Look at the situation. Tap the action that helps.",
+    "environment":  "school and neighborhood",
+    "rounds":  [
+                   {
+                       "id":  "trash",
+                       "mode":  "help-community",
+                       "prompt":  "What helps the playground?",
+                       "instruction":  "What helps the playground?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/trash-playground.png",
+                       "options":  [
+                                       {
+                                           "id":  "trash",
+                                           "label":  "pick up trash",
+                                           "image":  "/assets/generated/current/pick-up-trash.png"
+                                       },
+                                       {
+                                           "id":  "candy",
+                                           "label":  "eat candy",
+                                           "image":  "/assets/generated/current/eat-candy.png"
+                                       },
+                                       {
+                                           "id":  "game",
+                                           "label":  "play game",
+                                           "image":  "/assets/generated/current/play-puzzle.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "trash",
+                       "praise":  "Nice work helping the playground."
+                   },
+                   {
+                       "id":  "line",
+                       "mode":  "help-community",
+                       "prompt":  "What helps in line?",
+                       "instruction":  "What helps in line?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/students-line.png",
+                       "options":  [
+                                       {
+                                           "id":  "kick",
+                                           "label":  "kick ball",
+                                           "image":  "/assets/generated/current/kick-ball.png"
+                                       },
+                                       {
+                                           "id":  "wait",
+                                           "label":  "wait turn",
+                                           "image":  "/assets/generated/current/wait-turn-cue.png"
+                                       },
+                                       {
+                                           "id":  "tv",
+                                           "label":  "watch TV",
+                                           "image":  "/assets/generated/current/watch-tv.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "wait",
+                       "praise":  "Nice work waiting your turn."
+                   },
+                   {
+                       "id":  "library",
+                       "mode":  "help-community",
+                       "prompt":  "What helps the library?",
+                       "instruction":  "What helps the library?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/library-reading-scene.png",
+                       "options":  [
+                                       {
+                                           "id":  "book",
+                                           "label":  "return book",
+                                           "image":  "/assets/generated/current/imagegen-measure-book.png"
+                                       },
+                                       {
+                                           "id":  "candy",
+                                           "label":  "eat candy",
+                                           "image":  "/assets/generated/current/eat-candy.png"
+                                       },
+                                       {
+                                           "id":  "bus",
+                                           "label":  "ride bus",
+                                           "image":  "/assets/generated/current/imagegen-school-bus.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "book",
+                       "praise":  "Nice work helping the library."
+                   },
+                   {
+                       "id":  "classmate",
+                       "mode":  "help-community",
+                       "prompt":  "What helps a classmate?",
+                       "instruction":  "What helps a classmate?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/classmate-needs-help.png",
+                       "options":  [
+                                       {
+                                           "id":  "help",
+                                           "label":  "help classmate",
+                                           "image":  "/assets/generated/current/classmate-help.png"
+                                       },
+                                       {
+                                           "id":  "game",
+                                           "label":  "play game",
+                                           "image":  "/assets/generated/current/play-puzzle.png"
+                                       },
+                                       {
+                                           "id":  "package",
+                                           "label":  "open package",
+                                           "image":  "/assets/generated/current/package-door-scene.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "help",
+                       "praise":  "Nice work helping a classmate."
+                   },
+                   {
+                       "id":  "crosswalk",
+                       "mode":  "help-community",
+                       "prompt":  "What helps at the street?",
+                       "instruction":  "What helps at the street?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/street-crossing-situation.png",
+                       "options":  [
+                                       {
+                                           "id":  "crosswalk",
+                                           "label":  "use crosswalk",
+                                           "image":  "/assets/generated/current/street-crossing-situation.png"
+                                       },
+                                       {
+                                           "id":  "chase",
+                                           "label":  "chase ball",
+                                           "image":  "/assets/generated/current/chase-ball.png"
+                                       },
+                                       {
+                                           "id":  "candy",
+                                           "label":  "hold candy",
+                                           "image":  "/assets/generated/current/hold-candy.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "crosswalk",
+                       "praise":  "Nice work using the crosswalk."
+                   },
+                   {
+                       "id":  "floor-trash",
+                       "mode":  "help-community",
+                       "prompt":  "What helps when trash is on the floor?",
+                       "instruction":  "What helps when trash is on the floor?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-help-community-trash-floor.png",
+                       "options":  [
+                                       {
+                                           "id":  "trash",
+                                           "label":  "pick up trash",
+                                           "image":  "/assets/generated/current/pick-up-trash.png"
+                                       },
+                                       {
+                                           "id":  "tv",
+                                           "label":  "watch TV",
+                                           "image":  "/assets/generated/current/watch-tv.png"
+                                       },
+                                       {
+                                           "id":  "candy",
+                                           "label":  "eat candy",
+                                           "image":  "/assets/generated/current/eat-candy.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "trash",
+                       "praise":  "Nice work picking up trash."
+                   },
+                   {
+                       "id":  "turn-toy",
+                       "mode":  "help-community",
+                       "prompt":  "What helps when a friend has the toy?",
+                       "instruction":  "What helps when a friend has the toy?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/toy-turn-scene.png",
+                       "options":  [
+                                       {
+                                           "id":  "wait",
+                                           "label":  "wait turn",
+                                           "image":  "/assets/generated/current/wait-turn-cue.png"
+                                       },
+                                       {
+                                           "id":  "kick",
+                                           "label":  "kick ball",
+                                           "image":  "/assets/generated/current/kick-ball.png"
+                                       },
+                                       {
+                                           "id":  "candy",
+                                           "label":  "hold candy",
+                                           "image":  "/assets/generated/current/hold-candy.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "wait",
+                       "praise":  "Nice work waiting your turn."
+                   },
+                   {
+                       "id":  "desk-help",
+                       "mode":  "help-community",
+                       "prompt":  "What helps at desks?",
+                       "instruction":  "What helps at desks?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/classmate-needs-help.png",
+                       "options":  [
+                                       {
+                                           "id":  "help",
+                                           "label":  "help classmate",
+                                           "image":  "/assets/generated/current/classmate-help.png"
+                                       },
+                                       {
+                                           "id":  "game",
+                                           "label":  "play puzzle",
+                                           "image":  "/assets/generated/current/play-puzzle.png"
+                                       },
+                                       {
+                                           "id":  "tv",
+                                           "label":  "watch TV",
+                                           "image":  "/assets/generated/current/watch-tv.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "help",
+                       "praise":  "Nice work helping at desks."
+                   },
+                   {
+                       "id":  "street-ball",
+                       "mode":  "help-community",
+                       "prompt":  "What helps when a ball rolls near the street?",
+                       "instruction":  "What helps when a ball rolls near the street?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/street-crossing-situation.png",
+                       "options":  [
+                                       {
+                                           "id":  "crosswalk",
+                                           "label":  "use crosswalk",
+                                           "image":  "/assets/generated/current/street-crossing-situation.png"
+                                       },
+                                       {
+                                           "id":  "chase",
+                                           "label":  "chase ball",
+                                           "image":  "/assets/generated/current/chase-ball.png"
+                                       },
+                                       {
+                                           "id":  "candy",
+                                           "label":  "hold candy",
+                                           "image":  "/assets/generated/current/hold-candy.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "crosswalk",
+                       "praise":  "Nice work choosing the safe action."
+                   },
+                   {
+                       "id":  "hall-line",
+                       "mode":  "help-community",
+                       "prompt":  "What helps in the hallway?",
+                       "instruction":  "What helps in the hallway?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/hallway-situation.png",
+                       "options":  [
+                                       {
+                                           "id":  "line",
+                                           "label":  "stay in line",
+                                           "image":  "/assets/generated/current/students-line.png"
+                                       },
+                                       {
+                                           "id":  "kick",
+                                           "label":  "kick ball",
+                                           "image":  "/assets/generated/current/kick-ball.png"
+                                       },
+                                       {
+                                           "id":  "tv",
+                                           "label":  "watch TV",
+                                           "image":  "/assets/generated/current/watch-tv.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "line",
+                       "praise":  "Nice work staying in line."
+                   }
+               ],
+    "model":  {
+                  "title":  "Helpful actions",
+                  "instruction":  "Look at the problem. Choose a helpful action.",
+                  "targetWord":  "",
+                  "sceneImage":  "/assets/generated/current/teaching-help-community-action.png",
+                  "matchingLabel":  "",
+                  "explanation":  ""
+              }
+}

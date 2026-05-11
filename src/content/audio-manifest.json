@@ -1,0 +1,4427 @@
+{
+  "voice": "af_heart",
+  "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+  "generatedAt": "2026-05-07T04:07:53.911Z",
+  "items": [
+    {
+      "id": "line-0ab8318acaf6",
+      "text": "!",
+      "path": "/assets/audio/kokoro/line-0ab8318acaf6.wav"
+    },
+    {
+      "id": "line-5bab61eb5317",
+      "text": "?",
+      "path": "/assets/audio/kokoro/line-5bab61eb5317.wav"
+    },
+    {
+      "id": "line-3a52ce780950",
+      "text": ".",
+      "path": "/assets/audio/kokoro/line-3a52ce780950.wav"
+    },
+    {
+      "id": "line-356a192b7913",
+      "text": "1",
+      "path": "/assets/audio/kokoro/line-356a192b7913.wav"
+    },
+    {
+      "id": "line-d5b1d1c2e44b",
+      "text": "1 small and 1 large",
+      "path": "/assets/audio/kokoro/line-d5b1d1c2e44b.wav"
+    },
+    {
+      "id": "line-683345839ca4",
+      "text": "1 to 3 parts",
+      "path": "/assets/audio/kokoro/line-683345839ca4.wav"
+    },
+    {
+      "id": "line-cba860656c6f",
+      "text": "1, 1, and 2 parts",
+      "path": "/assets/audio/kokoro/line-cba860656c6f.wav"
+    },
+    {
+      "id": "line-b1d5781111d8",
+      "text": "10",
+      "path": "/assets/audio/kokoro/line-b1d5781111d8.wav"
+    },
+    {
+      "id": "line-17ba0791499d",
+      "text": "11",
+      "path": "/assets/audio/kokoro/line-17ba0791499d.wav"
+    },
+    {
+      "id": "line-7b52009b64fd",
+      "text": "12",
+      "path": "/assets/audio/kokoro/line-7b52009b64fd.wav"
+    },
+    {
+      "id": "line-bd307a3ec329",
+      "text": "13",
+      "path": "/assets/audio/kokoro/line-bd307a3ec329.wav"
+    },
+    {
+      "id": "line-fa35e192121e",
+      "text": "14",
+      "path": "/assets/audio/kokoro/line-fa35e192121e.wav"
+    },
+    {
+      "id": "line-f1abd670358e",
+      "text": "15",
+      "path": "/assets/audio/kokoro/line-f1abd670358e.wav"
+    },
+    {
+      "id": "line-1574bddb75c7",
+      "text": "16",
+      "path": "/assets/audio/kokoro/line-1574bddb75c7.wav"
+    },
+    {
+      "id": "line-0716d9708d32",
+      "text": "17",
+      "path": "/assets/audio/kokoro/line-0716d9708d32.wav"
+    },
+    {
+      "id": "line-9e6a55b6b456",
+      "text": "18",
+      "path": "/assets/audio/kokoro/line-9e6a55b6b456.wav"
+    },
+    {
+      "id": "line-b3f0c7f6bb76",
+      "text": "19",
+      "path": "/assets/audio/kokoro/line-b3f0c7f6bb76.wav"
+    },
+    {
+      "id": "line-da4b9237bacc",
+      "text": "2",
+      "path": "/assets/audio/kokoro/line-da4b9237bacc.wav"
+    },
+    {
+      "id": "line-4b2c465a59fb",
+      "text": "2 cubes",
+      "path": "/assets/audio/kokoro/line-4b2c465a59fb.wav"
+    },
+    {
+      "id": "line-b486fbc68424",
+      "text": "2 equal brownie parts",
+      "path": "/assets/audio/kokoro/line-b486fbc68424.wav"
+    },
+    {
+      "id": "line-fc4072ceab70",
+      "text": "2 equal halves",
+      "path": "/assets/audio/kokoro/line-fc4072ceab70.wav"
+    },
+    {
+      "id": "line-1ed098205ece",
+      "text": "2 equal parts",
+      "path": "/assets/audio/kokoro/line-1ed098205ece.wav"
+    },
+    {
+      "id": "line-91032ad7bbcb",
+      "text": "20",
+      "path": "/assets/audio/kokoro/line-91032ad7bbcb.wav"
+    },
+    {
+      "id": "line-472b07b9fcf2",
+      "text": "21",
+      "path": "/assets/audio/kokoro/line-472b07b9fcf2.wav"
+    },
+    {
+      "id": "line-12c6fc06c99a",
+      "text": "22",
+      "path": "/assets/audio/kokoro/line-12c6fc06c99a.wav"
+    },
+    {
+      "id": "line-d435a6cdd786",
+      "text": "23",
+      "path": "/assets/audio/kokoro/line-d435a6cdd786.wav"
+    },
+    {
+      "id": "line-4d134bc07221",
+      "text": "24",
+      "path": "/assets/audio/kokoro/line-4d134bc07221.wav"
+    },
+    {
+      "id": "line-f6e1126cedeb",
+      "text": "25",
+      "path": "/assets/audio/kokoro/line-f6e1126cedeb.wav"
+    },
+    {
+      "id": "line-887309d048be",
+      "text": "26",
+      "path": "/assets/audio/kokoro/line-887309d048be.wav"
+    },
+    {
+      "id": "line-bc33ea4e26e5",
+      "text": "27",
+      "path": "/assets/audio/kokoro/line-bc33ea4e26e5.wav"
+    },
+    {
+      "id": "line-0a57cb53ba59",
+      "text": "28",
+      "path": "/assets/audio/kokoro/line-0a57cb53ba59.wav"
+    },
+    {
+      "id": "line-7719a1c782a1",
+      "text": "29",
+      "path": "/assets/audio/kokoro/line-7719a1c782a1.wav"
+    },
+    {
+      "id": "line-77de68daecd8",
+      "text": "3",
+      "path": "/assets/audio/kokoro/line-77de68daecd8.wav"
+    },
+    {
+      "id": "line-6e2bb4409bf0",
+      "text": "3 crayons",
+      "path": "/assets/audio/kokoro/line-6e2bb4409bf0.wav"
+    },
+    {
+      "id": "line-5cdf989a4b20",
+      "text": "3 cubes",
+      "path": "/assets/audio/kokoro/line-5cdf989a4b20.wav"
+    },
+    {
+      "id": "line-a92bba10b4e3",
+      "text": "3 equal parts",
+      "path": "/assets/audio/kokoro/line-a92bba10b4e3.wav"
+    },
+    {
+      "id": "line-c98d76d2e885",
+      "text": "3 paper clips",
+      "path": "/assets/audio/kokoro/line-c98d76d2e885.wav"
+    },
+    {
+      "id": "line-22d200f8670d",
+      "text": "30",
+      "path": "/assets/audio/kokoro/line-22d200f8670d.wav"
+    },
+    {
+      "id": "line-1b6453892473",
+      "text": "4",
+      "path": "/assets/audio/kokoro/line-1b6453892473.wav"
+    },
+    {
+      "id": "line-74441e50685f",
+      "text": "4 crayons",
+      "path": "/assets/audio/kokoro/line-74441e50685f.wav"
+    },
+    {
+      "id": "line-c1b5767dafc6",
+      "text": "4 cubes",
+      "path": "/assets/audio/kokoro/line-c1b5767dafc6.wav"
+    },
+    {
+      "id": "line-c093f1343ef5",
+      "text": "4 equal parts",
+      "path": "/assets/audio/kokoro/line-c093f1343ef5.wav"
+    },
+    {
+      "id": "line-97f3535b05ca",
+      "text": "4 equal slices",
+      "path": "/assets/audio/kokoro/line-97f3535b05ca.wav"
+    },
+    {
+      "id": "line-e976494bd18f",
+      "text": "4 paper clips",
+      "path": "/assets/audio/kokoro/line-e976494bd18f.wav"
+    },
+    {
+      "id": "line-ac3478d69a3c",
+      "text": "5",
+      "path": "/assets/audio/kokoro/line-ac3478d69a3c.wav"
+    },
+    {
+      "id": "line-2428348f0abd",
+      "text": "5 crayons",
+      "path": "/assets/audio/kokoro/line-2428348f0abd.wav"
+    },
+    {
+      "id": "line-dbb9e439714f",
+      "text": "5 cubes",
+      "path": "/assets/audio/kokoro/line-dbb9e439714f.wav"
+    },
+    {
+      "id": "line-699c8b6bf956",
+      "text": "5 paper clips",
+      "path": "/assets/audio/kokoro/line-699c8b6bf956.wav"
+    },
+    {
+      "id": "line-c1dfd96eea8c",
+      "text": "6",
+      "path": "/assets/audio/kokoro/line-c1dfd96eea8c.wav"
+    },
+    {
+      "id": "line-1257309b32e5",
+      "text": "6 cubes",
+      "path": "/assets/audio/kokoro/line-1257309b32e5.wav"
+    },
+    {
+      "id": "line-204c2a94d33d",
+      "text": "6 paper clips",
+      "path": "/assets/audio/kokoro/line-204c2a94d33d.wav"
+    },
+    {
+      "id": "line-902ba3cda188",
+      "text": "7",
+      "path": "/assets/audio/kokoro/line-902ba3cda188.wav"
+    },
+    {
+      "id": "line-d6d7a6dcbc62",
+      "text": "7 cubes",
+      "path": "/assets/audio/kokoro/line-d6d7a6dcbc62.wav"
+    },
+    {
+      "id": "line-0bbf3634ac39",
+      "text": "7 paper clips",
+      "path": "/assets/audio/kokoro/line-0bbf3634ac39.wav"
+    },
+    {
+      "id": "line-fe5dbbcea5ce",
+      "text": "8",
+      "path": "/assets/audio/kokoro/line-fe5dbbcea5ce.wav"
+    },
+    {
+      "id": "line-f73e78d11186",
+      "text": "8 cubes",
+      "path": "/assets/audio/kokoro/line-f73e78d11186.wav"
+    },
+    {
+      "id": "line-471f73596791",
+      "text": "8 paper clips",
+      "path": "/assets/audio/kokoro/line-471f73596791.wav"
+    },
+    {
+      "id": "line-0ade7c2cf97f",
+      "text": "9",
+      "path": "/assets/audio/kokoro/line-0ade7c2cf97f.wav"
+    },
+    {
+      "id": "line-e0685a1143b6",
+      "text": "9 paper clips",
+      "path": "/assets/audio/kokoro/line-e0685a1143b6.wav"
+    },
+    {
+      "id": "line-86f7e437faa5",
+      "text": "a",
+      "path": "/assets/audio/kokoro/line-86f7e437faa5.wav"
+    },
+    {
+      "id": "line-2fe275861173",
+      "text": "A flat shape is like a drawing. A solid shape is like an object you can hold.",
+      "path": "/assets/audio/kokoro/line-2fe275861173.wav"
+    },
+    {
+      "id": "line-f5d193d9beee",
+      "text": "acorn",
+      "path": "/assets/audio/kokoro/line-f5d193d9beee.wav"
+    },
+    {
+      "id": "line-7c06925b8867",
+      "text": "Add objects to the basket.",
+      "path": "/assets/audio/kokoro/line-7c06925b8867.wav"
+    },
+    {
+      "id": "line-6a9b2bc15cd8",
+      "text": "alligator",
+      "path": "/assets/audio/kokoro/line-6a9b2bc15cd8.wav"
+    },
+    {
+      "id": "line-2d2170bc2c67",
+      "text": "Ari helps a student with a hurt knee.",
+      "path": "/assets/audio/kokoro/line-2d2170bc2c67.wav"
+    },
+    {
+      "id": "line-310e81c292b8",
+      "text": "Audio is on.",
+      "path": "/assets/audio/kokoro/line-310e81c292b8.wav"
+    },
+    {
+      "id": "line-703f2781df60",
+      "text": "Awesome job fixing the sentence.",
+      "path": "/assets/audio/kokoro/line-703f2781df60.wav"
+    },
+    {
+      "id": "line-b5d2d71da01a",
+      "text": "Awesome job fixing the sentence. I see a bus.",
+      "path": "/assets/audio/kokoro/line-b5d2d71da01a.wav"
+    },
+    {
+      "id": "line-296a33f0188c",
+      "text": "Awesome job fixing the sentence. I see a cup.",
+      "path": "/assets/audio/kokoro/line-296a33f0188c.wav"
+    },
+    {
+      "id": "line-4d5ce442c992",
+      "text": "Awesome job fixing the sentence. My bag is red.",
+      "path": "/assets/audio/kokoro/line-4d5ce442c992.wav"
+    },
+    {
+      "id": "line-90c3ee8ad057",
+      "text": "Awesome job fixing the sentence. The sun is up.",
+      "path": "/assets/audio/kokoro/line-90c3ee8ad057.wav"
+    },
+    {
+      "id": "line-9b6ae6957c00",
+      "text": "Awesome job putting the story in order.",
+      "path": "/assets/audio/kokoro/line-9b6ae6957c00.wav"
+    },
+    {
+      "id": "line-9f2612344d6a",
+      "text": "Awesome job putting the story in order. I choose a book. I read the book. I put the book away.",
+      "path": "/assets/audio/kokoro/line-9f2612344d6a.wav"
+    },
+    {
+      "id": "line-3b585201b70b",
+      "text": "Awesome job putting the story in order. I get a cup. I pour water. I drink water.",
+      "path": "/assets/audio/kokoro/line-3b585201b70b.wav"
+    },
+    {
+      "id": "line-8780a4f979d8",
+      "text": "Awesome job putting the story in order. I wait at the bus stop. The bus comes. I ride to school.",
+      "path": "/assets/audio/kokoro/line-8780a4f979d8.wav"
+    },
+    {
+      "id": "line-c96690269e24",
+      "text": "Awesome job putting the story in order. We go to the park. We play on swings. We go home.",
+      "path": "/assets/audio/kokoro/line-c96690269e24.wav"
+    },
+    {
+      "id": "line-9b4e473e4de7",
+      "text": "bag",
+      "path": "/assets/audio/kokoro/line-9b4e473e4de7.wav"
+    },
+    {
+      "id": "line-b4117155f0d7",
+      "text": "bag. /b/, /ae/, /g/. bag.",
+      "path": "/assets/audio/kokoro/line-b4117155f0d7.wav"
+    },
+    {
+      "id": "line-8bec0406497c",
+      "text": "ball",
+      "path": "/assets/audio/kokoro/line-8bec0406497c.wav"
+    },
+    {
+      "id": "line-72bfb05496f9",
+      "text": "bathroom",
+      "path": "/assets/audio/kokoro/line-72bfb05496f9.wav"
+    },
+    {
+      "id": "line-fefe2393a7fc",
+      "text": "bed",
+      "path": "/assets/audio/kokoro/line-fefe2393a7fc.wav"
+    },
+    {
+      "id": "line-a9863f42939c",
+      "text": "bed. /b/, /e/, /d/. bed.",
+      "path": "/assets/audio/kokoro/line-a9863f42939c.wav"
+    },
+    {
+      "id": "line-392dba7e5b1f",
+      "text": "Ben helps children cross the street.",
+      "path": "/assets/audio/kokoro/line-392dba7e5b1f.wav"
+    },
+    {
+      "id": "line-e7e694c58cd5",
+      "text": "book",
+      "path": "/assets/audio/kokoro/line-e7e694c58cd5.wav"
+    },
+    {
+      "id": "line-066c33c48bf0",
+      "text": "Book costs 6 dollars. Have 3 dollars.",
+      "path": "/assets/audio/kokoro/line-066c33c48bf0.wav"
+    },
+    {
+      "id": "line-a70fb54d94e1",
+      "text": "Book costs 6 dollars. Have 7 dollars.",
+      "path": "/assets/audio/kokoro/line-a70fb54d94e1.wav"
+    },
+    {
+      "id": "line-32c70cebf110",
+      "text": "bus",
+      "path": "/assets/audio/kokoro/line-32c70cebf110.wav"
+    },
+    {
+      "id": "line-eebfb8045a2e",
+      "text": "bus area",
+      "path": "/assets/audio/kokoro/line-eebfb8045a2e.wav"
+    },
+    {
+      "id": "line-580d4b5e427c",
+      "text": "bus driver",
+      "path": "/assets/audio/kokoro/line-580d4b5e427c.wav"
+    },
+    {
+      "id": "line-0d4d439978b4",
+      "text": "Bus starts with b. Bag starts with b. They have the same first sound.",
+      "path": "/assets/audio/kokoro/line-0d4d439978b4.wav"
+    },
+    {
+      "id": "line-ba856797a6ed",
+      "text": "butterfly",
+      "path": "/assets/audio/kokoro/line-ba856797a6ed.wav"
+    },
+    {
+      "id": "line-472d5d2845d7",
+      "text": "buy now",
+      "path": "/assets/audio/kokoro/line-472d5d2845d7.wav"
+    },
+    {
+      "id": "line-ea5f49b8ac10",
+      "text": "c-a-t makes cat.",
+      "path": "/assets/audio/kokoro/line-ea5f49b8ac10.wav"
+    },
+    {
+      "id": "line-90e0948a756a",
+      "text": "cafeteria",
+      "path": "/assets/audio/kokoro/line-90e0948a756a.wav"
+    },
+    {
+      "id": "line-5ddc2ae17d5b",
+      "text": "cake",
+      "path": "/assets/audio/kokoro/line-5ddc2ae17d5b.wav"
+    },
+    {
+      "id": "line-186f4267b48e",
+      "text": "Can I have a cup?",
+      "path": "/assets/audio/kokoro/line-186f4267b48e.wav"
+    },
+    {
+      "id": "line-7eb684dff706",
+      "text": "cape",
+      "path": "/assets/audio/kokoro/line-7eb684dff706.wav"
+    },
+    {
+      "id": "line-9e32521dd2f8",
+      "text": "car",
+      "path": "/assets/audio/kokoro/line-9e32521dd2f8.wav"
+    },
+    {
+      "id": "line-d97141451a3b",
+      "text": "Carlos drives students to school.",
+      "path": "/assets/audio/kokoro/line-d97141451a3b.wav"
+    },
+    {
+      "id": "line-a5b42198e3fb",
+      "text": "cashier",
+      "path": "/assets/audio/kokoro/line-a5b42198e3fb.wav"
+    },
+    {
+      "id": "line-9d989e8d27dc",
+      "text": "cat",
+      "path": "/assets/audio/kokoro/line-9d989e8d27dc.wav"
+    },
+    {
+      "id": "line-1b8b66a67a08",
+      "text": "Cat ends with at. Put each picture in the house with the same ending.",
+      "path": "/assets/audio/kokoro/line-1b8b66a67a08.wav"
+    },
+    {
+      "id": "line-cc0ec3c2d5c7",
+      "text": "cat. /k/, /ae/, /t/. cat.",
+      "path": "/assets/audio/kokoro/line-cc0ec3c2d5c7.wav"
+    },
+    {
+      "id": "line-efc45d11ef95",
+      "text": "Cat. c-a-t. /k/ /ae/ /t/.",
+      "path": "/assets/audio/kokoro/line-efc45d11ef95.wav"
+    },
+    {
+      "id": "line-14d842ef860c",
+      "text": "chase ball",
+      "path": "/assets/audio/kokoro/line-14d842ef860c.wav"
+    },
+    {
+      "id": "line-2ec15230b83f",
+      "text": "Choose a learning area",
+      "path": "/assets/audio/kokoro/line-2ec15230b83f.wav"
+    },
+    {
+      "id": "line-09b274f5e68a",
+      "text": "Choose a Literacy game.",
+      "path": "/assets/audio/kokoro/line-09b274f5e68a.wav"
+    },
+    {
+      "id": "line-74faf1cd6ae3",
+      "text": "Choose a Math game.",
+      "path": "/assets/audio/kokoro/line-74faf1cd6ae3.wav"
+    },
+    {
+      "id": "line-dec588749583",
+      "text": "Choose a Science game.",
+      "path": "/assets/audio/kokoro/line-dec588749583.wav"
+    },
+    {
+      "id": "line-9609f46ed807",
+      "text": "Choose a Social Studies game.",
+      "path": "/assets/audio/kokoro/line-9609f46ed807.wav"
+    },
+    {
+      "id": "line-00b7b8118efd",
+      "text": "circle",
+      "path": "/assets/audio/kokoro/line-00b7b8118efd.wav"
+    },
+    {
+      "id": "line-be45c8f0f4f7",
+      "text": "classroom",
+      "path": "/assets/audio/kokoro/line-be45c8f0f4f7.wav"
+    },
+    {
+      "id": "line-09d5f620386e",
+      "text": "coat",
+      "path": "/assets/audio/kokoro/line-09d5f620386e.wav"
+    },
+    {
+      "id": "line-be60dc73b521",
+      "text": "cone",
+      "path": "/assets/audio/kokoro/line-be60dc73b521.wav"
+    },
+    {
+      "id": "line-7f38b648a964",
+      "text": "Count the dots, then choose the matching parking space.",
+      "path": "/assets/audio/kokoro/line-7f38b648a964.wav"
+    },
+    {
+      "id": "line-77833812cc1f",
+      "text": "crossing guard",
+      "path": "/assets/audio/kokoro/line-77833812cc1f.wav"
+    },
+    {
+      "id": "line-55f7d1f71091",
+      "text": "cube",
+      "path": "/assets/audio/kokoro/line-55f7d1f71091.wav"
+    },
+    {
+      "id": "line-ad00c690d667",
+      "text": "cup",
+      "path": "/assets/audio/kokoro/line-ad00c690d667.wav"
+    },
+    {
+      "id": "line-ba16c0b6a35e",
+      "text": "cup. /k/, /u/, /p/. cup.",
+      "path": "/assets/audio/kokoro/line-ba16c0b6a35e.wav"
+    },
+    {
+      "id": "line-10a456880bff",
+      "text": "custodian",
+      "path": "/assets/audio/kokoro/line-10a456880bff.wav"
+    },
+    {
+      "id": "line-24a1ee580226",
+      "text": "cylinder",
+      "path": "/assets/audio/kokoro/line-24a1ee580226.wav"
+    },
+    {
+      "id": "line-46e7cfa08091",
+      "text": "desk",
+      "path": "/assets/audio/kokoro/line-46e7cfa08091.wav"
+    },
+    {
+      "id": "line-7c97ce279832",
+      "text": "dirt",
+      "path": "/assets/audio/kokoro/line-7c97ce279832.wav"
+    },
+    {
+      "id": "line-f10f6c776879",
+      "text": "Do you see the dog?",
+      "path": "/assets/audio/kokoro/line-f10f6c776879.wav"
+    },
+    {
+      "id": "line-e49512524f47",
+      "text": "dog",
+      "path": "/assets/audio/kokoro/line-e49512524f47.wav"
+    },
+    {
+      "id": "line-907fb680c3e5",
+      "text": "dog. /d/, /o/, /g/. dog.",
+      "path": "/assets/audio/kokoro/line-907fb680c3e5.wav"
+    },
+    {
+      "id": "line-2680b6746cf8",
+      "text": "door",
+      "path": "/assets/audio/kokoro/line-2680b6746cf8.wav"
+    },
+    {
+      "id": "line-292156e22fcb",
+      "text": "Dots show the number. The small number tells the parking space.",
+      "path": "/assets/audio/kokoro/line-292156e22fcb.wav"
+    },
+    {
+      "id": "line-3f498f7519b4",
+      "text": "Drag can to the rhyme house.",
+      "path": "/assets/audio/kokoro/line-3f498f7519b4.wav"
+    },
+    {
+      "id": "line-b8bc01ee0ad2",
+      "text": "Drag cap to the rhyme house.",
+      "path": "/assets/audio/kokoro/line-b8bc01ee0ad2.wav"
+    },
+    {
+      "id": "line-7e1466132222",
+      "text": "Drag cat to the rhyme house.",
+      "path": "/assets/audio/kokoro/line-7e1466132222.wav"
+    },
+    {
+      "id": "line-1db3fc738682",
+      "text": "Drag hat to the rhyme house.",
+      "path": "/assets/audio/kokoro/line-1db3fc738682.wav"
+    },
+    {
+      "id": "line-ae268f42cfd3",
+      "text": "Drag hop to the rhyme house.",
+      "path": "/assets/audio/kokoro/line-ae268f42cfd3.wav"
+    },
+    {
+      "id": "line-f57e851fcff1",
+      "text": "Drag objects into the ten-frame. Press Done to check your set.",
+      "path": "/assets/audio/kokoro/line-f57e851fcff1.wav"
+    },
+    {
+      "id": "line-b79e3a57e1c5",
+      "text": "Drag pan to the rhyme house.",
+      "path": "/assets/audio/kokoro/line-b79e3a57e1c5.wav"
+    },
+    {
+      "id": "line-b8cba97d6e0e",
+      "text": "Drag pig to the rhyme house.",
+      "path": "/assets/audio/kokoro/line-b8cba97d6e0e.wav"
+    },
+    {
+      "id": "line-1d425f08f27f",
+      "text": "Drag pin to the rhyme house.",
+      "path": "/assets/audio/kokoro/line-1d425f08f27f.wav"
+    },
+    {
+      "id": "line-14376a249e0e",
+      "text": "Drag the cards into the opinion sentence frame.",
+      "path": "/assets/audio/kokoro/line-14376a249e0e.wav"
+    },
+    {
+      "id": "line-53e6bf428250",
+      "text": "Drag the cards to make: I do not like naps because I can play.",
+      "path": "/assets/audio/kokoro/line-53e6bf428250.wav"
+    },
+    {
+      "id": "line-a5e55a2d7197",
+      "text": "Drag the cards to make: I like apples because it is yummy.",
+      "path": "/assets/audio/kokoro/line-a5e55a2d7197.wav"
+    },
+    {
+      "id": "line-6c39194b45e0",
+      "text": "Drag the cards to make: I like books because I can read.",
+      "path": "/assets/audio/kokoro/line-6c39194b45e0.wav"
+    },
+    {
+      "id": "line-60b9aa524c3b",
+      "text": "Drag the cards to make: I like dogs because it is soft.",
+      "path": "/assets/audio/kokoro/line-60b9aa524c3b.wav"
+    },
+    {
+      "id": "line-06445b136ceb",
+      "text": "Drag the cards to make: I like lunch because it is yummy.",
+      "path": "/assets/audio/kokoro/line-06445b136ceb.wav"
+    },
+    {
+      "id": "line-feacfa05f554",
+      "text": "Drag the cards to make: I like my bag because it is red.",
+      "path": "/assets/audio/kokoro/line-feacfa05f554.wav"
+    },
+    {
+      "id": "line-ce8cd041f322",
+      "text": "Drag the cards to make: I like pizza because it is yummy.",
+      "path": "/assets/audio/kokoro/line-ce8cd041f322.wav"
+    },
+    {
+      "id": "line-3e33cdffcf19",
+      "text": "Drag the cards to make: I like recess because I can play.",
+      "path": "/assets/audio/kokoro/line-3e33cdffcf19.wav"
+    },
+    {
+      "id": "line-3dab3f7e92e6",
+      "text": "Drag the cards to make: I like swings because it is fun.",
+      "path": "/assets/audio/kokoro/line-3dab3f7e92e6.wav"
+    },
+    {
+      "id": "line-995247467550",
+      "text": "Drag the cards to make: I like the park because it is fun.",
+      "path": "/assets/audio/kokoro/line-995247467550.wav"
+    },
+    {
+      "id": "line-9a29fb3493dc",
+      "text": "Drag the letter tiles into the boxes to build the word.",
+      "path": "/assets/audio/kokoro/line-9a29fb3493dc.wav"
+    },
+    {
+      "id": "line-37a3ed27868a",
+      "text": "Drag the picture to the rhyme house with the same ending sound.",
+      "path": "/assets/audio/kokoro/line-37a3ed27868a.wav"
+    },
+    {
+      "id": "line-08035d06e0a7",
+      "text": "Drag the picture to Then or Now.",
+      "path": "/assets/audio/kokoro/line-08035d06e0a7.wav"
+    },
+    {
+      "id": "line-3e3b0549906f",
+      "text": "Drag the sentence parts into the boxes from left to right.",
+      "path": "/assets/audio/kokoro/line-3e3b0549906f.wav"
+    },
+    {
+      "id": "line-d1e202e1e854",
+      "text": "Drag the story cards into the boxes from first to last.",
+      "path": "/assets/audio/kokoro/line-d1e202e1e854.wav"
+    },
+    {
+      "id": "line-088b46a73092",
+      "text": "Drag the words in order, then choose the ending mark.",
+      "path": "/assets/audio/kokoro/line-088b46a73092.wav"
+    },
+    {
+      "id": "line-93d9381f4e68",
+      "text": "Drag the words in order, then choose the question mark.",
+      "path": "/assets/audio/kokoro/line-93d9381f4e68.wav"
+    },
+    {
+      "id": "line-10deb7af316d",
+      "text": "Drag the words in order: I like recess.",
+      "path": "/assets/audio/kokoro/line-10deb7af316d.wav"
+    },
+    {
+      "id": "line-10af635f962c",
+      "text": "Drag the words in order: I see a bus.",
+      "path": "/assets/audio/kokoro/line-10af635f962c.wav"
+    },
+    {
+      "id": "line-ee586d0e44a3",
+      "text": "Drag the words in order: The dog can run.",
+      "path": "/assets/audio/kokoro/line-ee586d0e44a3.wav"
+    },
+    {
+      "id": "line-bb9246b45a75",
+      "text": "Drag the words in order: The sun is up.",
+      "path": "/assets/audio/kokoro/line-bb9246b45a75.wav"
+    },
+    {
+      "id": "line-84a9d01ebfc3",
+      "text": "Drag the words in order: We eat lunch.",
+      "path": "/assets/audio/kokoro/line-84a9d01ebfc3.wav"
+    },
+    {
+      "id": "line-f6835fd57d25",
+      "text": "Drag the words into order. A sentence starts with a capital letter and ends with punctuation.",
+      "path": "/assets/audio/kokoro/line-f6835fd57d25.wav"
+    },
+    {
+      "id": "line-e7432c7ed041",
+      "text": "eat candy",
+      "path": "/assets/audio/kokoro/line-e7432c7ed041.wav"
+    },
+    {
+      "id": "line-68eb02ef5320",
+      "text": "Equal shares are the same size. Not equal shares are different sizes.",
+      "path": "/assets/audio/kokoro/line-68eb02ef5320.wav"
+    },
+    {
+      "id": "line-2899441143e2",
+      "text": "fan",
+      "path": "/assets/audio/kokoro/line-2899441143e2.wav"
+    },
+    {
+      "id": "line-e0e935be8a99",
+      "text": "fan. /f/, /ae/, /n/. fan.",
+      "path": "/assets/audio/kokoro/line-e0e935be8a99.wav"
+    },
+    {
+      "id": "line-19c7540cfcc0",
+      "text": "Find 1.",
+      "path": "/assets/audio/kokoro/line-19c7540cfcc0.wav"
+    },
+    {
+      "id": "line-4ee5a50d9611",
+      "text": "Find 10.",
+      "path": "/assets/audio/kokoro/line-4ee5a50d9611.wav"
+    },
+    {
+      "id": "line-1dd62aa4317e",
+      "text": "Find 11.",
+      "path": "/assets/audio/kokoro/line-1dd62aa4317e.wav"
+    },
+    {
+      "id": "line-7b7a4b824071",
+      "text": "Find 12.",
+      "path": "/assets/audio/kokoro/line-7b7a4b824071.wav"
+    },
+    {
+      "id": "line-f1f0efacc15f",
+      "text": "Find 13.",
+      "path": "/assets/audio/kokoro/line-f1f0efacc15f.wav"
+    },
+    {
+      "id": "line-b84839d6761e",
+      "text": "Find 14.",
+      "path": "/assets/audio/kokoro/line-b84839d6761e.wav"
+    },
+    {
+      "id": "line-7da3ef3fc49d",
+      "text": "Find 15.",
+      "path": "/assets/audio/kokoro/line-7da3ef3fc49d.wav"
+    },
+    {
+      "id": "line-6a33b7776999",
+      "text": "Find 16.",
+      "path": "/assets/audio/kokoro/line-6a33b7776999.wav"
+    },
+    {
+      "id": "line-c2c31638cebb",
+      "text": "Find 17.",
+      "path": "/assets/audio/kokoro/line-c2c31638cebb.wav"
+    },
+    {
+      "id": "line-fb4f52024e8a",
+      "text": "Find 18.",
+      "path": "/assets/audio/kokoro/line-fb4f52024e8a.wav"
+    },
+    {
+      "id": "line-cc6d11e5d9c6",
+      "text": "Find 19.",
+      "path": "/assets/audio/kokoro/line-cc6d11e5d9c6.wav"
+    },
+    {
+      "id": "line-956a02661ade",
+      "text": "Find 2.",
+      "path": "/assets/audio/kokoro/line-956a02661ade.wav"
+    },
+    {
+      "id": "line-aaf4f9b16993",
+      "text": "Find 20.",
+      "path": "/assets/audio/kokoro/line-aaf4f9b16993.wav"
+    },
+    {
+      "id": "line-95ac993ce731",
+      "text": "Find 21.",
+      "path": "/assets/audio/kokoro/line-95ac993ce731.wav"
+    },
+    {
+      "id": "line-179f2ae3a900",
+      "text": "Find 22.",
+      "path": "/assets/audio/kokoro/line-179f2ae3a900.wav"
+    },
+    {
+      "id": "line-8740310de1b8",
+      "text": "Find 23.",
+      "path": "/assets/audio/kokoro/line-8740310de1b8.wav"
+    },
+    {
+      "id": "line-24f8d3bd8438",
+      "text": "Find 24.",
+      "path": "/assets/audio/kokoro/line-24f8d3bd8438.wav"
+    },
+    {
+      "id": "line-a9890a1d63d3",
+      "text": "Find 25.",
+      "path": "/assets/audio/kokoro/line-a9890a1d63d3.wav"
+    },
+    {
+      "id": "line-d40e0ed04e96",
+      "text": "Find 26.",
+      "path": "/assets/audio/kokoro/line-d40e0ed04e96.wav"
+    },
+    {
+      "id": "line-ec13e75ec651",
+      "text": "Find 27.",
+      "path": "/assets/audio/kokoro/line-ec13e75ec651.wav"
+    },
+    {
+      "id": "line-3c3a0d3e01c6",
+      "text": "Find 28.",
+      "path": "/assets/audio/kokoro/line-3c3a0d3e01c6.wav"
+    },
+    {
+      "id": "line-9a1a8665174c",
+      "text": "Find 29.",
+      "path": "/assets/audio/kokoro/line-9a1a8665174c.wav"
+    },
+    {
+      "id": "line-d236ff1d41b4",
+      "text": "Find 3 unequal parts.",
+      "path": "/assets/audio/kokoro/line-d236ff1d41b4.wav"
+    },
+    {
+      "id": "line-1d2193dc0214",
+      "text": "Find 3.",
+      "path": "/assets/audio/kokoro/line-1d2193dc0214.wav"
+    },
+    {
+      "id": "line-0e3f81c20827",
+      "text": "Find 30.",
+      "path": "/assets/audio/kokoro/line-0e3f81c20827.wav"
+    },
+    {
+      "id": "line-f037e767fd90",
+      "text": "Find 4 equal parts.",
+      "path": "/assets/audio/kokoro/line-f037e767fd90.wav"
+    },
+    {
+      "id": "line-d0978c2bfb6b",
+      "text": "Find 4.",
+      "path": "/assets/audio/kokoro/line-d0978c2bfb6b.wav"
+    },
+    {
+      "id": "line-1ed033a9d5fa",
+      "text": "Find 5.",
+      "path": "/assets/audio/kokoro/line-1ed033a9d5fa.wav"
+    },
+    {
+      "id": "line-cff7ca068a9c",
+      "text": "Find 6.",
+      "path": "/assets/audio/kokoro/line-cff7ca068a9c.wav"
+    },
+    {
+      "id": "line-be7adf2bac60",
+      "text": "Find 7.",
+      "path": "/assets/audio/kokoro/line-be7adf2bac60.wav"
+    },
+    {
+      "id": "line-54d79c5848b6",
+      "text": "Find 8.",
+      "path": "/assets/audio/kokoro/line-54d79c5848b6.wav"
+    },
+    {
+      "id": "line-79d45fe22d2e",
+      "text": "Find 9.",
+      "path": "/assets/audio/kokoro/line-79d45fe22d2e.wav"
+    },
+    {
+      "id": "line-bc04a0cab966",
+      "text": "Find acorn.",
+      "path": "/assets/audio/kokoro/line-bc04a0cab966.wav"
+    },
+    {
+      "id": "line-8de138cdfcbb",
+      "text": "Find cake.",
+      "path": "/assets/audio/kokoro/line-8de138cdfcbb.wav"
+    },
+    {
+      "id": "line-a9ee58ce2322",
+      "text": "Find cape.",
+      "path": "/assets/audio/kokoro/line-a9ee58ce2322.wav"
+    },
+    {
+      "id": "line-1de56324c468",
+      "text": "Find equal fourths.",
+      "path": "/assets/audio/kokoro/line-1de56324c468.wav"
+    },
+    {
+      "id": "line-3bbc81376958",
+      "text": "Find not equal shares.",
+      "path": "/assets/audio/kokoro/line-3bbc81376958.wav"
+    },
+    {
+      "id": "line-5720e5e250f8",
+      "text": "Find rain.",
+      "path": "/assets/audio/kokoro/line-5720e5e250f8.wav"
+    },
+    {
+      "id": "line-3c2ca05444a4",
+      "text": "Find tape.",
+      "path": "/assets/audio/kokoro/line-3c2ca05444a4.wav"
+    },
+    {
+      "id": "line-b79d0a1091b9",
+      "text": "Find tray.",
+      "path": "/assets/audio/kokoro/line-b79d0a1091b9.wav"
+    },
+    {
+      "id": "line-99426a1c5946",
+      "text": "First means what happens at the beginning. Next happens after that. Last happens at the end.",
+      "path": "/assets/audio/kokoro/line-99426a1c5946.wav"
+    },
+    {
+      "id": "line-92e2661ad98e",
+      "text": "First, look at the picture and the blank. Then listen to the sentence and choose the word that fits.",
+      "path": "/assets/audio/kokoro/line-92e2661ad98e.wav"
+    },
+    {
+      "id": "line-c722c53faead",
+      "text": "First, next, last",
+      "path": "/assets/audio/kokoro/line-c722c53faead.wav"
+    },
+    {
+      "id": "line-64875fcccaac",
+      "text": "fish",
+      "path": "/assets/audio/kokoro/line-64875fcccaac.wav"
+    },
+    {
+      "id": "line-063d8236e09a",
+      "text": "flat shape",
+      "path": "/assets/audio/kokoro/line-063d8236e09a.wav"
+    },
+    {
+      "id": "line-f5aabb2696d6",
+      "text": "Flat shapes are like drawings. Solid shapes are objects you can hold.",
+      "path": "/assets/audio/kokoro/line-f5aabb2696d6.wav"
+    },
+    {
+      "id": "line-5a46b8253d07",
+      "text": "flower",
+      "path": "/assets/audio/kokoro/line-5a46b8253d07.wav"
+    },
+    {
+      "id": "line-127a8ad45bd7",
+      "text": "Game costs 10 dollars. Have 12 dollars.",
+      "path": "/assets/audio/kokoro/line-127a8ad45bd7.wav"
+    },
+    {
+      "id": "line-33af91f1ada3",
+      "text": "Game costs 10 dollars. Have 6 dollars.",
+      "path": "/assets/audio/kokoro/line-33af91f1ada3.wav"
+    },
+    {
+      "id": "line-1ec558a60b5d",
+      "text": "go",
+      "path": "/assets/audio/kokoro/line-1ec558a60b5d.wav"
+    },
+    {
+      "id": "line-c50a84cb4c9d",
+      "text": "Go to the table.",
+      "path": "/assets/audio/kokoro/line-c50a84cb4c9d.wav"
+    },
+    {
+      "id": "line-ab6cb94835a3",
+      "text": "Great job adding more.",
+      "path": "/assets/audio/kokoro/line-ab6cb94835a3.wav"
+    },
+    {
+      "id": "line-70e887affca8",
+      "text": "Great job choosing water.",
+      "path": "/assets/audio/kokoro/line-70e887affca8.wav"
+    },
+    {
+      "id": "line-4b436b441ce2",
+      "text": "Great job finding 1.",
+      "path": "/assets/audio/kokoro/line-4b436b441ce2.wav"
+    },
+    {
+      "id": "line-3c32922529cf",
+      "text": "Great job finding 10.",
+      "path": "/assets/audio/kokoro/line-3c32922529cf.wav"
+    },
+    {
+      "id": "line-05932bb38db2",
+      "text": "Great job finding 11.",
+      "path": "/assets/audio/kokoro/line-05932bb38db2.wav"
+    },
+    {
+      "id": "line-6b8dfaa9f463",
+      "text": "Great job finding 12.",
+      "path": "/assets/audio/kokoro/line-6b8dfaa9f463.wav"
+    },
+    {
+      "id": "line-b756ae7cdb01",
+      "text": "Great job finding 13.",
+      "path": "/assets/audio/kokoro/line-b756ae7cdb01.wav"
+    },
+    {
+      "id": "line-a781497a2deb",
+      "text": "Great job finding 14.",
+      "path": "/assets/audio/kokoro/line-a781497a2deb.wav"
+    },
+    {
+      "id": "line-1f31d3f5622e",
+      "text": "Great job finding 15.",
+      "path": "/assets/audio/kokoro/line-1f31d3f5622e.wav"
+    },
+    {
+      "id": "line-9768b9571909",
+      "text": "Great job finding 16.",
+      "path": "/assets/audio/kokoro/line-9768b9571909.wav"
+    },
+    {
+      "id": "line-044a05c30c8f",
+      "text": "Great job finding 17.",
+      "path": "/assets/audio/kokoro/line-044a05c30c8f.wav"
+    },
+    {
+      "id": "line-9e36d48f1b42",
+      "text": "Great job finding 18.",
+      "path": "/assets/audio/kokoro/line-9e36d48f1b42.wav"
+    },
+    {
+      "id": "line-4d3674b23e00",
+      "text": "Great job finding 19.",
+      "path": "/assets/audio/kokoro/line-4d3674b23e00.wav"
+    },
+    {
+      "id": "line-65ecb07c558c",
+      "text": "Great job finding 2.",
+      "path": "/assets/audio/kokoro/line-65ecb07c558c.wav"
+    },
+    {
+      "id": "line-a70ce0cd7a5d",
+      "text": "Great job finding 20.",
+      "path": "/assets/audio/kokoro/line-a70ce0cd7a5d.wav"
+    },
+    {
+      "id": "line-8912204e630d",
+      "text": "Great job finding 21.",
+      "path": "/assets/audio/kokoro/line-8912204e630d.wav"
+    },
+    {
+      "id": "line-a7e62f2c819e",
+      "text": "Great job finding 22.",
+      "path": "/assets/audio/kokoro/line-a7e62f2c819e.wav"
+    },
+    {
+      "id": "line-81854c2d63d5",
+      "text": "Great job finding 23.",
+      "path": "/assets/audio/kokoro/line-81854c2d63d5.wav"
+    },
+    {
+      "id": "line-fe5abb299698",
+      "text": "Great job finding 24.",
+      "path": "/assets/audio/kokoro/line-fe5abb299698.wav"
+    },
+    {
+      "id": "line-35982f788862",
+      "text": "Great job finding 25.",
+      "path": "/assets/audio/kokoro/line-35982f788862.wav"
+    },
+    {
+      "id": "line-60d89868af78",
+      "text": "Great job finding 26.",
+      "path": "/assets/audio/kokoro/line-60d89868af78.wav"
+    },
+    {
+      "id": "line-4b319ee03184",
+      "text": "Great job finding 27.",
+      "path": "/assets/audio/kokoro/line-4b319ee03184.wav"
+    },
+    {
+      "id": "line-49535acd6c55",
+      "text": "Great job finding 28.",
+      "path": "/assets/audio/kokoro/line-49535acd6c55.wav"
+    },
+    {
+      "id": "line-2565ca2098d3",
+      "text": "Great job finding 29.",
+      "path": "/assets/audio/kokoro/line-2565ca2098d3.wav"
+    },
+    {
+      "id": "line-610527fcd479",
+      "text": "Great job finding 3.",
+      "path": "/assets/audio/kokoro/line-610527fcd479.wav"
+    },
+    {
+      "id": "line-f758ec5b5993",
+      "text": "Great job finding 30.",
+      "path": "/assets/audio/kokoro/line-f758ec5b5993.wav"
+    },
+    {
+      "id": "line-8461d9e028f6",
+      "text": "Great job finding 4.",
+      "path": "/assets/audio/kokoro/line-8461d9e028f6.wav"
+    },
+    {
+      "id": "line-522bc27d125e",
+      "text": "Great job finding 5.",
+      "path": "/assets/audio/kokoro/line-522bc27d125e.wav"
+    },
+    {
+      "id": "line-47344a55ba95",
+      "text": "Great job finding 6.",
+      "path": "/assets/audio/kokoro/line-47344a55ba95.wav"
+    },
+    {
+      "id": "line-e6bbed847353",
+      "text": "Great job finding 7.",
+      "path": "/assets/audio/kokoro/line-e6bbed847353.wav"
+    },
+    {
+      "id": "line-24349922f482",
+      "text": "Great job finding 8.",
+      "path": "/assets/audio/kokoro/line-24349922f482.wav"
+    },
+    {
+      "id": "line-cc7d46a48ee1",
+      "text": "Great job finding 9.",
+      "path": "/assets/audio/kokoro/line-cc7d46a48ee1.wav"
+    },
+    {
+      "id": "line-35052fdb93ff",
+      "text": "Great job finding equal halves.",
+      "path": "/assets/audio/kokoro/line-35052fdb93ff.wav"
+    },
+    {
+      "id": "line-1da10da6eb55",
+      "text": "Great job finding equal shares.",
+      "path": "/assets/audio/kokoro/line-1da10da6eb55.wav"
+    },
+    {
+      "id": "line-f8b58cd11cfd",
+      "text": "Great job finding not equal shares.",
+      "path": "/assets/audio/kokoro/line-f8b58cd11cfd.wav"
+    },
+    {
+      "id": "line-87ac4bfd190b",
+      "text": "Great job finding the butterfly.",
+      "path": "/assets/audio/kokoro/line-87ac4bfd190b.wav"
+    },
+    {
+      "id": "line-8f9b4ca5427f",
+      "text": "Great job finding the circle. It is a flat shape.",
+      "path": "/assets/audio/kokoro/line-8f9b4ca5427f.wav"
+    },
+    {
+      "id": "line-d6b730f6b0ca",
+      "text": "Great job finding the cone. It is a solid shape.",
+      "path": "/assets/audio/kokoro/line-d6b730f6b0ca.wav"
+    },
+    {
+      "id": "line-a12fa35e24bd",
+      "text": "Great job finding the cube. It is a solid shape.",
+      "path": "/assets/audio/kokoro/line-a12fa35e24bd.wav"
+    },
+    {
+      "id": "line-044d2fd437ad",
+      "text": "Great job finding the cylinder. It is a solid shape.",
+      "path": "/assets/audio/kokoro/line-044d2fd437ad.wav"
+    },
+    {
+      "id": "line-5e281772e0ad",
+      "text": "Great job finding the hexagon. It is a flat shape.",
+      "path": "/assets/audio/kokoro/line-5e281772e0ad.wav"
+    },
+    {
+      "id": "line-96e7b7644fb2",
+      "text": "Great job finding the octagon. It is a flat shape.",
+      "path": "/assets/audio/kokoro/line-96e7b7644fb2.wav"
+    },
+    {
+      "id": "line-abdfd073fc28",
+      "text": "Great job finding the pentagon. It is a flat shape.",
+      "path": "/assets/audio/kokoro/line-abdfd073fc28.wav"
+    },
+    {
+      "id": "line-074296f597d7",
+      "text": "Great job finding the rectangle. It is a flat shape.",
+      "path": "/assets/audio/kokoro/line-074296f597d7.wav"
+    },
+    {
+      "id": "line-aeefe7324ba0",
+      "text": "Great job finding the same sound.",
+      "path": "/assets/audio/kokoro/line-aeefe7324ba0.wav"
+    },
+    {
+      "id": "line-132137099e2b",
+      "text": "Great job finding the sphere. It is a solid shape.",
+      "path": "/assets/audio/kokoro/line-132137099e2b.wav"
+    },
+    {
+      "id": "line-32d55f5b5fe0",
+      "text": "Great job finding the square. It is a flat shape.",
+      "path": "/assets/audio/kokoro/line-32d55f5b5fe0.wav"
+    },
+    {
+      "id": "line-0000582817b5",
+      "text": "Great job finding the triangle. It is a flat shape.",
+      "path": "/assets/audio/kokoro/line-0000582817b5.wav"
+    },
+    {
+      "id": "line-9eee22dbaa54",
+      "text": "Great job matching circle to flat shape. A circle is flat.",
+      "path": "/assets/audio/kokoro/line-9eee22dbaa54.wav"
+    },
+    {
+      "id": "line-84bbeee9f074",
+      "text": "Great job matching rectangle to flat shape. A rectangle is flat.",
+      "path": "/assets/audio/kokoro/line-84bbeee9f074.wav"
+    },
+    {
+      "id": "line-7812b5849070",
+      "text": "Great job matching the rhyme.",
+      "path": "/assets/audio/kokoro/line-7812b5849070.wav"
+    },
+    {
+      "id": "line-924e575d3edc",
+      "text": "Great job matching the rhyme. Cat, at.",
+      "path": "/assets/audio/kokoro/line-924e575d3edc.wav"
+    },
+    {
+      "id": "line-13c95e40ec0d",
+      "text": "Great job matching the rhyme. Hat, at.",
+      "path": "/assets/audio/kokoro/line-13c95e40ec0d.wav"
+    },
+    {
+      "id": "line-c96555934570",
+      "text": "Great job matching the rhyme. Pan, an.",
+      "path": "/assets/audio/kokoro/line-c96555934570.wav"
+    },
+    {
+      "id": "line-5b3dc5dcb208",
+      "text": "Great job matching the rhyme. Pig, ig.",
+      "path": "/assets/audio/kokoro/line-5b3dc5dcb208.wav"
+    },
+    {
+      "id": "line-a3bd21154698",
+      "text": "Great job matching the sounds.",
+      "path": "/assets/audio/kokoro/line-a3bd21154698.wav"
+    },
+    {
+      "id": "line-493aed8ea9d8",
+      "text": "Great job matching the sounds. Cup.",
+      "path": "/assets/audio/kokoro/line-493aed8ea9d8.wav"
+    },
+    {
+      "id": "line-6d566797d1f0",
+      "text": "Great job matching the sounds. Pig.",
+      "path": "/assets/audio/kokoro/line-6d566797d1f0.wav"
+    },
+    {
+      "id": "line-e05a1dd13274",
+      "text": "Great job matching the sounds. Pin.",
+      "path": "/assets/audio/kokoro/line-e05a1dd13274.wav"
+    },
+    {
+      "id": "line-200b09542e7b",
+      "text": "Great job matching the sounds. Sun.",
+      "path": "/assets/audio/kokoro/line-200b09542e7b.wav"
+    },
+    {
+      "id": "line-aa67f541be81",
+      "text": "Great job telling what you like.",
+      "path": "/assets/audio/kokoro/line-aa67f541be81.wav"
+    },
+    {
+      "id": "line-a4a11a96f74d",
+      "text": "Great job telling what you like. I do not like naps because I can play.",
+      "path": "/assets/audio/kokoro/line-a4a11a96f74d.wav"
+    },
+    {
+      "id": "line-1ec506a6d68c",
+      "text": "Great job telling what you like. I like books because I can read.",
+      "path": "/assets/audio/kokoro/line-1ec506a6d68c.wav"
+    },
+    {
+      "id": "line-b5719d8f67cc",
+      "text": "Great job telling what you like. I like recess because I can play.",
+      "path": "/assets/audio/kokoro/line-b5719d8f67cc.wav"
+    },
+    {
+      "id": "line-be506beac88c",
+      "text": "Great job. a fits the sentence.",
+      "path": "/assets/audio/kokoro/line-be506beac88c.wav"
+    },
+    {
+      "id": "line-1a2d80d23043",
+      "text": "Great job. a fits the sentence. I see a cup.",
+      "path": "/assets/audio/kokoro/line-1a2d80d23043.wav"
+    },
+    {
+      "id": "line-9555598760f1",
+      "text": "Great job. A period ends a telling sentence.",
+      "path": "/assets/audio/kokoro/line-9555598760f1.wav"
+    },
+    {
+      "id": "line-326b176f0c3e",
+      "text": "Great job. A period ends a telling sentence. I see a bus.",
+      "path": "/assets/audio/kokoro/line-326b176f0c3e.wav"
+    },
+    {
+      "id": "line-019e979f9a43",
+      "text": "Great job. A period ends a telling sentence. My bag is red.",
+      "path": "/assets/audio/kokoro/line-019e979f9a43.wav"
+    },
+    {
+      "id": "line-25f29a09c57d",
+      "text": "Great job. A period ends a telling sentence. The book is on the desk.",
+      "path": "/assets/audio/kokoro/line-25f29a09c57d.wav"
+    },
+    {
+      "id": "line-1242b8af427c",
+      "text": "Great job. A period ends a telling sentence. We eat lunch.",
+      "path": "/assets/audio/kokoro/line-1242b8af427c.wav"
+    },
+    {
+      "id": "line-44cc31ffee33",
+      "text": "Great job. A question mark ends an asking sentence.",
+      "path": "/assets/audio/kokoro/line-44cc31ffee33.wav"
+    },
+    {
+      "id": "line-7e869d148f6e",
+      "text": "Great job. A question mark ends an asking sentence. Can I have a cup?",
+      "path": "/assets/audio/kokoro/line-7e869d148f6e.wav"
+    },
+    {
+      "id": "line-b30f114d0805",
+      "text": "Great job. A question mark ends an asking sentence. Do you see the dog?",
+      "path": "/assets/audio/kokoro/line-b30f114d0805.wav"
+    },
+    {
+      "id": "line-be3230d3b03f",
+      "text": "Great job. A question mark ends an asking sentence. Is the door open?",
+      "path": "/assets/audio/kokoro/line-be3230d3b03f.wav"
+    },
+    {
+      "id": "line-277bbf2ccdbf",
+      "text": "Great job. An exclamation point shows strong feeling.",
+      "path": "/assets/audio/kokoro/line-277bbf2ccdbf.wav"
+    },
+    {
+      "id": "line-ef849c7fbf61",
+      "text": "Great job. An exclamation point shows strong feeling. Look at the sun!",
+      "path": "/assets/audio/kokoro/line-ef849c7fbf61.wav"
+    },
+    {
+      "id": "line-64d77e58ca63",
+      "text": "Great job. An exclamation point shows strong feeling. That cookie is yummy!",
+      "path": "/assets/audio/kokoro/line-64d77e58ca63.wav"
+    },
+    {
+      "id": "line-045003b1fa5b",
+      "text": "Great job. An exclamation point shows strong feeling. Wow, the ball is big!",
+      "path": "/assets/audio/kokoro/line-045003b1fa5b.wav"
+    },
+    {
+      "id": "line-00f87f14aad9",
+      "text": "Great job. go fits the sentence.",
+      "path": "/assets/audio/kokoro/line-00f87f14aad9.wav"
+    },
+    {
+      "id": "line-b42e69bc8f36",
+      "text": "Great job. go fits the sentence. I go with my class.",
+      "path": "/assets/audio/kokoro/line-b42e69bc8f36.wav"
+    },
+    {
+      "id": "line-79a9e130f0d6",
+      "text": "Great job. go fits the sentence. We go to lunch.",
+      "path": "/assets/audio/kokoro/line-79a9e130f0d6.wav"
+    },
+    {
+      "id": "line-1183d67ab390",
+      "text": "Great job. I fits the sentence.",
+      "path": "/assets/audio/kokoro/line-1183d67ab390.wav"
+    },
+    {
+      "id": "line-7dd9b786412f",
+      "text": "Great job. I fits the sentence. I eat snack.",
+      "path": "/assets/audio/kokoro/line-7dd9b786412f.wav"
+    },
+    {
+      "id": "line-ef390dd8c2a6",
+      "text": "Great job. I fits the sentence. I have a tray.",
+      "path": "/assets/audio/kokoro/line-ef390dd8c2a6.wav"
+    },
+    {
+      "id": "line-76fa4b1a2752",
+      "text": "Great job. is fits the sentence.",
+      "path": "/assets/audio/kokoro/line-76fa4b1a2752.wav"
+    },
+    {
+      "id": "line-239f9b3fa633",
+      "text": "Great job. is fits the sentence. My cup is blue.",
+      "path": "/assets/audio/kokoro/line-239f9b3fa633.wav"
+    },
+    {
+      "id": "line-86f9e0ed2a3a",
+      "text": "Great job. like fits the sentence.",
+      "path": "/assets/audio/kokoro/line-86f9e0ed2a3a.wav"
+    },
+    {
+      "id": "line-df12c6ba3eb6",
+      "text": "Great job. like fits the sentence. I like apples.",
+      "path": "/assets/audio/kokoro/line-df12c6ba3eb6.wav"
+    },
+    {
+      "id": "line-9027750bac71",
+      "text": "Great job. like fits the sentence. We like snack.",
+      "path": "/assets/audio/kokoro/line-9027750bac71.wav"
+    },
+    {
+      "id": "line-edb3dfd19795",
+      "text": "Great job. my fits the sentence.",
+      "path": "/assets/audio/kokoro/line-edb3dfd19795.wav"
+    },
+    {
+      "id": "line-e2273f7633f2",
+      "text": "Great job. my fits the sentence. My snack is here.",
+      "path": "/assets/audio/kokoro/line-e2273f7633f2.wav"
+    },
+    {
+      "id": "line-d1fc08966136",
+      "text": "Great job. see fits the sentence.",
+      "path": "/assets/audio/kokoro/line-d1fc08966136.wav"
+    },
+    {
+      "id": "line-9a4d28240a35",
+      "text": "Great job. see fits the sentence. I see an apple.",
+      "path": "/assets/audio/kokoro/line-9a4d28240a35.wav"
+    },
+    {
+      "id": "line-0ba24578a7d9",
+      "text": "Great job. The book is 4 cubes long.",
+      "path": "/assets/audio/kokoro/line-0ba24578a7d9.wav"
+    },
+    {
+      "id": "line-4f8adaa6498e",
+      "text": "Great job. The book is 6 paper clips long.",
+      "path": "/assets/audio/kokoro/line-4f8adaa6498e.wav"
+    },
+    {
+      "id": "line-3dc0473d98a0",
+      "text": "Great job. The crayon tray is 7 cubes long.",
+      "path": "/assets/audio/kokoro/line-3dc0473d98a0.wav"
+    },
+    {
+      "id": "line-073383224edc",
+      "text": "Great job. The crayon tray is 7 paper clips long.",
+      "path": "/assets/audio/kokoro/line-073383224edc.wav"
+    },
+    {
+      "id": "line-e784c891ba9e",
+      "text": "Great job. The desk edge is 3 cubes long.",
+      "path": "/assets/audio/kokoro/line-e784c891ba9e.wav"
+    },
+    {
+      "id": "line-f6dffbae0706",
+      "text": "Great job. The desk edge is 4 crayons long.",
+      "path": "/assets/audio/kokoro/line-f6dffbae0706.wav"
+    },
+    {
+      "id": "line-9aefdb525fb6",
+      "text": "Great job. the fits the sentence.",
+      "path": "/assets/audio/kokoro/line-9aefdb525fb6.wav"
+    },
+    {
+      "id": "line-aecfc84481e4",
+      "text": "Great job. the fits the sentence. The apple is red.",
+      "path": "/assets/audio/kokoro/line-aecfc84481e4.wav"
+    },
+    {
+      "id": "line-afa14561dc5b",
+      "text": "Great job. the fits the sentence. The tray is full.",
+      "path": "/assets/audio/kokoro/line-afa14561dc5b.wav"
+    },
+    {
+      "id": "line-3a8ca800326c",
+      "text": "Great job. The folder is 6 cubes long.",
+      "path": "/assets/audio/kokoro/line-3a8ca800326c.wav"
+    },
+    {
+      "id": "line-029475fc8d43",
+      "text": "Great job. The folder is 8 paper clips long.",
+      "path": "/assets/audio/kokoro/line-029475fc8d43.wav"
+    },
+    {
+      "id": "line-d881a498ba19",
+      "text": "Great job. The glue stick is 3 cubes long.",
+      "path": "/assets/audio/kokoro/line-d881a498ba19.wav"
+    },
+    {
+      "id": "line-044ce58427bf",
+      "text": "Great job. The glue stick is 4 paper clips long.",
+      "path": "/assets/audio/kokoro/line-044ce58427bf.wav"
+    },
+    {
+      "id": "line-629c2d206eea",
+      "text": "Great job. The pencil box is 5 paper clips long.",
+      "path": "/assets/audio/kokoro/line-629c2d206eea.wav"
+    },
+    {
+      "id": "line-59cee54da4b1",
+      "text": "Great job. The pencil is 5 cubes long.",
+      "path": "/assets/audio/kokoro/line-59cee54da4b1.wav"
+    },
+    {
+      "id": "line-577cfb860e94",
+      "text": "Great job. to fits the sentence.",
+      "path": "/assets/audio/kokoro/line-577cfb860e94.wav"
+    },
+    {
+      "id": "line-0fd4b6bd3946",
+      "text": "Great job. to fits the sentence. Go to the table.",
+      "path": "/assets/audio/kokoro/line-0fd4b6bd3946.wav"
+    },
+    {
+      "id": "line-2dbd9970e154",
+      "text": "Great job. we fits the sentence.",
+      "path": "/assets/audio/kokoro/line-2dbd9970e154.wav"
+    },
+    {
+      "id": "line-968264f24ca4",
+      "text": "Great job. we fits the sentence. We eat together.",
+      "path": "/assets/audio/kokoro/line-968264f24ca4.wav"
+    },
+    {
+      "id": "line-05445e07929b",
+      "text": "Great job. we fits the sentence. We sit down.",
+      "path": "/assets/audio/kokoro/line-05445e07929b.wav"
+    },
+    {
+      "id": "line-e30f78a6e744",
+      "text": "Great work putting the story in order.",
+      "path": "/assets/audio/kokoro/line-e30f78a6e744.wav"
+    },
+    {
+      "id": "line-10423b35a37e",
+      "text": "Great work putting the story in order. I get my lunch. I sit at the table. I eat my lunch.",
+      "path": "/assets/audio/kokoro/line-10423b35a37e.wav"
+    },
+    {
+      "id": "line-d27bc1a2a517",
+      "text": "Great work putting the story in order. I open my bag. I take out my folder. I close my bag.",
+      "path": "/assets/audio/kokoro/line-d27bc1a2a517.wav"
+    },
+    {
+      "id": "line-87c15fa03d57",
+      "text": "Great work putting the story in order. I pick a crayon. I color the picture. I put the crayon away.",
+      "path": "/assets/audio/kokoro/line-87c15fa03d57.wav"
+    },
+    {
+      "id": "line-25a94eea6169",
+      "text": "Great work putting the words in order.",
+      "path": "/assets/audio/kokoro/line-25a94eea6169.wav"
+    },
+    {
+      "id": "line-443d7d456bda",
+      "text": "Great work putting the words in order. Is my bag red?",
+      "path": "/assets/audio/kokoro/line-443d7d456bda.wav"
+    },
+    {
+      "id": "line-c4735149745c",
+      "text": "Great work putting the words in order. The dog can run.",
+      "path": "/assets/audio/kokoro/line-c4735149745c.wav"
+    },
+    {
+      "id": "line-4782718bc425",
+      "text": "Great work putting the words in order. We eat lunch.",
+      "path": "/assets/audio/kokoro/line-4782718bc425.wav"
+    },
+    {
+      "id": "line-7325cfbfbd23",
+      "text": "Great work putting the words in order. We see a map.",
+      "path": "/assets/audio/kokoro/line-7325cfbfbd23.wav"
+    },
+    {
+      "id": "line-10e5866050d2",
+      "text": "hat",
+      "path": "/assets/audio/kokoro/line-10e5866050d2.wav"
+    },
+    {
+      "id": "line-b482e6d3e0df",
+      "text": "hat. /h/, /ae/, /t/. hat.",
+      "path": "/assets/audio/kokoro/line-b482e6d3e0df.wav"
+    },
+    {
+      "id": "line-52f6705e9e33",
+      "text": "help classmate",
+      "path": "/assets/audio/kokoro/line-52f6705e9e33.wav"
+    },
+    {
+      "id": "line-11725d3f4588",
+      "text": "hexagon",
+      "path": "/assets/audio/kokoro/line-11725d3f4588.wav"
+    },
+    {
+      "id": "line-9269f9770af2",
+      "text": "hold candy",
+      "path": "/assets/audio/kokoro/line-9269f9770af2.wav"
+    },
+    {
+      "id": "line-fe5c35bc4c5f",
+      "text": "How long is the apple?",
+      "path": "/assets/audio/kokoro/line-fe5c35bc4c5f.wav"
+    },
+    {
+      "id": "line-adca8da57b8e",
+      "text": "How long is the ball?",
+      "path": "/assets/audio/kokoro/line-adca8da57b8e.wav"
+    },
+    {
+      "id": "line-b3c306f8478c",
+      "text": "How long is the book?",
+      "path": "/assets/audio/kokoro/line-b3c306f8478c.wav"
+    },
+    {
+      "id": "line-4aec0325cce0",
+      "text": "How long is the cookie?",
+      "path": "/assets/audio/kokoro/line-4aec0325cce0.wav"
+    },
+    {
+      "id": "line-a170e7f190a8",
+      "text": "How long is the crayon tray?",
+      "path": "/assets/audio/kokoro/line-a170e7f190a8.wav"
+    },
+    {
+      "id": "line-a0c57ede7278",
+      "text": "How long is the crayon?",
+      "path": "/assets/audio/kokoro/line-a0c57ede7278.wav"
+    },
+    {
+      "id": "line-105bc9133a36",
+      "text": "How long is the cube?",
+      "path": "/assets/audio/kokoro/line-105bc9133a36.wav"
+    },
+    {
+      "id": "line-52bfbb01c243",
+      "text": "How long is the cup?",
+      "path": "/assets/audio/kokoro/line-52bfbb01c243.wav"
+    },
+    {
+      "id": "line-7e60f57bde17",
+      "text": "How long is the desk edge?",
+      "path": "/assets/audio/kokoro/line-7e60f57bde17.wav"
+    },
+    {
+      "id": "line-364c4e6977cb",
+      "text": "How long is the desk?",
+      "path": "/assets/audio/kokoro/line-364c4e6977cb.wav"
+    },
+    {
+      "id": "line-0b63517274b8",
+      "text": "How long is the folder?",
+      "path": "/assets/audio/kokoro/line-0b63517274b8.wav"
+    },
+    {
+      "id": "line-5b64bd0e7b52",
+      "text": "How long is the glue stick?",
+      "path": "/assets/audio/kokoro/line-5b64bd0e7b52.wav"
+    },
+    {
+      "id": "line-060a9cdcd8ba",
+      "text": "How long is the pencil box?",
+      "path": "/assets/audio/kokoro/line-060a9cdcd8ba.wav"
+    },
+    {
+      "id": "line-38b4e4da5414",
+      "text": "How long is the pencil?",
+      "path": "/assets/audio/kokoro/line-38b4e4da5414.wav"
+    },
+    {
+      "id": "line-7ab0808b2014",
+      "text": "How many all together?",
+      "path": "/assets/audio/kokoro/line-7ab0808b2014.wav"
+    },
+    {
+      "id": "line-1c094b01dd97",
+      "text": "How many are left?",
+      "path": "/assets/audio/kokoro/line-1c094b01dd97.wav"
+    },
+    {
+      "id": "line-ca73ab65568c",
+      "text": "I",
+      "path": "/assets/audio/kokoro/line-ca73ab65568c.wav"
+    },
+    {
+      "id": "line-a1d00515dfd0",
+      "text": "I choose a book. I read the book. I put the book away.",
+      "path": "/assets/audio/kokoro/line-a1d00515dfd0.wav"
+    },
+    {
+      "id": "line-73d5e2790f77",
+      "text": "I do not like naps because I can play.",
+      "path": "/assets/audio/kokoro/line-73d5e2790f77.wav"
+    },
+    {
+      "id": "line-42f5273d62a7",
+      "text": "I drink water from it.",
+      "path": "/assets/audio/kokoro/line-42f5273d62a7.wav"
+    },
+    {
+      "id": "line-9528b71d3d27",
+      "text": "I eat it in the cafeteria.",
+      "path": "/assets/audio/kokoro/line-9528b71d3d27.wav"
+    },
+    {
+      "id": "line-dc11e273dbd3",
+      "text": "I eat snack.",
+      "path": "/assets/audio/kokoro/line-dc11e273dbd3.wav"
+    },
+    {
+      "id": "line-a14697a4df2e",
+      "text": "I get a cup. I pour water. I drink water.",
+      "path": "/assets/audio/kokoro/line-a14697a4df2e.wav"
+    },
+    {
+      "id": "line-a441a7299e59",
+      "text": "I get my lunch. I sit at the table. I eat my lunch.",
+      "path": "/assets/audio/kokoro/line-a441a7299e59.wav"
+    },
+    {
+      "id": "line-ba5e689e4457",
+      "text": "I get my shoes. I put on my shoes. I walk to the door.",
+      "path": "/assets/audio/kokoro/line-ba5e689e4457.wav"
+    },
+    {
+      "id": "line-e1ef49ae3dd1",
+      "text": "I go with my class.",
+      "path": "/assets/audio/kokoro/line-e1ef49ae3dd1.wav"
+    },
+    {
+      "id": "line-537946e5441a",
+      "text": "I have a tray.",
+      "path": "/assets/audio/kokoro/line-537946e5441a.wav"
+    },
+    {
+      "id": "line-9cfdfbb4d075",
+      "text": "I like apples because it is yummy.",
+      "path": "/assets/audio/kokoro/line-9cfdfbb4d075.wav"
+    },
+    {
+      "id": "line-a3c705681bab",
+      "text": "I like apples.",
+      "path": "/assets/audio/kokoro/line-a3c705681bab.wav"
+    },
+    {
+      "id": "line-d447dfd7eef7",
+      "text": "I like books because I can read.",
+      "path": "/assets/audio/kokoro/line-d447dfd7eef7.wav"
+    },
+    {
+      "id": "line-845bc1ba2f55",
+      "text": "I like dogs because it is soft.",
+      "path": "/assets/audio/kokoro/line-845bc1ba2f55.wav"
+    },
+    {
+      "id": "line-e3190a15ccdc",
+      "text": "I like lunch because it is yummy.",
+      "path": "/assets/audio/kokoro/line-e3190a15ccdc.wav"
+    },
+    {
+      "id": "line-e73f106352c8",
+      "text": "I like my bag because it is red.",
+      "path": "/assets/audio/kokoro/line-e73f106352c8.wav"
+    },
+    {
+      "id": "line-81d8446c3075",
+      "text": "I like pizza because it is yummy.",
+      "path": "/assets/audio/kokoro/line-81d8446c3075.wav"
+    },
+    {
+      "id": "line-fa1b8f2d1886",
+      "text": "I like recess because I can play.",
+      "path": "/assets/audio/kokoro/line-fa1b8f2d1886.wav"
+    },
+    {
+      "id": "line-b0be0124eaa7",
+      "text": "I like recess.",
+      "path": "/assets/audio/kokoro/line-b0be0124eaa7.wav"
+    },
+    {
+      "id": "line-4227c20efdcd",
+      "text": "I like swings because it is fun.",
+      "path": "/assets/audio/kokoro/line-4227c20efdcd.wav"
+    },
+    {
+      "id": "line-695d978cffaf",
+      "text": "I like the park because it is fun.",
+      "path": "/assets/audio/kokoro/line-695d978cffaf.wav"
+    },
+    {
+      "id": "line-221502e849c6",
+      "text": "I open it to go in a room.",
+      "path": "/assets/audio/kokoro/line-221502e849c6.wav"
+    },
+    {
+      "id": "line-7577fd6a1edd",
+      "text": "I open my bag. I take out my folder. I close my bag.",
+      "path": "/assets/audio/kokoro/line-7577fd6a1edd.wav"
+    },
+    {
+      "id": "line-a95bdedb6425",
+      "text": "I pick a crayon. I color the picture. I put the crayon away.",
+      "path": "/assets/audio/kokoro/line-a95bdedb6425.wav"
+    },
+    {
+      "id": "line-003289ecc91a",
+      "text": "I put crayons and papers inside it.",
+      "path": "/assets/audio/kokoro/line-003289ecc91a.wav"
+    },
+    {
+      "id": "line-20f3c1956292",
+      "text": "I read it in the library.",
+      "path": "/assets/audio/kokoro/line-20f3c1956292.wav"
+    },
+    {
+      "id": "line-39d1e746b4f1",
+      "text": "I ride it to school. It has seats and stops.",
+      "path": "/assets/audio/kokoro/line-39d1e746b4f1.wav"
+    },
+    {
+      "id": "line-1887fb1de7fd",
+      "text": "I see a bus.",
+      "path": "/assets/audio/kokoro/line-1887fb1de7fd.wav"
+    },
+    {
+      "id": "line-96fff4095bae",
+      "text": "I see a cup.",
+      "path": "/assets/audio/kokoro/line-96fff4095bae.wav"
+    },
+    {
+      "id": "line-979e93945970",
+      "text": "I see an apple.",
+      "path": "/assets/audio/kokoro/line-979e93945970.wav"
+    },
+    {
+      "id": "line-21dcaa1d7d60",
+      "text": "I wait at the bus stop. The bus comes. I ride to school.",
+      "path": "/assets/audio/kokoro/line-21dcaa1d7d60.wav"
+    },
+    {
+      "id": "line-6566533927aa",
+      "text": "I wear it when rain falls.",
+      "path": "/assets/audio/kokoro/line-6566533927aa.wav"
+    },
+    {
+      "id": "line-b47f363e2b43",
+      "text": "is",
+      "path": "/assets/audio/kokoro/line-b47f363e2b43.wav"
+    },
+    {
+      "id": "line-247b191c6e24",
+      "text": "Is my bag red?",
+      "path": "/assets/audio/kokoro/line-247b191c6e24.wav"
+    },
+    {
+      "id": "line-975bdd048f84",
+      "text": "Is the door open?",
+      "path": "/assets/audio/kokoro/line-975bdd048f84.wav"
+    },
+    {
+      "id": "line-c970c4da0015",
+      "text": "It grows in the garden.",
+      "path": "/assets/audio/kokoro/line-c970c4da0015.wav"
+    },
+    {
+      "id": "line-7e61f6a76641",
+      "text": "It is left by the door.",
+      "path": "/assets/audio/kokoro/line-7e61f6a76641.wav"
+    },
+    {
+      "id": "line-af64d3d69042",
+      "text": "It shines in the sky.",
+      "path": "/assets/audio/kokoro/line-af64d3d69042.wav"
+    },
+    {
+      "id": "line-5a6dcedd1768",
+      "text": "Jina scans food at the register.",
+      "path": "/assets/audio/kokoro/line-5a6dcedd1768.wav"
+    },
+    {
+      "id": "line-4d0fadece30f",
+      "text": "kick ball",
+      "path": "/assets/audio/kokoro/line-4d0fadece30f.wav"
+    },
+    {
+      "id": "line-98798241748e",
+      "text": "leaf",
+      "path": "/assets/audio/kokoro/line-98798241748e.wav"
+    },
+    {
+      "id": "line-1bf9ebbe166c",
+      "text": "Lena writes letters on the board.",
+      "path": "/assets/audio/kokoro/line-1bf9ebbe166c.wav"
+    },
+    {
+      "id": "line-2743e39fd895",
+      "text": "Let's check together.",
+      "path": "/assets/audio/kokoro/line-2743e39fd895.wav"
+    },
+    {
+      "id": "line-93c768d0152f",
+      "text": "librarian",
+      "path": "/assets/audio/kokoro/line-93c768d0152f.wav"
+    },
+    {
+      "id": "line-00299a408dc3",
+      "text": "library",
+      "path": "/assets/audio/kokoro/line-00299a408dc3.wav"
+    },
+    {
+      "id": "line-c4eb7d7fea3c",
+      "text": "like",
+      "path": "/assets/audio/kokoro/line-c4eb7d7fea3c.wav"
+    },
+    {
+      "id": "line-91d9c4ecb6df",
+      "text": "liquid",
+      "path": "/assets/audio/kokoro/line-91d9c4ecb6df.wav"
+    },
+    {
+      "id": "line-8a843456f738",
+      "text": "Listen for long A. Choose the picture.",
+      "path": "/assets/audio/kokoro/line-8a843456f738.wav"
+    },
+    {
+      "id": "line-ff3c524e1296",
+      "text": "Listen for the number. Tap the matching parking space.",
+      "path": "/assets/audio/kokoro/line-ff3c524e1296.wav"
+    },
+    {
+      "id": "line-8b4b2357e2e1",
+      "text": "Listen for the shape name: circle. Tap the matching picture.",
+      "path": "/assets/audio/kokoro/line-8b4b2357e2e1.wav"
+    },
+    {
+      "id": "line-a7f0d6f876dc",
+      "text": "Listen for the shape name: cone. Tap the matching picture.",
+      "path": "/assets/audio/kokoro/line-a7f0d6f876dc.wav"
+    },
+    {
+      "id": "line-3250473e3cee",
+      "text": "Listen for the shape name: cube. Tap the matching picture.",
+      "path": "/assets/audio/kokoro/line-3250473e3cee.wav"
+    },
+    {
+      "id": "line-fe75ae0ccbae",
+      "text": "Listen for the shape name: cylinder. Tap the matching picture.",
+      "path": "/assets/audio/kokoro/line-fe75ae0ccbae.wav"
+    },
+    {
+      "id": "line-d37c4bd00a0f",
+      "text": "Listen for the shape name: hexagon. Tap the matching picture.",
+      "path": "/assets/audio/kokoro/line-d37c4bd00a0f.wav"
+    },
+    {
+      "id": "line-282161985437",
+      "text": "Listen for the shape name: octagon. Tap the matching picture.",
+      "path": "/assets/audio/kokoro/line-282161985437.wav"
+    },
+    {
+      "id": "line-4724857e1ecc",
+      "text": "Listen for the shape name: pentagon. Tap the matching picture.",
+      "path": "/assets/audio/kokoro/line-4724857e1ecc.wav"
+    },
+    {
+      "id": "line-d1001c2bf4df",
+      "text": "Listen for the shape name: rectangle. Tap the matching picture.",
+      "path": "/assets/audio/kokoro/line-d1001c2bf4df.wav"
+    },
+    {
+      "id": "line-d4d1959c9979",
+      "text": "Listen for the shape name: sphere. Tap the matching picture.",
+      "path": "/assets/audio/kokoro/line-d4d1959c9979.wav"
+    },
+    {
+      "id": "line-7568d2bb2bc4",
+      "text": "Listen for the shape name: square. Tap the matching picture.",
+      "path": "/assets/audio/kokoro/line-7568d2bb2bc4.wav"
+    },
+    {
+      "id": "line-820e421e06cb",
+      "text": "Listen for the shape name: triangle. Tap the matching picture.",
+      "path": "/assets/audio/kokoro/line-820e421e06cb.wav"
+    },
+    {
+      "id": "line-adaab2ed96c5",
+      "text": "Listen for the shape name. Tap the picture that matches.",
+      "path": "/assets/audio/kokoro/line-adaab2ed96c5.wav"
+    },
+    {
+      "id": "line-bb3e256b201f",
+      "text": "Listen to the job clue. Choose the worker who does that job.",
+      "path": "/assets/audio/kokoro/line-bb3e256b201f.wav"
+    },
+    {
+      "id": "line-5cec8c1ad1be",
+      "text": "Listen to the price and money. Choose buy now or save more.",
+      "path": "/assets/audio/kokoro/line-5cec8c1ad1be.wav"
+    },
+    {
+      "id": "line-12cf5812b41e",
+      "text": "Listen to the sentence clue. Tap the picture or word that fits.",
+      "path": "/assets/audio/kokoro/line-12cf5812b41e.wav"
+    },
+    {
+      "id": "line-ec431b5bc23c",
+      "text": "Listen to the sentence. Choose the ending mark.",
+      "path": "/assets/audio/kokoro/line-ec431b5bc23c.wav"
+    },
+    {
+      "id": "line-760bce19791c",
+      "text": "Listen to the story. Drag more objects in. Then tap how many all together.",
+      "path": "/assets/audio/kokoro/line-760bce19791c.wav"
+    },
+    {
+      "id": "line-a5db70bc400a",
+      "text": "Listen to the story. Drag some objects away. Then tap how many are left.",
+      "path": "/assets/audio/kokoro/line-a5db70bc400a.wav"
+    },
+    {
+      "id": "line-7578b9ab65cd",
+      "text": "Listen to the whole sentence. Choose the ending mark.",
+      "path": "/assets/audio/kokoro/line-7578b9ab65cd.wav"
+    },
+    {
+      "id": "line-9ecc670ed52b",
+      "text": "Listen to the word. Choose its picture.",
+      "path": "/assets/audio/kokoro/line-9ecc670ed52b.wav"
+    },
+    {
+      "id": "line-a15b0abea8a3",
+      "text": "Long A can be a, a_e, ai, or ay. Short a says /ae/ as in alligator.",
+      "path": "/assets/audio/kokoro/line-a15b0abea8a3.wav"
+    },
+    {
+      "id": "line-c9fa0727aad8",
+      "text": "Long A says /ā/.",
+      "path": "/assets/audio/kokoro/line-c9fa0727aad8.wav"
+    },
+    {
+      "id": "line-b13d2d6fa970",
+      "text": "Look at each ending mark.",
+      "path": "/assets/audio/kokoro/line-b13d2d6fa970.wav"
+    },
+    {
+      "id": "line-321e1df3db4e",
+      "text": "Look at how each object feels.",
+      "path": "/assets/audio/kokoro/line-321e1df3db4e.wav"
+    },
+    {
+      "id": "line-c592552340f5",
+      "text": "Look at land and water places.",
+      "path": "/assets/audio/kokoro/line-c592552340f5.wav"
+    },
+    {
+      "id": "line-b3bae0d07fb9",
+      "text": "Look at liquid water and ice.",
+      "path": "/assets/audio/kokoro/line-b3bae0d07fb9.wav"
+    },
+    {
+      "id": "line-6645ea75de79",
+      "text": "Look at the clue picture. Choose the answer.",
+      "path": "/assets/audio/kokoro/line-6645ea75de79.wav"
+    },
+    {
+      "id": "line-532eacb5b17e",
+      "text": "Look at the cost and money.",
+      "path": "/assets/audio/kokoro/line-532eacb5b17e.wav"
+    },
+    {
+      "id": "line-cf80c6d43a7e",
+      "text": "Look at the garden picture. Tap what helps the plant or flower.",
+      "path": "/assets/audio/kokoro/line-cf80c6d43a7e.wav"
+    },
+    {
+      "id": "line-a1a4f971129d",
+      "text": "Look at the map feature. Sort it into land or water.",
+      "path": "/assets/audio/kokoro/line-a1a4f971129d.wav"
+    },
+    {
+      "id": "line-8c9ecfaec586",
+      "text": "Look at the model. Bus and bag start the same way.",
+      "path": "/assets/audio/kokoro/line-8c9ecfaec586.wav"
+    },
+    {
+      "id": "line-41d0ee23dead",
+      "text": "Look at the model. Cat goes in the at rhyme house.",
+      "path": "/assets/audio/kokoro/line-41d0ee23dead.wav"
+    },
+    {
+      "id": "line-90adb4a4bc60",
+      "text": "Look at the object. Sort it by how it feels or looks.",
+      "path": "/assets/audio/kokoro/line-90adb4a4bc60.wav"
+    },
+    {
+      "id": "line-41f10f8db4a2",
+      "text": "Look at the parts. Choose the picture that matches the question.",
+      "path": "/assets/audio/kokoro/line-41f10f8db4a2.wav"
+    },
+    {
+      "id": "line-b7be3cbdb6d9",
+      "text": "Look at the parts. Tap equal or not equal shares.",
+      "path": "/assets/audio/kokoro/line-b7be3cbdb6d9.wav"
+    },
+    {
+      "id": "line-bf51728fc32b",
+      "text": "Look at the picture and sentence frame. Listen to the whole sentence. Choose the sight word that makes sense.",
+      "path": "/assets/audio/kokoro/line-bf51728fc32b.wav"
+    },
+    {
+      "id": "line-62cd4be0df0a",
+      "text": "Look at the picture and sentence. Choose the word that makes sense.",
+      "path": "/assets/audio/kokoro/line-62cd4be0df0a.wav"
+    },
+    {
+      "id": "line-ae39f44e1cf4",
+      "text": "Look at the pictures. Choose what counts as water, then choose solid or liquid water.",
+      "path": "/assets/audio/kokoro/line-ae39f44e1cf4.wav"
+    },
+    {
+      "id": "line-c4e346a63ab1",
+      "text": "Look at the plant helper pictures.",
+      "path": "/assets/audio/kokoro/line-c4e346a63ab1.wav"
+    },
+    {
+      "id": "line-494cd1584f70",
+      "text": "Look at the problem. Choose a helpful action.",
+      "path": "/assets/audio/kokoro/line-494cd1584f70.wav"
+    },
+    {
+      "id": "line-6432231e13f7",
+      "text": "Look at the problem. Choose the helper.",
+      "path": "/assets/audio/kokoro/line-6432231e13f7.wav"
+    },
+    {
+      "id": "line-fd6bcb7f7255",
+      "text": "Look at the problem. Tap the helper who can help.",
+      "path": "/assets/audio/kokoro/line-fd6bcb7f7255.wav"
+    },
+    {
+      "id": "line-3fb7ca97c158",
+      "text": "Look at the school map question. Tap the school place.",
+      "path": "/assets/audio/kokoro/line-3fb7ca97c158.wav"
+    },
+    {
+      "id": "line-1da8254cecda",
+      "text": "Look at the school map.",
+      "path": "/assets/audio/kokoro/line-1da8254cecda.wav"
+    },
+    {
+      "id": "line-23e5e86a6358",
+      "text": "Look at the shape. Decide where it belongs, then drag it to the bin.",
+      "path": "/assets/audio/kokoro/line-23e5e86a6358.wav"
+    },
+    {
+      "id": "line-97feaff4742b",
+      "text": "Look at the shape. Drag it to flat shapes or solid shapes.",
+      "path": "/assets/audio/kokoro/line-97feaff4742b.wav"
+    },
+    {
+      "id": "line-be0e94999bc3",
+      "text": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "path": "/assets/audio/kokoro/line-be0e94999bc3.wav"
+    },
+    {
+      "id": "line-9c886886525b",
+      "text": "Look at the shape. Is it flat or solid? Drag it to the matching bin.",
+      "path": "/assets/audio/kokoro/line-9c886886525b.wav"
+    },
+    {
+      "id": "line-69b0be0e3c70",
+      "text": "Look at the situation. Tap the action that helps.",
+      "path": "/assets/audio/kokoro/line-69b0be0e3c70.wav"
+    },
+    {
+      "id": "line-d4073810b7e9",
+      "text": "Look at the sun!",
+      "path": "/assets/audio/kokoro/line-d4073810b7e9.wav"
+    },
+    {
+      "id": "line-b7b686883f05",
+      "text": "Look at the work. Choose the job.",
+      "path": "/assets/audio/kokoro/line-b7b686883f05.wav"
+    },
+    {
+      "id": "line-f2111f3d22ce",
+      "text": "Look carefully. A circle is flat. A sphere is solid.",
+      "path": "/assets/audio/kokoro/line-f2111f3d22ce.wav"
+    },
+    {
+      "id": "line-094530549b5e",
+      "text": "lunch",
+      "path": "/assets/audio/kokoro/line-094530549b5e.wav"
+    },
+    {
+      "id": "line-ca0a91bea334",
+      "text": "lunch box",
+      "path": "/assets/audio/kokoro/line-ca0a91bea334.wav"
+    },
+    {
+      "id": "line-b4fb0b8dfba6",
+      "text": "mail carrier",
+      "path": "/assets/audio/kokoro/line-b4fb0b8dfba6.wav"
+    },
+    {
+      "id": "line-18ceaf8a66fc",
+      "text": "Make a set of 1. Put one object in each box. Press Done when finished.",
+      "path": "/assets/audio/kokoro/line-18ceaf8a66fc.wav"
+    },
+    {
+      "id": "line-210248746756",
+      "text": "Make a set of 10. Put one object in each box. Press Done when finished.",
+      "path": "/assets/audio/kokoro/line-210248746756.wav"
+    },
+    {
+      "id": "line-2785f25d7aff",
+      "text": "Make a set of 2. Put one object in each box. Press Done when finished.",
+      "path": "/assets/audio/kokoro/line-2785f25d7aff.wav"
+    },
+    {
+      "id": "line-bacd9007a81f",
+      "text": "Make a set of 3. Put one object in each box. Press Done when finished.",
+      "path": "/assets/audio/kokoro/line-bacd9007a81f.wav"
+    },
+    {
+      "id": "line-723f81d4652c",
+      "text": "Make a set of 4. Put one object in each box. Press Done when finished.",
+      "path": "/assets/audio/kokoro/line-723f81d4652c.wav"
+    },
+    {
+      "id": "line-2e9f556924cd",
+      "text": "Make a set of 5. Put one object in each box. Press Done when finished.",
+      "path": "/assets/audio/kokoro/line-2e9f556924cd.wav"
+    },
+    {
+      "id": "line-6be18a307d09",
+      "text": "Make a set of 6. Put one object in each box. Press Done when finished.",
+      "path": "/assets/audio/kokoro/line-6be18a307d09.wav"
+    },
+    {
+      "id": "line-bf201c1a130f",
+      "text": "Make a set of 7. Put one object in each box. Press Done when finished.",
+      "path": "/assets/audio/kokoro/line-bf201c1a130f.wav"
+    },
+    {
+      "id": "line-202f300899ea",
+      "text": "Make a set of 8. Put one object in each box. Press Done when finished.",
+      "path": "/assets/audio/kokoro/line-202f300899ea.wav"
+    },
+    {
+      "id": "line-3185a2ec5235",
+      "text": "Make a set of 9. Put one object in each box. Press Done when finished.",
+      "path": "/assets/audio/kokoro/line-3185a2ec5235.wav"
+    },
+    {
+      "id": "line-37745ed7a0f0",
+      "text": "map",
+      "path": "/assets/audio/kokoro/line-37745ed7a0f0.wav"
+    },
+    {
+      "id": "line-ffe998adb310",
+      "text": "map. /m/, /ae/, /p/. map.",
+      "path": "/assets/audio/kokoro/line-ffe998adb310.wav"
+    },
+    {
+      "id": "line-41fb0dd1f367",
+      "text": "Maya teaches students.",
+      "path": "/assets/audio/kokoro/line-41fb0dd1f367.wav"
+    },
+    {
+      "id": "line-cf5dbf0ec57d",
+      "text": "milk",
+      "path": "/assets/audio/kokoro/line-cf5dbf0ec57d.wav"
+    },
+    {
+      "id": "line-e428b54c599d",
+      "text": "mop",
+      "path": "/assets/audio/kokoro/line-e428b54c599d.wav"
+    },
+    {
+      "id": "line-8dbc09f0ee6d",
+      "text": "mop. /m/, /o/, /p/. mop.",
+      "path": "/assets/audio/kokoro/line-8dbc09f0ee6d.wav"
+    },
+    {
+      "id": "line-caee762a28da",
+      "text": "Move objects away from the basket.",
+      "path": "/assets/audio/kokoro/line-caee762a28da.wav"
+    },
+    {
+      "id": "line-3ece1471f44f",
+      "text": "my",
+      "path": "/assets/audio/kokoro/line-3ece1471f44f.wav"
+    },
+    {
+      "id": "line-164b70cd9e17",
+      "text": "My bag is red.",
+      "path": "/assets/audio/kokoro/line-164b70cd9e17.wav"
+    },
+    {
+      "id": "line-1bd9bf90021f",
+      "text": "My cup is blue.",
+      "path": "/assets/audio/kokoro/line-1bd9bf90021f.wav"
+    },
+    {
+      "id": "line-549299c05e45",
+      "text": "My hat is big.",
+      "path": "/assets/audio/kokoro/line-549299c05e45.wav"
+    },
+    {
+      "id": "line-08a26a735311",
+      "text": "My snack is here.",
+      "path": "/assets/audio/kokoro/line-08a26a735311.wav"
+    },
+    {
+      "id": "line-2ae751353243",
+      "text": "Nia helps students find books.",
+      "path": "/assets/audio/kokoro/line-2ae751353243.wav"
+    },
+    {
+      "id": "line-907b0c22acf2",
+      "text": "Nice counting. You made a set of 1.",
+      "path": "/assets/audio/kokoro/line-907b0c22acf2.wav"
+    },
+    {
+      "id": "line-5e347cfde03f",
+      "text": "Nice counting. You made a set of 10.",
+      "path": "/assets/audio/kokoro/line-5e347cfde03f.wav"
+    },
+    {
+      "id": "line-e35770afdea1",
+      "text": "Nice counting. You made a set of 2.",
+      "path": "/assets/audio/kokoro/line-e35770afdea1.wav"
+    },
+    {
+      "id": "line-42f888f7dbef",
+      "text": "Nice counting. You made a set of 3.",
+      "path": "/assets/audio/kokoro/line-42f888f7dbef.wav"
+    },
+    {
+      "id": "line-f33117507676",
+      "text": "Nice counting. You made a set of 4.",
+      "path": "/assets/audio/kokoro/line-f33117507676.wav"
+    },
+    {
+      "id": "line-424dcce5a70e",
+      "text": "Nice counting. You made a set of 5.",
+      "path": "/assets/audio/kokoro/line-424dcce5a70e.wav"
+    },
+    {
+      "id": "line-330febcc2450",
+      "text": "Nice counting. You made a set of 6.",
+      "path": "/assets/audio/kokoro/line-330febcc2450.wav"
+    },
+    {
+      "id": "line-7d04dea712ec",
+      "text": "Nice counting. You made a set of 7.",
+      "path": "/assets/audio/kokoro/line-7d04dea712ec.wav"
+    },
+    {
+      "id": "line-0ac3632101b3",
+      "text": "Nice counting. You made a set of 8.",
+      "path": "/assets/audio/kokoro/line-0ac3632101b3.wav"
+    },
+    {
+      "id": "line-c193fa2fcb93",
+      "text": "Nice counting. You made a set of 9.",
+      "path": "/assets/audio/kokoro/line-c193fa2fcb93.wav"
+    },
+    {
+      "id": "line-cd4b63192780",
+      "text": "Nice work building the word.",
+      "path": "/assets/audio/kokoro/line-cd4b63192780.wav"
+    },
+    {
+      "id": "line-151a6ffe5ea9",
+      "text": "Nice work building the word. Bag.",
+      "path": "/assets/audio/kokoro/line-151a6ffe5ea9.wav"
+    },
+    {
+      "id": "line-f26cfdca4e94",
+      "text": "Nice work building the word. Cat.",
+      "path": "/assets/audio/kokoro/line-f26cfdca4e94.wav"
+    },
+    {
+      "id": "line-b7aa44e92eec",
+      "text": "Nice work building the word. Hat.",
+      "path": "/assets/audio/kokoro/line-b7aa44e92eec.wav"
+    },
+    {
+      "id": "line-f99b8a61906d",
+      "text": "Nice work building the word. Mop.",
+      "path": "/assets/audio/kokoro/line-f99b8a61906d.wav"
+    },
+    {
+      "id": "line-9c477a20dab3",
+      "text": "Nice work choosing soil.",
+      "path": "/assets/audio/kokoro/line-9c477a20dab3.wav"
+    },
+    {
+      "id": "line-46d58794c896",
+      "text": "Nice work choosing the safe action.",
+      "path": "/assets/audio/kokoro/line-46d58794c896.wav"
+    },
+    {
+      "id": "line-82197c4c0796",
+      "text": "Nice work choosing what to do with money.",
+      "path": "/assets/audio/kokoro/line-82197c4c0796.wav"
+    },
+    {
+      "id": "line-d8b50ebdd9ec",
+      "text": "Nice work finding bag.",
+      "path": "/assets/audio/kokoro/line-d8b50ebdd9ec.wav"
+    },
+    {
+      "id": "line-44425faba193",
+      "text": "Nice work finding book.",
+      "path": "/assets/audio/kokoro/line-44425faba193.wav"
+    },
+    {
+      "id": "line-a4e9b80a8a66",
+      "text": "Nice work finding bus.",
+      "path": "/assets/audio/kokoro/line-a4e9b80a8a66.wav"
+    },
+    {
+      "id": "line-ec1c93d931c6",
+      "text": "Nice work finding cup.",
+      "path": "/assets/audio/kokoro/line-ec1c93d931c6.wav"
+    },
+    {
+      "id": "line-cfd1af337c05",
+      "text": "Nice work finding door.",
+      "path": "/assets/audio/kokoro/line-cfd1af337c05.wav"
+    },
+    {
+      "id": "line-7da1ce2ceef1",
+      "text": "Nice work finding equal fourths.",
+      "path": "/assets/audio/kokoro/line-7da1ce2ceef1.wav"
+    },
+    {
+      "id": "line-aef275ad6a23",
+      "text": "Nice work finding flower.",
+      "path": "/assets/audio/kokoro/line-aef275ad6a23.wav"
+    },
+    {
+      "id": "line-86e00d217f0d",
+      "text": "Nice work finding liquid water.",
+      "path": "/assets/audio/kokoro/line-86e00d217f0d.wav"
+    },
+    {
+      "id": "line-6a3b5b585de8",
+      "text": "Nice work finding liquid.",
+      "path": "/assets/audio/kokoro/line-6a3b5b585de8.wav"
+    },
+    {
+      "id": "line-db321949b726",
+      "text": "Nice work finding long A in acorn.",
+      "path": "/assets/audio/kokoro/line-db321949b726.wav"
+    },
+    {
+      "id": "line-79656e808137",
+      "text": "Nice work finding long A in cake.",
+      "path": "/assets/audio/kokoro/line-79656e808137.wav"
+    },
+    {
+      "id": "line-baf7b1124c1b",
+      "text": "Nice work finding long A in cape.",
+      "path": "/assets/audio/kokoro/line-baf7b1124c1b.wav"
+    },
+    {
+      "id": "line-2f6c65f94562",
+      "text": "Nice work finding long A in rain.",
+      "path": "/assets/audio/kokoro/line-2f6c65f94562.wav"
+    },
+    {
+      "id": "line-5dc5e1b61531",
+      "text": "Nice work finding long A in tape.",
+      "path": "/assets/audio/kokoro/line-5dc5e1b61531.wav"
+    },
+    {
+      "id": "line-f87d8e509cd7",
+      "text": "Nice work finding long A in tray.",
+      "path": "/assets/audio/kokoro/line-f87d8e509cd7.wav"
+    },
+    {
+      "id": "line-093a7ab18d4b",
+      "text": "Nice work finding lunch.",
+      "path": "/assets/audio/kokoro/line-093a7ab18d4b.wav"
+    },
+    {
+      "id": "line-74e894171121",
+      "text": "Nice work finding not equal shares.",
+      "path": "/assets/audio/kokoro/line-74e894171121.wav"
+    },
+    {
+      "id": "line-ff4022474359",
+      "text": "Nice work finding package.",
+      "path": "/assets/audio/kokoro/line-ff4022474359.wav"
+    },
+    {
+      "id": "line-55dc24aea76c",
+      "text": "Nice work finding raincoat.",
+      "path": "/assets/audio/kokoro/line-55dc24aea76c.wav"
+    },
+    {
+      "id": "line-158632b000a9",
+      "text": "Nice work finding solid water.",
+      "path": "/assets/audio/kokoro/line-158632b000a9.wav"
+    },
+    {
+      "id": "line-da9d116672a5",
+      "text": "Nice work finding solid.",
+      "path": "/assets/audio/kokoro/line-da9d116672a5.wav"
+    },
+    {
+      "id": "line-37aacab3b40b",
+      "text": "Nice work finding sun.",
+      "path": "/assets/audio/kokoro/line-37aacab3b40b.wav"
+    },
+    {
+      "id": "line-aa2c2e25a808",
+      "text": "Nice work finding sunlight.",
+      "path": "/assets/audio/kokoro/line-aa2c2e25a808.wav"
+    },
+    {
+      "id": "line-c37dd41c356d",
+      "text": "Nice work finding the bathroom.",
+      "path": "/assets/audio/kokoro/line-c37dd41c356d.wav"
+    },
+    {
+      "id": "line-774e3c076cae",
+      "text": "Nice work finding the bus driver.",
+      "path": "/assets/audio/kokoro/line-774e3c076cae.wav"
+    },
+    {
+      "id": "line-6e081828bf29",
+      "text": "Nice work finding the bus.",
+      "path": "/assets/audio/kokoro/line-6e081828bf29.wav"
+    },
+    {
+      "id": "line-73d3276c0d89",
+      "text": "Nice work finding the cafeteria.",
+      "path": "/assets/audio/kokoro/line-73d3276c0d89.wav"
+    },
+    {
+      "id": "line-dc11f4b83990",
+      "text": "Nice work finding the cashier.",
+      "path": "/assets/audio/kokoro/line-dc11f4b83990.wav"
+    },
+    {
+      "id": "line-4057d8e2e543",
+      "text": "Nice work finding the classroom.",
+      "path": "/assets/audio/kokoro/line-4057d8e2e543.wav"
+    },
+    {
+      "id": "line-f1a4886a010c",
+      "text": "Nice work finding the crossing guard.",
+      "path": "/assets/audio/kokoro/line-f1a4886a010c.wav"
+    },
+    {
+      "id": "line-cae217b954ea",
+      "text": "Nice work finding the custodian.",
+      "path": "/assets/audio/kokoro/line-cae217b954ea.wav"
+    },
+    {
+      "id": "line-6976ab9b2cc2",
+      "text": "Nice work finding the empty cup.",
+      "path": "/assets/audio/kokoro/line-6976ab9b2cc2.wav"
+    },
+    {
+      "id": "line-f4272b20c561",
+      "text": "Nice work finding the fish.",
+      "path": "/assets/audio/kokoro/line-f4272b20c561.wav"
+    },
+    {
+      "id": "line-ae48aaad00e4",
+      "text": "Nice work finding the flower.",
+      "path": "/assets/audio/kokoro/line-ae48aaad00e4.wav"
+    },
+    {
+      "id": "line-216d00c91863",
+      "text": "Nice work finding the librarian.",
+      "path": "/assets/audio/kokoro/line-216d00c91863.wav"
+    },
+    {
+      "id": "line-4ae633d4cde7",
+      "text": "Nice work finding the library.",
+      "path": "/assets/audio/kokoro/line-4ae633d4cde7.wav"
+    },
+    {
+      "id": "line-bf5b413b9279",
+      "text": "Nice work finding the mail carrier.",
+      "path": "/assets/audio/kokoro/line-bf5b413b9279.wav"
+    },
+    {
+      "id": "line-078b6b67671c",
+      "text": "Nice work finding the nurse.",
+      "path": "/assets/audio/kokoro/line-078b6b67671c.wav"
+    },
+    {
+      "id": "line-969eb3211ace",
+      "text": "Nice work finding the office.",
+      "path": "/assets/audio/kokoro/line-969eb3211ace.wav"
+    },
+    {
+      "id": "line-5d7ce76c5f4d",
+      "text": "Nice work finding the playground.",
+      "path": "/assets/audio/kokoro/line-5d7ce76c5f4d.wav"
+    },
+    {
+      "id": "line-493efeb2e7d3",
+      "text": "Nice work finding the seed.",
+      "path": "/assets/audio/kokoro/line-493efeb2e7d3.wav"
+    },
+    {
+      "id": "line-37af3ecd9128",
+      "text": "Nice work finding the teacher.",
+      "path": "/assets/audio/kokoro/line-37af3ecd9128.wav"
+    },
+    {
+      "id": "line-15228f4fda60",
+      "text": "Nice work finding the total.",
+      "path": "/assets/audio/kokoro/line-15228f4fda60.wav"
+    },
+    {
+      "id": "line-fb37919081af",
+      "text": "Nice work finding the word family.",
+      "path": "/assets/audio/kokoro/line-fb37919081af.wav"
+    },
+    {
+      "id": "line-2905bb8a24f9",
+      "text": "Nice work finding the word family. Can, an.",
+      "path": "/assets/audio/kokoro/line-2905bb8a24f9.wav"
+    },
+    {
+      "id": "line-bb196eba24ad",
+      "text": "Nice work finding the word family. Cap, ap.",
+      "path": "/assets/audio/kokoro/line-bb196eba24ad.wav"
+    },
+    {
+      "id": "line-bc233fb6c899",
+      "text": "Nice work finding the word family. Hop, op.",
+      "path": "/assets/audio/kokoro/line-bc233fb6c899.wav"
+    },
+    {
+      "id": "line-c8b56efb1a11",
+      "text": "Nice work finding the word family. Pin, in.",
+      "path": "/assets/audio/kokoro/line-c8b56efb1a11.wav"
+    },
+    {
+      "id": "line-b3860f7b3fbf",
+      "text": "Nice work finding water.",
+      "path": "/assets/audio/kokoro/line-b3860f7b3fbf.wav"
+    },
+    {
+      "id": "line-2c2884a5c51d",
+      "text": "Nice work helping a classmate.",
+      "path": "/assets/audio/kokoro/line-2c2884a5c51d.wav"
+    },
+    {
+      "id": "line-f5993f98ae4f",
+      "text": "Nice work helping at desks.",
+      "path": "/assets/audio/kokoro/line-f5993f98ae4f.wav"
+    },
+    {
+      "id": "line-3bca3588d8c4",
+      "text": "Nice work helping the library.",
+      "path": "/assets/audio/kokoro/line-3bca3588d8c4.wav"
+    },
+    {
+      "id": "line-c647a9518db6",
+      "text": "Nice work helping the playground.",
+      "path": "/assets/audio/kokoro/line-c647a9518db6.wav"
+    },
+    {
+      "id": "line-82119a8d9403",
+      "text": "Nice work listening for the first sound.",
+      "path": "/assets/audio/kokoro/line-82119a8d9403.wav"
+    },
+    {
+      "id": "line-1ca91d85a3f3",
+      "text": "Nice work making your sentence.",
+      "path": "/assets/audio/kokoro/line-1ca91d85a3f3.wav"
+    },
+    {
+      "id": "line-3a74ab1cadb2",
+      "text": "Nice work making your sentence. I like apples because it is yummy.",
+      "path": "/assets/audio/kokoro/line-3a74ab1cadb2.wav"
+    },
+    {
+      "id": "line-253d918b23a1",
+      "text": "Nice work making your sentence. I like my bag because it is red.",
+      "path": "/assets/audio/kokoro/line-253d918b23a1.wav"
+    },
+    {
+      "id": "line-645532894329",
+      "text": "Nice work making your sentence. I like pizza because it is yummy.",
+      "path": "/assets/audio/kokoro/line-645532894329.wav"
+    },
+    {
+      "id": "line-f629829f0de2",
+      "text": "Nice work making your sentence. I like the park because it is fun.",
+      "path": "/assets/audio/kokoro/line-f629829f0de2.wav"
+    },
+    {
+      "id": "line-fb3bdca80ae3",
+      "text": "Nice work matching cube to solid shape. A cube is a solid shape.",
+      "path": "/assets/audio/kokoro/line-fb3bdca80ae3.wav"
+    },
+    {
+      "id": "line-02e65e102fa3",
+      "text": "Nice work matching cylinder to solid shape. A cylinder is a solid shape.",
+      "path": "/assets/audio/kokoro/line-02e65e102fa3.wav"
+    },
+    {
+      "id": "line-77403be99e8c",
+      "text": "Nice work matching the circle shape.",
+      "path": "/assets/audio/kokoro/line-77403be99e8c.wav"
+    },
+    {
+      "id": "line-cb2fe71f8d30",
+      "text": "Nice work matching the cone shape.",
+      "path": "/assets/audio/kokoro/line-cb2fe71f8d30.wav"
+    },
+    {
+      "id": "line-b13833b01a6e",
+      "text": "Nice work matching the cube shape.",
+      "path": "/assets/audio/kokoro/line-b13833b01a6e.wav"
+    },
+    {
+      "id": "line-198bac6dcacd",
+      "text": "Nice work matching the cylinder shape.",
+      "path": "/assets/audio/kokoro/line-198bac6dcacd.wav"
+    },
+    {
+      "id": "line-e8013d912136",
+      "text": "Nice work matching the hexagon shape.",
+      "path": "/assets/audio/kokoro/line-e8013d912136.wav"
+    },
+    {
+      "id": "line-69a5fbe28d34",
+      "text": "Nice work matching the octagon shape.",
+      "path": "/assets/audio/kokoro/line-69a5fbe28d34.wav"
+    },
+    {
+      "id": "line-131720b68a17",
+      "text": "Nice work matching the pentagon shape.",
+      "path": "/assets/audio/kokoro/line-131720b68a17.wav"
+    },
+    {
+      "id": "line-eb49c24b9480",
+      "text": "Nice work matching the rectangle shape.",
+      "path": "/assets/audio/kokoro/line-eb49c24b9480.wav"
+    },
+    {
+      "id": "line-87e08c6d2b0e",
+      "text": "Nice work matching the sphere shape.",
+      "path": "/assets/audio/kokoro/line-87e08c6d2b0e.wav"
+    },
+    {
+      "id": "line-8e07e01918b0",
+      "text": "Nice work matching the square shape.",
+      "path": "/assets/audio/kokoro/line-8e07e01918b0.wav"
+    },
+    {
+      "id": "line-fb5fbec7027d",
+      "text": "Nice work matching the triangle shape.",
+      "path": "/assets/audio/kokoro/line-fb5fbec7027d.wav"
+    },
+    {
+      "id": "line-fbfdaa5622ba",
+      "text": "Nice work picking up trash.",
+      "path": "/assets/audio/kokoro/line-fbfdaa5622ba.wav"
+    },
+    {
+      "id": "line-90abf1ecdf6c",
+      "text": "Nice work putting the seed in soil.",
+      "path": "/assets/audio/kokoro/line-90abf1ecdf6c.wav"
+    },
+    {
+      "id": "line-c75049e7a800",
+      "text": "Nice work seeing not equal parts.",
+      "path": "/assets/audio/kokoro/line-c75049e7a800.wav"
+    },
+    {
+      "id": "line-785b799bcff6",
+      "text": "Nice work seeing the different sizes.",
+      "path": "/assets/audio/kokoro/line-785b799bcff6.wav"
+    },
+    {
+      "id": "line-54bca9858f47",
+      "text": "Nice work seeing the parts are different sizes.",
+      "path": "/assets/audio/kokoro/line-54bca9858f47.wav"
+    },
+    {
+      "id": "line-70f40bbbb4f6",
+      "text": "Nice work sorting candle.",
+      "path": "/assets/audio/kokoro/line-70f40bbbb4f6.wav"
+    },
+    {
+      "id": "line-25c3d6a19422",
+      "text": "Nice work sorting car.",
+      "path": "/assets/audio/kokoro/line-25c3d6a19422.wav"
+    },
+    {
+      "id": "line-1ee979729afc",
+      "text": "Nice work sorting dull.",
+      "path": "/assets/audio/kokoro/line-1ee979729afc.wav"
+    },
+    {
+      "id": "line-cee3247e4cd1",
+      "text": "Nice work sorting email.",
+      "path": "/assets/audio/kokoro/line-cee3247e4cd1.wav"
+    },
+    {
+      "id": "line-c34e069568a7",
+      "text": "Nice work sorting GPS.",
+      "path": "/assets/audio/kokoro/line-c34e069568a7.wav"
+    },
+    {
+      "id": "line-db202e2b920d",
+      "text": "Nice work sorting hard.",
+      "path": "/assets/audio/kokoro/line-db202e2b920d.wav"
+    },
+    {
+      "id": "line-7c5223cbb1d6",
+      "text": "Nice work sorting horse wagon.",
+      "path": "/assets/audio/kokoro/line-7c5223cbb1d6.wav"
+    },
+    {
+      "id": "line-f94b789f9f54",
+      "text": "Nice work sorting land.",
+      "path": "/assets/audio/kokoro/line-f94b789f9f54.wav"
+    },
+    {
+      "id": "line-59efabe08d24",
+      "text": "Nice work sorting laptop.",
+      "path": "/assets/audio/kokoro/line-59efabe08d24.wav"
+    },
+    {
+      "id": "line-92b36c363e3e",
+      "text": "Nice work sorting letter.",
+      "path": "/assets/audio/kokoro/line-92b36c363e3e.wav"
+    },
+    {
+      "id": "line-7cea89d9cd3e",
+      "text": "Nice work sorting light bulb.",
+      "path": "/assets/audio/kokoro/line-7cea89d9cd3e.wav"
+    },
+    {
+      "id": "line-670f8f41cdb1",
+      "text": "Nice work sorting old phone.",
+      "path": "/assets/audio/kokoro/line-670f8f41cdb1.wav"
+    },
+    {
+      "id": "line-38df786ed5a8",
+      "text": "Nice work sorting paper map.",
+      "path": "/assets/audio/kokoro/line-38df786ed5a8.wav"
+    },
+    {
+      "id": "line-d457a2c97f80",
+      "text": "Nice work sorting rough.",
+      "path": "/assets/audio/kokoro/line-d457a2c97f80.wav"
+    },
+    {
+      "id": "line-a21c713039bf",
+      "text": "Nice work sorting shiny.",
+      "path": "/assets/audio/kokoro/line-a21c713039bf.wav"
+    },
+    {
+      "id": "line-0a194a2ba452",
+      "text": "Nice work sorting smart board.",
+      "path": "/assets/audio/kokoro/line-0a194a2ba452.wav"
+    },
+    {
+      "id": "line-85d05eea87fc",
+      "text": "Nice work sorting smartphone.",
+      "path": "/assets/audio/kokoro/line-85d05eea87fc.wav"
+    },
+    {
+      "id": "line-ebd77ed3fcf0",
+      "text": "Nice work sorting smooth.",
+      "path": "/assets/audio/kokoro/line-ebd77ed3fcf0.wav"
+    },
+    {
+      "id": "line-8e2360a2d915",
+      "text": "Nice work sorting soft.",
+      "path": "/assets/audio/kokoro/line-8e2360a2d915.wav"
+    },
+    {
+      "id": "line-e6fa6c3cbb21",
+      "text": "Nice work sorting typewriter.",
+      "path": "/assets/audio/kokoro/line-e6fa6c3cbb21.wav"
+    },
+    {
+      "id": "line-959de38326a9",
+      "text": "Nice work sorting water.",
+      "path": "/assets/audio/kokoro/line-959de38326a9.wav"
+    },
+    {
+      "id": "line-edb278b53b21",
+      "text": "Nice work sorting whiteboard.",
+      "path": "/assets/audio/kokoro/line-edb278b53b21.wav"
+    },
+    {
+      "id": "line-ea6d60f0c907",
+      "text": "Nice work staying in line.",
+      "path": "/assets/audio/kokoro/line-ea6d60f0c907.wav"
+    },
+    {
+      "id": "line-4ca35fdc7a1a",
+      "text": "Nice work using the crosswalk.",
+      "path": "/assets/audio/kokoro/line-4ca35fdc7a1a.wav"
+    },
+    {
+      "id": "line-a5971ffccc6f",
+      "text": "Nice work waiting your turn.",
+      "path": "/assets/audio/kokoro/line-a5971ffccc6f.wav"
+    },
+    {
+      "id": "line-7c5d8ca99cc9",
+      "text": "not equal parts",
+      "path": "/assets/audio/kokoro/line-7c5d8ca99cc9.wav"
+    },
+    {
+      "id": "line-36a5eae412df",
+      "text": "not equal slices",
+      "path": "/assets/audio/kokoro/line-36a5eae412df.wav"
+    },
+    {
+      "id": "line-285f9a003f67",
+      "text": "nurse",
+      "path": "/assets/audio/kokoro/line-285f9a003f67.wav"
+    },
+    {
+      "id": "line-d0bf6ce6bfac",
+      "text": "octagon",
+      "path": "/assets/audio/kokoro/line-d0bf6ce6bfac.wav"
+    },
+    {
+      "id": "line-e6427457497f",
+      "text": "office",
+      "path": "/assets/audio/kokoro/line-e6427457497f.wav"
+    },
+    {
+      "id": "line-c3e3b0b2426d",
+      "text": "Omar brings a package to a door.",
+      "path": "/assets/audio/kokoro/line-c3e3b0b2426d.wav"
+    },
+    {
+      "id": "line-d920d228965f",
+      "text": "open package",
+      "path": "/assets/audio/kokoro/line-d920d228965f.wav"
+    },
+    {
+      "id": "line-582681c2eae0",
+      "text": "package",
+      "path": "/assets/audio/kokoro/line-582681c2eae0.wav"
+    },
+    {
+      "id": "line-ce4151ff856b",
+      "text": "park",
+      "path": "/assets/audio/kokoro/line-ce4151ff856b.wav"
+    },
+    {
+      "id": "line-d2fc512490a1",
+      "text": "pencil",
+      "path": "/assets/audio/kokoro/line-d2fc512490a1.wav"
+    },
+    {
+      "id": "line-7d5dbf87f129",
+      "text": "pentagon",
+      "path": "/assets/audio/kokoro/line-7d5dbf87f129.wav"
+    },
+    {
+      "id": "line-b1804a61d5b0",
+      "text": "pick up trash",
+      "path": "/assets/audio/kokoro/line-b1804a61d5b0.wav"
+    },
+    {
+      "id": "line-0e66b49d04a4",
+      "text": "picture",
+      "path": "/assets/audio/kokoro/line-0e66b49d04a4.wav"
+    },
+    {
+      "id": "line-2cd4ba93087f",
+      "text": "pig",
+      "path": "/assets/audio/kokoro/line-2cd4ba93087f.wav"
+    },
+    {
+      "id": "line-6280ce6dccd8",
+      "text": "pig. /p/, /i/, /g/. pig.",
+      "path": "/assets/audio/kokoro/line-6280ce6dccd8.wav"
+    },
+    {
+      "id": "line-d145a2a905bc",
+      "text": "pin",
+      "path": "/assets/audio/kokoro/line-d145a2a905bc.wav"
+    },
+    {
+      "id": "line-1421613e9e3f",
+      "text": "pin. /p/, /i/, /n/. pin.",
+      "path": "/assets/audio/kokoro/line-1421613e9e3f.wav"
+    },
+    {
+      "id": "line-fc85734fdb79",
+      "text": "Pizza costs 4 dollars. Have 2 dollars.",
+      "path": "/assets/audio/kokoro/line-fc85734fdb79.wav"
+    },
+    {
+      "id": "line-90f6c9dc76a5",
+      "text": "Pizza costs 4 dollars. Have 5 dollars.",
+      "path": "/assets/audio/kokoro/line-90f6c9dc76a5.wav"
+    },
+    {
+      "id": "line-873cad049c90",
+      "text": "pizza halves",
+      "path": "/assets/audio/kokoro/line-873cad049c90.wav"
+    },
+    {
+      "id": "line-7b103c0c3782",
+      "text": "play game",
+      "path": "/assets/audio/kokoro/line-7b103c0c3782.wav"
+    },
+    {
+      "id": "line-c4d79e5c1936",
+      "text": "play puzzle",
+      "path": "/assets/audio/kokoro/line-c4d79e5c1936.wav"
+    },
+    {
+      "id": "line-d191430e46c0",
+      "text": "playground",
+      "path": "/assets/audio/kokoro/line-d191430e46c0.wav"
+    },
+    {
+      "id": "line-17b30a3b01d2",
+      "text": "pond",
+      "path": "/assets/audio/kokoro/line-17b30a3b01d2.wav"
+    },
+    {
+      "id": "line-3e017f8158b3",
+      "text": "Put equal units end to end along the object. Press Done, then choose how many units long.",
+      "path": "/assets/audio/kokoro/line-3e017f8158b3.wav"
+    },
+    {
+      "id": "line-5a6a9ceb3505",
+      "text": "Put objects in the ten-frame.",
+      "path": "/assets/audio/kokoro/line-5a6a9ceb3505.wav"
+    },
+    {
+      "id": "line-ba80a360f5bd",
+      "text": "Put the backpack story in order.",
+      "path": "/assets/audio/kokoro/line-ba80a360f5bd.wav"
+    },
+    {
+      "id": "line-88e57f8c3284",
+      "text": "Put the bus story in order.",
+      "path": "/assets/audio/kokoro/line-88e57f8c3284.wav"
+    },
+    {
+      "id": "line-86d625f39f17",
+      "text": "Put the crayon story in order.",
+      "path": "/assets/audio/kokoro/line-86d625f39f17.wav"
+    },
+    {
+      "id": "line-156199551c56",
+      "text": "Put the dog story in order.",
+      "path": "/assets/audio/kokoro/line-156199551c56.wav"
+    },
+    {
+      "id": "line-d5d3fb87444e",
+      "text": "Put the drink story in order.",
+      "path": "/assets/audio/kokoro/line-d5d3fb87444e.wav"
+    },
+    {
+      "id": "line-27955881c718",
+      "text": "Put the library story in order.",
+      "path": "/assets/audio/kokoro/line-27955881c718.wav"
+    },
+    {
+      "id": "line-0971bc350ecf",
+      "text": "Put the lunch story in order.",
+      "path": "/assets/audio/kokoro/line-0971bc350ecf.wav"
+    },
+    {
+      "id": "line-cf78f19b6d1d",
+      "text": "Put the opinion parts in order.",
+      "path": "/assets/audio/kokoro/line-cf78f19b6d1d.wav"
+    },
+    {
+      "id": "line-862bfdf1c695",
+      "text": "Put the park story in order.",
+      "path": "/assets/audio/kokoro/line-862bfdf1c695.wav"
+    },
+    {
+      "id": "line-a77fd0932c21",
+      "text": "Put the recess story in order.",
+      "path": "/assets/audio/kokoro/line-a77fd0932c21.wav"
+    },
+    {
+      "id": "line-0bd714ffbb66",
+      "text": "Put the shoe story in order.",
+      "path": "/assets/audio/kokoro/line-0bd714ffbb66.wav"
+    },
+    {
+      "id": "line-df49315c5752",
+      "text": "Put the words left to right so the sentence makes sense.",
+      "path": "/assets/audio/kokoro/line-df49315c5752.wav"
+    },
+    {
+      "id": "line-557ab474ac5f",
+      "text": "Put units end to end.",
+      "path": "/assets/audio/kokoro/line-557ab474ac5f.wav"
+    },
+    {
+      "id": "line-fbec17cb2fcb",
+      "text": "rain",
+      "path": "/assets/audio/kokoro/line-fbec17cb2fcb.wav"
+    },
+    {
+      "id": "line-4318f82eac06",
+      "text": "raincoat",
+      "path": "/assets/audio/kokoro/line-4318f82eac06.wav"
+    },
+    {
+      "id": "line-3f44b823cafe",
+      "text": "Read or listen to the cards and put the story in order.",
+      "path": "/assets/audio/kokoro/line-3f44b823cafe.wav"
+    },
+    {
+      "id": "line-bf945223e89c",
+      "text": "rectangle",
+      "path": "/assets/audio/kokoro/line-bf945223e89c.wav"
+    },
+    {
+      "id": "line-d0c5f75b9ac4",
+      "text": "return book",
+      "path": "/assets/audio/kokoro/line-d0c5f75b9ac4.wav"
+    },
+    {
+      "id": "line-46835234aba2",
+      "text": "ride bus",
+      "path": "/assets/audio/kokoro/line-46835234aba2.wav"
+    },
+    {
+      "id": "line-4adfa5797f24",
+      "text": "road",
+      "path": "/assets/audio/kokoro/line-4adfa5797f24.wav"
+    },
+    {
+      "id": "line-38464bf083d9",
+      "text": "rock",
+      "path": "/assets/audio/kokoro/line-38464bf083d9.wav"
+    },
+    {
+      "id": "line-fee391fbaeae",
+      "text": "Sam sits at the school bus wheel.",
+      "path": "/assets/audio/kokoro/line-fee391fbaeae.wav"
+    },
+    {
+      "id": "line-e9c1aa54c770",
+      "text": "same size",
+      "path": "/assets/audio/kokoro/line-e9c1aa54c770.wav"
+    },
+    {
+      "id": "line-563eb0d40e8a",
+      "text": "sandwich fourths",
+      "path": "/assets/audio/kokoro/line-563eb0d40e8a.wav"
+    },
+    {
+      "id": "line-d8235eccd1ab",
+      "text": "save more",
+      "path": "/assets/audio/kokoro/line-d8235eccd1ab.wav"
+    },
+    {
+      "id": "line-f4a715f5ff1c",
+      "text": "Say /b/ /ae/ /g/. Then drag b, a, g into the boxes.",
+      "path": "/assets/audio/kokoro/line-f4a715f5ff1c.wav"
+    },
+    {
+      "id": "line-267475ff0583",
+      "text": "Say /b/ /e/ /d/. Then drag b, e, d into the boxes.",
+      "path": "/assets/audio/kokoro/line-267475ff0583.wav"
+    },
+    {
+      "id": "line-d3b7b5184523",
+      "text": "Say /d/ /o/ /g/. Then drag d, o, g into the boxes.",
+      "path": "/assets/audio/kokoro/line-d3b7b5184523.wav"
+    },
+    {
+      "id": "line-6dd226e6f6f4",
+      "text": "Say /f/ /ae/ /n/. Then drag f, a, n into the boxes.",
+      "path": "/assets/audio/kokoro/line-6dd226e6f6f4.wav"
+    },
+    {
+      "id": "line-0dc529445c6d",
+      "text": "Say /h/ /ae/ /t/. Then drag h, a, t into the boxes.",
+      "path": "/assets/audio/kokoro/line-0dc529445c6d.wav"
+    },
+    {
+      "id": "line-460ad30cb7eb",
+      "text": "Say /k/ /ae/ /t/. Then drag c, a, t into the boxes.",
+      "path": "/assets/audio/kokoro/line-460ad30cb7eb.wav"
+    },
+    {
+      "id": "line-8c00ae58ec2a",
+      "text": "Say /k/ /u/ /p/. Then drag c, u, p into the boxes.",
+      "path": "/assets/audio/kokoro/line-8c00ae58ec2a.wav"
+    },
+    {
+      "id": "line-0ba9f7450f27",
+      "text": "Say /m/ /ae/ /p/. Then drag m, a, p into the boxes.",
+      "path": "/assets/audio/kokoro/line-0ba9f7450f27.wav"
+    },
+    {
+      "id": "line-52ee5e1fc1e7",
+      "text": "Say /m/ /o/ /p/. Then drag m, o, p into the boxes.",
+      "path": "/assets/audio/kokoro/line-52ee5e1fc1e7.wav"
+    },
+    {
+      "id": "line-beb9ede7656b",
+      "text": "Say /p/ /i/ /g/. Then drag p, i, g into the boxes.",
+      "path": "/assets/audio/kokoro/line-beb9ede7656b.wav"
+    },
+    {
+      "id": "line-38636e56bb52",
+      "text": "Say /p/ /i/ /n/. Then drag p, i, n into the boxes.",
+      "path": "/assets/audio/kokoro/line-38636e56bb52.wav"
+    },
+    {
+      "id": "line-925a71066545",
+      "text": "Say /s/ /u/ /n/. Then drag s, u, n into the boxes.",
+      "path": "/assets/audio/kokoro/line-925a71066545.wav"
+    },
+    {
+      "id": "line-3d637fc60499",
+      "text": "see",
+      "path": "/assets/audio/kokoro/line-3d637fc60499.wav"
+    },
+    {
+      "id": "line-92713d470937",
+      "text": "seed",
+      "path": "/assets/audio/kokoro/line-92713d470937.wav"
+    },
+    {
+      "id": "line-4488ae65393e",
+      "text": "shoe",
+      "path": "/assets/audio/kokoro/line-4488ae65393e.wav"
+    },
+    {
+      "id": "line-1d0bac1919ba",
+      "text": "Snack costs 3 dollars. Have 4 dollars.",
+      "path": "/assets/audio/kokoro/line-1d0bac1919ba.wav"
+    },
+    {
+      "id": "line-b94e9f3d7e00",
+      "text": "snow",
+      "path": "/assets/audio/kokoro/line-b94e9f3d7e00.wav"
+    },
+    {
+      "id": "line-18c9667c2999",
+      "text": "sock",
+      "path": "/assets/audio/kokoro/line-18c9667c2999.wav"
+    },
+    {
+      "id": "line-118e80c09483",
+      "text": "soil",
+      "path": "/assets/audio/kokoro/line-118e80c09483.wav"
+    },
+    {
+      "id": "line-69e699bc1f92",
+      "text": "solid",
+      "path": "/assets/audio/kokoro/line-69e699bc1f92.wav"
+    },
+    {
+      "id": "line-934d9839b653",
+      "text": "Sort old things and new things.",
+      "path": "/assets/audio/kokoro/line-934d9839b653.wav"
+    },
+    {
+      "id": "line-c8639526c2d6",
+      "text": "Sort the dirt.",
+      "path": "/assets/audio/kokoro/line-c8639526c2d6.wav"
+    },
+    {
+      "id": "line-7894a5786b35",
+      "text": "Sort the hill.",
+      "path": "/assets/audio/kokoro/line-7894a5786b35.wav"
+    },
+    {
+      "id": "line-d20cb4279947",
+      "text": "Sort the lake.",
+      "path": "/assets/audio/kokoro/line-d20cb4279947.wav"
+    },
+    {
+      "id": "line-585d932c0448",
+      "text": "Sort the ocean.",
+      "path": "/assets/audio/kokoro/line-585d932c0448.wav"
+    },
+    {
+      "id": "line-8ae3b51a4ed8",
+      "text": "Sort the park ground.",
+      "path": "/assets/audio/kokoro/line-8ae3b51a4ed8.wav"
+    },
+    {
+      "id": "line-118006a29ad2",
+      "text": "Sort the picture.",
+      "path": "/assets/audio/kokoro/line-118006a29ad2.wav"
+    },
+    {
+      "id": "line-2c962ddb2b7b",
+      "text": "Sort the playground.",
+      "path": "/assets/audio/kokoro/line-2c962ddb2b7b.wav"
+    },
+    {
+      "id": "line-5a5157dfb9c4",
+      "text": "Sort the pond.",
+      "path": "/assets/audio/kokoro/line-5a5157dfb9c4.wav"
+    },
+    {
+      "id": "line-bdaa454f4b91",
+      "text": "Sort the river.",
+      "path": "/assets/audio/kokoro/line-bdaa454f4b91.wav"
+    },
+    {
+      "id": "line-4fe2a0bd9ec9",
+      "text": "Sort the road.",
+      "path": "/assets/audio/kokoro/line-4fe2a0bd9ec9.wav"
+    },
+    {
+      "id": "line-6e2da8063e04",
+      "text": "Sort the stream.",
+      "path": "/assets/audio/kokoro/line-6e2da8063e04.wav"
+    },
+    {
+      "id": "line-f29544086ea8",
+      "text": "sphere",
+      "path": "/assets/audio/kokoro/line-f29544086ea8.wav"
+    },
+    {
+      "id": "line-bfed89e80ea0",
+      "text": "square",
+      "path": "/assets/audio/kokoro/line-bfed89e80ea0.wav"
+    },
+    {
+      "id": "line-9e7d655b970e",
+      "text": "Start with the capital word: My bag is red.",
+      "path": "/assets/audio/kokoro/line-9e7d655b970e.wav"
+    },
+    {
+      "id": "line-dfb4f9555ccd",
+      "text": "Start with the capital word: My hat is big.",
+      "path": "/assets/audio/kokoro/line-dfb4f9555ccd.wav"
+    },
+    {
+      "id": "line-02d02fb3726b",
+      "text": "Start with the capital word: The book is blue.",
+      "path": "/assets/audio/kokoro/line-02d02fb3726b.wav"
+    },
+    {
+      "id": "line-6c0095444029",
+      "text": "stay in line",
+      "path": "/assets/audio/kokoro/line-6c0095444029.wav"
+    },
+    {
+      "id": "line-22fa6121da96",
+      "text": "sun",
+      "path": "/assets/audio/kokoro/line-22fa6121da96.wav"
+    },
+    {
+      "id": "line-2b153652e61f",
+      "text": "sun. /s/, /u/, /n/. sun.",
+      "path": "/assets/audio/kokoro/line-2b153652e61f.wav"
+    },
+    {
+      "id": "line-33b9fdd2b147",
+      "text": "Tap the picture that does not start like ball.",
+      "path": "/assets/audio/kokoro/line-33b9fdd2b147.wav"
+    },
+    {
+      "id": "line-abaf11da1297",
+      "text": "Tap the picture that does not start like coat.",
+      "path": "/assets/audio/kokoro/line-abaf11da1297.wav"
+    },
+    {
+      "id": "line-9936109d64ec",
+      "text": "Tap the picture that starts like book.",
+      "path": "/assets/audio/kokoro/line-9936109d64ec.wav"
+    },
+    {
+      "id": "line-4b83985a63f7",
+      "text": "Tap the picture that starts like bus.",
+      "path": "/assets/audio/kokoro/line-4b83985a63f7.wav"
+    },
+    {
+      "id": "line-bbb9dc1c23b9",
+      "text": "Tap the picture that starts like cup.",
+      "path": "/assets/audio/kokoro/line-bbb9dc1c23b9.wav"
+    },
+    {
+      "id": "line-b836b7a7cd62",
+      "text": "Tap the picture that starts like desk.",
+      "path": "/assets/audio/kokoro/line-b836b7a7cd62.wav"
+    },
+    {
+      "id": "line-820069bcf9e6",
+      "text": "Tap the picture that starts like dog.",
+      "path": "/assets/audio/kokoro/line-820069bcf9e6.wav"
+    },
+    {
+      "id": "line-fac36672826c",
+      "text": "Tap the picture that starts like lunch.",
+      "path": "/assets/audio/kokoro/line-fac36672826c.wav"
+    },
+    {
+      "id": "line-389e334b136c",
+      "text": "Tap the picture that starts like map.",
+      "path": "/assets/audio/kokoro/line-389e334b136c.wav"
+    },
+    {
+      "id": "line-483ba51d2228",
+      "text": "Tap the picture that starts like park.",
+      "path": "/assets/audio/kokoro/line-483ba51d2228.wav"
+    },
+    {
+      "id": "line-8c20341e2847",
+      "text": "Tap the picture that starts like shoe.",
+      "path": "/assets/audio/kokoro/line-8c20341e2847.wav"
+    },
+    {
+      "id": "line-13891504958c",
+      "text": "Tap the picture that starts like sun.",
+      "path": "/assets/audio/kokoro/line-13891504958c.wav"
+    },
+    {
+      "id": "line-7a7cca0b0783",
+      "text": "Tap the picture that starts like the word you hear.",
+      "path": "/assets/audio/kokoro/line-7a7cca0b0783.wav"
+    },
+    {
+      "id": "line-e9b6c75da213",
+      "text": "tape",
+      "path": "/assets/audio/kokoro/line-e9b6c75da213.wav"
+    },
+    {
+      "id": "line-f85b46b62c61",
+      "text": "Tara gives change at the store.",
+      "path": "/assets/audio/kokoro/line-f85b46b62c61.wav"
+    },
+    {
+      "id": "line-4a82cb6db537",
+      "text": "teacher",
+      "path": "/assets/audio/kokoro/line-4a82cb6db537.wav"
+    },
+    {
+      "id": "line-6dc2951510e9",
+      "text": "That cookie is yummy!",
+      "path": "/assets/audio/kokoro/line-6dc2951510e9.wav"
+    },
+    {
+      "id": "line-bbccdf2efb33",
+      "text": "the",
+      "path": "/assets/audio/kokoro/line-bbccdf2efb33.wav"
+    },
+    {
+      "id": "line-7e4240f4b0e7",
+      "text": "The apple is red.",
+      "path": "/assets/audio/kokoro/line-7e4240f4b0e7.wav"
+    },
+    {
+      "id": "line-d15466627802",
+      "text": "The book is blue.",
+      "path": "/assets/audio/kokoro/line-d15466627802.wav"
+    },
+    {
+      "id": "line-d5a797040efa",
+      "text": "The book is on the desk.",
+      "path": "/assets/audio/kokoro/line-d5a797040efa.wav"
+    },
+    {
+      "id": "line-1666a674b8bf",
+      "text": "The dog can run.",
+      "path": "/assets/audio/kokoro/line-1666a674b8bf.wav"
+    },
+    {
+      "id": "line-2798f73ae33c",
+      "text": "The dog gets the ball. The dog runs. The dog rests.",
+      "path": "/assets/audio/kokoro/line-2798f73ae33c.wav"
+    },
+    {
+      "id": "line-e72066e71b0b",
+      "text": "The plant is dry. What helps?",
+      "path": "/assets/audio/kokoro/line-e72066e71b0b.wav"
+    },
+    {
+      "id": "line-eceaea60bb3c",
+      "text": "The sentence says, This is my bag. The word my fits the blank.",
+      "path": "/assets/audio/kokoro/line-eceaea60bb3c.wav"
+    },
+    {
+      "id": "line-1239a2135eca",
+      "text": "The sun is up.",
+      "path": "/assets/audio/kokoro/line-1239a2135eca.wav"
+    },
+    {
+      "id": "line-9f09ad8d42a0",
+      "text": "The tray is full.",
+      "path": "/assets/audio/kokoro/line-9f09ad8d42a0.wav"
+    },
+    {
+      "id": "line-1c67515fe76f",
+      "text": "There are 10 balls. Take away 5.",
+      "path": "/assets/audio/kokoro/line-1c67515fe76f.wav"
+    },
+    {
+      "id": "line-b0201ad8ad2c",
+      "text": "There are 10 books. Take away 3.",
+      "path": "/assets/audio/kokoro/line-b0201ad8ad2c.wav"
+    },
+    {
+      "id": "line-803d505ec1f1",
+      "text": "There are 2 balls. Put 2 more in.",
+      "path": "/assets/audio/kokoro/line-803d505ec1f1.wav"
+    },
+    {
+      "id": "line-8c277a3d274d",
+      "text": "There are 2 crayons. Put 1 more in.",
+      "path": "/assets/audio/kokoro/line-8c277a3d274d.wav"
+    },
+    {
+      "id": "line-d7a110cf4aba",
+      "text": "There are 2 crayons. Put 6 more in.",
+      "path": "/assets/audio/kokoro/line-d7a110cf4aba.wav"
+    },
+    {
+      "id": "line-880cd8ba9a5f",
+      "text": "There are 3 apples. Put 2 more in.",
+      "path": "/assets/audio/kokoro/line-880cd8ba9a5f.wav"
+    },
+    {
+      "id": "line-d1a43d92a046",
+      "text": "There are 3 apples. Put 4 more in.",
+      "path": "/assets/audio/kokoro/line-d1a43d92a046.wav"
+    },
+    {
+      "id": "line-45f870cb2a16",
+      "text": "There are 3 apples. Take away 1.",
+      "path": "/assets/audio/kokoro/line-45f870cb2a16.wav"
+    },
+    {
+      "id": "line-96e33f0b96da",
+      "text": "There are 4 books. Put 1 more in.",
+      "path": "/assets/audio/kokoro/line-96e33f0b96da.wav"
+    },
+    {
+      "id": "line-ffcb2c544d0a",
+      "text": "There are 4 crayons. Put 3 more in.",
+      "path": "/assets/audio/kokoro/line-ffcb2c544d0a.wav"
+    },
+    {
+      "id": "line-3136954367f7",
+      "text": "There are 4 crayons. Take away 1.",
+      "path": "/assets/audio/kokoro/line-3136954367f7.wav"
+    },
+    {
+      "id": "line-f377308d4dee",
+      "text": "There are 5 balls. Put 3 more in.",
+      "path": "/assets/audio/kokoro/line-f377308d4dee.wav"
+    },
+    {
+      "id": "line-8060f39acc97",
+      "text": "There are 5 balls. Take away 2.",
+      "path": "/assets/audio/kokoro/line-8060f39acc97.wav"
+    },
+    {
+      "id": "line-2a8403435354",
+      "text": "There are 5 books. Take away 1.",
+      "path": "/assets/audio/kokoro/line-2a8403435354.wav"
+    },
+    {
+      "id": "line-6a1bd9e46a8b",
+      "text": "There are 5 cookies. Put 5 more in.",
+      "path": "/assets/audio/kokoro/line-6a1bd9e46a8b.wav"
+    },
+    {
+      "id": "line-6a76af1e0331",
+      "text": "There are 5 cups. Put 1 more in.",
+      "path": "/assets/audio/kokoro/line-6a76af1e0331.wav"
+    },
+    {
+      "id": "line-e64a1bfa8b2b",
+      "text": "There are 6 books. Put 2 more in.",
+      "path": "/assets/audio/kokoro/line-e64a1bfa8b2b.wav"
+    },
+    {
+      "id": "line-02a06358c95e",
+      "text": "There are 6 cups. Put 4 more in.",
+      "path": "/assets/audio/kokoro/line-02a06358c95e.wav"
+    },
+    {
+      "id": "line-255d13f5f36a",
+      "text": "There are 6 cups. Take away 2.",
+      "path": "/assets/audio/kokoro/line-255d13f5f36a.wav"
+    },
+    {
+      "id": "line-a31de87b56d3",
+      "text": "There are 7 apples. Put 2 more in.",
+      "path": "/assets/audio/kokoro/line-a31de87b56d3.wav"
+    },
+    {
+      "id": "line-9a786e21e45d",
+      "text": "There are 7 cookies. Take away 3.",
+      "path": "/assets/audio/kokoro/line-9a786e21e45d.wav"
+    },
+    {
+      "id": "line-66d8f3d75adf",
+      "text": "There are 8 pencils. Put 1 more in.",
+      "path": "/assets/audio/kokoro/line-66d8f3d75adf.wav"
+    },
+    {
+      "id": "line-bcffca9d3691",
+      "text": "There are 8 pencils. Take away 2.",
+      "path": "/assets/audio/kokoro/line-bcffca9d3691.wav"
+    },
+    {
+      "id": "line-9cc9289c05c6",
+      "text": "There are 9 apples. Take away 4.",
+      "path": "/assets/audio/kokoro/line-9cc9289c05c6.wav"
+    },
+    {
+      "id": "line-d070fd3f610d",
+      "text": "There are too many. Let's take one away.",
+      "path": "/assets/audio/kokoro/line-d070fd3f610d.wav"
+    },
+    {
+      "id": "line-7b3132323a11",
+      "text": "There is 1 apple. Put 1 more in.",
+      "path": "/assets/audio/kokoro/line-7b3132323a11.wav"
+    },
+    {
+      "id": "line-0f7c0baba1d1",
+      "text": "This is my bag.",
+      "path": "/assets/audio/kokoro/line-0f7c0baba1d1.wav"
+    },
+    {
+      "id": "line-4374aaee247f",
+      "text": "to",
+      "path": "/assets/audio/kokoro/line-4374aaee247f.wav"
+    },
+    {
+      "id": "line-19fd535abaea",
+      "text": "Too many. Let's take some away.",
+      "path": "/assets/audio/kokoro/line-19fd535abaea.wav"
+    },
+    {
+      "id": "line-cd4dc7f2cafa",
+      "text": "Toy truck costs 8 dollars. Have 10 dollars.",
+      "path": "/assets/audio/kokoro/line-cd4dc7f2cafa.wav"
+    },
+    {
+      "id": "line-4bdb22d10a1e",
+      "text": "Toy truck costs 8 dollars. Have 5 dollars.",
+      "path": "/assets/audio/kokoro/line-4bdb22d10a1e.wav"
+    },
+    {
+      "id": "line-a08689140788",
+      "text": "tray",
+      "path": "/assets/audio/kokoro/line-a08689140788.wav"
+    },
+    {
+      "id": "line-b7d045ced8a8",
+      "text": "triangle",
+      "path": "/assets/audio/kokoro/line-b7d045ced8a8.wav"
+    },
+    {
+      "id": "line-9f9c5bc37ed1",
+      "text": "unequal brownie",
+      "path": "/assets/audio/kokoro/line-9f9c5bc37ed1.wav"
+    },
+    {
+      "id": "line-02a8d846be8b",
+      "text": "unequal pizza",
+      "path": "/assets/audio/kokoro/line-02a8d846be8b.wav"
+    },
+    {
+      "id": "line-d79c7d25acb5",
+      "text": "unequal slices",
+      "path": "/assets/audio/kokoro/line-d79c7d25acb5.wav"
+    },
+    {
+      "id": "line-e7d9aa18f5a3",
+      "text": "unequal snack",
+      "path": "/assets/audio/kokoro/line-e7d9aa18f5a3.wav"
+    },
+    {
+      "id": "line-c043a5b2321e",
+      "text": "use crosswalk",
+      "path": "/assets/audio/kokoro/line-c043a5b2321e.wav"
+    },
+    {
+      "id": "line-91bf6486c42f",
+      "text": "wait turn",
+      "path": "/assets/audio/kokoro/line-91bf6486c42f.wav"
+    },
+    {
+      "id": "line-dfbcfb1be048",
+      "text": "watch TV",
+      "path": "/assets/audio/kokoro/line-dfbcfb1be048.wav"
+    },
+    {
+      "id": "line-6d5a45920a15",
+      "text": "water",
+      "path": "/assets/audio/kokoro/line-6d5a45920a15.wav"
+    },
+    {
+      "id": "line-676e6f35cfc1",
+      "text": "we",
+      "path": "/assets/audio/kokoro/line-676e6f35cfc1.wav"
+    },
+    {
+      "id": "line-bb17571d92bf",
+      "text": "We eat lunch.",
+      "path": "/assets/audio/kokoro/line-bb17571d92bf.wav"
+    },
+    {
+      "id": "line-698a6d091c14",
+      "text": "We eat together.",
+      "path": "/assets/audio/kokoro/line-698a6d091c14.wav"
+    },
+    {
+      "id": "line-74c5ced43d6c",
+      "text": "We go to lunch.",
+      "path": "/assets/audio/kokoro/line-74c5ced43d6c.wav"
+    },
+    {
+      "id": "line-3c35efb4b10d",
+      "text": "We go to the park. We play on swings. We go home.",
+      "path": "/assets/audio/kokoro/line-3c35efb4b10d.wav"
+    },
+    {
+      "id": "line-90c7415eb46d",
+      "text": "We like snack.",
+      "path": "/assets/audio/kokoro/line-90c7415eb46d.wav"
+    },
+    {
+      "id": "line-a52bc7fc002e",
+      "text": "We need one more.",
+      "path": "/assets/audio/kokoro/line-a52bc7fc002e.wav"
+    },
+    {
+      "id": "line-c175f8cc7824",
+      "text": "We see a map.",
+      "path": "/assets/audio/kokoro/line-c175f8cc7824.wav"
+    },
+    {
+      "id": "line-6d5893bf5b19",
+      "text": "We sit down.",
+      "path": "/assets/audio/kokoro/line-6d5893bf5b19.wav"
+    },
+    {
+      "id": "line-15179a244196",
+      "text": "We walk outside. We play at recess. We line up.",
+      "path": "/assets/audio/kokoro/line-15179a244196.wav"
+    },
+    {
+      "id": "line-c5321f36ced4",
+      "text": "Welcome to My Day Learning Town.",
+      "path": "/assets/audio/kokoro/line-c5321f36ced4.wav"
+    },
+    {
+      "id": "line-e23e18bbdb66",
+      "text": "What can a plant grow in?",
+      "path": "/assets/audio/kokoro/line-e23e18bbdb66.wav"
+    },
+    {
+      "id": "line-e070df586bf0",
+      "text": "What does a seed need first?",
+      "path": "/assets/audio/kokoro/line-e070df586bf0.wav"
+    },
+    {
+      "id": "line-8ab881330c6f",
+      "text": "What does the plant need?",
+      "path": "/assets/audio/kokoro/line-8ab881330c6f.wav"
+    },
+    {
+      "id": "line-821eb374cc22",
+      "text": "What gives light to help the plant grow?",
+      "path": "/assets/audio/kokoro/line-821eb374cc22.wav"
+    },
+    {
+      "id": "line-caac9347a784",
+      "text": "What helps a classmate?",
+      "path": "/assets/audio/kokoro/line-caac9347a784.wav"
+    },
+    {
+      "id": "line-1868623921de",
+      "text": "What helps at desks?",
+      "path": "/assets/audio/kokoro/line-1868623921de.wav"
+    },
+    {
+      "id": "line-25e28b4a303f",
+      "text": "What helps at the street?",
+      "path": "/assets/audio/kokoro/line-25e28b4a303f.wav"
+    },
+    {
+      "id": "line-39c8546d1c3f",
+      "text": "What helps in line?",
+      "path": "/assets/audio/kokoro/line-39c8546d1c3f.wav"
+    },
+    {
+      "id": "line-3457ff169cae",
+      "text": "What helps in the hallway?",
+      "path": "/assets/audio/kokoro/line-3457ff169cae.wav"
+    },
+    {
+      "id": "line-00792c6c3fdd",
+      "text": "What helps the library?",
+      "path": "/assets/audio/kokoro/line-00792c6c3fdd.wav"
+    },
+    {
+      "id": "line-9c91d5cf5803",
+      "text": "What helps the playground?",
+      "path": "/assets/audio/kokoro/line-9c91d5cf5803.wav"
+    },
+    {
+      "id": "line-dabd4a7302e4",
+      "text": "What helps when a ball rolls near the street?",
+      "path": "/assets/audio/kokoro/line-dabd4a7302e4.wav"
+    },
+    {
+      "id": "line-5fd9ebb0272b",
+      "text": "What helps when a friend has the toy?",
+      "path": "/assets/audio/kokoro/line-5fd9ebb0272b.wav"
+    },
+    {
+      "id": "line-3002bbf9492c",
+      "text": "What helps when trash is on the floor?",
+      "path": "/assets/audio/kokoro/line-3002bbf9492c.wav"
+    },
+    {
+      "id": "line-0099e451edbb",
+      "text": "Where can students read?",
+      "path": "/assets/audio/kokoro/line-0099e451edbb.wav"
+    },
+    {
+      "id": "line-aa6b16b90cab",
+      "text": "Where do adults work at a desk?",
+      "path": "/assets/audio/kokoro/line-aa6b16b90cab.wav"
+    },
+    {
+      "id": "line-728abfb8471b",
+      "text": "Where do students eat lunch?",
+      "path": "/assets/audio/kokoro/line-728abfb8471b.wav"
+    },
+    {
+      "id": "line-cb1c1e21b251",
+      "text": "Where do students play?",
+      "path": "/assets/audio/kokoro/line-cb1c1e21b251.wav"
+    },
+    {
+      "id": "line-a07407ae4d03",
+      "text": "Where do students read books?",
+      "path": "/assets/audio/kokoro/line-a07407ae4d03.wav"
+    },
+    {
+      "id": "line-7db9dff3f9f6",
+      "text": "Where does cardboard go?",
+      "path": "/assets/audio/kokoro/line-7db9dff3f9f6.wav"
+    },
+    {
+      "id": "line-0c2696a6c595",
+      "text": "Where does sandpaper go?",
+      "path": "/assets/audio/kokoro/line-0c2696a6c595.wav"
+    },
+    {
+      "id": "line-90a695074e3c",
+      "text": "Where does the bottle go?",
+      "path": "/assets/audio/kokoro/line-90a695074e3c.wav"
+    },
+    {
+      "id": "line-64538dacae86",
+      "text": "Where does the bus stop?",
+      "path": "/assets/audio/kokoro/line-64538dacae86.wav"
+    },
+    {
+      "id": "line-bc53055502e6",
+      "text": "Where does the cushion go?",
+      "path": "/assets/audio/kokoro/line-bc53055502e6.wav"
+    },
+    {
+      "id": "line-8b8b2b4bcc20",
+      "text": "Where does the nurse help?",
+      "path": "/assets/audio/kokoro/line-8b8b2b4bcc20.wav"
+    },
+    {
+      "id": "line-37a290da9d62",
+      "text": "Where does the paper towel go?",
+      "path": "/assets/audio/kokoro/line-37a290da9d62.wav"
+    },
+    {
+      "id": "line-8a6f66c1301d",
+      "text": "Where does the raincoat go?",
+      "path": "/assets/audio/kokoro/line-8a6f66c1301d.wav"
+    },
+    {
+      "id": "line-4a71ece18b69",
+      "text": "Where does the rock go?",
+      "path": "/assets/audio/kokoro/line-4a71ece18b69.wav"
+    },
+    {
+      "id": "line-3e6f9c0659a4",
+      "text": "Where does the sponge go?",
+      "path": "/assets/audio/kokoro/line-3e6f9c0659a4.wav"
+    },
+    {
+      "id": "line-5fa5000ef74a",
+      "text": "Where does the spoon go?",
+      "path": "/assets/audio/kokoro/line-5fa5000ef74a.wav"
+    },
+    {
+      "id": "line-061651fb787d",
+      "text": "Where does the tile go?",
+      "path": "/assets/audio/kokoro/line-061651fb787d.wav"
+    },
+    {
+      "id": "line-f69d3b47de44",
+      "text": "Where is the bathroom?",
+      "path": "/assets/audio/kokoro/line-f69d3b47de44.wav"
+    },
+    {
+      "id": "line-38c05a1b04df",
+      "text": "Where is the classroom?",
+      "path": "/assets/audio/kokoro/line-38c05a1b04df.wav"
+    },
+    {
+      "id": "line-6dd0bc7a25de",
+      "text": "Where is the office?",
+      "path": "/assets/audio/kokoro/line-6dd0bc7a25de.wav"
+    },
+    {
+      "id": "line-16aed1611301",
+      "text": "Which brownie is not equal?",
+      "path": "/assets/audio/kokoro/line-16aed1611301.wav"
+    },
+    {
+      "id": "line-cf1e296c1fb2",
+      "text": "Which cup is empty?",
+      "path": "/assets/audio/kokoro/line-cf1e296c1fb2.wav"
+    },
+    {
+      "id": "line-9ecd78abc60b",
+      "text": "Which is liquid?",
+      "path": "/assets/audio/kokoro/line-9ecd78abc60b.wav"
+    },
+    {
+      "id": "line-35109fe65dc3",
+      "text": "Which is solid?",
+      "path": "/assets/audio/kokoro/line-35109fe65dc3.wav"
+    },
+    {
+      "id": "line-4dd08e6a7ffc",
+      "text": "Which living thing helps a flower?",
+      "path": "/assets/audio/kokoro/line-4dd08e6a7ffc.wav"
+    },
+    {
+      "id": "line-afea48e427e4",
+      "text": "Which one is not equal?",
+      "path": "/assets/audio/kokoro/line-afea48e427e4.wav"
+    },
+    {
+      "id": "line-8359a97284fc",
+      "text": "Which one shows equal shares?",
+      "path": "/assets/audio/kokoro/line-8359a97284fc.wav"
+    },
+    {
+      "id": "line-08dacb87edec",
+      "text": "Which picture is a fish?",
+      "path": "/assets/audio/kokoro/line-08dacb87edec.wav"
+    },
+    {
+      "id": "line-6f8a3fdb95ac",
+      "text": "Which picture is a flower?",
+      "path": "/assets/audio/kokoro/line-6f8a3fdb95ac.wav"
+    },
+    {
+      "id": "line-500bb5d2eeb8",
+      "text": "Which picture is a seed?",
+      "path": "/assets/audio/kokoro/line-500bb5d2eeb8.wav"
+    },
+    {
+      "id": "line-a85121723d69",
+      "text": "Which picture is not equal?",
+      "path": "/assets/audio/kokoro/line-a85121723d69.wav"
+    },
+    {
+      "id": "line-0a9b43b4550a",
+      "text": "Which picture is not split fairly?",
+      "path": "/assets/audio/kokoro/line-0a9b43b4550a.wav"
+    },
+    {
+      "id": "line-649923926b39",
+      "text": "Which picture is split fairly?",
+      "path": "/assets/audio/kokoro/line-649923926b39.wav"
+    },
+    {
+      "id": "line-3485847640ed",
+      "text": "Which picture shows equal shares?",
+      "path": "/assets/audio/kokoro/line-3485847640ed.wav"
+    },
+    {
+      "id": "line-5a963dbcefea",
+      "text": "Which picture shows liquid water?",
+      "path": "/assets/audio/kokoro/line-5a963dbcefea.wav"
+    },
+    {
+      "id": "line-c5718697b5ee",
+      "text": "Which picture shows solid water?",
+      "path": "/assets/audio/kokoro/line-c5718697b5ee.wav"
+    },
+    {
+      "id": "line-6585bede9b44",
+      "text": "Which picture shows water?",
+      "path": "/assets/audio/kokoro/line-6585bede9b44.wav"
+    },
+    {
+      "id": "line-864261d94882",
+      "text": "Which pizza has 2 equal halves?",
+      "path": "/assets/audio/kokoro/line-864261d94882.wav"
+    },
+    {
+      "id": "line-f7f8eefc7ca9",
+      "text": "Who brings a package?",
+      "path": "/assets/audio/kokoro/line-f7f8eefc7ca9.wav"
+    },
+    {
+      "id": "line-2ac81b734bf2",
+      "text": "Who drives the school bus?",
+      "path": "/assets/audio/kokoro/line-2ac81b734bf2.wav"
+    },
+    {
+      "id": "line-79343fb87da9",
+      "text": "Who helps at the store register?",
+      "path": "/assets/audio/kokoro/line-79343fb87da9.wav"
+    },
+    {
+      "id": "line-76f6cff70046",
+      "text": "Who helps clean trash on the playground?",
+      "path": "/assets/audio/kokoro/line-76f6cff70046.wav"
+    },
+    {
+      "id": "line-1b26401434d7",
+      "text": "Who helps find a book?",
+      "path": "/assets/audio/kokoro/line-1b26401434d7.wav"
+    },
+    {
+      "id": "line-31ed495ab613",
+      "text": "Who helps students cross the street?",
+      "path": "/assets/audio/kokoro/line-31ed495ab613.wav"
+    },
+    {
+      "id": "line-4ccad98402a0",
+      "text": "Who helps when a student is hurt?",
+      "path": "/assets/audio/kokoro/line-4ccad98402a0.wav"
+    },
+    {
+      "id": "line-098dfc23e49f",
+      "text": "Who helps with a hurt knee?",
+      "path": "/assets/audio/kokoro/line-098dfc23e49f.wav"
+    },
+    {
+      "id": "line-43c71717ea8e",
+      "text": "Who helps with a library book?",
+      "path": "/assets/audio/kokoro/line-43c71717ea8e.wav"
+    },
+    {
+      "id": "line-ca79a65a7d29",
+      "text": "Who teaches students?",
+      "path": "/assets/audio/kokoro/line-ca79a65a7d29.wav"
+    },
+    {
+      "id": "line-1010652d04ee",
+      "text": "Wow, the ball is big!",
+      "path": "/assets/audio/kokoro/line-1010652d04ee.wav"
+    },
+    {
+      "id": "line-1d88826b7877",
+      "text": "You built an opinion sentence.",
+      "path": "/assets/audio/kokoro/line-1d88826b7877.wav"
+    },
+    {
+      "id": "line-ad42d2245e81",
+      "text": "You built an opinion sentence. I like dogs because it is soft.",
+      "path": "/assets/audio/kokoro/line-ad42d2245e81.wav"
+    },
+    {
+      "id": "line-442ed6a9d5c3",
+      "text": "You built an opinion sentence. I like lunch because it is yummy.",
+      "path": "/assets/audio/kokoro/line-442ed6a9d5c3.wav"
+    },
+    {
+      "id": "line-af1d147d64f8",
+      "text": "You built an opinion sentence. I like swings because it is fun.",
+      "path": "/assets/audio/kokoro/line-af1d147d64f8.wav"
+    },
+    {
+      "id": "line-a052fe7c72d1",
+      "text": "You found 2 left.",
+      "path": "/assets/audio/kokoro/line-a052fe7c72d1.wav"
+    },
+    {
+      "id": "line-e1af4ed1cb6f",
+      "text": "You found 3 left.",
+      "path": "/assets/audio/kokoro/line-e1af4ed1cb6f.wav"
+    },
+    {
+      "id": "line-fdeeeb119bcc",
+      "text": "You found 4 left.",
+      "path": "/assets/audio/kokoro/line-fdeeeb119bcc.wav"
+    },
+    {
+      "id": "line-97b221739002",
+      "text": "You found 5 left.",
+      "path": "/assets/audio/kokoro/line-97b221739002.wav"
+    },
+    {
+      "id": "line-38584a5a6bd0",
+      "text": "You found 6 left.",
+      "path": "/assets/audio/kokoro/line-38584a5a6bd0.wav"
+    },
+    {
+      "id": "line-234c77f7d18e",
+      "text": "You found 7 left.",
+      "path": "/assets/audio/kokoro/line-234c77f7d18e.wav"
+    },
+    {
+      "id": "line-aead73c95caf",
+      "text": "You found not equal shares.",
+      "path": "/assets/audio/kokoro/line-aead73c95caf.wav"
+    },
+    {
+      "id": "line-b93155f79d6b",
+      "text": "You found the matching sound.",
+      "path": "/assets/audio/kokoro/line-b93155f79d6b.wav"
+    },
+    {
+      "id": "line-7346775fb8c9",
+      "text": "You found the picture with a different first sound.",
+      "path": "/assets/audio/kokoro/line-7346775fb8c9.wav"
+    },
+    {
+      "id": "line-1d2c80e901f6",
+      "text": "You found the picture with equal parts.",
+      "path": "/assets/audio/kokoro/line-1d2c80e901f6.wav"
+    },
+    {
+      "id": "line-d4cdf9dd06ac",
+      "text": "You made 10 all together.",
+      "path": "/assets/audio/kokoro/line-d4cdf9dd06ac.wav"
+    },
+    {
+      "id": "line-e556aea037ea",
+      "text": "You made 2 all together.",
+      "path": "/assets/audio/kokoro/line-e556aea037ea.wav"
+    },
+    {
+      "id": "line-871f666f9d6e",
+      "text": "You made 5 all together.",
+      "path": "/assets/audio/kokoro/line-871f666f9d6e.wav"
+    },
+    {
+      "id": "line-f59a35d7908c",
+      "text": "You made 6 all together.",
+      "path": "/assets/audio/kokoro/line-f59a35d7908c.wav"
+    },
+    {
+      "id": "line-43fd487ee1eb",
+      "text": "You made 7 all together.",
+      "path": "/assets/audio/kokoro/line-43fd487ee1eb.wav"
+    },
+    {
+      "id": "line-7c1670eca1d7",
+      "text": "You made 8 all together.",
+      "path": "/assets/audio/kokoro/line-7c1670eca1d7.wav"
+    },
+    {
+      "id": "line-49562f1b9b2b",
+      "text": "You made a complete sentence.",
+      "path": "/assets/audio/kokoro/line-49562f1b9b2b.wav"
+    },
+    {
+      "id": "line-289d85cbe7e8",
+      "text": "You made a complete sentence. I like recess.",
+      "path": "/assets/audio/kokoro/line-289d85cbe7e8.wav"
+    },
+    {
+      "id": "line-1e1ffe6e32f1",
+      "text": "You made a complete sentence. My hat is big.",
+      "path": "/assets/audio/kokoro/line-1e1ffe6e32f1.wav"
+    },
+    {
+      "id": "line-fec436c63424",
+      "text": "You made a complete sentence. The book is blue.",
+      "path": "/assets/audio/kokoro/line-fec436c63424.wav"
+    },
+    {
+      "id": "line-95196e392fcc",
+      "text": "You made a complete sentence. We like snack.",
+      "path": "/assets/audio/kokoro/line-95196e392fcc.wav"
+    },
+    {
+      "id": "line-cc90c0f77588",
+      "text": "You made the word bed.",
+      "path": "/assets/audio/kokoro/line-cc90c0f77588.wav"
+    },
+    {
+      "id": "line-6c781a24a920",
+      "text": "You made the word bed. Bed.",
+      "path": "/assets/audio/kokoro/line-6c781a24a920.wav"
+    },
+    {
+      "id": "line-7286d6e854fa",
+      "text": "You made the word dog.",
+      "path": "/assets/audio/kokoro/line-7286d6e854fa.wav"
+    },
+    {
+      "id": "line-ded66bb5afee",
+      "text": "You made the word dog. Dog.",
+      "path": "/assets/audio/kokoro/line-ded66bb5afee.wav"
+    },
+    {
+      "id": "line-564ad59b9c63",
+      "text": "You made the word fan.",
+      "path": "/assets/audio/kokoro/line-564ad59b9c63.wav"
+    },
+    {
+      "id": "line-318b884dccd8",
+      "text": "You made the word fan. Fan.",
+      "path": "/assets/audio/kokoro/line-318b884dccd8.wav"
+    },
+    {
+      "id": "line-42c6adac97f9",
+      "text": "You made the word map.",
+      "path": "/assets/audio/kokoro/line-42c6adac97f9.wav"
+    },
+    {
+      "id": "line-d54184639570",
+      "text": "You made the word map. Map.",
+      "path": "/assets/audio/kokoro/line-d54184639570.wav"
+    },
+    {
+      "id": "line-50eeaba2d081",
+      "text": "You need to agree to the Terms of Service to play this game. If you do not agree, please exit the game.",
+      "path": "/assets/audio/kokoro/line-50eeaba2d081.wav"
+    },
+    {
+      "id": "line-2e3ea4041b1f",
+      "text": "You put it in the right rhyme house.",
+      "path": "/assets/audio/kokoro/line-2e3ea4041b1f.wav"
+    },
+    {
+      "id": "line-f22058efea42",
+      "text": "You put it in the right rhyme house. Cap, ap.",
+      "path": "/assets/audio/kokoro/line-f22058efea42.wav"
+    },
+    {
+      "id": "line-b20096821d7c",
+      "text": "You put it in the right rhyme house. Hop, op.",
+      "path": "/assets/audio/kokoro/line-b20096821d7c.wav"
+    },
+    {
+      "id": "line-921619ec597f",
+      "text": "You put it in the right rhyme house. Pig, ig.",
+      "path": "/assets/audio/kokoro/line-921619ec597f.wav"
+    },
+    {
+      "id": "line-26dff83084da",
+      "text": "You put it in the right rhyme house. Pin, in.",
+      "path": "/assets/audio/kokoro/line-26dff83084da.wav"
+    },
+    {
+      "id": "line-fc99a4d9488c",
+      "text": "You put the story in order.",
+      "path": "/assets/audio/kokoro/line-fc99a4d9488c.wav"
+    },
+    {
+      "id": "line-30fa870a631d",
+      "text": "You put the story in order. I get my shoes. I put on my shoes. I walk to the door.",
+      "path": "/assets/audio/kokoro/line-30fa870a631d.wav"
+    },
+    {
+      "id": "line-ff5422a3e5e6",
+      "text": "You put the story in order. The dog gets the ball. The dog runs. The dog rests.",
+      "path": "/assets/audio/kokoro/line-ff5422a3e5e6.wav"
+    },
+    {
+      "id": "line-949af0716f08",
+      "text": "You put the story in order. We walk outside. We play at recess. We line up.",
+      "path": "/assets/audio/kokoro/line-949af0716f08.wav"
+    }
+  ]
+}

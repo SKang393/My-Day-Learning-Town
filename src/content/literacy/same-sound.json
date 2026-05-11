@@ -1,0 +1,357 @@
+﻿{
+  "id": "same-sound",
+  "title": "Same Sound, Not Same Sound",
+  "category": "literacy",
+  "template": "choose-1-of-3",
+  "directions": "Tap the picture that starts like the word you hear.",
+  "environment": "classroom",
+  "model": {
+    "title": "Listen for the first sound",
+    "instruction": "Look at the model. Bus and bag start the same way.",
+    "targetWord": "bus",
+    "targetImage": "/assets/generated/current/imagegen-school-bus.png",
+    "matchingImage": "/assets/generated/current/imagegen-bag.png",
+    "matchingLabel": "bag",
+    "explanation": "Bus starts with b. Bag starts with b. They have the same first sound.",
+    "sceneImage": "/assets/generated/current/teaching-same-sound-first-sound.png"
+  },
+  "rounds": [
+    {
+      "id": "same-sound-1",
+      "prompt": "Starts like bus",
+      "instruction": "Tap the picture that starts like bus.",
+      "context": "Bus stop words",
+      "targetWord": "bus",
+      "targetImage": "/assets/generated/current/imagegen-school-bus.png",
+      "mode": "same",
+      "correctChoiceId": "bag",
+      "praise": "Great job finding the same sound.",
+      "options": [
+        {
+          "id": "bag",
+          "label": "bag",
+          "image": "/assets/generated/current/imagegen-bag.png"
+        },
+        {
+          "id": "sun",
+          "label": "sun",
+          "image": "/assets/generated/current/imagegen-sun.png"
+        },
+        {
+          "id": "cup",
+          "label": "cup",
+          "image": "/assets/generated/current/imagegen-cup.png"
+        }
+      ]
+    },
+    {
+      "id": "same-sound-2",
+      "prompt": "Starts like book",
+      "instruction": "Tap the picture that starts like book.",
+      "context": "Library words",
+      "targetWord": "book",
+      "targetImage": "/assets/generated/current/imagegen-measure-book.png",
+      "mode": "same",
+      "correctChoiceId": "ball",
+      "praise": "Nice work listening for the first sound.",
+      "options": [
+        {
+          "id": "door",
+          "label": "door",
+          "image": "/assets/generated/current/closed-door.png"
+        },
+        {
+          "id": "ball",
+          "label": "ball",
+          "image": "/assets/generated/current/imagegen-soccer-ball.png"
+        },
+        {
+          "id": "shoe",
+          "label": "shoe",
+          "image": "/assets/generated/current/imagegen-shoe.png"
+        }
+      ]
+    },
+    {
+      "id": "same-sound-3",
+      "prompt": "Starts like lunch",
+      "instruction": "Tap the picture that starts like lunch.",
+      "context": "Cafeteria words",
+      "targetWord": "lunch",
+      "targetImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "mode": "same",
+      "correctChoiceId": "leaf",
+      "praise": "You found the matching sound.",
+      "options": [
+        {
+          "id": "leaf",
+          "label": "leaf",
+          "image": "/assets/generated/current/imagegen-leaf.png"
+        },
+        {
+          "id": "cup",
+          "label": "cup",
+          "image": "/assets/generated/current/imagegen-cup.png"
+        },
+        {
+          "id": "map",
+          "label": "map",
+          "image": "/assets/generated/current/paper-map.png"
+        }
+      ]
+    },
+    {
+      "id": "same-sound-4",
+      "prompt": "Starts like shoe",
+      "instruction": "Tap the picture that starts like shoe.",
+      "context": "Hallway words",
+      "targetWord": "shoe",
+      "targetImage": "/assets/generated/current/imagegen-shoe.png",
+      "mode": "same",
+      "correctChoiceId": "sock",
+      "praise": "Great job finding the same sound.",
+      "options": [
+        {
+          "id": "sock",
+          "label": "sock",
+          "image": "/assets/generated/current/imagegen-sock.png"
+        },
+        {
+          "id": "dog",
+          "label": "dog",
+          "image": "/assets/generated/current/cvc-dog.png"
+        },
+        {
+          "id": "park",
+          "label": "park",
+          "image": "/assets/generated/current/imagegen-playground-swing.png"
+        }
+      ]
+    },
+    {
+      "id": "same-sound-5",
+      "prompt": "Starts like sun",
+      "instruction": "Tap the picture that starts like sun.",
+      "context": "Playground words",
+      "targetWord": "sun",
+      "targetImage": "/assets/generated/current/imagegen-sun.png",
+      "mode": "same",
+      "correctChoiceId": "sock",
+      "praise": "Nice work listening for the first sound.",
+      "options": [
+        {
+          "id": "coat",
+          "label": "coat",
+          "image": "/assets/generated/current/object-raincoat.png"
+        },
+        {
+          "id": "sock",
+          "label": "sock",
+          "image": "/assets/generated/current/imagegen-sock.png"
+        },
+        {
+          "id": "door",
+          "label": "door",
+          "image": "/assets/generated/current/closed-door.png"
+        }
+      ]
+    },
+    {
+      "id": "same-sound-6",
+      "prompt": "Starts like cup",
+      "instruction": "Tap the picture that starts like cup.",
+      "context": "Lunch table words",
+      "targetWord": "cup",
+      "targetImage": "/assets/generated/current/imagegen-cup.png",
+      "mode": "same",
+      "correctChoiceId": "coat",
+      "praise": "You found the matching sound.",
+      "options": [
+        {
+          "id": "map",
+          "label": "map",
+          "image": "/assets/generated/current/paper-map.png"
+        },
+        {
+          "id": "coat",
+          "label": "coat",
+          "image": "/assets/generated/current/object-raincoat.png"
+        },
+        {
+          "id": "desk",
+          "label": "desk",
+          "image": "/assets/generated/current/imagegen-measure-desk-edge.png"
+        }
+      ]
+    },
+    {
+      "id": "same-sound-7",
+      "prompt": "Starts like desk",
+      "instruction": "Tap the picture that starts like desk.",
+      "context": "Classroom words",
+      "targetWord": "desk",
+      "targetImage": "/assets/generated/current/imagegen-measure-desk-edge.png",
+      "mode": "same",
+      "correctChoiceId": "door",
+      "praise": "Great job finding the same sound.",
+      "options": [
+        {
+          "id": "door",
+          "label": "door",
+          "image": "/assets/generated/current/closed-door.png"
+        },
+        {
+          "id": "ball",
+          "label": "ball",
+          "image": "/assets/generated/current/imagegen-soccer-ball.png"
+        },
+        {
+          "id": "shoe",
+          "label": "shoe",
+          "image": "/assets/generated/current/imagegen-shoe.png"
+        }
+      ]
+    },
+    {
+      "id": "same-sound-8",
+      "prompt": "Starts like map",
+      "instruction": "Tap the picture that starts like map.",
+      "context": "Classroom wall words",
+      "targetWord": "map",
+      "targetImage": "/assets/generated/current/paper-map.png",
+      "mode": "same",
+      "correctChoiceId": "milk",
+      "praise": "Nice work listening for the first sound.",
+      "options": [
+        {
+          "id": "bus",
+          "label": "bus",
+          "image": "/assets/generated/current/imagegen-school-bus.png"
+        },
+        {
+          "id": "milk",
+          "label": "milk",
+          "image": "/assets/generated/current/imagegen-milk-carton.png"
+        },
+        {
+          "id": "sun",
+          "label": "sun",
+          "image": "/assets/generated/current/imagegen-sun.png"
+        }
+      ]
+    },
+    {
+      "id": "same-sound-9",
+      "prompt": "Starts like dog",
+      "instruction": "Tap the picture that starts like dog.",
+      "context": "Home words",
+      "targetWord": "dog",
+      "targetImage": "/assets/generated/current/cvc-dog.png",
+      "mode": "same",
+      "correctChoiceId": "door",
+      "praise": "You found the matching sound.",
+      "options": [
+        {
+          "id": "park",
+          "label": "park",
+          "image": "/assets/generated/current/imagegen-playground-swing.png"
+        },
+        {
+          "id": "door",
+          "label": "door",
+          "image": "/assets/generated/current/closed-door.png"
+        },
+        {
+          "id": "cup",
+          "label": "cup",
+          "image": "/assets/generated/current/imagegen-cup.png"
+        }
+      ]
+    },
+    {
+      "id": "same-sound-10",
+      "prompt": "Starts like park",
+      "instruction": "Tap the picture that starts like park.",
+      "context": "Neighborhood park words",
+      "targetWord": "park",
+      "targetImage": "/assets/generated/current/imagegen-playground-swing.png",
+      "mode": "same",
+      "correctChoiceId": "pencil",
+      "praise": "Great job finding the same sound.",
+      "options": [
+        {
+          "id": "pencil",
+          "label": "pencil",
+          "image": "/assets/generated/current/imagegen-school-pencil.png"
+        },
+        {
+          "id": "coat",
+          "label": "coat",
+          "image": "/assets/generated/current/object-raincoat.png"
+        },
+        {
+          "id": "book",
+          "label": "book",
+          "image": "/assets/generated/current/imagegen-measure-book.png"
+        }
+      ]
+    },
+    {
+      "id": "same-sound-11",
+      "prompt": "Not like ball",
+      "instruction": "Tap the picture that does not start like ball.",
+      "context": "Playground words",
+      "targetWord": "ball",
+      "targetImage": "/assets/generated/current/imagegen-soccer-ball.png",
+      "mode": "not-same",
+      "correctChoiceId": "sock",
+      "praise": "Nice work listening for the first sound.",
+      "options": [
+        {
+          "id": "bag",
+          "label": "bag",
+          "image": "/assets/generated/current/imagegen-bag.png"
+        },
+        {
+          "id": "book",
+          "label": "book",
+          "image": "/assets/generated/current/imagegen-measure-book.png"
+        },
+        {
+          "id": "sock",
+          "label": "sock",
+          "image": "/assets/generated/current/imagegen-sock.png"
+        }
+      ]
+    },
+    {
+      "id": "same-sound-12",
+      "prompt": "Not like coat",
+      "instruction": "Tap the picture that does not start like coat.",
+      "context": "Home and school words",
+      "targetWord": "coat",
+      "targetImage": "/assets/generated/current/object-raincoat.png",
+      "mode": "not-same",
+      "correctChoiceId": "door",
+      "praise": "You found the picture with a different first sound.",
+      "options": [
+        {
+          "id": "cup",
+          "label": "cup",
+          "image": "/assets/generated/current/imagegen-cup.png"
+        },
+        {
+          "id": "car",
+          "label": "car",
+          "image": "/assets/generated/current/car.png"
+        },
+        {
+          "id": "door",
+          "label": "door",
+          "image": "/assets/generated/current/closed-door.png"
+        }
+      ]
+    }
+  ]
+}
+

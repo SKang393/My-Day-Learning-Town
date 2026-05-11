@@ -1,0 +1,288 @@
+{
+  "id": "water-on-earth",
+  "title": "Water on Earth",
+  "category": "science",
+  "template": "choose-1-of-3",
+  "directions": "Look at the pictures. Choose what counts as water, then choose solid or liquid water.",
+  "environment": "school science table",
+  "model": {
+    "title": "Water can be liquid or solid",
+    "instruction": "Look at liquid water and ice.",
+    "targetWord": "",
+    "sceneImage": "/assets/generated/current/teaching-water-liquid-solid.png",
+    "matchingLabel": "",
+    "explanation": ""
+  },
+  "rounds": [
+    {
+      "id": "water-pond",
+      "mode": "water-earth",
+      "prompt": "Which picture shows water?",
+      "instruction": "Which picture shows water?",
+      "context": "",
+      "targetImage": "/assets/generated/current/ingame-water-examples-scene.png",
+      "options": [
+        {
+          "id": "water",
+          "label": "water",
+          "image": "/assets/generated/current/lake.png"
+        },
+        {
+          "id": "rock",
+          "label": "rock",
+          "image": "/assets/generated/current/rock.png"
+        },
+        {
+          "id": "lunchbox",
+          "label": "lunch box",
+          "image": "/assets/generated/current/lunchbox.png"
+        }
+      ],
+      "correctChoiceId": "water",
+      "praise": "Nice work finding water."
+    },
+    {
+      "id": "water-river",
+      "mode": "water-earth",
+      "prompt": "Which picture shows water?",
+      "instruction": "Which picture shows water?",
+      "context": "",
+      "targetImage": "/assets/generated/current/ingame-water-examples-scene.png",
+      "options": [
+        {
+          "id": "water",
+          "label": "water",
+          "image": "/assets/generated/current/imagegen-water-stream.png"
+        },
+        {
+          "id": "dirt",
+          "label": "dirt",
+          "image": "/assets/generated/current/soil.png"
+        },
+        {
+          "id": "book",
+          "label": "book",
+          "image": "/assets/generated/current/imagegen-measure-book.png"
+        }
+      ],
+      "correctChoiceId": "water",
+      "praise": "Nice work finding water."
+    },
+    {
+      "id": "water-cup",
+      "mode": "water-earth",
+      "prompt": "Which picture shows liquid water?",
+      "instruction": "Which picture shows liquid water?",
+      "context": "",
+      "targetImage": "/assets/generated/current/answer-water-liquid-cup.png",
+      "options": [
+        {
+          "id": "liquid",
+          "label": "liquid",
+          "image": "/assets/generated/current/answer-water-liquid-cup.png"
+        },
+        {
+          "id": "solid",
+          "label": "solid",
+          "image": "/assets/generated/current/answer-water-solid-ice.png"
+        },
+        {
+          "id": "rock",
+          "label": "rock",
+          "image": "/assets/generated/current/rock.png"
+        }
+      ],
+      "correctChoiceId": "liquid",
+      "praise": "Nice work finding liquid water."
+    },
+    {
+      "id": "water-ice",
+      "mode": "water-earth",
+      "prompt": "Which picture shows solid water?",
+      "instruction": "Which picture shows solid water?",
+      "context": "",
+      "targetImage": "/assets/generated/current/answer-water-solid-ice.png",
+      "options": [
+        {
+          "id": "solid",
+          "label": "solid",
+          "image": "/assets/generated/current/answer-water-solid-ice.png"
+        },
+        {
+          "id": "liquid",
+          "label": "liquid",
+          "image": "/assets/generated/current/answer-water-liquid-cup.png"
+        },
+        {
+          "id": "lunchbox",
+          "label": "lunch box",
+          "image": "/assets/generated/current/lunchbox.png"
+        }
+      ],
+      "correctChoiceId": "solid",
+      "praise": "Nice work finding solid water."
+    },
+    {
+      "id": "water-snow",
+      "mode": "water-earth",
+      "prompt": "Which picture shows solid water?",
+      "instruction": "Which picture shows solid water?",
+      "context": "",
+      "targetImage": "/assets/generated/current/answer-water-solid-ice.png",
+      "options": [
+        {
+          "id": "solid",
+          "label": "solid",
+          "image": "/assets/generated/current/answer-water-solid-ice.png"
+        },
+        {
+          "id": "liquid",
+          "label": "liquid",
+          "image": "/assets/generated/current/answer-water-liquid-cup.png"
+        },
+        {
+          "id": "dirt",
+          "label": "dirt",
+          "image": "/assets/generated/current/soil.png"
+        }
+      ],
+      "correctChoiceId": "solid",
+      "praise": "Nice work finding solid water."
+    },
+    {
+      "id": "water-lake",
+      "mode": "water-earth",
+      "prompt": "Which picture shows water?",
+      "instruction": "Which picture shows water?",
+      "context": "",
+      "targetImage": "/assets/generated/current/ingame-water-examples-scene.png",
+      "options": [
+        {
+          "id": "water",
+          "label": "water",
+          "image": "/assets/generated/current/lake.png"
+        },
+        {
+          "id": "rock",
+          "label": "rock",
+          "image": "/assets/generated/current/rock.png"
+        },
+        {
+          "id": "lunchbox",
+          "label": "lunch box",
+          "image": "/assets/generated/current/lunchbox.png"
+        }
+      ],
+      "correctChoiceId": "water",
+      "praise": "Nice work finding water."
+    },
+    {
+      "id": "water-ocean",
+      "mode": "water-earth",
+      "prompt": "Which picture shows water?",
+      "instruction": "Which picture shows water?",
+      "context": "",
+      "targetImage": "/assets/generated/current/ingame-water-examples-scene.png",
+      "options": [
+        {
+          "id": "water",
+          "label": "water",
+          "image": "/assets/generated/current/ocean.png"
+        },
+        {
+          "id": "dirt",
+          "label": "dirt",
+          "image": "/assets/generated/current/soil.png"
+        },
+        {
+          "id": "shoe",
+          "label": "shoe",
+          "image": "/assets/generated/current/imagegen-shoe.png"
+        }
+      ],
+      "correctChoiceId": "water",
+      "praise": "Nice work finding water."
+    },
+    {
+      "id": "water-liquid",
+      "mode": "water-earth",
+      "prompt": "Which is liquid?",
+      "instruction": "Which is liquid?",
+      "context": "",
+      "targetImage": "/assets/generated/current/answer-water-liquid-cup.png",
+      "options": [
+        {
+          "id": "liquid",
+          "label": "liquid",
+          "image": "/assets/generated/current/answer-water-liquid-cup.png"
+        },
+        {
+          "id": "solid",
+          "label": "solid",
+          "image": "/assets/generated/current/answer-water-solid-ice.png"
+        },
+        {
+          "id": "snow",
+          "label": "snow",
+          "image": "/assets/generated/current/snow-pile.png"
+        }
+      ],
+      "correctChoiceId": "liquid",
+      "praise": "Nice work finding liquid."
+    },
+    {
+      "id": "water-solid",
+      "mode": "water-earth",
+      "prompt": "Which is solid?",
+      "instruction": "Which is solid?",
+      "context": "",
+      "targetImage": "/assets/generated/current/answer-water-solid-ice.png",
+      "options": [
+        {
+          "id": "solid",
+          "label": "solid",
+          "image": "/assets/generated/current/answer-water-solid-ice.png"
+        },
+        {
+          "id": "liquid",
+          "label": "liquid",
+          "image": "/assets/generated/current/answer-water-liquid-cup.png"
+        },
+        {
+          "id": "pond",
+          "label": "pond",
+          "image": "/assets/generated/current/lake.png"
+        }
+      ],
+      "correctChoiceId": "solid",
+      "praise": "Nice work finding solid."
+    },
+    {
+      "id": "water-not-dirt",
+      "mode": "water-earth",
+      "prompt": "Which picture shows water?",
+      "instruction": "Which picture shows water?",
+      "context": "",
+      "targetImage": "/assets/generated/current/ingame-water-examples-scene.png",
+      "options": [
+        {
+          "id": "water",
+          "label": "water",
+          "image": "/assets/generated/current/liquid-cup-icon.png"
+        },
+        {
+          "id": "dirt",
+          "label": "dirt",
+          "image": "/assets/generated/current/soil.png"
+        },
+        {
+          "id": "lunchbox",
+          "label": "lunch box",
+          "image": "/assets/generated/current/lunchbox.png"
+        }
+      ],
+      "correctChoiceId": "water",
+      "praise": "Nice work finding water."
+    }
+  ]
+}

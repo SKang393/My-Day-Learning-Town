@@ -1,0 +1,362 @@
+﻿{
+  "id": "story-in-order",
+  "title": "Story In Order",
+  "category": "literacy",
+  "template": "drag-sequence",
+  "directions": "Drag the story cards into the boxes from first to last.",
+  "environment": "school story table",
+  "rounds": [
+    {
+      "id": "bus-ride",
+      "mode": "story-order",
+      "prompt": "Put the bus story in order.",
+      "instruction": "Put the bus story in order.",
+      "context": "Bus stop story",
+      "sentence": "I wait at the bus stop. The bus comes. I ride to school.",
+      "sentenceImage": "/assets/generated/current/imagegen-school-bus.png",
+      "sentenceParts": [
+        {
+          "id": "bus-ride-2",
+          "label": "The bus comes."
+        },
+        {
+          "id": "bus-ride-1",
+          "label": "I wait at the bus stop."
+        },
+        {
+          "id": "bus-ride-3",
+          "label": "I ride to school."
+        }
+      ],
+      "correctSequence": [
+        "bus-ride-1",
+        "bus-ride-2",
+        "bus-ride-3"
+      ],
+      "slotLabels": [
+        "first",
+        "next",
+        "last"
+      ],
+      "praise": "Awesome job putting the story in order."
+    },
+    {
+      "id": "lunch",
+      "mode": "story-order",
+      "prompt": "Put the lunch story in order.",
+      "instruction": "Put the lunch story in order.",
+      "context": "Cafeteria story",
+      "sentence": "I get my lunch. I sit at the table. I eat my lunch.",
+      "sentenceImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "sentenceParts": [
+        {
+          "id": "lunch-3",
+          "label": "I eat my lunch."
+        },
+        {
+          "id": "lunch-1",
+          "label": "I get my lunch."
+        },
+        {
+          "id": "lunch-2",
+          "label": "I sit at the table."
+        }
+      ],
+      "correctSequence": [
+        "lunch-1",
+        "lunch-2",
+        "lunch-3"
+      ],
+      "slotLabels": [
+        "first",
+        "next",
+        "last"
+      ],
+      "praise": "Great work putting the story in order."
+    },
+    {
+      "id": "recess",
+      "mode": "story-order",
+      "prompt": "Put the recess story in order.",
+      "instruction": "Put the recess story in order.",
+      "context": "Playground story",
+      "sentence": "We walk outside. We play at recess. We line up.",
+      "sentenceImage": "/assets/generated/current/imagegen-playground-swing.png",
+      "sentenceParts": [
+        {
+          "id": "recess-2",
+          "label": "We play at recess."
+        },
+        {
+          "id": "recess-3",
+          "label": "We line up."
+        },
+        {
+          "id": "recess-1",
+          "label": "We walk outside."
+        }
+      ],
+      "correctSequence": [
+        "recess-1",
+        "recess-2",
+        "recess-3"
+      ],
+      "slotLabels": [
+        "first",
+        "next",
+        "last"
+      ],
+      "praise": "You put the story in order."
+    },
+    {
+      "id": "book",
+      "mode": "story-order",
+      "prompt": "Put the library story in order.",
+      "instruction": "Put the library story in order.",
+      "context": "Library story",
+      "sentence": "I choose a book. I read the book. I put the book away.",
+      "sentenceImage": "/assets/generated/current/imagegen-measure-book.png",
+      "sentenceParts": [
+        {
+          "id": "book-2",
+          "label": "I read the book."
+        },
+        {
+          "id": "book-1",
+          "label": "I choose a book."
+        },
+        {
+          "id": "book-3",
+          "label": "I put the book away."
+        }
+      ],
+      "correctSequence": [
+        "book-1",
+        "book-2",
+        "book-3"
+      ],
+      "slotLabels": [
+        "first",
+        "next",
+        "last"
+      ],
+      "praise": "Awesome job putting the story in order."
+    },
+    {
+      "id": "bag",
+      "mode": "story-order",
+      "prompt": "Put the backpack story in order.",
+      "instruction": "Put the backpack story in order.",
+      "context": "Classroom story",
+      "sentence": "I open my bag. I take out my folder. I close my bag.",
+      "sentenceImage": "/assets/generated/current/imagegen-bag.png",
+      "sentenceParts": [
+        {
+          "id": "bag-3",
+          "label": "I close my bag."
+        },
+        {
+          "id": "bag-1",
+          "label": "I open my bag."
+        },
+        {
+          "id": "bag-2",
+          "label": "I take out my folder."
+        }
+      ],
+      "correctSequence": [
+        "bag-1",
+        "bag-2",
+        "bag-3"
+      ],
+      "slotLabels": [
+        "first",
+        "next",
+        "last"
+      ],
+      "praise": "Great work putting the story in order."
+    },
+    {
+      "id": "dog",
+      "mode": "story-order",
+      "prompt": "Put the dog story in order.",
+      "instruction": "Put the dog story in order.",
+      "context": "Home story",
+      "sentence": "The dog gets the ball. The dog runs. The dog rests.",
+      "sentenceImage": "/assets/generated/current/cvc-dog.png",
+      "sentenceParts": [
+        {
+          "id": "dog-2",
+          "label": "The dog runs."
+        },
+        {
+          "id": "dog-3",
+          "label": "The dog rests."
+        },
+        {
+          "id": "dog-1",
+          "label": "The dog gets the ball."
+        }
+      ],
+      "correctSequence": [
+        "dog-1",
+        "dog-2",
+        "dog-3"
+      ],
+      "slotLabels": [
+        "first",
+        "next",
+        "last"
+      ],
+      "praise": "You put the story in order."
+    },
+    {
+      "id": "cup",
+      "mode": "story-order",
+      "prompt": "Put the drink story in order.",
+      "instruction": "Put the drink story in order.",
+      "context": "Snack table story",
+      "sentence": "I get a cup. I pour water. I drink water.",
+      "sentenceImage": "/assets/generated/current/imagegen-cup.png",
+      "sentenceParts": [
+        {
+          "id": "cup-2",
+          "label": "I pour water."
+        },
+        {
+          "id": "cup-1",
+          "label": "I get a cup."
+        },
+        {
+          "id": "cup-3",
+          "label": "I drink water."
+        }
+      ],
+      "correctSequence": [
+        "cup-1",
+        "cup-2",
+        "cup-3"
+      ],
+      "slotLabels": [
+        "first",
+        "next",
+        "last"
+      ],
+      "praise": "Awesome job putting the story in order."
+    },
+    {
+      "id": "crayon",
+      "mode": "story-order",
+      "prompt": "Put the crayon story in order.",
+      "instruction": "Put the crayon story in order.",
+      "context": "Art table story",
+      "sentence": "I pick a crayon. I color the picture. I put the crayon away.",
+      "sentenceImage": "/assets/generated/current/imagegen-unit-crayon.png",
+      "sentenceParts": [
+        {
+          "id": "crayon-3",
+          "label": "I put the crayon away."
+        },
+        {
+          "id": "crayon-1",
+          "label": "I pick a crayon."
+        },
+        {
+          "id": "crayon-2",
+          "label": "I color the picture."
+        }
+      ],
+      "correctSequence": [
+        "crayon-1",
+        "crayon-2",
+        "crayon-3"
+      ],
+      "slotLabels": [
+        "first",
+        "next",
+        "last"
+      ],
+      "praise": "Great work putting the story in order."
+    },
+    {
+      "id": "shoe",
+      "mode": "story-order",
+      "prompt": "Put the shoe story in order.",
+      "instruction": "Put the shoe story in order.",
+      "context": "Home story",
+      "sentence": "I get my shoes. I put on my shoes. I walk to the door.",
+      "sentenceImage": "/assets/generated/current/imagegen-shoe.png",
+      "sentenceParts": [
+        {
+          "id": "shoe-2",
+          "label": "I put on my shoes."
+        },
+        {
+          "id": "shoe-3",
+          "label": "I walk to the door."
+        },
+        {
+          "id": "shoe-1",
+          "label": "I get my shoes."
+        }
+      ],
+      "correctSequence": [
+        "shoe-1",
+        "shoe-2",
+        "shoe-3"
+      ],
+      "slotLabels": [
+        "first",
+        "next",
+        "last"
+      ],
+      "praise": "You put the story in order."
+    },
+    {
+      "id": "park",
+      "mode": "story-order",
+      "prompt": "Put the park story in order.",
+      "instruction": "Put the park story in order.",
+      "context": "Park story",
+      "sentence": "We go to the park. We play on swings. We go home.",
+      "sentenceImage": "/assets/generated/current/imagegen-playground-swing.png",
+      "sentenceParts": [
+        {
+          "id": "park-2",
+          "label": "We play on swings."
+        },
+        {
+          "id": "park-1",
+          "label": "We go to the park."
+        },
+        {
+          "id": "park-3",
+          "label": "We go home."
+        }
+      ],
+      "correctSequence": [
+        "park-1",
+        "park-2",
+        "park-3"
+      ],
+      "slotLabels": [
+        "first",
+        "next",
+        "last"
+      ],
+      "praise": "Awesome job putting the story in order."
+    }
+  ],
+  "model": {
+    "title": "Stories have an order",
+    "instruction": "First means what happens at the beginning. Next happens after that. Last happens at the end.",
+    "targetWord": "First, next, last",
+    "targetImage": "/assets/generated/current/imagegen-snack-tray.png",
+    "matchingImage": "/assets/generated/current/imagegen-snack-tray.png",
+    "matchingLabel": "beginning to end",
+    "arrowLabel": "put in order",
+    "explanation": "Read or listen to the cards and put the story in order.",
+    "sceneImage": "/assets/generated/current/teaching-story-order-first-next-last.png"
+  }
+}
+

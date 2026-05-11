@@ -1,0 +1,358 @@
+﻿{
+  "id": "rhyme-house",
+  "title": "Rhyme House",
+  "category": "literacy",
+  "template": "drag-match",
+  "directions": "Drag the picture to the rhyme house with the same ending sound.",
+  "environment": "neighborhood houses",
+  "rounds": [
+    {
+      "id": "rhyme-house-1",
+      "prompt": "Where does cat go?",
+      "instruction": "Drag cat to the rhyme house.",
+      "context": "Neighborhood rhyme houses",
+      "bins": [
+        {
+          "id": "at",
+          "label": "-at"
+        },
+        {
+          "id": "an",
+          "label": "-an"
+        },
+        {
+          "id": "op",
+          "label": "-op"
+        }
+      ],
+      "item": {
+        "id": "cat",
+        "label": "cat",
+        "image": "/assets/generated/current/cvc-cat.png"
+      },
+      "correctBinId": "at",
+      "rime": "at",
+      "praise": "Great job matching the rhyme."
+    },
+    {
+      "id": "rhyme-house-2",
+      "prompt": "Where does can go?",
+      "instruction": "Drag can to the rhyme house.",
+      "context": "Home rhyme houses",
+      "bins": [
+        {
+          "id": "at",
+          "label": "-at"
+        },
+        {
+          "id": "an",
+          "label": "-an"
+        },
+        {
+          "id": "op",
+          "label": "-op"
+        }
+      ],
+      "item": {
+        "id": "can",
+        "label": "can",
+        "image": "/assets/generated/current/imagegen-can.png"
+      },
+      "correctBinId": "an",
+      "rime": "an",
+      "praise": "Nice work finding the word family."
+    },
+    {
+      "id": "rhyme-house-3",
+      "prompt": "Where does hop go?",
+      "instruction": "Drag hop to the rhyme house.",
+      "context": "Classroom cleanup rhyme houses",
+      "bins": [
+        {
+          "id": "at",
+          "label": "-at"
+        },
+        {
+          "id": "an",
+          "label": "-an"
+        },
+        {
+          "id": "op",
+          "label": "-op"
+        }
+      ],
+      "item": {
+        "id": "hop",
+        "label": "hop",
+        "image": "/assets/generated/current/imagegen-hop.png"
+      },
+      "correctBinId": "op",
+      "rime": "op",
+      "praise": "You put it in the right rhyme house."
+    },
+    {
+      "id": "rhyme-house-4",
+      "prompt": "Where does hat go?",
+      "instruction": "Drag hat to the rhyme house.",
+      "context": "Hallway rhyme houses",
+      "bins": [
+        {
+          "id": "at",
+          "label": "-at"
+        },
+        {
+          "id": "in",
+          "label": "-in"
+        },
+        {
+          "id": "ig",
+          "label": "-ig"
+        }
+      ],
+      "item": {
+        "id": "hat",
+        "label": "hat",
+        "image": "/assets/generated/current/cvc-hat.png"
+      },
+      "correctBinId": "at",
+      "rime": "at",
+      "praise": "Great job matching the rhyme."
+    },
+    {
+      "id": "rhyme-house-5",
+      "prompt": "Where does pin go?",
+      "instruction": "Drag pin to the rhyme house.",
+      "context": "Classroom rhyme houses",
+      "bins": [
+        {
+          "id": "an",
+          "label": "-an"
+        },
+        {
+          "id": "in",
+          "label": "-in"
+        },
+        {
+          "id": "op",
+          "label": "-op"
+        }
+      ],
+      "item": {
+        "id": "pin",
+        "label": "pin",
+        "image": "/assets/generated/current/cvc-pin.png"
+      },
+      "correctBinId": "in",
+      "rime": "in",
+      "praise": "Nice work finding the word family."
+    },
+    {
+      "id": "rhyme-house-6",
+      "prompt": "Where does pig go?",
+      "instruction": "Drag pig to the rhyme house.",
+      "context": "Library rhyme houses",
+      "bins": [
+        {
+          "id": "ig",
+          "label": "-ig"
+        },
+        {
+          "id": "at",
+          "label": "-at"
+        },
+        {
+          "id": "an",
+          "label": "-an"
+        }
+      ],
+      "item": {
+        "id": "pig",
+        "label": "pig",
+        "image": "/assets/generated/current/cvc-pig.png"
+      },
+      "correctBinId": "ig",
+      "rime": "ig",
+      "praise": "You put it in the right rhyme house."
+    },
+    {
+      "id": "rhyme-house-7",
+      "prompt": "Where does pan go?",
+      "instruction": "Drag pan to the rhyme house.",
+      "context": "Kitchen rhyme houses",
+      "bins": [
+        {
+          "id": "op",
+          "label": "-op"
+        },
+        {
+          "id": "an",
+          "label": "-an"
+        },
+        {
+          "id": "ig",
+          "label": "-ig"
+        }
+      ],
+      "item": {
+        "id": "pan",
+        "label": "pan",
+        "image": "/assets/generated/current/imagegen-pan.png"
+      },
+      "correctBinId": "an",
+      "rime": "an",
+      "praise": "Great job matching the rhyme."
+    },
+    {
+      "id": "rhyme-house-8",
+      "prompt": "Where does hop go?",
+      "instruction": "Drag hop to the rhyme house.",
+      "context": "Playroom rhyme houses",
+      "bins": [
+        {
+          "id": "in",
+          "label": "-in"
+        },
+        {
+          "id": "op",
+          "label": "-op"
+        },
+        {
+          "id": "at",
+          "label": "-at"
+        }
+      ],
+      "item": {
+        "id": "hop",
+        "label": "hop",
+        "image": "/assets/generated/current/imagegen-hop.png"
+      },
+      "correctBinId": "op",
+      "rime": "op",
+      "praise": "Nice work finding the word family."
+    },
+    {
+      "id": "rhyme-house-9",
+      "prompt": "Where does pin go?",
+      "instruction": "Drag pin to the rhyme house.",
+      "context": "Classroom supply rhyme houses",
+      "bins": [
+        {
+          "id": "ig",
+          "label": "-ig"
+        },
+        {
+          "id": "in",
+          "label": "-in"
+        },
+        {
+          "id": "an",
+          "label": "-an"
+        }
+      ],
+      "item": {
+        "id": "pin",
+        "label": "pin",
+        "image": "/assets/generated/current/cvc-pin.png"
+      },
+      "correctBinId": "in",
+      "rime": "in",
+      "praise": "You put it in the right rhyme house."
+    },
+    {
+      "id": "rhyme-house-10",
+      "prompt": "Where does pig go?",
+      "instruction": "Drag pig to the rhyme house.",
+      "context": "Home rhyme houses",
+      "bins": [
+        {
+          "id": "at",
+          "label": "-at"
+        },
+        {
+          "id": "ig",
+          "label": "-ig"
+        },
+        {
+          "id": "op",
+          "label": "-op"
+        }
+      ],
+      "item": {
+        "id": "pig",
+        "label": "pig",
+        "image": "/assets/generated/current/cvc-pig.png"
+      },
+      "correctBinId": "ig",
+      "rime": "ig",
+      "praise": "Great job matching the rhyme."
+    },
+    {
+      "id": "rhyme-house-11",
+      "prompt": "Where does cap go?",
+      "instruction": "Drag cap to the rhyme house.",
+      "context": "School store rhyme houses",
+      "bins": [
+        {
+          "id": "ap",
+          "label": "-ap"
+        },
+        {
+          "id": "an",
+          "label": "-an"
+        },
+        {
+          "id": "in",
+          "label": "-in"
+        }
+      ],
+      "item": {
+        "id": "cap",
+        "label": "cap",
+        "image": "/assets/generated/current/cvc-hat.png"
+      },
+      "correctBinId": "ap",
+      "rime": "ap",
+      "praise": "Nice work finding the word family."
+    },
+    {
+      "id": "rhyme-house-12",
+      "prompt": "Where does cap go?",
+      "instruction": "Drag cap to the rhyme house.",
+      "context": "Home rhyme houses",
+      "bins": [
+        {
+          "id": "ig",
+          "label": "-ig"
+        },
+        {
+          "id": "ap",
+          "label": "-ap"
+        },
+        {
+          "id": "op",
+          "label": "-op"
+        }
+      ],
+      "item": {
+        "id": "cap",
+        "label": "cap",
+        "image": "/assets/generated/current/cvc-hat.png"
+      },
+      "correctBinId": "ap",
+      "rime": "ap",
+      "praise": "You put it in the right rhyme house."
+    }
+  ],
+  "model": {
+    "title": "Words can rhyme",
+    "instruction": "Look at the model. Cat goes in the at rhyme house.",
+    "targetWord": "cat",
+    "targetImage": "/assets/generated/current/cvc-cat.png",
+    "matchingImage": "/assets/generated/current/cvc-cat.png",
+    "matchingLabel": "-at house",
+    "arrowLabel": "same ending",
+    "explanation": "Cat ends with at. Put each picture in the house with the same ending.",
+    "sceneImage": "/assets/generated/current/teaching-rhyme-house-at.png"
+  }
+}
+

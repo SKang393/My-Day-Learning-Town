@@ -1,0 +1,288 @@
+{
+    "id":  "land-water-map-builder",
+    "title":  "Land and Water Map Builder",
+    "category":  "science",
+    "template":  "drag-match",
+    "directions":  "Look at the map feature. Sort it into land or water.",
+    "environment":  "school neighborhood map table",
+    "rounds":  [
+                   {
+                       "id":  "dirt",
+                       "mode":  "map-builder",
+                       "prompt":  "Sort the dirt.",
+                       "instruction":  "Sort the dirt.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-land-water-sort-map.png",
+                       "bins":  [
+                                    {
+                                        "id":  "land",
+                                        "label":  "Land",
+                                        "image":  "/assets/generated/current/soil.png"
+                                    },
+                                    {
+                                        "id":  "water",
+                                        "label":  "Water",
+                                        "image":  "/assets/generated/current/lake.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "dirt",
+                                    "label":  "dirt",
+                                    "image":  "/assets/generated/current/soil.png"
+                                },
+                       "correctBinId":  "land",
+                       "praise":  "Nice work sorting land."
+                   },
+                   {
+                       "id":  "playground",
+                       "mode":  "map-builder",
+                       "prompt":  "Sort the playground.",
+                       "instruction":  "Sort the playground.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-land-water-sort-map.png",
+                       "bins":  [
+                                    {
+                                        "id":  "land",
+                                        "label":  "Land",
+                                        "image":  "/assets/generated/current/soil.png"
+                                    },
+                                    {
+                                        "id":  "water",
+                                        "label":  "Water",
+                                        "image":  "/assets/generated/current/lake.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "playground",
+                                    "label":  "playground",
+                                    "image":  "/assets/generated/current/imagegen-playground-swing.png"
+                                },
+                       "correctBinId":  "land",
+                       "praise":  "Nice work sorting land."
+                   },
+                   {
+                       "id":  "road",
+                       "mode":  "map-builder",
+                       "prompt":  "Sort the road.",
+                       "instruction":  "Sort the road.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-land-water-sort-map.png",
+                       "bins":  [
+                                    {
+                                        "id":  "land",
+                                        "label":  "Land",
+                                        "image":  "/assets/generated/current/soil.png"
+                                    },
+                                    {
+                                        "id":  "water",
+                                        "label":  "Water",
+                                        "image":  "/assets/generated/current/lake.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "road",
+                                    "label":  "road",
+                                    "image":  "/assets/generated/current/road.png"
+                                },
+                       "correctBinId":  "land",
+                       "praise":  "Nice work sorting land."
+                   },
+                   {
+                       "id":  "hill",
+                       "mode":  "map-builder",
+                       "prompt":  "Sort the hill.",
+                       "instruction":  "Sort the hill.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-land-water-sort-map.png",
+                       "bins":  [
+                                    {
+                                        "id":  "land",
+                                        "label":  "Land",
+                                        "image":  "/assets/generated/current/soil.png"
+                                    },
+                                    {
+                                        "id":  "water",
+                                        "label":  "Water",
+                                        "image":  "/assets/generated/current/lake.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "hill",
+                                    "label":  "hill",
+                                    "image":  "/assets/generated/current/dirt-ground.png"
+                                },
+                       "correctBinId":  "land",
+                       "praise":  "Nice work sorting land."
+                   },
+                   {
+                       "id":  "river",
+                       "mode":  "map-builder",
+                       "prompt":  "Sort the river.",
+                       "instruction":  "Sort the river.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-land-water-sort-map.png",
+                       "bins":  [
+                                    {
+                                        "id":  "land",
+                                        "label":  "Land",
+                                        "image":  "/assets/generated/current/soil.png"
+                                    },
+                                    {
+                                        "id":  "water",
+                                        "label":  "Water",
+                                        "image":  "/assets/generated/current/lake.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "river",
+                                    "label":  "river",
+                                    "image":  "/assets/generated/current/river.png"
+                                },
+                       "correctBinId":  "water",
+                       "praise":  "Nice work sorting water."
+                   },
+                   {
+                       "id":  "lake",
+                       "mode":  "map-builder",
+                       "prompt":  "Sort the lake.",
+                       "instruction":  "Sort the lake.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-land-water-sort-map.png",
+                       "bins":  [
+                                    {
+                                        "id":  "land",
+                                        "label":  "Land",
+                                        "image":  "/assets/generated/current/soil.png"
+                                    },
+                                    {
+                                        "id":  "water",
+                                        "label":  "Water",
+                                        "image":  "/assets/generated/current/lake.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "lake",
+                                    "label":  "lake",
+                                    "image":  "/assets/generated/current/lake.png"
+                                },
+                       "correctBinId":  "water",
+                       "praise":  "Nice work sorting water."
+                   },
+                   {
+                       "id":  "ocean",
+                       "mode":  "map-builder",
+                       "prompt":  "Sort the ocean.",
+                       "instruction":  "Sort the ocean.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-land-water-sort-map.png",
+                       "bins":  [
+                                    {
+                                        "id":  "land",
+                                        "label":  "Land",
+                                        "image":  "/assets/generated/current/soil.png"
+                                    },
+                                    {
+                                        "id":  "water",
+                                        "label":  "Water",
+                                        "image":  "/assets/generated/current/lake.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "ocean",
+                                    "label":  "ocean",
+                                    "image":  "/assets/generated/current/ocean.png"
+                                },
+                       "correctBinId":  "water",
+                       "praise":  "Nice work sorting water."
+                   },
+                   {
+                       "id":  "pond",
+                       "mode":  "map-builder",
+                       "prompt":  "Sort the pond.",
+                       "instruction":  "Sort the pond.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-land-water-sort-map.png",
+                       "bins":  [
+                                    {
+                                        "id":  "land",
+                                        "label":  "Land",
+                                        "image":  "/assets/generated/current/soil.png"
+                                    },
+                                    {
+                                        "id":  "water",
+                                        "label":  "Water",
+                                        "image":  "/assets/generated/current/lake.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "pond",
+                                    "label":  "pond",
+                                    "image":  "/assets/generated/current/imagegen-pond.png"
+                                },
+                       "correctBinId":  "water",
+                       "praise":  "Nice work sorting water."
+                   },
+                   {
+                       "id":  "park",
+                       "mode":  "map-builder",
+                       "prompt":  "Sort the park ground.",
+                       "instruction":  "Sort the park ground.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-land-water-sort-map.png",
+                       "bins":  [
+                                    {
+                                        "id":  "land",
+                                        "label":  "Land",
+                                        "image":  "/assets/generated/current/soil.png"
+                                    },
+                                    {
+                                        "id":  "water",
+                                        "label":  "Water",
+                                        "image":  "/assets/generated/current/lake.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "park",
+                                    "label":  "park",
+                                    "image":  "/assets/generated/current/imagegen-playground-swing.png"
+                                },
+                       "correctBinId":  "land",
+                       "praise":  "Nice work sorting land."
+                   },
+                   {
+                       "id":  "stream",
+                       "mode":  "map-builder",
+                       "prompt":  "Sort the stream.",
+                       "instruction":  "Sort the stream.",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-land-water-sort-map.png",
+                       "bins":  [
+                                    {
+                                        "id":  "land",
+                                        "label":  "Land",
+                                        "image":  "/assets/generated/current/soil.png"
+                                    },
+                                    {
+                                        "id":  "water",
+                                        "label":  "Water",
+                                        "image":  "/assets/generated/current/lake.png"
+                                    }
+                                ],
+                       "item":  {
+                                    "id":  "stream",
+                                    "label":  "stream",
+                                    "image":  "/assets/generated/current/imagegen-water-stream.png"
+                                },
+                       "correctBinId":  "water",
+                       "praise":  "Nice work sorting water."
+                   }
+               ],
+    "model":  {
+                  "title":  "Land or water",
+                  "instruction":  "Look at land and water places.",
+                  "targetWord":  "",
+                  "sceneImage":  "/assets/generated/current/teaching-land-water-sort.png",
+                  "matchingLabel":  "",
+                  "explanation":  ""
+              }
+}

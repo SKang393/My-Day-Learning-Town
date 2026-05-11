@@ -1,0 +1,550 @@
+﻿{
+  "id": "shape-sort",
+  "title": "Shape Sort",
+  "category": "math",
+  "template": "drag-match",
+  "directions": "Look at the shape. Decide where it belongs, then drag it to the bin.",
+  "environment": "classroom shape center",
+  "rounds": [
+    {
+      "id": "sort-1",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Is it flat or solid? Drag it to the matching bin.",
+      "item": {
+        "id": "circle",
+        "label": "circle",
+        "image": "/assets/rasterized/exact/shape-circle-flat.png"
+      },
+      "correctBinId": "2d",
+      "bins": [
+        {
+          "id": "2d",
+          "label": "2D flat",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "3d",
+          "label": "3D solid",
+          "image": "/assets/rasterized/exact/shape-cube-3d.png"
+        }
+      ],
+      "praise": "Great job matching circle to flat shape. A circle is flat."
+    },
+    {
+      "id": "sort-2",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Is it flat or solid? Drag it to the matching bin.",
+      "item": {
+        "id": "cube",
+        "label": "cube",
+        "image": "/assets/rasterized/exact/shape-cube-3d.png"
+      },
+      "correctBinId": "3d",
+      "bins": [
+        {
+          "id": "2d",
+          "label": "2D flat",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "3d",
+          "label": "3D solid",
+          "image": "/assets/rasterized/exact/shape-cube-3d.png"
+        }
+      ],
+      "praise": "Nice work matching cube to solid shape. A cube is a solid shape."
+    },
+    {
+      "id": "sort-3",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Is it flat or solid? Drag it to the matching bin.",
+      "item": {
+        "id": "rectangle",
+        "label": "rectangle",
+        "image": "/assets/rasterized/exact/shape-rectangle-flat.png"
+      },
+      "correctBinId": "2d",
+      "bins": [
+        {
+          "id": "2d",
+          "label": "2D flat",
+          "image": "/assets/rasterized/exact/shape-rectangle-flat.png"
+        },
+        {
+          "id": "3d",
+          "label": "3D solid",
+          "image": "/assets/rasterized/exact/shape-cylinder-3d.png"
+        }
+      ],
+      "praise": "Great job matching rectangle to flat shape. A rectangle is flat."
+    },
+    {
+      "id": "sort-4",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Is it flat or solid? Drag it to the matching bin.",
+      "item": {
+        "id": "cylinder",
+        "label": "cylinder",
+        "image": "/assets/rasterized/exact/shape-cylinder-3d.png"
+      },
+      "correctBinId": "3d",
+      "bins": [
+        {
+          "id": "2d",
+          "label": "2D flat",
+          "image": "/assets/rasterized/exact/shape-triangle-flat.png"
+        },
+        {
+          "id": "3d",
+          "label": "3D solid",
+          "image": "/assets/rasterized/exact/shape-cylinder-3d.png"
+        }
+      ],
+      "praise": "Nice work matching cylinder to solid shape. A cylinder is a solid shape."
+    },
+    {
+      "id": "sort-named-1",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "circle",
+        "label": "circle",
+        "image": "/assets/rasterized/exact/shape-circle-flat.png"
+      },
+      "correctBinId": "circle",
+      "bins": [
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "praise": "Nice work matching the circle shape."
+    },
+    {
+      "id": "sort-named-2",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "square",
+        "label": "square",
+        "image": "/assets/rasterized/exact/shape-square-flat.png"
+      },
+      "correctBinId": "square",
+      "bins": [
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cube",
+          "label": "cube",
+          "image": "/assets/rasterized/exact/shape-cube-3d.png"
+        }
+      ],
+      "praise": "Nice work matching the square shape."
+    },
+    {
+      "id": "sort-named-3",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "rectangle",
+        "label": "rectangle",
+        "image": "/assets/rasterized/exact/shape-rectangle-flat.png"
+      },
+      "correctBinId": "rectangle",
+      "bins": [
+        {
+          "id": "rectangle",
+          "label": "rectangle",
+          "image": "/assets/rasterized/exact/shape-rectangle-flat.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cube",
+          "label": "cube",
+          "image": "/assets/rasterized/exact/shape-cube-3d.png"
+        }
+      ],
+      "praise": "Nice work matching the rectangle shape."
+    },
+    {
+      "id": "sort-named-4",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "triangle",
+        "label": "triangle",
+        "image": "/assets/rasterized/exact/shape-triangle-flat.png"
+      },
+      "correctBinId": "triangle",
+      "bins": [
+        {
+          "id": "triangle",
+          "label": "triangle",
+          "image": "/assets/rasterized/exact/shape-triangle-flat.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "praise": "Nice work matching the triangle shape."
+    },
+    {
+      "id": "sort-named-5",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "pentagon",
+        "label": "pentagon",
+        "image": "/assets/rasterized/exact/shape-pentagon-flat.png"
+      },
+      "correctBinId": "pentagon",
+      "bins": [
+        {
+          "id": "pentagon",
+          "label": "pentagon",
+          "image": "/assets/rasterized/exact/shape-pentagon-flat.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cube",
+          "label": "cube",
+          "image": "/assets/rasterized/exact/shape-cube-3d.png"
+        }
+      ],
+      "praise": "Nice work matching the pentagon shape."
+    },
+    {
+      "id": "sort-named-6",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "hexagon",
+        "label": "hexagon",
+        "image": "/assets/rasterized/exact/shape-hexagon-flat.png"
+      },
+      "correctBinId": "hexagon",
+      "bins": [
+        {
+          "id": "hexagon",
+          "label": "hexagon",
+          "image": "/assets/rasterized/exact/shape-hexagon-flat.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cube",
+          "label": "cube",
+          "image": "/assets/rasterized/exact/shape-cube-3d.png"
+        }
+      ],
+      "praise": "Nice work matching the hexagon shape."
+    },
+    {
+      "id": "sort-named-7",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "octagon",
+        "label": "octagon",
+        "image": "/assets/rasterized/exact/shape-octagon-flat.png"
+      },
+      "correctBinId": "octagon",
+      "bins": [
+        {
+          "id": "octagon",
+          "label": "octagon",
+          "image": "/assets/rasterized/exact/shape-octagon-flat.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "praise": "Nice work matching the octagon shape."
+    },
+    {
+      "id": "sort-named-8",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "sphere",
+        "label": "sphere",
+        "image": "/assets/rasterized/exact/shape-sphere-3d.png"
+      },
+      "correctBinId": "sphere",
+      "bins": [
+        {
+          "id": "sphere",
+          "label": "sphere",
+          "image": "/assets/rasterized/exact/shape-sphere-3d.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cube",
+          "label": "cube",
+          "image": "/assets/rasterized/exact/shape-cube-3d.png"
+        }
+      ],
+      "praise": "Nice work matching the sphere shape."
+    },
+    {
+      "id": "sort-named-9",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "cube",
+        "label": "cube",
+        "image": "/assets/rasterized/exact/shape-cube-3d.png"
+      },
+      "correctBinId": "cube",
+      "bins": [
+        {
+          "id": "cube",
+          "label": "cube",
+          "image": "/assets/rasterized/exact/shape-cube-3d.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        }
+      ],
+      "praise": "Nice work matching the cube shape."
+    },
+    {
+      "id": "sort-named-10",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "cone",
+        "label": "cone",
+        "image": "/assets/rasterized/exact/shape-cone-3d.png"
+      },
+      "correctBinId": "cone",
+      "bins": [
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        }
+      ],
+      "praise": "Nice work matching the cone shape."
+    },
+    {
+      "id": "sort-named-11",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "cylinder",
+        "label": "cylinder",
+        "image": "/assets/rasterized/exact/shape-cylinder-3d.png"
+      },
+      "correctBinId": "cylinder",
+      "bins": [
+        {
+          "id": "cylinder",
+          "label": "cylinder",
+          "image": "/assets/rasterized/exact/shape-cylinder-3d.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cube",
+          "label": "cube",
+          "image": "/assets/rasterized/exact/shape-cube-3d.png"
+        }
+      ],
+      "praise": "Nice work matching the cylinder shape."
+    },
+    {
+      "id": "sort-named-12",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "hexagon",
+        "label": "hexagon",
+        "image": "/assets/rasterized/exact/shape-hexagon-flat.png"
+      },
+      "correctBinId": "hexagon",
+      "bins": [
+        {
+          "id": "hexagon",
+          "label": "hexagon",
+          "image": "/assets/rasterized/exact/shape-hexagon-flat.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cube",
+          "label": "cube",
+          "image": "/assets/rasterized/exact/shape-cube-3d.png"
+        }
+      ],
+      "praise": "Nice work matching the hexagon shape."
+    },
+    {
+      "id": "sort-named-13",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "octagon",
+        "label": "octagon",
+        "image": "/assets/rasterized/exact/shape-octagon-flat.png"
+      },
+      "correctBinId": "octagon",
+      "bins": [
+        {
+          "id": "octagon",
+          "label": "octagon",
+          "image": "/assets/rasterized/exact/shape-octagon-flat.png"
+        },
+        {
+          "id": "square",
+          "label": "square",
+          "image": "/assets/rasterized/exact/shape-square-flat.png"
+        },
+        {
+          "id": "cone",
+          "label": "cone",
+          "image": "/assets/rasterized/exact/shape-cone-3d.png"
+        }
+      ],
+      "praise": "Nice work matching the octagon shape."
+    },
+    {
+      "id": "sort-named-14",
+      "mode": "shape-sort",
+      "context": "Sort the picture into the matching bin.",
+      "prompt": "Sort the shape.",
+      "instruction": "Look at the shape. Drag it to the bin with the same shape picture.",
+      "item": {
+        "id": "sphere",
+        "label": "sphere",
+        "image": "/assets/rasterized/exact/shape-sphere-3d.png"
+      },
+      "correctBinId": "sphere",
+      "bins": [
+        {
+          "id": "sphere",
+          "label": "sphere",
+          "image": "/assets/rasterized/exact/shape-sphere-3d.png"
+        },
+        {
+          "id": "circle",
+          "label": "circle",
+          "image": "/assets/rasterized/exact/shape-circle-flat.png"
+        },
+        {
+          "id": "cube",
+          "label": "cube",
+          "image": "/assets/rasterized/exact/shape-cube-3d.png"
+        }
+      ],
+      "praise": "Nice work matching the sphere shape."
+    }
+  ],
+  "model": {
+    "title": "Flat or solid",
+    "instruction": "Look at the shape. Drag it to flat shapes or solid shapes.",
+    "targetWord": "flat shape",
+    "targetImage": "/assets/rasterized/exact/shape-circle-flat.png",
+    "matchingImage": "/assets/rasterized/exact/shape-cube-3d.png",
+    "matchingLabel": "solid shape",
+    "arrowLabel": "sort",
+    "explanation": "Flat shapes are like drawings. Solid shapes are objects you can hold.",
+    "sceneImage": "/assets/generated/current/teaching-shape-sort-flat-solid.png"
+  }
+}
+

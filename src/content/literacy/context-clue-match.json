@@ -1,0 +1,289 @@
+﻿{
+  "id": "context-clue-match",
+  "title": "Context Clue Match",
+  "category": "literacy",
+  "template": "choose-1-of-3",
+  "directions": "Listen to the sentence clue. Tap the picture or word that fits.",
+  "environment": "classroom clue board",
+  "rounds": [
+    {
+      "id": "context-bus",
+      "mode": "context-clue",
+      "prompt": "I ride it to school. It has seats and stops.",
+      "instruction": "I ride it to school. It has seats and stops.",
+      "context": "Use the picture clue.",
+      "targetImage": "/assets/generated/current/context-bus-stop-scene.png",
+      "options": [
+        {
+          "id": "bus",
+          "label": "bus",
+          "image": "/assets/generated/current/imagegen-school-bus.png"
+        },
+        {
+          "id": "cup",
+          "label": "cup",
+          "image": "/assets/generated/current/imagegen-cup.png"
+        },
+        {
+          "id": "shoe",
+          "label": "shoe",
+          "image": "/assets/generated/current/imagegen-shoe.png"
+        }
+      ],
+      "correctChoiceId": "bus",
+      "praise": "Nice work finding bus."
+    },
+    {
+      "id": "context-bag",
+      "mode": "context-clue",
+      "prompt": "I put crayons and papers inside it.",
+      "instruction": "I put crayons and papers inside it.",
+      "context": "Use the picture clue.",
+      "targetImage": "/assets/generated/current/backpack-open-scene.png",
+      "options": [
+        {
+          "id": "bag",
+          "label": "bag",
+          "image": "/assets/generated/current/imagegen-bag.png"
+        },
+        {
+          "id": "dog",
+          "label": "dog",
+          "image": "/assets/generated/current/cvc-dog.png"
+        },
+        {
+          "id": "sun",
+          "label": "sun",
+          "image": "/assets/generated/current/imagegen-sun.png"
+        }
+      ],
+      "correctChoiceId": "bag",
+      "praise": "Nice work finding bag."
+    },
+    {
+      "id": "context-book",
+      "mode": "context-clue",
+      "prompt": "I read it in the library.",
+      "instruction": "I read it in the library.",
+      "context": "Use the picture clue.",
+      "targetImage": "/assets/generated/current/library-reading-scene.png",
+      "options": [
+        {
+          "id": "book",
+          "label": "book",
+          "image": "/assets/generated/current/imagegen-measure-book.png"
+        },
+        {
+          "id": "ball",
+          "label": "ball",
+          "image": "/assets/generated/current/imagegen-soccer-ball.png"
+        },
+        {
+          "id": "sock",
+          "label": "sock",
+          "image": "/assets/generated/current/imagegen-sock.png"
+        }
+      ],
+      "correctChoiceId": "book",
+      "praise": "Nice work finding book."
+    },
+    {
+      "id": "context-lunch",
+      "mode": "context-clue",
+      "prompt": "I eat it in the cafeteria.",
+      "instruction": "I eat it in the cafeteria.",
+      "context": "Use the picture clue.",
+      "targetImage": "/assets/generated/current/cafeteria-lunch-scene.png",
+      "options": [
+        {
+          "id": "lunch",
+          "label": "lunch",
+          "image": "/assets/generated/current/imagegen-snack-tray.png"
+        },
+        {
+          "id": "door",
+          "label": "door",
+          "image": "/assets/generated/current/closed-door.png"
+        },
+        {
+          "id": "map",
+          "label": "map",
+          "image": "/assets/generated/current/paper-map.png"
+        }
+      ],
+      "correctChoiceId": "lunch",
+      "praise": "Nice work finding lunch."
+    },
+    {
+      "id": "context-sun",
+      "mode": "context-clue",
+      "prompt": "It shines in the sky.",
+      "instruction": "It shines in the sky.",
+      "context": "Use the picture clue.",
+      "targetImage": "/assets/generated/current/context-sun-sky-playground.png",
+      "options": [
+        {
+          "id": "sun",
+          "label": "sun",
+          "image": "/assets/generated/current/imagegen-sun.png"
+        },
+        {
+          "id": "cup",
+          "label": "cup",
+          "image": "/assets/generated/current/imagegen-cup.png"
+        },
+        {
+          "id": "bag",
+          "label": "bag",
+          "image": "/assets/generated/current/imagegen-bag.png"
+        }
+      ],
+      "correctChoiceId": "sun",
+      "praise": "Nice work finding sun."
+    },
+    {
+      "id": "context-door",
+      "mode": "context-clue",
+      "prompt": "I open it to go in a room.",
+      "instruction": "I open it to go in a room.",
+      "context": "Use the picture clue.",
+      "targetImage": "/assets/generated/current/open-door-scene.png",
+      "options": [
+        {
+          "id": "door",
+          "label": "door",
+          "image": "/assets/generated/current/closed-door.png"
+        },
+        {
+          "id": "book",
+          "label": "book",
+          "image": "/assets/generated/current/imagegen-measure-book.png"
+        },
+        {
+          "id": "fish",
+          "label": "fish",
+          "image": "/assets/generated/current/fish.png"
+        }
+      ],
+      "correctChoiceId": "door",
+      "praise": "Nice work finding door."
+    },
+    {
+      "id": "context-raincoat",
+      "mode": "context-clue",
+      "prompt": "I wear it when rain falls.",
+      "instruction": "I wear it when rain falls.",
+      "context": "Use the picture clue.",
+      "targetImage": "/assets/generated/current/imagegen-water-rain.png",
+      "options": [
+        {
+          "id": "raincoat",
+          "label": "raincoat",
+          "image": "/assets/generated/current/raincoat.png"
+        },
+        {
+          "id": "hat",
+          "label": "hat",
+          "image": "/assets/generated/current/cvc-hat.png"
+        },
+        {
+          "id": "road",
+          "label": "road",
+          "image": "/assets/generated/current/road.png"
+        }
+      ],
+      "correctChoiceId": "raincoat",
+      "praise": "Nice work finding raincoat."
+    },
+    {
+      "id": "context-cup",
+      "mode": "context-clue",
+      "prompt": "I drink water from it.",
+      "instruction": "I drink water from it.",
+      "context": "Use the picture clue.",
+      "targetImage": "/assets/generated/current/water-pouring.png",
+      "options": [
+        {
+          "id": "cup",
+          "label": "cup",
+          "image": "/assets/generated/current/imagegen-cup.png"
+        },
+        {
+          "id": "rock",
+          "label": "rock",
+          "image": "/assets/generated/current/rock.png"
+        },
+        {
+          "id": "door",
+          "label": "door",
+          "image": "/assets/generated/current/closed-door.png"
+        }
+      ],
+      "correctChoiceId": "cup",
+      "praise": "Nice work finding cup."
+    },
+    {
+      "id": "context-flower",
+      "mode": "context-clue",
+      "prompt": "It grows in the garden.",
+      "instruction": "It grows in the garden.",
+      "context": "Use the picture clue.",
+      "targetImage": "/assets/generated/current/sun-rays-plant.png",
+      "options": [
+        {
+          "id": "flower",
+          "label": "flower",
+          "image": "/assets/generated/current/flower.png"
+        },
+        {
+          "id": "shoe",
+          "label": "shoe",
+          "image": "/assets/generated/current/imagegen-shoe.png"
+        },
+        {
+          "id": "book",
+          "label": "book",
+          "image": "/assets/generated/current/imagegen-measure-book.png"
+        }
+      ],
+      "correctChoiceId": "flower",
+      "praise": "Nice work finding flower."
+    },
+    {
+      "id": "context-package",
+      "mode": "context-clue",
+      "prompt": "It is left by the door.",
+      "instruction": "It is left by the door.",
+      "context": "Use the picture clue.",
+      "targetImage": "/assets/generated/current/closed-door.png",
+      "options": [
+        {
+          "id": "package",
+          "label": "package",
+          "image": "/assets/generated/current/package-box.png"
+        },
+        {
+          "id": "cup",
+          "label": "cup",
+          "image": "/assets/generated/current/imagegen-cup.png"
+        },
+        {
+          "id": "sun",
+          "label": "sun",
+          "image": "/assets/generated/current/imagegen-sun.png"
+        }
+      ],
+      "correctChoiceId": "package",
+      "praise": "Nice work finding package."
+    }
+  ],
+  "model": {
+    "title": "Use the clue",
+    "instruction": "Look at the clue picture. Choose the answer.",
+    "targetWord": "",
+    "sceneImage": "/assets/generated/current/teaching-context-clue-sun.png",
+    "matchingLabel": "",
+    "explanation": ""
+  }
+}
+

@@ -1,0 +1,288 @@
+{
+    "id":  "my-school-map",
+    "title":  "My School Map",
+    "category":  "social-studies",
+    "template":  "choose-1-of-3",
+    "directions":  "Look at the school map question. Tap the school place.",
+    "environment":  "school hallway map",
+    "rounds":  [
+                   {
+                       "id":  "classroom",
+                       "mode":  "school-map",
+                       "prompt":  "Where is the classroom?",
+                       "instruction":  "Where is the classroom?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-school-map-board.png",
+                       "options":  [
+                                       {
+                                           "id":  "classroom",
+                                           "label":  "classroom",
+                                           "image":  "/assets/generated/current/classroom.png"
+                                       },
+                                       {
+                                           "id":  "office",
+                                           "label":  "office",
+                                           "image":  "/assets/generated/current/office.png"
+                                       },
+                                       {
+                                           "id":  "cafeteria",
+                                           "label":  "cafeteria",
+                                           "image":  "/assets/generated/current/student-eating-lunch.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "classroom",
+                       "praise":  "Nice work finding the classroom."
+                   },
+                   {
+                       "id":  "office",
+                       "mode":  "school-map",
+                       "prompt":  "Where is the office?",
+                       "instruction":  "Where is the office?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-school-map-board.png",
+                       "options":  [
+                                       {
+                                           "id":  "office",
+                                           "label":  "office",
+                                           "image":  "/assets/generated/current/office.png"
+                                       },
+                                       {
+                                           "id":  "classroom",
+                                           "label":  "classroom",
+                                           "image":  "/assets/generated/current/classroom.png"
+                                       },
+                                       {
+                                           "id":  "cafeteria",
+                                           "label":  "cafeteria",
+                                           "image":  "/assets/generated/current/student-eating-lunch.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "office",
+                       "praise":  "Nice work finding the office."
+                   },
+                   {
+                       "id":  "cafeteria",
+                       "mode":  "school-map",
+                       "prompt":  "Where do students eat lunch?",
+                       "instruction":  "Where do students eat lunch?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-school-map-board.png",
+                       "options":  [
+                                       {
+                                           "id":  "cafeteria",
+                                           "label":  "cafeteria",
+                                           "image":  "/assets/generated/current/student-eating-lunch.png"
+                                       },
+                                       {
+                                           "id":  "classroom",
+                                           "label":  "classroom",
+                                           "image":  "/assets/generated/current/classroom.png"
+                                       },
+                                       {
+                                           "id":  "office",
+                                           "label":  "office",
+                                           "image":  "/assets/generated/current/office.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "cafeteria",
+                       "praise":  "Nice work finding the cafeteria."
+                   },
+                   {
+                       "id":  "library",
+                       "mode":  "school-map",
+                       "prompt":  "Where do students read books?",
+                       "instruction":  "Where do students read books?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-school-map-board.png",
+                       "options":  [
+                                       {
+                                           "id":  "library",
+                                           "label":  "library",
+                                           "image":  "/assets/generated/current/library-reading-scene.png"
+                                       },
+                                       {
+                                           "id":  "classroom",
+                                           "label":  "classroom",
+                                           "image":  "/assets/generated/current/classroom.png"
+                                       },
+                                       {
+                                           "id":  "office",
+                                           "label":  "office",
+                                           "image":  "/assets/generated/current/office.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "library",
+                       "praise":  "Nice work finding the library."
+                   },
+                   {
+                       "id":  "bathroom",
+                       "mode":  "school-map",
+                       "prompt":  "Where is the bathroom?",
+                       "instruction":  "Where is the bathroom?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-school-map-board.png",
+                       "options":  [
+                                       {
+                                           "id":  "bathroom",
+                                           "label":  "bathroom",
+                                           "image":  "/assets/generated/current/bathroom.png"
+                                       },
+                                       {
+                                           "id":  "classroom",
+                                           "label":  "classroom",
+                                           "image":  "/assets/generated/current/classroom.png"
+                                       },
+                                       {
+                                           "id":  "office",
+                                           "label":  "office",
+                                           "image":  "/assets/generated/current/office.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "bathroom",
+                       "praise":  "Nice work finding the bathroom."
+                   },
+                   {
+                       "id":  "nurse",
+                       "mode":  "school-map",
+                       "prompt":  "Where does the nurse help?",
+                       "instruction":  "Where does the nurse help?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-school-map-board.png",
+                       "options":  [
+                                       {
+                                           "id":  "nurse",
+                                           "label":  "nurse",
+                                           "image":  "/assets/generated/current/nurse.png"
+                                       },
+                                       {
+                                           "id":  "classroom",
+                                           "label":  "classroom",
+                                           "image":  "/assets/generated/current/classroom.png"
+                                       },
+                                       {
+                                           "id":  "office",
+                                           "label":  "office",
+                                           "image":  "/assets/generated/current/office.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "nurse",
+                       "praise":  "Nice work finding the nurse."
+                   },
+                   {
+                       "id":  "bus",
+                       "mode":  "school-map",
+                       "prompt":  "Where does the bus stop?",
+                       "instruction":  "Where does the bus stop?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/context-bus-stop-scene.png",
+                       "options":  [
+                                       {
+                                           "id":  "bus",
+                                           "label":  "bus area",
+                                           "image":  "/assets/generated/current/imagegen-school-bus.png"
+                                       },
+                                       {
+                                           "id":  "classroom",
+                                           "label":  "classroom",
+                                           "image":  "/assets/generated/current/classroom.png"
+                                       },
+                                       {
+                                           "id":  "office",
+                                           "label":  "office",
+                                           "image":  "/assets/generated/current/office.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "bus",
+                       "praise":  "Nice work finding the bus."
+                   },
+                   {
+                       "id":  "playground",
+                       "mode":  "school-map",
+                       "prompt":  "Where do students play?",
+                       "instruction":  "Where do students play?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-school-map-board.png",
+                       "options":  [
+                                       {
+                                           "id":  "playground",
+                                           "label":  "playground",
+                                           "image":  "/assets/generated/current/imagegen-playground-swing.png"
+                                       },
+                                       {
+                                           "id":  "classroom",
+                                           "label":  "classroom",
+                                           "image":  "/assets/generated/current/classroom.png"
+                                       },
+                                       {
+                                           "id":  "office",
+                                           "label":  "office",
+                                           "image":  "/assets/generated/current/office.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "playground",
+                       "praise":  "Nice work finding the playground."
+                   },
+                   {
+                       "id":  "office-2",
+                       "mode":  "school-map",
+                       "prompt":  "Where do adults work at a desk?",
+                       "instruction":  "Where do adults work at a desk?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-school-map-board.png",
+                       "options":  [
+                                       {
+                                           "id":  "office",
+                                           "label":  "office",
+                                           "image":  "/assets/generated/current/office.png"
+                                       },
+                                       {
+                                           "id":  "classroom",
+                                           "label":  "classroom",
+                                           "image":  "/assets/generated/current/classroom.png"
+                                       },
+                                       {
+                                           "id":  "cafeteria",
+                                           "label":  "cafeteria",
+                                           "image":  "/assets/generated/current/student-eating-lunch.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "office",
+                       "praise":  "Nice work finding the office."
+                   },
+                   {
+                       "id":  "library-2",
+                       "mode":  "school-map",
+                       "prompt":  "Where can students read?",
+                       "instruction":  "Where can students read?",
+                       "context":  "",
+                       "targetImage":  "/assets/generated/current/ingame-school-map-board.png",
+                       "options":  [
+                                       {
+                                           "id":  "library",
+                                           "label":  "library",
+                                           "image":  "/assets/generated/current/library-reading-scene.png"
+                                       },
+                                       {
+                                           "id":  "classroom",
+                                           "label":  "classroom",
+                                           "image":  "/assets/generated/current/classroom.png"
+                                       },
+                                       {
+                                           "id":  "office",
+                                           "label":  "office",
+                                           "image":  "/assets/generated/current/office.png"
+                                       }
+                                   ],
+                       "correctChoiceId":  "library",
+                       "praise":  "Nice work finding the library."
+                   }
+               ],
+    "model":  {
+                  "title":  "Find school places",
+                  "instruction":  "Look at the school map.",
+                  "targetWord":  "",
+                  "sceneImage":  "/assets/generated/current/teaching-school-map-places.png",
+                  "matchingLabel":  "",
+                  "explanation":  ""
+              }
+}

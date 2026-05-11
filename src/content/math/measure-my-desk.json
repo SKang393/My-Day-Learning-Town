@@ -1,0 +1,451 @@
+﻿{
+  "id": "measure-my-desk",
+  "title": "Measure Classroom Items",
+  "category": "math",
+  "template": "drag-match",
+  "directions": "Put equal units end to end along the object. Press Done, then choose how many units long.",
+  "environment": "classroom table",
+  "rounds": [
+    {
+      "id": "m1",
+      "mode": "measure-objects",
+      "context": "Measure with equal units.",
+      "prompt": "How long is the desk edge?",
+      "instruction": "How long is the desk edge?",
+      "objectName": "desk edge",
+      "objectImage": "/assets/generated/current/imagegen-measure-desk-edge.png",
+      "unitName": "cube",
+      "unitImage": "/assets/generated/current/imagegen-measure-cube-unit.png",
+      "measureCount": 3,
+      "totalObjects": 5,
+      "answerPrompt": "How long is the desk edge?",
+      "options": [
+        {
+          "id": "2",
+          "label": "2 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 2
+        },
+        {
+          "id": "3",
+          "label": "3 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 3
+        },
+        {
+          "id": "4",
+          "label": "4 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 4
+        }
+      ],
+      "correctChoiceId": "3",
+      "praise": "Great job. The desk edge is 3 cubes long."
+    },
+    {
+      "id": "m2",
+      "mode": "measure-objects",
+      "context": "Measure with equal units.",
+      "prompt": "How long is the book?",
+      "instruction": "How long is the book?",
+      "objectName": "book",
+      "objectImage": "/assets/generated/current/imagegen-measure-book.png",
+      "unitName": "cube",
+      "unitImage": "/assets/generated/current/imagegen-measure-cube-unit.png",
+      "measureCount": 4,
+      "totalObjects": 6,
+      "answerPrompt": "How long is the book?",
+      "options": [
+        {
+          "id": "3",
+          "label": "3 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 3
+        },
+        {
+          "id": "4",
+          "label": "4 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 4
+        },
+        {
+          "id": "5",
+          "label": "5 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 5
+        }
+      ],
+      "correctChoiceId": "4",
+      "praise": "Great job. The book is 4 cubes long."
+    },
+    {
+      "id": "m3",
+      "mode": "measure-objects",
+      "context": "Measure with equal units.",
+      "prompt": "How long is the pencil box?",
+      "instruction": "How long is the pencil box?",
+      "objectName": "pencil box",
+      "objectImage": "/assets/generated/current/imagegen-measure-book.png",
+      "unitName": "paper clip",
+      "unitImage": "/assets/generated/current/imagegen-unit-paper-clip.png",
+      "measureCount": 5,
+      "totalObjects": 7,
+      "answerPrompt": "How long is the pencil box?",
+      "options": [
+        {
+          "id": "4",
+          "label": "4 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 4
+        },
+        {
+          "id": "5",
+          "label": "5 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 5
+        },
+        {
+          "id": "6",
+          "label": "6 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 6
+        }
+      ],
+      "correctChoiceId": "5",
+      "praise": "Great job. The pencil box is 5 paper clips long."
+    },
+    {
+      "id": "m4",
+      "mode": "measure-objects",
+      "context": "Measure with equal units.",
+      "prompt": "How long is the folder?",
+      "instruction": "How long is the folder?",
+      "objectName": "folder",
+      "objectImage": "/assets/generated/current/imagegen-measure-folder.png",
+      "unitName": "cube",
+      "unitImage": "/assets/generated/current/imagegen-measure-cube-unit.png",
+      "measureCount": 6,
+      "totalObjects": 8,
+      "answerPrompt": "How long is the folder?",
+      "options": [
+        {
+          "id": "5",
+          "label": "5 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 5
+        },
+        {
+          "id": "6",
+          "label": "6 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 6
+        },
+        {
+          "id": "7",
+          "label": "7 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 7
+        }
+      ],
+      "correctChoiceId": "6",
+      "praise": "Great job. The folder is 6 cubes long."
+    },
+    {
+      "id": "m5",
+      "mode": "measure-objects",
+      "context": "Measure with equal units.",
+      "prompt": "How long is the glue stick?",
+      "instruction": "How long is the glue stick?",
+      "objectName": "glue stick",
+      "objectImage": "/assets/generated/current/imagegen-unit-glue-stick.png",
+      "unitName": "paper clip",
+      "unitImage": "/assets/generated/current/imagegen-unit-paper-clip.png",
+      "measureCount": 4,
+      "totalObjects": 6,
+      "answerPrompt": "How long is the glue stick?",
+      "options": [
+        {
+          "id": "3",
+          "label": "3 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 3
+        },
+        {
+          "id": "4",
+          "label": "4 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 4
+        },
+        {
+          "id": "5",
+          "label": "5 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 5
+        }
+      ],
+      "correctChoiceId": "4",
+      "praise": "Great job. The glue stick is 4 paper clips long."
+    },
+    {
+      "id": "m6",
+      "mode": "measure-objects",
+      "context": "Measure with equal units.",
+      "prompt": "How long is the crayon tray?",
+      "instruction": "How long is the crayon tray?",
+      "objectName": "crayon tray",
+      "objectImage": "/assets/generated/current/imagegen-measure-crayon-tray.png",
+      "unitName": "cube",
+      "unitImage": "/assets/generated/current/imagegen-measure-cube-unit.png",
+      "measureCount": 7,
+      "totalObjects": 9,
+      "answerPrompt": "How long is the crayon tray?",
+      "options": [
+        {
+          "id": "6",
+          "label": "6 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 6
+        },
+        {
+          "id": "7",
+          "label": "7 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 7
+        },
+        {
+          "id": "8",
+          "label": "8 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 8
+        }
+      ],
+      "correctChoiceId": "7",
+      "praise": "Great job. The crayon tray is 7 cubes long."
+    },
+    {
+      "id": "m7",
+      "mode": "measure-objects",
+      "context": "Measure with equal units.",
+      "prompt": "How long is the pencil?",
+      "instruction": "How long is the pencil?",
+      "objectName": "pencil",
+      "objectImage": "/assets/generated/current/imagegen-school-pencil.png",
+      "unitName": "cube",
+      "unitImage": "/assets/generated/current/imagegen-measure-cube-unit.png",
+      "measureCount": 5,
+      "totalObjects": 7,
+      "answerPrompt": "How long is the pencil?",
+      "options": [
+        {
+          "id": "4",
+          "label": "4 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 4
+        },
+        {
+          "id": "5",
+          "label": "5 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 5
+        },
+        {
+          "id": "6",
+          "label": "6 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 6
+        }
+      ],
+      "correctChoiceId": "5",
+      "praise": "Great job. The pencil is 5 cubes long."
+    },
+    {
+      "id": "m8",
+      "mode": "measure-objects",
+      "context": "Measure with equal units.",
+      "prompt": "How long is the book?",
+      "instruction": "How long is the book?",
+      "objectName": "book",
+      "objectImage": "/assets/generated/current/imagegen-measure-book.png",
+      "unitName": "paper clip",
+      "unitImage": "/assets/generated/current/imagegen-unit-paper-clip.png",
+      "measureCount": 6,
+      "totalObjects": 8,
+      "answerPrompt": "How long is the book?",
+      "options": [
+        {
+          "id": "5",
+          "label": "5 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 5
+        },
+        {
+          "id": "6",
+          "label": "6 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 6
+        },
+        {
+          "id": "7",
+          "label": "7 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 7
+        }
+      ],
+      "correctChoiceId": "6",
+      "praise": "Great job. The book is 6 paper clips long."
+    },
+    {
+      "id": "m9",
+      "mode": "measure-objects",
+      "context": "Measure with equal units.",
+      "prompt": "How long is the desk edge?",
+      "instruction": "How long is the desk edge?",
+      "objectName": "desk edge",
+      "objectImage": "/assets/generated/current/imagegen-measure-desk-edge.png",
+      "unitName": "crayon",
+      "unitImage": "/assets/generated/current/imagegen-unit-crayon.png",
+      "measureCount": 4,
+      "totalObjects": 6,
+      "answerPrompt": "How long is the desk edge?",
+      "options": [
+        {
+          "id": "3",
+          "label": "3 crayons",
+          "image": "/assets/generated/current/imagegen-unit-crayon.png",
+          "count": 3
+        },
+        {
+          "id": "4",
+          "label": "4 crayons",
+          "image": "/assets/generated/current/imagegen-unit-crayon.png",
+          "count": 4
+        },
+        {
+          "id": "5",
+          "label": "5 crayons",
+          "image": "/assets/generated/current/imagegen-unit-crayon.png",
+          "count": 5
+        }
+      ],
+      "correctChoiceId": "4",
+      "praise": "Great job. The desk edge is 4 crayons long."
+    },
+    {
+      "id": "m10",
+      "mode": "measure-objects",
+      "context": "Measure with equal units.",
+      "prompt": "How long is the folder?",
+      "instruction": "How long is the folder?",
+      "objectName": "folder",
+      "objectImage": "/assets/generated/current/imagegen-measure-folder.png",
+      "unitName": "paper clip",
+      "unitImage": "/assets/generated/current/imagegen-unit-paper-clip.png",
+      "measureCount": 8,
+      "totalObjects": 10,
+      "answerPrompt": "How long is the folder?",
+      "options": [
+        {
+          "id": "7",
+          "label": "7 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 7
+        },
+        {
+          "id": "8",
+          "label": "8 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 8
+        },
+        {
+          "id": "9",
+          "label": "9 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 9
+        }
+      ],
+      "correctChoiceId": "8",
+      "praise": "Great job. The folder is 8 paper clips long."
+    },
+    {
+      "id": "m11",
+      "mode": "measure-objects",
+      "context": "Measure with equal units.",
+      "prompt": "How long is the glue stick?",
+      "instruction": "How long is the glue stick?",
+      "objectName": "glue stick",
+      "objectImage": "/assets/generated/current/imagegen-unit-glue-stick.png",
+      "unitName": "cube",
+      "unitImage": "/assets/generated/current/imagegen-measure-cube-unit.png",
+      "measureCount": 3,
+      "totalObjects": 5,
+      "answerPrompt": "How long is the glue stick?",
+      "options": [
+        {
+          "id": "2",
+          "label": "2 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 2
+        },
+        {
+          "id": "3",
+          "label": "3 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 3
+        },
+        {
+          "id": "4",
+          "label": "4 cubes",
+          "image": "/assets/generated/current/imagegen-measure-cube-unit.png",
+          "count": 4
+        }
+      ],
+      "correctChoiceId": "3",
+      "praise": "Great job. The glue stick is 3 cubes long."
+    },
+    {
+      "id": "m12",
+      "mode": "measure-objects",
+      "context": "Measure with equal units.",
+      "prompt": "How long is the crayon tray?",
+      "instruction": "How long is the crayon tray?",
+      "objectName": "crayon tray",
+      "objectImage": "/assets/generated/current/imagegen-measure-crayon-tray.png",
+      "unitName": "paper clip",
+      "unitImage": "/assets/generated/current/imagegen-unit-paper-clip.png",
+      "measureCount": 7,
+      "totalObjects": 9,
+      "answerPrompt": "How long is the crayon tray?",
+      "options": [
+        {
+          "id": "6",
+          "label": "6 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 6
+        },
+        {
+          "id": "7",
+          "label": "7 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 7
+        },
+        {
+          "id": "8",
+          "label": "8 paper clips",
+          "image": "/assets/generated/current/imagegen-unit-paper-clip.png",
+          "count": 8
+        }
+      ],
+      "correctChoiceId": "7",
+      "praise": "Great job. The crayon tray is 7 paper clips long."
+    }
+  ],
+  "model": {
+    "title": "Measure classroom items",
+    "instruction": "Put units end to end.",
+    "targetWord": "",
+    "sceneImage": "/assets/generated/current/teaching-measure-classroom-book.png",
+    "matchingLabel": "",
+    "explanation": ""
+  }
+}
+

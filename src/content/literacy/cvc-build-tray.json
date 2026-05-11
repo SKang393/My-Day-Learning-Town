@@ -1,0 +1,427 @@
+﻿{
+  "id": "cvc-build-tray",
+  "title": "CVC Build Tray",
+  "category": "literacy",
+  "template": "drag-into-slots",
+  "directions": "Drag the letter tiles into the boxes to build the word.",
+  "environment": "classroom table",
+  "rounds": [
+    {
+      "id": "cvc-1",
+      "prompt": "Build cat",
+      "instruction": "Say /k/ /ae/ /t/. Then drag c, a, t into the boxes.",
+      "context": "Classroom build tray",
+      "mode": "exact-match",
+      "word": "cat",
+      "wordImage": "/assets/generated/current/cvc-cat.png",
+      "letters": [
+        "c",
+        "a",
+        "t"
+      ],
+      "sounds": [
+        "/k/",
+        "/ae/",
+        "/t/"
+      ],
+      "tiles": [
+        {
+          "id": "cat-c",
+          "label": "c"
+        },
+        {
+          "id": "cat-a",
+          "label": "a"
+        },
+        {
+          "id": "cat-t",
+          "label": "t"
+        }
+      ],
+      "praise": "Nice work building the word."
+    },
+    {
+      "id": "cvc-2",
+      "prompt": "Build dog",
+      "instruction": "Say /d/ /o/ /g/. Then drag d, o, g into the boxes.",
+      "context": "Home build tray",
+      "mode": "exact-match",
+      "word": "dog",
+      "wordImage": "/assets/generated/current/cvc-dog.png",
+      "letters": [
+        "d",
+        "o",
+        "g"
+      ],
+      "sounds": [
+        "/d/",
+        "/o/",
+        "/g/"
+      ],
+      "tiles": [
+        {
+          "id": "dog-d",
+          "label": "d"
+        },
+        {
+          "id": "dog-o",
+          "label": "o"
+        },
+        {
+          "id": "dog-g",
+          "label": "g"
+        }
+      ],
+      "praise": "You made the word dog."
+    },
+    {
+      "id": "cvc-3",
+      "prompt": "Build sun",
+      "instruction": "Say /s/ /u/ /n/. Then drag s, u, n into the boxes.",
+      "context": "Playground build tray",
+      "mode": "exact-match",
+      "word": "sun",
+      "wordImage": "/assets/generated/current/imagegen-sun.png",
+      "letters": [
+        "s",
+        "u",
+        "n"
+      ],
+      "sounds": [
+        "/s/",
+        "/u/",
+        "/n/"
+      ],
+      "tiles": [
+        {
+          "id": "sun-s",
+          "label": "s"
+        },
+        {
+          "id": "sun-u",
+          "label": "u"
+        },
+        {
+          "id": "sun-n",
+          "label": "n"
+        }
+      ],
+      "praise": "Great job matching the sounds."
+    },
+    {
+      "id": "cvc-4",
+      "prompt": "Build bag",
+      "instruction": "Say /b/ /ae/ /g/. Then drag b, a, g into the boxes.",
+      "context": "School bag build tray",
+      "mode": "exact-match",
+      "word": "bag",
+      "wordImage": "/assets/generated/current/imagegen-bag.png",
+      "letters": [
+        "b",
+        "a",
+        "g"
+      ],
+      "sounds": [
+        "/b/",
+        "/ae/",
+        "/g/"
+      ],
+      "tiles": [
+        {
+          "id": "bag-b",
+          "label": "b"
+        },
+        {
+          "id": "bag-a",
+          "label": "a"
+        },
+        {
+          "id": "bag-g",
+          "label": "g"
+        }
+      ],
+      "praise": "Nice work building the word."
+    },
+    {
+      "id": "cvc-5",
+      "prompt": "Build map",
+      "instruction": "Say /m/ /ae/ /p/. Then drag m, a, p into the boxes.",
+      "context": "Classroom map build tray",
+      "mode": "exact-match",
+      "word": "map",
+      "wordImage": "/assets/generated/current/cvc-map.png",
+      "letters": [
+        "m",
+        "a",
+        "p"
+      ],
+      "sounds": [
+        "/m/",
+        "/ae/",
+        "/p/"
+      ],
+      "tiles": [
+        {
+          "id": "map-m",
+          "label": "m"
+        },
+        {
+          "id": "map-a",
+          "label": "a"
+        },
+        {
+          "id": "map-p",
+          "label": "p"
+        }
+      ],
+      "praise": "You made the word map."
+    },
+    {
+      "id": "cvc-6",
+      "prompt": "Build cup",
+      "instruction": "Say /k/ /u/ /p/. Then drag c, u, p into the boxes.",
+      "context": "Lunch table build tray",
+      "mode": "exact-match",
+      "word": "cup",
+      "wordImage": "/assets/generated/current/imagegen-cup.png",
+      "letters": [
+        "c",
+        "u",
+        "p"
+      ],
+      "sounds": [
+        "/k/",
+        "/u/",
+        "/p/"
+      ],
+      "tiles": [
+        {
+          "id": "cup-c",
+          "label": "c"
+        },
+        {
+          "id": "cup-u",
+          "label": "u"
+        },
+        {
+          "id": "cup-p",
+          "label": "p"
+        }
+      ],
+      "praise": "Great job matching the sounds."
+    },
+    {
+      "id": "cvc-7",
+      "prompt": "Build hat",
+      "instruction": "Say /h/ /ae/ /t/. Then drag h, a, t into the boxes.",
+      "context": "Hallway build tray",
+      "mode": "exact-match",
+      "word": "hat",
+      "wordImage": "/assets/generated/current/cvc-hat.png",
+      "letters": [
+        "h",
+        "a",
+        "t"
+      ],
+      "sounds": [
+        "/h/",
+        "/ae/",
+        "/t/"
+      ],
+      "tiles": [
+        {
+          "id": "hat-h",
+          "label": "h"
+        },
+        {
+          "id": "hat-a",
+          "label": "a"
+        },
+        {
+          "id": "hat-t",
+          "label": "t"
+        }
+      ],
+      "praise": "Nice work building the word."
+    },
+    {
+      "id": "cvc-8",
+      "prompt": "Build bed",
+      "instruction": "Say /b/ /e/ /d/. Then drag b, e, d into the boxes.",
+      "context": "Home build tray",
+      "mode": "exact-match",
+      "word": "bed",
+      "wordImage": "/assets/generated/current/cvc-bed.png",
+      "letters": [
+        "b",
+        "e",
+        "d"
+      ],
+      "sounds": [
+        "/b/",
+        "/e/",
+        "/d/"
+      ],
+      "tiles": [
+        {
+          "id": "bed-b",
+          "label": "b"
+        },
+        {
+          "id": "bed-e",
+          "label": "e"
+        },
+        {
+          "id": "bed-d",
+          "label": "d"
+        }
+      ],
+      "praise": "You made the word bed."
+    },
+    {
+      "id": "cvc-9",
+      "prompt": "Build pig",
+      "instruction": "Say /p/ /i/ /g/. Then drag p, i, g into the boxes.",
+      "context": "Library build tray",
+      "mode": "exact-match",
+      "word": "pig",
+      "wordImage": "/assets/generated/current/cvc-pig.png",
+      "letters": [
+        "p",
+        "i",
+        "g"
+      ],
+      "sounds": [
+        "/p/",
+        "/i/",
+        "/g/"
+      ],
+      "tiles": [
+        {
+          "id": "pig-p",
+          "label": "p"
+        },
+        {
+          "id": "pig-i",
+          "label": "i"
+        },
+        {
+          "id": "pig-g",
+          "label": "g"
+        }
+      ],
+      "praise": "Great job matching the sounds."
+    },
+    {
+      "id": "cvc-10",
+      "prompt": "Build mop",
+      "instruction": "Say /m/ /o/ /p/. Then drag m, o, p into the boxes.",
+      "context": "Classroom cleanup build tray",
+      "mode": "exact-match",
+      "word": "mop",
+      "wordImage": "/assets/generated/current/cvc-mop.png",
+      "letters": [
+        "m",
+        "o",
+        "p"
+      ],
+      "sounds": [
+        "/m/",
+        "/o/",
+        "/p/"
+      ],
+      "tiles": [
+        {
+          "id": "mop-m",
+          "label": "m"
+        },
+        {
+          "id": "mop-o",
+          "label": "o"
+        },
+        {
+          "id": "mop-p",
+          "label": "p"
+        }
+      ],
+      "praise": "Nice work building the word."
+    },
+    {
+      "id": "cvc-11",
+      "prompt": "Build fan",
+      "instruction": "Say /f/ /ae/ /n/. Then drag f, a, n into the boxes.",
+      "context": "Home build tray",
+      "mode": "exact-match",
+      "word": "fan",
+      "wordImage": "/assets/generated/current/cvc-fan.png",
+      "letters": [
+        "f",
+        "a",
+        "n"
+      ],
+      "sounds": [
+        "/f/",
+        "/ae/",
+        "/n/"
+      ],
+      "tiles": [
+        {
+          "id": "fan-f",
+          "label": "f"
+        },
+        {
+          "id": "fan-a",
+          "label": "a"
+        },
+        {
+          "id": "fan-n",
+          "label": "n"
+        }
+      ],
+      "praise": "You made the word fan."
+    },
+    {
+      "id": "cvc-12",
+      "prompt": "Build pin",
+      "instruction": "Say /p/ /i/ /n/. Then drag p, i, n into the boxes.",
+      "context": "Classroom supply build tray",
+      "mode": "exact-match",
+      "word": "pin",
+      "wordImage": "/assets/generated/current/cvc-pin.png",
+      "letters": [
+        "p",
+        "i",
+        "n"
+      ],
+      "sounds": [
+        "/p/",
+        "/i/",
+        "/n/"
+      ],
+      "tiles": [
+        {
+          "id": "pin-p",
+          "label": "p"
+        },
+        {
+          "id": "pin-i",
+          "label": "i"
+        },
+        {
+          "id": "pin-n",
+          "label": "n"
+        }
+      ],
+      "praise": "Great job matching the sounds."
+    }
+  ],
+  "model": {
+    "title": "Build cat",
+    "instruction": "Cat. c-a-t. /k/ /ae/ /t/.",
+    "targetWord": "",
+    "sceneImage": "/assets/generated/current/teaching-cvc-build-cat.png",
+    "matchingLabel": "",
+    "explanation": "c-a-t makes cat."
+  }
+}
+

@@ -1,0 +1,447 @@
+﻿{
+  "id": "fix-the-sentence",
+  "title": "Fix the Sentence",
+  "category": "literacy",
+  "template": "drag-sequence",
+  "directions": "Drag the sentence parts into the boxes from left to right.",
+  "environment": "classroom writing table",
+  "rounds": [
+    {
+      "id": "sentence-1",
+      "prompt": "Fix the sentence about the bus.",
+      "instruction": "Drag the words in order: I see a bus.",
+      "context": "School bus sentence",
+      "mode": "sentence-order",
+      "sentence": "I see a bus.",
+      "sentenceImage": "/assets/generated/current/imagegen-school-bus.png",
+      "sentenceParts": [
+        {
+          "id": "see",
+          "label": "see"
+        },
+        {
+          "id": "I",
+          "label": "I"
+        },
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "bus.",
+          "label": "bus."
+        }
+      ],
+      "correctSequence": [
+        "I",
+        "see",
+        "a",
+        "bus."
+      ],
+      "praise": "Awesome job fixing the sentence."
+    },
+    {
+      "id": "sentence-2",
+      "prompt": "Fix the lunch sentence.",
+      "instruction": "Drag the words in order: We eat lunch.",
+      "context": "Cafeteria sentence",
+      "mode": "sentence-order",
+      "sentence": "We eat lunch.",
+      "sentenceImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "sentenceParts": [
+        {
+          "id": "eat",
+          "label": "eat"
+        },
+        {
+          "id": "lunch.",
+          "label": "lunch."
+        },
+        {
+          "id": "We",
+          "label": "We"
+        }
+      ],
+      "correctSequence": [
+        "We",
+        "eat",
+        "lunch."
+      ],
+      "praise": "Great work putting the words in order."
+    },
+    {
+      "id": "sentence-3",
+      "prompt": "Fix the recess sentence.",
+      "instruction": "Drag the words in order: I like recess.",
+      "context": "Playground sentence",
+      "mode": "sentence-order",
+      "sentence": "I like recess.",
+      "sentenceImage": "/assets/generated/current/imagegen-playground-swing.png",
+      "sentenceParts": [
+        {
+          "id": "recess.",
+          "label": "recess."
+        },
+        {
+          "id": "I",
+          "label": "I"
+        },
+        {
+          "id": "like",
+          "label": "like"
+        }
+      ],
+      "correctSequence": [
+        "I",
+        "like",
+        "recess."
+      ],
+      "praise": "You made a complete sentence."
+    },
+    {
+      "id": "sentence-4",
+      "prompt": "Fix the bag sentence.",
+      "instruction": "Start with the capital word: My bag is red.",
+      "context": "School bag sentence",
+      "mode": "sentence-order",
+      "sentence": "My bag is red.",
+      "sentenceImage": "/assets/generated/current/imagegen-bag.png",
+      "sentenceParts": [
+        {
+          "id": "bag",
+          "label": "bag"
+        },
+        {
+          "id": "red.",
+          "label": "red."
+        },
+        {
+          "id": "My",
+          "label": "My"
+        },
+        {
+          "id": "is",
+          "label": "is"
+        }
+      ],
+      "correctSequence": [
+        "My",
+        "bag",
+        "is",
+        "red."
+      ],
+      "praise": "Awesome job fixing the sentence."
+    },
+    {
+      "id": "sentence-5",
+      "prompt": "Fix the dog sentence.",
+      "instruction": "Drag the words in order: The dog can run.",
+      "context": "Home sentence",
+      "mode": "sentence-order",
+      "sentence": "The dog can run.",
+      "sentenceImage": "/assets/generated/current/cvc-dog.png",
+      "sentenceParts": [
+        {
+          "id": "dog",
+          "label": "dog"
+        },
+        {
+          "id": "The",
+          "label": "The"
+        },
+        {
+          "id": "run.",
+          "label": "run."
+        },
+        {
+          "id": "can",
+          "label": "can"
+        }
+      ],
+      "correctSequence": [
+        "The",
+        "dog",
+        "can",
+        "run."
+      ],
+      "praise": "Great work putting the words in order."
+    },
+    {
+      "id": "sentence-6",
+      "prompt": "Fix the book sentence.",
+      "instruction": "Start with the capital word: The book is blue.",
+      "context": "Library sentence",
+      "mode": "sentence-order",
+      "sentence": "The book is blue.",
+      "sentenceImage": "/assets/generated/current/imagegen-measure-book.png",
+      "sentenceParts": [
+        {
+          "id": "the",
+          "label": "the"
+        },
+        {
+          "id": "The",
+          "label": "The"
+        },
+        {
+          "id": "book",
+          "label": "book"
+        },
+        {
+          "id": "is",
+          "label": "is"
+        },
+        {
+          "id": "blue.",
+          "label": "blue."
+        }
+      ],
+      "correctSequence": [
+        "The",
+        "book",
+        "is",
+        "blue."
+      ],
+      "praise": "You made a complete sentence."
+    },
+    {
+      "id": "sentence-7",
+      "prompt": "Fix the cup sentence.",
+      "instruction": "Drag the words in order, then choose the ending mark.",
+      "context": "Snack table sentence",
+      "mode": "punctuation-choice",
+      "sentence": "I see a cup.",
+      "sentenceImage": "/assets/generated/current/imagegen-cup.png",
+      "sentenceParts": [
+        {
+          "id": "I",
+          "label": "I"
+        },
+        {
+          "id": "see",
+          "label": "see"
+        },
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "cup",
+          "label": "cup"
+        }
+      ],
+      "correctSequence": [
+        "I",
+        "see",
+        "a",
+        "cup"
+      ],
+      "punctuationChoices": [
+        "?",
+        ".",
+        "!"
+      ],
+      "correctPunctuation": ".",
+      "praise": "Awesome job fixing the sentence."
+    },
+    {
+      "id": "sentence-8",
+      "prompt": "Fix the map sentence.",
+      "instruction": "Drag the words in order, then choose the ending mark.",
+      "context": "Classroom sentence",
+      "mode": "punctuation-choice",
+      "sentence": "We see a map.",
+      "sentenceImage": "/assets/generated/current/paper-map.png",
+      "sentenceParts": [
+        {
+          "id": "map",
+          "label": "map"
+        },
+        {
+          "id": "We",
+          "label": "We"
+        },
+        {
+          "id": "see",
+          "label": "see"
+        },
+        {
+          "id": "a",
+          "label": "a"
+        }
+      ],
+      "correctSequence": [
+        "We",
+        "see",
+        "a",
+        "map"
+      ],
+      "punctuationChoices": [
+        "!",
+        "?",
+        "."
+      ],
+      "correctPunctuation": ".",
+      "praise": "Great work putting the words in order."
+    },
+    {
+      "id": "sentence-9",
+      "prompt": "Fix the hat sentence.",
+      "instruction": "Start with the capital word: My hat is big.",
+      "context": "Hallway sentence",
+      "mode": "sentence-order",
+      "sentence": "My hat is big.",
+      "sentenceImage": "/assets/generated/current/cvc-hat.png",
+      "sentenceParts": [
+        {
+          "id": "hat",
+          "label": "hat"
+        },
+        {
+          "id": "my",
+          "label": "my"
+        },
+        {
+          "id": "My",
+          "label": "My"
+        },
+        {
+          "id": "is",
+          "label": "is"
+        },
+        {
+          "id": "big.",
+          "label": "big."
+        }
+      ],
+      "correctSequence": [
+        "My",
+        "hat",
+        "is",
+        "big."
+      ],
+      "praise": "You made a complete sentence."
+    },
+    {
+      "id": "sentence-10",
+      "prompt": "Fix the sun sentence.",
+      "instruction": "Drag the words in order: The sun is up.",
+      "context": "Playground sentence",
+      "mode": "sentence-order",
+      "sentence": "The sun is up.",
+      "sentenceImage": "/assets/generated/current/imagegen-sun.png",
+      "sentenceParts": [
+        {
+          "id": "up.",
+          "label": "up."
+        },
+        {
+          "id": "sun",
+          "label": "sun"
+        },
+        {
+          "id": "The",
+          "label": "The"
+        },
+        {
+          "id": "is",
+          "label": "is"
+        }
+      ],
+      "correctSequence": [
+        "The",
+        "sun",
+        "is",
+        "up."
+      ],
+      "praise": "Awesome job fixing the sentence."
+    },
+    {
+      "id": "sentence-11",
+      "prompt": "Fix the question.",
+      "instruction": "Drag the words in order, then choose the question mark.",
+      "context": "Classroom question",
+      "mode": "punctuation-choice",
+      "sentence": "Is my bag red?",
+      "sentenceImage": "/assets/generated/current/imagegen-bag.png",
+      "sentenceParts": [
+        {
+          "id": "my",
+          "label": "my"
+        },
+        {
+          "id": "Is",
+          "label": "Is"
+        },
+        {
+          "id": "red",
+          "label": "red"
+        },
+        {
+          "id": "bag",
+          "label": "bag"
+        }
+      ],
+      "correctSequence": [
+        "Is",
+        "my",
+        "bag",
+        "red"
+      ],
+      "punctuationChoices": [
+        ".",
+        "?",
+        "!"
+      ],
+      "correctPunctuation": "?",
+      "praise": "Great work putting the words in order."
+    },
+    {
+      "id": "sentence-12",
+      "prompt": "Fix the snack sentence.",
+      "instruction": "Drag the words in order, then choose the ending mark.",
+      "context": "Cafeteria sentence",
+      "mode": "punctuation-choice",
+      "sentence": "We like snack.",
+      "sentenceImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "sentenceParts": [
+        {
+          "id": "snack",
+          "label": "snack"
+        },
+        {
+          "id": "like",
+          "label": "like"
+        },
+        {
+          "id": "We",
+          "label": "We"
+        }
+      ],
+      "correctSequence": [
+        "We",
+        "like",
+        "snack"
+      ],
+      "punctuationChoices": [
+        "?",
+        "!",
+        "."
+      ],
+      "correctPunctuation": ".",
+      "praise": "You made a complete sentence."
+    }
+  ],
+  "model": {
+    "title": "Fix a sentence",
+    "instruction": "Drag the words into order. A sentence starts with a capital letter and ends with punctuation.",
+    "targetWord": "picture",
+    "targetImage": "/assets/generated/current/imagegen-school-bus.png",
+    "matchingImage": "/assets/generated/current/imagegen-school-bus.png",
+    "matchingLabel": "I see a bus.",
+    "arrowLabel": "words in order",
+    "explanation": "Put the words left to right so the sentence makes sense.",
+    "sceneImage": "/assets/generated/current/teaching-fix-sentence-order.png"
+  }
+}
+

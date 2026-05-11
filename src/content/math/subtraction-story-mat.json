@@ -1,0 +1,309 @@
+﻿{
+  "id": "subtraction-story-mat",
+  "title": "Subtraction Story Mat",
+  "category": "math",
+  "template": "drag-match",
+  "directions": "Listen to the story. Drag some objects away. Then tap how many are left.",
+  "environment": "classroom math table",
+  "rounds": [
+    {
+      "id": "subtract-1",
+      "mode": "subtract-story",
+      "context": "apples on the apple bowl",
+      "prompt": "There are 3 apples. Take away 1.",
+      "instruction": "There are 3 apples. Take away 1.",
+      "startCount": 3,
+      "removeCount": 1,
+      "totalCount": 2,
+      "objectName": "apple",
+      "objectImage": "/assets/generated/current/imagegen-set-apple.png",
+      "storyMatLabel": "apple bowl",
+      "options": [
+        {
+          "id": "1",
+          "label": "1"
+        },
+        {
+          "id": "2",
+          "label": "2"
+        },
+        {
+          "id": "3",
+          "label": "3"
+        }
+      ],
+      "correctChoiceId": "2",
+      "praise": "You found 2 left."
+    },
+    {
+      "id": "subtract-2",
+      "mode": "subtract-story",
+      "context": "crayons on the crayon cup",
+      "prompt": "There are 4 crayons. Take away 1.",
+      "instruction": "There are 4 crayons. Take away 1.",
+      "startCount": 4,
+      "removeCount": 1,
+      "totalCount": 3,
+      "objectName": "crayon",
+      "objectImage": "/assets/generated/current/imagegen-unit-crayon.png",
+      "storyMatLabel": "crayon cup",
+      "options": [
+        {
+          "id": "2",
+          "label": "2"
+        },
+        {
+          "id": "3",
+          "label": "3"
+        },
+        {
+          "id": "4",
+          "label": "4"
+        }
+      ],
+      "correctChoiceId": "3",
+      "praise": "You found 3 left."
+    },
+    {
+      "id": "subtract-3",
+      "mode": "subtract-story",
+      "context": "balls on the ball basket",
+      "prompt": "There are 5 balls. Take away 2.",
+      "instruction": "There are 5 balls. Take away 2.",
+      "startCount": 5,
+      "removeCount": 2,
+      "totalCount": 3,
+      "objectName": "ball",
+      "objectImage": "/assets/generated/current/imagegen-soccer-ball.png",
+      "storyMatLabel": "ball basket",
+      "options": [
+        {
+          "id": "2",
+          "label": "2"
+        },
+        {
+          "id": "3",
+          "label": "3"
+        },
+        {
+          "id": "4",
+          "label": "4"
+        }
+      ],
+      "correctChoiceId": "3",
+      "praise": "You found 3 left."
+    },
+    {
+      "id": "subtract-4",
+      "mode": "subtract-story",
+      "context": "books on the book shelf",
+      "prompt": "There are 5 books. Take away 1.",
+      "instruction": "There are 5 books. Take away 1.",
+      "startCount": 5,
+      "removeCount": 1,
+      "totalCount": 4,
+      "objectName": "book",
+      "objectImage": "/assets/generated/current/imagegen-measure-book.png",
+      "storyMatLabel": "book shelf",
+      "options": [
+        {
+          "id": "3",
+          "label": "3"
+        },
+        {
+          "id": "4",
+          "label": "4"
+        },
+        {
+          "id": "5",
+          "label": "5"
+        }
+      ],
+      "correctChoiceId": "4",
+      "praise": "You found 4 left."
+    },
+    {
+      "id": "subtract-5",
+      "mode": "subtract-story",
+      "context": "cups on the cup tray",
+      "prompt": "There are 6 cups. Take away 2.",
+      "instruction": "There are 6 cups. Take away 2.",
+      "startCount": 6,
+      "removeCount": 2,
+      "totalCount": 4,
+      "objectName": "cup",
+      "objectImage": "/assets/generated/current/imagegen-cup.png",
+      "storyMatLabel": "cup tray",
+      "options": [
+        {
+          "id": "3",
+          "label": "3"
+        },
+        {
+          "id": "4",
+          "label": "4"
+        },
+        {
+          "id": "5",
+          "label": "5"
+        }
+      ],
+      "correctChoiceId": "4",
+      "praise": "You found 4 left."
+    },
+    {
+      "id": "subtract-6",
+      "mode": "subtract-story",
+      "context": "cookies on the snack plate",
+      "prompt": "There are 7 cookies. Take away 3.",
+      "instruction": "There are 7 cookies. Take away 3.",
+      "startCount": 7,
+      "removeCount": 3,
+      "totalCount": 4,
+      "objectName": "cookie",
+      "objectImage": "/assets/generated/current/imagegen-snack-tray.png",
+      "storyMatLabel": "snack plate",
+      "options": [
+        {
+          "id": "3",
+          "label": "3"
+        },
+        {
+          "id": "4",
+          "label": "4"
+        },
+        {
+          "id": "5",
+          "label": "5"
+        }
+      ],
+      "correctChoiceId": "4",
+      "praise": "You found 4 left."
+    },
+    {
+      "id": "subtract-7",
+      "mode": "subtract-story",
+      "context": "pencils on the pencil cup",
+      "prompt": "There are 8 pencils. Take away 2.",
+      "instruction": "There are 8 pencils. Take away 2.",
+      "startCount": 8,
+      "removeCount": 2,
+      "totalCount": 6,
+      "objectName": "pencil",
+      "objectImage": "/assets/generated/current/imagegen-school-pencil.png",
+      "storyMatLabel": "pencil cup",
+      "options": [
+        {
+          "id": "5",
+          "label": "5"
+        },
+        {
+          "id": "6",
+          "label": "6"
+        },
+        {
+          "id": "7",
+          "label": "7"
+        }
+      ],
+      "correctChoiceId": "6",
+      "praise": "You found 6 left."
+    },
+    {
+      "id": "subtract-8",
+      "mode": "subtract-story",
+      "context": "apples on the lunch box",
+      "prompt": "There are 9 apples. Take away 4.",
+      "instruction": "There are 9 apples. Take away 4.",
+      "startCount": 9,
+      "removeCount": 4,
+      "totalCount": 5,
+      "objectName": "apple",
+      "objectImage": "/assets/generated/current/imagegen-set-apple.png",
+      "storyMatLabel": "lunch box",
+      "options": [
+        {
+          "id": "4",
+          "label": "4"
+        },
+        {
+          "id": "5",
+          "label": "5"
+        },
+        {
+          "id": "6",
+          "label": "6"
+        }
+      ],
+      "correctChoiceId": "5",
+      "praise": "You found 5 left."
+    },
+    {
+      "id": "subtract-9",
+      "mode": "subtract-story",
+      "context": "balls on the ball basket",
+      "prompt": "There are 10 balls. Take away 5.",
+      "instruction": "There are 10 balls. Take away 5.",
+      "startCount": 10,
+      "removeCount": 5,
+      "totalCount": 5,
+      "objectName": "ball",
+      "objectImage": "/assets/generated/current/imagegen-soccer-ball.png",
+      "storyMatLabel": "ball basket",
+      "options": [
+        {
+          "id": "4",
+          "label": "4"
+        },
+        {
+          "id": "5",
+          "label": "5"
+        },
+        {
+          "id": "6",
+          "label": "6"
+        }
+      ],
+      "correctChoiceId": "5",
+      "praise": "You found 5 left."
+    },
+    {
+      "id": "subtract-10",
+      "mode": "subtract-story",
+      "context": "books on the book shelf",
+      "prompt": "There are 10 books. Take away 3.",
+      "instruction": "There are 10 books. Take away 3.",
+      "startCount": 10,
+      "removeCount": 3,
+      "totalCount": 7,
+      "objectName": "book",
+      "objectImage": "/assets/generated/current/imagegen-measure-book.png",
+      "storyMatLabel": "book shelf",
+      "options": [
+        {
+          "id": "6",
+          "label": "6"
+        },
+        {
+          "id": "7",
+          "label": "7"
+        },
+        {
+          "id": "8",
+          "label": "8"
+        }
+      ],
+      "correctChoiceId": "7",
+      "praise": "You found 7 left."
+    }
+  ],
+  "model": {
+    "title": "Take away",
+    "instruction": "Move objects away from the basket.",
+    "targetWord": "",
+    "sceneImage": "/assets/generated/current/teaching-subtract-one-apple.png",
+    "matchingLabel": "",
+    "explanation": ""
+  }
+}
+

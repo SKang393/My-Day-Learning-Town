@@ -1,0 +1,289 @@
+﻿{
+  "id": "long-vowel-contrast",
+  "title": "Long A Match",
+  "category": "literacy",
+  "template": "choose-1-of-3",
+  "directions": "Listen for long A. Choose the picture.",
+  "environment": "classroom listening table",
+  "rounds": [
+    {
+      "id": "long-a-acorn",
+      "mode": "long-vowel",
+      "prompt": "Find the picture you heard.",
+      "instruction": "Find acorn.",
+      "context": "Long A pattern: a",
+      "targetWord": "acorn",
+      "options": [
+        {
+          "id": "a",
+          "label": "acorn",
+          "image": "/assets/generated/current/acorn.png"
+        },
+        {
+          "id": "cake",
+          "label": "cake",
+          "image": "/assets/generated/current/cake.png"
+        },
+        {
+          "id": "alligator",
+          "label": "alligator",
+          "image": "/assets/generated/current/alligator.png"
+        }
+      ],
+      "correctChoiceId": "a",
+      "praise": "Nice work finding long A in acorn."
+    },
+    {
+      "id": "long-a-cake",
+      "mode": "long-vowel",
+      "prompt": "Find the picture you heard.",
+      "instruction": "Find cake.",
+      "context": "Long A pattern: a_e",
+      "targetWord": "cake",
+      "options": [
+        {
+          "id": "cake",
+          "label": "cake",
+          "image": "/assets/generated/current/cake.png"
+        },
+        {
+          "id": "acorn",
+          "label": "acorn",
+          "image": "/assets/generated/current/acorn.png"
+        },
+        {
+          "id": "alligator",
+          "label": "alligator",
+          "image": "/assets/generated/current/alligator.png"
+        }
+      ],
+      "correctChoiceId": "cake",
+      "praise": "Nice work finding long A in cake."
+    },
+    {
+      "id": "long-a-rain",
+      "mode": "long-vowel",
+      "prompt": "Find the picture you heard.",
+      "instruction": "Find rain.",
+      "context": "Long A pattern: ai",
+      "targetWord": "rain",
+      "options": [
+        {
+          "id": "rain",
+          "label": "rain",
+          "image": "/assets/generated/current/imagegen-water-rain.png"
+        },
+        {
+          "id": "tray",
+          "label": "tray",
+          "image": "/assets/generated/current/imagegen-snack-tray.png"
+        },
+        {
+          "id": "alligator",
+          "label": "alligator",
+          "image": "/assets/generated/current/alligator.png"
+        }
+      ],
+      "correctChoiceId": "rain",
+      "praise": "Nice work finding long A in rain."
+    },
+    {
+      "id": "long-a-tray",
+      "mode": "long-vowel",
+      "prompt": "Find the picture you heard.",
+      "instruction": "Find tray.",
+      "context": "Long A pattern: ay",
+      "targetWord": "tray",
+      "options": [
+        {
+          "id": "tray",
+          "label": "tray",
+          "image": "/assets/generated/current/imagegen-snack-tray.png"
+        },
+        {
+          "id": "rain",
+          "label": "rain",
+          "image": "/assets/generated/current/imagegen-water-rain.png"
+        },
+        {
+          "id": "alligator",
+          "label": "alligator",
+          "image": "/assets/generated/current/alligator.png"
+        }
+      ],
+      "correctChoiceId": "tray",
+      "praise": "Nice work finding long A in tray."
+    },
+    {
+      "id": "long-a-cape",
+      "mode": "long-vowel",
+      "prompt": "Find the picture you heard.",
+      "instruction": "Find cape.",
+      "context": "Long A pattern: a_e",
+      "targetWord": "cape",
+      "options": [
+        {
+          "id": "cape",
+          "label": "cape",
+          "image": "/assets/generated/current/cape.png"
+        },
+        {
+          "id": "cake",
+          "label": "cake",
+          "image": "/assets/generated/current/cake.png"
+        },
+        {
+          "id": "alligator",
+          "label": "alligator",
+          "image": "/assets/generated/current/alligator.png"
+        }
+      ],
+      "correctChoiceId": "cape",
+      "praise": "Nice work finding long A in cape."
+    },
+    {
+      "id": "long-a-tape",
+      "mode": "long-vowel",
+      "prompt": "Find the picture you heard.",
+      "instruction": "Find tape.",
+      "context": "Long A pattern: a_e",
+      "targetWord": "tape",
+      "options": [
+        {
+          "id": "tape",
+          "label": "tape",
+          "image": "/assets/generated/current/tape.png"
+        },
+        {
+          "id": "cape",
+          "label": "cape",
+          "image": "/assets/generated/current/cape.png"
+        },
+        {
+          "id": "alligator",
+          "label": "alligator",
+          "image": "/assets/generated/current/alligator.png"
+        }
+      ],
+      "correctChoiceId": "tape",
+      "praise": "Nice work finding long A in tape."
+    },
+    {
+      "id": "long-a-cake-2",
+      "mode": "long-vowel",
+      "prompt": "Find the picture you heard.",
+      "instruction": "Find cake.",
+      "context": "Long A pattern: a_e",
+      "targetWord": "cake",
+      "options": [
+        {
+          "id": "cake",
+          "label": "cake",
+          "image": "/assets/generated/current/cake.png"
+        },
+        {
+          "id": "rain",
+          "label": "rain",
+          "image": "/assets/generated/current/imagegen-water-rain.png"
+        },
+        {
+          "id": "alligator",
+          "label": "alligator",
+          "image": "/assets/generated/current/alligator.png"
+        }
+      ],
+      "correctChoiceId": "cake",
+      "praise": "Nice work finding long A in cake."
+    },
+    {
+      "id": "long-a-rain-2",
+      "mode": "long-vowel",
+      "prompt": "Find the picture you heard.",
+      "instruction": "Find rain.",
+      "context": "Long A pattern: ai",
+      "targetWord": "rain",
+      "options": [
+        {
+          "id": "rain",
+          "label": "rain",
+          "image": "/assets/generated/current/imagegen-water-rain.png"
+        },
+        {
+          "id": "acorn",
+          "label": "acorn",
+          "image": "/assets/generated/current/acorn.png"
+        },
+        {
+          "id": "alligator",
+          "label": "alligator",
+          "image": "/assets/generated/current/alligator.png"
+        }
+      ],
+      "correctChoiceId": "rain",
+      "praise": "Nice work finding long A in rain."
+    },
+    {
+      "id": "long-a-tray-2",
+      "mode": "long-vowel",
+      "prompt": "Find the picture you heard.",
+      "instruction": "Find tray.",
+      "context": "Long A pattern: ay",
+      "targetWord": "tray",
+      "options": [
+        {
+          "id": "tray",
+          "label": "tray",
+          "image": "/assets/generated/current/imagegen-snack-tray.png"
+        },
+        {
+          "id": "cake",
+          "label": "cake",
+          "image": "/assets/generated/current/cake.png"
+        },
+        {
+          "id": "alligator",
+          "label": "alligator",
+          "image": "/assets/generated/current/alligator.png"
+        }
+      ],
+      "correctChoiceId": "tray",
+      "praise": "Nice work finding long A in tray."
+    },
+    {
+      "id": "long-a-acorn-2",
+      "mode": "long-vowel",
+      "prompt": "Find the picture you heard.",
+      "instruction": "Find acorn.",
+      "context": "Long A pattern: a",
+      "targetWord": "acorn",
+      "options": [
+        {
+          "id": "acorn",
+          "label": "acorn",
+          "image": "/assets/generated/current/acorn.png"
+        },
+        {
+          "id": "tray",
+          "label": "tray",
+          "image": "/assets/generated/current/imagegen-snack-tray.png"
+        },
+        {
+          "id": "alligator",
+          "label": "alligator",
+          "image": "/assets/generated/current/alligator.png"
+        }
+      ],
+      "correctChoiceId": "acorn",
+      "praise": "Nice work finding long A in acorn."
+    }
+  ],
+  "model": {
+    "title": "Long A",
+    "instruction": "Long A says /ā/.",
+    "targetWord": "",
+    "sceneImage": "/assets/generated/current/teaching-long-a-patterns.png",
+    "matchingLabel": "",
+    "explanation": "Long A can be a, a_e, ai, or ay. Short a says /ae/ as in alligator."
+  }
+}
+
