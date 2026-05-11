@@ -74,3 +74,5 @@ screenshots/qa/
 *.log
 *.tmp
 *.bak
+# Local development scripts, QA utilities, audio generation, and packaging tools
+scripts/
