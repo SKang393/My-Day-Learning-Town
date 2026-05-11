@@ -1,62 +1,90 @@
 # My Day Learning Town
 
-This repository contains the clean source project for My Day Learning Town. The playable Windows build is distributed separately through GitHub Releases.
+**Current Version:** v0.7.0  
+**Release Status:** Early review release  
+**Full Release Target:** Before June 18, 2026
+
+## Overview
+
+**My Day Learning Town** is an interactive educational game collection designed for children with extensive support needs, primarily at the kindergarten to Grade 3 instructional level.
+
+The game includes activities across:
+
+- Literacy
+- Mathematics
+- Science
+- Social Studies
+
+Each activity is designed to support repeated practice of foundational academic skills. The games use simple response formats, clear visual structure, and reduced gameplay complexity so that students can focus on practicing targeted skills and experiencing task completion.
+
+## Instructional Purpose
+
+My Day Learning Town is designed for students who may benefit from:
+
+- Predictable routines
+- Clear visual presentation
+- Repeated opportunities to respond
+- Foundational academic practice
+- Reduced task complexity
+- Immediate access to meaningful learning activities
+- Instructional tasks designed around achievable mastery expectations
+
+The project emphasizes practice, accessibility, and accomplishment rather than speed, competition, or complex game mechanics.
+
+## Learning Areas
+
+### Literacy
+
+Literacy activities support early skills such as letter recognition, letter-sound practice, word-level learning, sentence-level understanding, and punctuation-related instruction.
+
+### Mathematics
+
+Mathematics activities support foundational number concepts, counting, quantity understanding, visual representations, and early problem-solving skills.
+
+### Science
+
+Science activities support early classification, observation, vocabulary development, and understanding of basic concepts in the natural and physical world.
+
+### Social Studies
+
+Social studies activities support functional understanding of routines, community concepts, people, places, and everyday roles.
 
 ## Download
 
-The playable Windows EXE is available through GitHub Releases.
+The playable Windows version is distributed through GitHub Releases.
 
-Current version: `v0.7.0`
+**Current release:** v0.7.0
 
-Download `My Day Learning Town.exe` from the Releases page:
+Download the Windows portable release from:
 
-```text
 https://github.com/sungwoo651/My-Day-Learning-Town/releases
-```
 
-## Development
+After downloading the ZIP file, extract the full folder before running the game. Do not run the executable from inside the compressed ZIP file.
 
-```powershell
+## Development Status
+
+Version 0.7.0 is functional but still under active revision. This release is intended for review, testing, and continued development before the full release.
+
+Users should review activities before using them with students.
+
+## Known Areas for Revision
+
+Planned revisions include:
+
+- Replacing placeholder stick-figure images
+- Replacing inaccurate images, including incorrect shape examples and character-image errors
+- Revising punctuation instruction recordings
+- Replacing letter-sound audio that currently reads labels instead of producing phoneme sounds
+- Revising the terms of service
+- Updating math visuals to better match ten-frame instructional formats
+- Continuing review of instructional content, visuals, and accessibility features
+
+## Running from Source
+
+This repository contains the clean source project. The playable Windows build is distributed separately through GitHub Releases.
+
+To run the project locally:
+
+```bash
 npm install
 npm run dev
-```
-
-Open the Vite local URL in Chrome for development. Do not open `index.html` directly with `file://`.
-
-To check a production build:
-
-```powershell
-npm run build
-```
-
-## Audio
-
-Kokoro local WAV audio is the primary student speech system. The current local voice target is Kokoro `af_heart`.
-
-Browser/default speech is emergency fallback only when a local WAV is missing or cannot play. Microsoft, Google, OpenAI, and other cloud voices are not the normal classroom speech path.
-
-Students replay directions by clicking the visible guiding sentence. There is no separate Repeat button in the current shell.
-
-## Images
-
-Runtime student-facing images must be PNG. New or replacement student-facing images must come from `/imagegen` and must be wired into runtime before they count as complete.
-
-Do not create SVG placeholders. Do not use SVG icons, SVG backgrounds, SVG arrows, SVG game images, or SVG category images.
-
-Current runtime image folders:
-
-```text
-public/assets/generated/current/
-public/assets/rasterized/exact/
-```
-
-## Project Structure
-
-```text
-electron/                        Electron wrapper source
-public/assets/audio/kokoro/      Local Kokoro WAV speech files
-public/assets/generated/current/ Current generated PNG learning visuals
-public/assets/rasterized/exact/  PNG versions of exact diagrams and symbols
-src/content/                     JSON game content and audio manifest
-src/game/                        Shared shell, templates, and systems
-```
