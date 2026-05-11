@@ -52,3 +52,25 @@ Thumbs.db
 .eslintcache
 playwright-report/
 test-results/
+# Local development, QA, and Codex/process files
+AGENTS.md
+*_CURRENT.md
+*_QA_*.md
+*QA*.md
+*CLEANUP*.md
+*REVIEW*.md
+*GENERATION_LOG*.md
+*TASKS*.md
+MINIGAME_CONTENT_REVIEW.txt
+qa/
+QA/
+qa-output/
+qa-reports/
+test-output/
+test-results/
+playwright-report/
+coverage/
+screenshots/qa/
+*.log
+*.tmp
+*.bak
