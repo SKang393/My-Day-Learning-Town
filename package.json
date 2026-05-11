@@ -8,14 +8,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "tsc && vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "qa:no-svg": "node scripts/qa-no-svg.mjs",
-    "audio:extract": "node scripts/extract-spoken-lines.mjs",
-    "audio:generate": "node scripts/generate-kokoro-audio.mjs",
-    "qa:audio": "node scripts/qa-audio-manifest.mjs",
-    "qa:current": "node scripts/qa-current-pass.mjs",
-    "qa:screens": "node scripts/visual-screen-qa.mjs",
-    "desktop:dev": "npm run build && electron .",
-    "desktop:package": "powershell -ExecutionPolicy Bypass -File scripts\\make-windows-exe.ps1"
+    "desktop:dev": "npm run build && electron ."
   },
   "dependencies": {
     "kokoro-js": "^1.2.1",
