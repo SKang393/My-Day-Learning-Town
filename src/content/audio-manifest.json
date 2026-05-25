@@ -1,7 +1,7 @@
 {
   "voice": "af_heart",
   "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
-  "generatedAt": "2026-05-07T04:07:53.911Z",
+  "generatedAt": "2026-05-25T22:35:47.477Z",
   "items": [
     {
       "id": "line-0ab8318acaf6",
@@ -439,11 +439,6 @@
       "path": "/assets/audio/kokoro/line-32c70cebf110.wav"
     },
     {
-      "id": "line-eebfb8045a2e",
-      "text": "bus area",
-      "path": "/assets/audio/kokoro/line-eebfb8045a2e.wav"
-    },
-    {
       "id": "line-580d4b5e427c",
       "text": "bus driver",
       "path": "/assets/audio/kokoro/line-580d4b5e427c.wav"
@@ -452,6 +447,11 @@
       "id": "line-0d4d439978b4",
       "text": "Bus starts with b. Bag starts with b. They have the same first sound.",
       "path": "/assets/audio/kokoro/line-0d4d439978b4.wav"
+    },
+    {
+      "id": "line-5c47841652e7",
+      "text": "bus stop",
+      "path": "/assets/audio/kokoro/line-5c47841652e7.wav"
     },
     {
       "id": "line-ba856797a6ed",
@@ -1709,6 +1709,11 @@
       "path": "/assets/audio/kokoro/line-b482e6d3e0df.wav"
     },
     {
+      "id": "line-90dd352a4bb6",
+      "text": "health room",
+      "path": "/assets/audio/kokoro/line-90dd352a4bb6.wav"
+    },
+    {
       "id": "line-52f6705e9e33",
       "text": "help classmate",
       "path": "/assets/audio/kokoro/line-52f6705e9e33.wav"
@@ -2524,11 +2529,6 @@
       "path": "/assets/audio/kokoro/line-9c477a20dab3.wav"
     },
     {
-      "id": "line-46d58794c896",
-      "text": "Nice work choosing the safe action.",
-      "path": "/assets/audio/kokoro/line-46d58794c896.wav"
-    },
-    {
       "id": "line-82197c4c0796",
       "text": "Nice work choosing what to do with money.",
       "path": "/assets/audio/kokoro/line-82197c4c0796.wav"
@@ -2659,9 +2659,9 @@
       "path": "/assets/audio/kokoro/line-774e3c076cae.wav"
     },
     {
-      "id": "line-6e081828bf29",
-      "text": "Nice work finding the bus.",
-      "path": "/assets/audio/kokoro/line-6e081828bf29.wav"
+      "id": "line-9a861f5b9037",
+      "text": "Nice work finding the bus stop.",
+      "path": "/assets/audio/kokoro/line-9a861f5b9037.wav"
     },
     {
       "id": "line-73d3276c0d89",
@@ -2702,6 +2702,11 @@
       "id": "line-ae48aaad00e4",
       "text": "Nice work finding the flower.",
       "path": "/assets/audio/kokoro/line-ae48aaad00e4.wav"
+    },
+    {
+      "id": "line-9435c1cb9eac",
+      "text": "Nice work finding the health room.",
+      "path": "/assets/audio/kokoro/line-9435c1cb9eac.wav"
     },
     {
       "id": "line-216d00c91863",
@@ -3929,6 +3934,11 @@
       "path": "/assets/audio/kokoro/line-25e28b4a303f.wav"
     },
     {
+      "id": "line-f50816d52503",
+      "text": "What helps before crossing the street?",
+      "path": "/assets/audio/kokoro/line-f50816d52503.wav"
+    },
+    {
       "id": "line-39c8546d1c3f",
       "text": "What helps in line?",
       "path": "/assets/audio/kokoro/line-39c8546d1c3f.wav"
@@ -3949,11 +3959,6 @@
       "path": "/assets/audio/kokoro/line-9c91d5cf5803.wav"
     },
     {
-      "id": "line-dabd4a7302e4",
-      "text": "What helps when a ball rolls near the street?",
-      "path": "/assets/audio/kokoro/line-dabd4a7302e4.wav"
-    },
-    {
       "id": "line-5fd9ebb0272b",
       "text": "What helps when a friend has the toy?",
       "path": "/assets/audio/kokoro/line-5fd9ebb0272b.wav"
@@ -3967,6 +3972,16 @@
       "id": "line-0099e451edbb",
       "text": "Where can students read?",
       "path": "/assets/audio/kokoro/line-0099e451edbb.wav"
+    },
+    {
+      "id": "line-d04be1128d86",
+      "text": "Where can we find the school nurse?",
+      "path": "/assets/audio/kokoro/line-d04be1128d86.wav"
+    },
+    {
+      "id": "line-920a89b785bc",
+      "text": "Where can we ride the bus?",
+      "path": "/assets/audio/kokoro/line-920a89b785bc.wav"
     },
     {
       "id": "line-aa6b16b90cab",
@@ -4004,19 +4019,9 @@
       "path": "/assets/audio/kokoro/line-90a695074e3c.wav"
     },
     {
-      "id": "line-64538dacae86",
-      "text": "Where does the bus stop?",
-      "path": "/assets/audio/kokoro/line-64538dacae86.wav"
-    },
-    {
       "id": "line-bc53055502e6",
       "text": "Where does the cushion go?",
       "path": "/assets/audio/kokoro/line-bc53055502e6.wav"
-    },
-    {
-      "id": "line-8b8b2b4bcc20",
-      "text": "Where does the nurse help?",
-      "path": "/assets/audio/kokoro/line-8b8b2b4bcc20.wav"
     },
     {
       "id": "line-37a290da9d62",

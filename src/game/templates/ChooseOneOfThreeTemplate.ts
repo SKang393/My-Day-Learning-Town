@@ -1,5 +1,6 @@
 import { BaseTemplate, type TemplateContext } from "./BaseTemplate";
 import type { ChoiceRound } from "../contentTypes";
+import { resolveAssetPath } from "../systems/assetPath";
 import { makeChoiceVisual, recordChoiceDistribution, shuffled } from "./templateUtils";
 
 export class ChooseOneOfThreeTemplate extends BaseTemplate {
@@ -66,7 +67,7 @@ export class ChooseOneOfThreeTemplate extends BaseTemplate {
     card.className = "model-picture";
     if (image) {
       const img = document.createElement("img");
-      img.src = image;
+      img.src = resolveAssetPath(image);
       img.alt = "";
       card.append(img);
     }
@@ -82,7 +83,7 @@ export class ChooseOneOfThreeTemplate extends BaseTemplate {
     const card = document.createElement("div");
     card.className = "model-picture model-scene-picture";
     const img = document.createElement("img");
-    img.src = image;
+    img.src = resolveAssetPath(image);
     img.alt = "";
     card.append(img);
     return card;
@@ -117,7 +118,7 @@ export class ChooseOneOfThreeTemplate extends BaseTemplate {
     if (round.targetImage) {
       const target = document.createElement("img");
       target.className = `target-picture ${round.mode ? `${round.mode}-target-picture` : ""}`;
-      target.src = round.targetImage;
+      target.src = resolveAssetPath(round.targetImage);
       target.alt = "";
       promptArea.append(target);
     }
@@ -194,7 +195,7 @@ export class ChooseOneOfThreeTemplate extends BaseTemplate {
       button.dataset.choiceId = option.id;
       if (option.image) {
         const image = document.createElement("img");
-        image.src = option.image;
+        image.src = resolveAssetPath(option.image);
         image.alt = "";
         button.prepend(image);
       } else if (!["snack-tray", "parking-lot", "punctuation-pop", "measure"].includes(round.mode ?? "")) {

@@ -1,4 +1,5 @@
 import Phaser from "phaser";
+import { resolveAssetPath } from "../../systems/assetPath";
 
 export class ShellScene extends Phaser.Scene {
   constructor() {
@@ -6,7 +7,7 @@ export class ShellScene extends Phaser.Scene {
   }
 
   preload(): void {
-    this.load.image("learning-town-background", "/assets/generated/current/imagegen-start-town-scene.png");
+    this.load.image("learning-town-background", resolveAssetPath("/assets/generated/current/home-town-background.png"));
   }
 
   create(): void {

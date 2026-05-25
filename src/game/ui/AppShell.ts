@@ -3,6 +3,7 @@ import type { CategoryId, GameDefinition } from "../contentTypes";
 import { getProgress, getSettings, resetProgress, resetSettings, saveRoundProgress, saveSettings } from "../systems/storage";
 import { getAudioDebugState, praiseWithChime, speak, speakAsync, syncAudioDebugSettings } from "../systems/speech";
 import { audioConfig, type PraiseWaitMode } from "../systems/audioConfig";
+import { resolveAssetPath } from "../systems/assetPath";
 import { createTemplate } from "../templates/templateFactory";
 import type { MiniGameTemplate } from "../templates/BaseTemplate";
 import { fitTextTree, observeFittedText } from "./fitText";
@@ -205,7 +206,7 @@ export class AppShell {
       tile.className = `hub-tile ${category.locked ? "is-locked" : ""}`;
       tile.disabled = category.locked;
       tile.dataset.category = category.id;
-      tile.innerHTML = `<img src="${category.image}" alt="" /><strong data-fit-text="true" data-fit-lines="2" data-fit-min="18">${category.title}</strong>`;
+      tile.innerHTML = `<img src="${resolveAssetPath(category.image)}" alt="" /><strong data-fit-text="true" data-fit-lines="2" data-fit-min="18">${category.title}</strong>`;
       tile.addEventListener("click", () => this.showCategory(category.id));
       grid.append(tile);
     });
@@ -236,7 +237,7 @@ export class AppShell {
         tile.setAttribute("aria-label", game.title);
         tile.title = game.title;
         tile.disabled = game.status !== "playable";
-        tile.innerHTML = `${game.image ? `<img class="game-preview" src="${game.image}" alt="" />` : ""}`;
+        tile.innerHTML = `${game.image ? `<img class="game-preview" src="${resolveAssetPath(game.image)}" alt="" />` : ""}`;
         tile.addEventListener("click", () => this.showGame(game));
         grid.append(tile);
       });

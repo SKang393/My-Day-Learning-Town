@@ -1,5 +1,6 @@
 import audioManifest from "../../content/audio-manifest.json";
 import { audioConfig } from "./audioConfig";
+import { resolveAssetPath } from "./assetPath";
 import { getSettings } from "./storage";
 
 let lastSpoken = "";
@@ -173,7 +174,7 @@ function playKokoroWav(text: string, token: number, waitForEnd: boolean): Promis
   if (!item) return Promise.resolve("missing");
 
   return new Promise((resolve) => {
-    const audio = new Audio(item.path);
+    const audio = new Audio(resolveAssetPath(item.path));
     activeAudio = audio;
     audio.preload = "auto";
     audio.volume = getSettings().voiceVolume;
@@ -262,7 +263,7 @@ export function speakAsync(text: string, force = false): Promise<void> {
 
 function playChimeFile(token: number): Promise<boolean> {
   return new Promise((resolve) => {
-    const audio = new Audio(audioConfig.chimeAssetPath);
+    const audio = new Audio(resolveAssetPath(audioConfig.chimeAssetPath));
     audio.volume = getSettings().chimeVolume;
     let settled = false;
     const finish = (played: boolean) => {

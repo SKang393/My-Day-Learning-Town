@@ -1,5 +1,6 @@
 import { BaseTemplate, type TemplateContext } from "./BaseTemplate";
 import type { ChoiceRound } from "../contentTypes";
+import { resolveAssetPath } from "../systems/assetPath";
 import { shuffled } from "./templateUtils";
 
 export class DragIntoSlotsTemplate extends BaseTemplate {
@@ -61,7 +62,7 @@ export class DragIntoSlotsTemplate extends BaseTemplate {
     card.className = "model-picture";
     if (image) {
       const img = document.createElement("img");
-      img.src = image;
+      img.src = resolveAssetPath(image);
       img.alt = "";
       card.append(img);
     }
@@ -77,7 +78,7 @@ export class DragIntoSlotsTemplate extends BaseTemplate {
     const card = document.createElement("div");
     card.className = "model-picture model-scene-picture";
     const img = document.createElement("img");
-    img.src = image;
+    img.src = resolveAssetPath(image);
     img.alt = "";
     card.append(img);
     return card;
@@ -102,7 +103,7 @@ export class DragIntoSlotsTemplate extends BaseTemplate {
     const picturePanel = document.createElement("div");
     picturePanel.className = "cvc-picture-panel";
     const image = document.createElement("img");
-    image.src = round.wordImage;
+    image.src = resolveAssetPath(round.wordImage);
     image.alt = "";
     const saySounds = this.button("", "sound-action speaker-icon-button");
     saySounds.innerHTML = "&#128266;";

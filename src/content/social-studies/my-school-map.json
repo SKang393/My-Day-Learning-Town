@@ -17,17 +17,17 @@
                                        {
                                            "id":  "classroom",
                                            "label":  "classroom",
-                                           "image":  "/assets/generated/current/classroom.png"
+                                           "image":  "/assets/generated/current/school-place-classroom.png"
                                        },
                                        {
                                            "id":  "office",
                                            "label":  "office",
-                                           "image":  "/assets/generated/current/office.png"
+                                           "image":  "/assets/generated/current/school-place-office.png"
                                        },
                                        {
                                            "id":  "cafeteria",
                                            "label":  "cafeteria",
-                                           "image":  "/assets/generated/current/student-eating-lunch.png"
+                                           "image":  "/assets/generated/current/school-place-cafeteria.png"
                                        }
                                    ],
                        "correctChoiceId":  "classroom",
@@ -44,17 +44,17 @@
                                        {
                                            "id":  "office",
                                            "label":  "office",
-                                           "image":  "/assets/generated/current/office.png"
+                                           "image":  "/assets/generated/current/school-place-office.png"
                                        },
                                        {
                                            "id":  "classroom",
                                            "label":  "classroom",
-                                           "image":  "/assets/generated/current/classroom.png"
+                                           "image":  "/assets/generated/current/school-place-classroom.png"
                                        },
                                        {
                                            "id":  "cafeteria",
                                            "label":  "cafeteria",
-                                           "image":  "/assets/generated/current/student-eating-lunch.png"
+                                           "image":  "/assets/generated/current/school-place-cafeteria.png"
                                        }
                                    ],
                        "correctChoiceId":  "office",
@@ -71,17 +71,17 @@
                                        {
                                            "id":  "cafeteria",
                                            "label":  "cafeteria",
-                                           "image":  "/assets/generated/current/student-eating-lunch.png"
+                                           "image":  "/assets/generated/current/school-place-cafeteria.png"
                                        },
                                        {
                                            "id":  "classroom",
                                            "label":  "classroom",
-                                           "image":  "/assets/generated/current/classroom.png"
+                                           "image":  "/assets/generated/current/school-place-classroom.png"
                                        },
                                        {
                                            "id":  "office",
                                            "label":  "office",
-                                           "image":  "/assets/generated/current/office.png"
+                                           "image":  "/assets/generated/current/school-place-office.png"
                                        }
                                    ],
                        "correctChoiceId":  "cafeteria",
@@ -98,17 +98,17 @@
                                        {
                                            "id":  "library",
                                            "label":  "library",
-                                           "image":  "/assets/generated/current/library-reading-scene.png"
+                                           "image":  "/assets/generated/current/school-place-library.png"
                                        },
                                        {
                                            "id":  "classroom",
                                            "label":  "classroom",
-                                           "image":  "/assets/generated/current/classroom.png"
+                                           "image":  "/assets/generated/current/school-place-classroom.png"
                                        },
                                        {
                                            "id":  "office",
                                            "label":  "office",
-                                           "image":  "/assets/generated/current/office.png"
+                                           "image":  "/assets/generated/current/school-place-office.png"
                                        }
                                    ],
                        "correctChoiceId":  "library",
@@ -125,75 +125,75 @@
                                        {
                                            "id":  "bathroom",
                                            "label":  "bathroom",
-                                           "image":  "/assets/generated/current/bathroom.png"
+                                           "image":  "/assets/generated/current/school-place-bathroom.png"
                                        },
                                        {
                                            "id":  "classroom",
                                            "label":  "classroom",
-                                           "image":  "/assets/generated/current/classroom.png"
+                                           "image":  "/assets/generated/current/school-place-classroom.png"
                                        },
                                        {
                                            "id":  "office",
                                            "label":  "office",
-                                           "image":  "/assets/generated/current/office.png"
+                                           "image":  "/assets/generated/current/school-place-office.png"
                                        }
                                    ],
                        "correctChoiceId":  "bathroom",
                        "praise":  "Nice work finding the bathroom."
                    },
                    {
-                       "id":  "nurse",
+                       "id":  "health-room",
                        "mode":  "school-map",
-                       "prompt":  "Where does the nurse help?",
-                       "instruction":  "Where does the nurse help?",
+                       "prompt":  "Where can we find the school nurse?",
+                       "instruction":  "Where can we find the school nurse?",
                        "context":  "",
-                       "targetImage":  "/assets/generated/current/ingame-school-map-board.png",
+                       "targetImage":  "/assets/generated/current/school-clue-nurse-health-room.png",
                        "options":  [
                                        {
-                                           "id":  "nurse",
-                                           "label":  "nurse",
-                                           "image":  "/assets/generated/current/nurse.png"
+                                           "id":  "health-room",
+                                           "label":  "health room",
+                                           "image":  "/assets/generated/current/school-place-health-room.png"
                                        },
                                        {
                                            "id":  "classroom",
                                            "label":  "classroom",
-                                           "image":  "/assets/generated/current/classroom.png"
+                                           "image":  "/assets/generated/current/school-place-classroom.png"
                                        },
                                        {
                                            "id":  "office",
                                            "label":  "office",
-                                           "image":  "/assets/generated/current/office.png"
+                                           "image":  "/assets/generated/current/school-place-office.png"
                                        }
                                    ],
-                       "correctChoiceId":  "nurse",
-                       "praise":  "Nice work finding the nurse."
+                       "correctChoiceId":  "health-room",
+                       "praise":  "Nice work finding the health room."
                    },
                    {
-                       "id":  "bus",
+                       "id":  "bus-stop",
                        "mode":  "school-map",
-                       "prompt":  "Where does the bus stop?",
-                       "instruction":  "Where does the bus stop?",
+                       "prompt":  "Where can we ride the bus?",
+                       "instruction":  "Where can we ride the bus?",
                        "context":  "",
-                       "targetImage":  "/assets/generated/current/context-bus-stop-scene.png",
+                       "targetImage":  "/assets/generated/current/school-clue-ride-bus.png",
                        "options":  [
                                        {
-                                           "id":  "bus",
-                                           "label":  "bus area",
-                                           "image":  "/assets/generated/current/imagegen-school-bus.png"
+                                           "id":  "bus-stop",
+                                           "label":  "bus stop",
+                                           "image":  "/assets/generated/current/school-place-bus-stop.png"
                                        },
                                        {
                                            "id":  "classroom",
                                            "label":  "classroom",
-                                           "image":  "/assets/generated/current/classroom.png"
+                                           "image":  "/assets/generated/current/school-place-classroom.png"
                                        },
                                        {
                                            "id":  "office",
                                            "label":  "office",
-                                           "image":  "/assets/generated/current/office.png"
+                                           "image":  "/assets/generated/current/school-place-office.png"
                                        }
                                    ],
-                       "correctChoiceId":  "bus",
-                       "praise":  "Nice work finding the bus."
+                       "correctChoiceId":  "bus-stop",
+                       "praise":  "Nice work finding the bus stop."
                    },
                    {
                        "id":  "playground",
@@ -206,17 +206,17 @@
                                        {
                                            "id":  "playground",
                                            "label":  "playground",
-                                           "image":  "/assets/generated/current/imagegen-playground-swing.png"
+                                           "image":  "/assets/generated/current/school-place-playground.png"
                                        },
                                        {
                                            "id":  "classroom",
                                            "label":  "classroom",
-                                           "image":  "/assets/generated/current/classroom.png"
+                                           "image":  "/assets/generated/current/school-place-classroom.png"
                                        },
                                        {
                                            "id":  "office",
                                            "label":  "office",
-                                           "image":  "/assets/generated/current/office.png"
+                                           "image":  "/assets/generated/current/school-place-office.png"
                                        }
                                    ],
                        "correctChoiceId":  "playground",
@@ -233,17 +233,17 @@
                                        {
                                            "id":  "office",
                                            "label":  "office",
-                                           "image":  "/assets/generated/current/office.png"
+                                           "image":  "/assets/generated/current/school-place-office.png"
                                        },
                                        {
                                            "id":  "classroom",
                                            "label":  "classroom",
-                                           "image":  "/assets/generated/current/classroom.png"
+                                           "image":  "/assets/generated/current/school-place-classroom.png"
                                        },
                                        {
                                            "id":  "cafeteria",
                                            "label":  "cafeteria",
-                                           "image":  "/assets/generated/current/student-eating-lunch.png"
+                                           "image":  "/assets/generated/current/school-place-cafeteria.png"
                                        }
                                    ],
                        "correctChoiceId":  "office",
@@ -260,17 +260,17 @@
                                        {
                                            "id":  "library",
                                            "label":  "library",
-                                           "image":  "/assets/generated/current/library-reading-scene.png"
+                                           "image":  "/assets/generated/current/school-place-library.png"
                                        },
                                        {
                                            "id":  "classroom",
                                            "label":  "classroom",
-                                           "image":  "/assets/generated/current/classroom.png"
+                                           "image":  "/assets/generated/current/school-place-classroom.png"
                                        },
                                        {
                                            "id":  "office",
                                            "label":  "office",
-                                           "image":  "/assets/generated/current/office.png"
+                                           "image":  "/assets/generated/current/school-place-office.png"
                                        }
                                    ],
                        "correctChoiceId":  "library",

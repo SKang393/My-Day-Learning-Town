@@ -1,3 +1,5 @@
+/// <reference types="vite/client" />
+
 interface LearningTownDisplayInfo {
   workArea: {
     x?: number;

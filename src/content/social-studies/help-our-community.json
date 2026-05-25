@@ -17,7 +17,7 @@
                                        {
                                            "id":  "trash",
                                            "label":  "pick up trash",
-                                           "image":  "/assets/generated/current/pick-up-trash.png"
+                                           "image":  "/assets/generated/current/help-action-pick-up-trash.png"
                                        },
                                        {
                                            "id":  "candy",
@@ -49,7 +49,7 @@
                                        {
                                            "id":  "wait",
                                            "label":  "wait turn",
-                                           "image":  "/assets/generated/current/wait-turn-cue.png"
+                                           "image":  "/assets/generated/current/help-action-wait-turn.png"
                                        },
                                        {
                                            "id":  "tv",
@@ -71,7 +71,7 @@
                                        {
                                            "id":  "book",
                                            "label":  "return book",
-                                           "image":  "/assets/generated/current/imagegen-measure-book.png"
+                                           "image":  "/assets/generated/current/help-action-return-book.png"
                                        },
                                        {
                                            "id":  "candy",
@@ -98,7 +98,7 @@
                                        {
                                            "id":  "help",
                                            "label":  "help classmate",
-                                           "image":  "/assets/generated/current/classmate-help.png"
+                                           "image":  "/assets/generated/current/help-action-help-classmate.png"
                                        },
                                        {
                                            "id":  "game",
@@ -125,7 +125,7 @@
                                        {
                                            "id":  "crosswalk",
                                            "label":  "use crosswalk",
-                                           "image":  "/assets/generated/current/street-crossing-situation.png"
+                                           "image":  "/assets/generated/current/help-action-use-crosswalk.png"
                                        },
                                        {
                                            "id":  "chase",
@@ -152,7 +152,7 @@
                                        {
                                            "id":  "trash",
                                            "label":  "pick up trash",
-                                           "image":  "/assets/generated/current/pick-up-trash.png"
+                                           "image":  "/assets/generated/current/help-action-pick-up-trash.png"
                                        },
                                        {
                                            "id":  "tv",
@@ -179,7 +179,7 @@
                                        {
                                            "id":  "wait",
                                            "label":  "wait turn",
-                                           "image":  "/assets/generated/current/wait-turn-cue.png"
+                                           "image":  "/assets/generated/current/help-action-wait-turn.png"
                                        },
                                        {
                                            "id":  "kick",
@@ -206,7 +206,7 @@
                                        {
                                            "id":  "help",
                                            "label":  "help classmate",
-                                           "image":  "/assets/generated/current/classmate-help.png"
+                                           "image":  "/assets/generated/current/help-action-help-classmate.png"
                                        },
                                        {
                                            "id":  "game",
@@ -223,17 +223,17 @@
                        "praise":  "Nice work helping at desks."
                    },
                    {
-                       "id":  "street-ball",
+                       "id":  "street-crossing-2",
                        "mode":  "help-community",
-                       "prompt":  "What helps when a ball rolls near the street?",
-                       "instruction":  "What helps when a ball rolls near the street?",
+                       "prompt":  "What helps before crossing the street?",
+                       "instruction":  "What helps before crossing the street?",
                        "context":  "",
                        "targetImage":  "/assets/generated/current/street-crossing-situation.png",
                        "options":  [
                                        {
                                            "id":  "crosswalk",
                                            "label":  "use crosswalk",
-                                           "image":  "/assets/generated/current/street-crossing-situation.png"
+                                           "image":  "/assets/generated/current/help-action-use-crosswalk.png"
                                        },
                                        {
                                            "id":  "chase",
@@ -247,7 +247,7 @@
                                        }
                                    ],
                        "correctChoiceId":  "crosswalk",
-                       "praise":  "Nice work choosing the safe action."
+                       "praise":  "Nice work using the crosswalk."
                    },
                    {
                        "id":  "hall-line",
@@ -260,7 +260,7 @@
                                        {
                                            "id":  "line",
                                            "label":  "stay in line",
-                                           "image":  "/assets/generated/current/students-line.png"
+                                           "image":  "/assets/generated/current/help-action-stay-in-line.png"
                                        },
                                        {
                                            "id":  "kick",

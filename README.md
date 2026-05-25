@@ -1,4 +1,4 @@
-# My Day Learning Town
+﻿# My Day Learning Town
 
 **Current Version:** v0.7.0  
 **Release Status:** Early review release  
@@ -15,7 +15,7 @@ The game includes activities across:
 - Science
 - Social Studies
 
-Each activity is designed to support repeated practice of foundational academic skills. The games use simple response formats, clear visual structure, and reduced gameplay complexity so that students can focus on practicing targeted skills and experiencing task completion.
+Each activity is designed to support repeated practice of foundational academic skills. The games use simple response formats, clear visual structure, local PNG visuals, and reduced gameplay complexity so students can focus on practicing targeted skills.
 
 ## Instructional Purpose
 
@@ -55,29 +55,17 @@ The playable Windows version is distributed through GitHub Releases.
 
 **Current release:** v0.7.0
 
-Download the Windows portable release from:
+Download the Windows release from:
 
 https://github.com/sungwoo651/My-Day-Learning-Town/releases
 
 After downloading the ZIP file, extract the full folder before running the game. Do not run the executable from inside the compressed ZIP file.
 
-## Development Status
+## Current Source Status
 
-Version 0.7.0 is functional but still under active revision. This release is intended for review, testing, and continued development before the full release.
+The current source includes regenerated PNG visuals, updated local Kokoro WAV audio coverage, and corrected Social Studies content for school place and community-help response choices.
 
-Users should review activities before using them with students.
-
-## Known Areas for Revision
-
-Planned revisions include:
-
-- Replacing placeholder stick-figure images
-- Replacing inaccurate images, including incorrect shape examples and character-image errors
-- Revising punctuation instruction recordings
-- Replacing letter-sound audio that currently reads labels instead of producing phoneme sounds
-- Revising the terms of service
-- Updating math visuals to better match ten-frame instructional formats
-- Continuing review of instructional content, visuals, and accessibility features
+Runtime student-facing images are PNG files. SVG files are not used as runtime game assets.
 
 ## Running from Source
 
@@ -88,3 +76,10 @@ To run the project locally:
 ```bash
 npm install
 npm run dev
+```
+
+To build the source:
+
+```bash
+npm run build
+```

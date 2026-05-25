@@ -1,5 +1,6 @@
 import { BaseTemplate, type TemplateContext } from "./BaseTemplate";
 import type { ChoiceRound } from "../contentTypes";
+import { resolveAssetPath } from "../systems/assetPath";
 import { makeChoiceVisual, recordChoiceDistribution, shuffled, shuffledAwayFromOrder } from "./templateUtils";
 
 export class DragSequenceTemplate extends BaseTemplate {
@@ -67,7 +68,7 @@ export class DragSequenceTemplate extends BaseTemplate {
     card.className = "model-picture";
     if (image) {
       const img = document.createElement("img");
-      img.src = image;
+      img.src = resolveAssetPath(image);
       img.alt = "";
       card.append(img);
     }
@@ -83,7 +84,7 @@ export class DragSequenceTemplate extends BaseTemplate {
     const card = document.createElement("div");
     card.className = "model-picture model-scene-picture";
     const img = document.createElement("img");
-    img.src = image;
+    img.src = resolveAssetPath(image);
     img.alt = "";
     card.append(img);
     return card;
@@ -118,7 +119,7 @@ export class DragSequenceTemplate extends BaseTemplate {
     top.className = "sentence-top";
     const image = document.createElement("img");
     image.className = "sentence-picture";
-    image.src = round.sentenceImage;
+    image.src = resolveAssetPath(round.sentenceImage);
     image.alt = "";
     const prompt = document.createElement("h2");
     prompt.className = "sentence-prompt";
@@ -162,7 +163,7 @@ export class DragSequenceTemplate extends BaseTemplate {
       card.setAttribute("aria-label", `Drag ${part.label}`);
       if (part.image) {
         const image = document.createElement("img");
-        image.src = part.image;
+        image.src = resolveAssetPath(part.image);
         image.alt = "";
         card.append(image);
       }

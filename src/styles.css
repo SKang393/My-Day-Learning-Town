@@ -44,7 +44,7 @@ small {
   width: 100vw;
   height: 100dvh;
   min-height: 0;
-  background: var(--paper) url("/assets/generated/current/imagegen-start-town-scene.png") center / cover no-repeat;
+  background: var(--paper) var(--town-background-image, none) center / cover no-repeat;
   overflow: hidden;
 }
 
@@ -71,6 +71,12 @@ small {
   height: 100%;
   padding: clamp(10px, 1.6vw, 22px);
   overflow: hidden;
+}
+
+.mode-splash,
+.mode-home,
+.mode-category {
+  background: var(--paper) var(--town-background-image, none) center / cover no-repeat;
 }
 
 .mode-game {

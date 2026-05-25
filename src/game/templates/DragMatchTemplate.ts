@@ -1,5 +1,6 @@
 import { BaseTemplate, type TemplateContext } from "./BaseTemplate";
 import type { ChoiceRound } from "../contentTypes";
+import { resolveAssetPath } from "../systems/assetPath";
 import { makeChoiceVisual, recordChoiceDistribution, shuffled } from "./templateUtils";
 
 export class DragMatchTemplate extends BaseTemplate {
@@ -71,7 +72,7 @@ export class DragMatchTemplate extends BaseTemplate {
     card.className = "model-picture";
     if (image) {
       const img = document.createElement("img");
-      img.src = image;
+      img.src = resolveAssetPath(image);
       img.alt = "";
       card.append(img);
     }
@@ -87,7 +88,7 @@ export class DragMatchTemplate extends BaseTemplate {
     const card = document.createElement("div");
     card.className = "model-picture model-scene-picture";
     const img = document.createElement("img");
-    img.src = image;
+    img.src = resolveAssetPath(image);
     img.alt = "";
     card.append(img);
     return card;
@@ -145,7 +146,7 @@ export class DragMatchTemplate extends BaseTemplate {
     if (round.targetImage) {
       const target = document.createElement("img");
       target.className = "target-picture";
-      target.src = round.targetImage;
+      target.src = resolveAssetPath(round.targetImage);
       target.alt = "";
       promptWrap.append(target);
     }
@@ -162,7 +163,7 @@ export class DragMatchTemplate extends BaseTemplate {
       house.dataset.testid = `rhyme-bin-${bin.id}`;
       house.style.setProperty("--match-color", binColors.get(bin.id) ?? "#10232f");
       const detail = round.mode === "map-builder" ? "map spot" : "sort bin";
-      const imageMarkup = bin.image ? `<img class="bin-icon" src="${bin.image}" alt="" />` : "";
+      const imageMarkup = bin.image ? `<img class="bin-icon" src="${resolveAssetPath(bin.image)}" alt="" />` : "";
       house.innerHTML = isScienceSort || isThenNow
         ? `<div class="house-body science-bin-body">${imageMarkup}<strong>${bin.label}</strong>${isThenNow ? "" : `<span>${detail}</span>`}</div>`
         : `<div class="house-roof"></div><div class="house-body">${imageMarkup}<strong>${bin.label}</strong><span>rhyme house</span></div>`;
@@ -469,7 +470,7 @@ export class DragMatchTemplate extends BaseTemplate {
 
     const objectPanel = document.createElement("div");
     objectPanel.className = "measure-object-panel";
-    objectPanel.innerHTML = `<img src="${round.objectImage}" alt="" />`;
+    objectPanel.innerHTML = `<img src="${resolveAssetPath(round.objectImage)}" alt="" />`;
 
     const target = document.createElement("div");
     target.className = "measure-target-area";
@@ -551,7 +552,7 @@ export class DragMatchTemplate extends BaseTemplate {
     item.setAttribute("aria-label", `Drag ${label}`);
     if (image) {
       const img = document.createElement("img");
-      img.src = image;
+      img.src = resolveAssetPath(image);
       img.alt = "";
       item.append(img);
     }
@@ -565,7 +566,7 @@ export class DragMatchTemplate extends BaseTemplate {
 
   private makeSmallObjectImage(image: string): HTMLImageElement {
     const img = document.createElement("img");
-    img.src = image;
+    img.src = resolveAssetPath(image);
     img.alt = "";
     return img;
   }
