@@ -196,7 +196,7 @@ export const gameRegistry: GameDefinition[] = [
     template: "drag-match",
     description: "Drag more objects into a story mat, then choose how many all together.",
     status: "playable",
-    image: "/assets/generated/current/game-icon-subtraction-story-mat.png",
+    image: "/assets/generated/current/game-icon-add-to-story-mat.png",
     content: addToStoryMat as GameContent,
   },
   {
@@ -206,7 +206,7 @@ export const gameRegistry: GameDefinition[] = [
     template: "drag-match",
     description: "Take objects away from a story mat, then choose how many are left.",
     status: "playable",
-    image: "/assets/generated/current/game-icon-add-to-story-mat.png",
+    image: "/assets/generated/current/game-icon-subtraction-story-mat.png",
     content: subtractionStoryMat as GameContent,
   },
   {

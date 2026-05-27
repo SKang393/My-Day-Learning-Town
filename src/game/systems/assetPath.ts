@@ -4,5 +4,8 @@ export function resolveAssetPath(path: string | undefined): string {
 
   const base = import.meta.env.BASE_URL || "/";
   const normalizedBase = base.endsWith("/") ? base : `${base}/`;
-  return `${normalizedBase}${path.slice(1)}`;
+  const relativePath = `${normalizedBase}${path.slice(1)}`;
+
+  if (typeof window === "undefined") return relativePath;
+  return new URL(relativePath, window.location.href).href;
 }

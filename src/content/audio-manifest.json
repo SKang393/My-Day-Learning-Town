@@ -1,7 +1,7 @@
 {
   "voice": "af_heart",
   "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
-  "generatedAt": "2026-05-25T22:35:47.477Z",
+  "generatedAt": "2026-05-27T22:53:07.101Z",
   "items": [
     {
       "id": "line-0ab8318acaf6",
@@ -304,9 +304,24 @@
       "path": "/assets/audio/kokoro/line-86f7e437faa5.wav"
     },
     {
+      "id": "line-30fd29126d2e",
+      "text": "a consonant e",
+      "path": "/assets/audio/kokoro/line-30fd29126d2e.wav"
+    },
+    {
       "id": "line-2fe275861173",
       "text": "A flat shape is like a drawing. A solid shape is like an object you can hold.",
       "path": "/assets/audio/kokoro/line-2fe275861173.wav"
+    },
+    {
+      "id": "line-b26e968681c7",
+      "text": "a i",
+      "path": "/assets/audio/kokoro/line-b26e968681c7.wav"
+    },
+    {
+      "id": "line-eadcdb3af5f3",
+      "text": "a y",
+      "path": "/assets/audio/kokoro/line-eadcdb3af5f3.wav"
     },
     {
       "id": "line-f5d193d9beee",
@@ -327,6 +342,11 @@
       "id": "line-2d2170bc2c67",
       "text": "Ari helps a student with a hurt knee.",
       "path": "/assets/audio/kokoro/line-2d2170bc2c67.wav"
+    },
+    {
+      "id": "line-f86773757d53",
+      "text": "as in alligator.",
+      "path": "/assets/audio/kokoro/line-f86773757d53.wav"
     },
     {
       "id": "line-310e81c292b8",
@@ -2159,14 +2179,19 @@
       "path": "/assets/audio/kokoro/line-9ecc670ed52b.wav"
     },
     {
-      "id": "line-a15b0abea8a3",
-      "text": "Long A can be a, a_e, ai, or ay. Short a says /ae/ as in alligator.",
-      "path": "/assets/audio/kokoro/line-a15b0abea8a3.wav"
+      "id": "line-fd05327e88ed",
+      "text": "long a",
+      "path": "/assets/audio/kokoro/line-fd05327e88ed.wav"
     },
     {
-      "id": "line-c9fa0727aad8",
-      "text": "Long A says /ā/.",
-      "path": "/assets/audio/kokoro/line-c9fa0727aad8.wav"
+      "id": "line-022ae607ea1d",
+      "text": "Long A can be",
+      "path": "/assets/audio/kokoro/line-022ae607ea1d.wav"
+    },
+    {
+      "id": "line-888ca9bbbd5a",
+      "text": "Long A says long a.",
+      "path": "/assets/audio/kokoro/line-888ca9bbbd5a.wav"
     },
     {
       "id": "line-b13d2d6fa970",
@@ -3084,6 +3109,11 @@
       "path": "/assets/audio/kokoro/line-d920d228965f.wav"
     },
     {
+      "id": "line-1758356db217",
+      "text": "or",
+      "path": "/assets/audio/kokoro/line-1758356db217.wav"
+    },
+    {
       "id": "line-582681c2eae0",
       "text": "package",
       "path": "/assets/audio/kokoro/line-582681c2eae0.wav"
@@ -3364,6 +3394,11 @@
       "path": "/assets/audio/kokoro/line-925a71066545.wav"
     },
     {
+      "id": "line-dcf06e858132",
+      "text": "says",
+      "path": "/assets/audio/kokoro/line-dcf06e858132.wav"
+    },
+    {
       "id": "line-3d637fc60499",
       "text": "see",
       "path": "/assets/audio/kokoro/line-3d637fc60499.wav"
@@ -3377,6 +3412,16 @@
       "id": "line-4488ae65393e",
       "text": "shoe",
       "path": "/assets/audio/kokoro/line-4488ae65393e.wav"
+    },
+    {
+      "id": "line-0fe7d82f25a3",
+      "text": "Short",
+      "path": "/assets/audio/kokoro/line-0fe7d82f25a3.wav"
+    },
+    {
+      "id": "line-50488f1a3bd1",
+      "text": "short a sound",
+      "path": "/assets/audio/kokoro/line-50488f1a3bd1.wav"
     },
     {
       "id": "line-1d0bac1919ba",

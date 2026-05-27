@@ -28,6 +28,13 @@ interface AudioManifestItem {
   path: string;
 }
 
+export interface SpeechSegment {
+  text?: string;
+  path?: string;
+  fallbackText?: string;
+  pauseMs?: number;
+}
+
 const manifestItems = (audioManifest.items ?? []) as AudioManifestItem[];
 const manifestByText = new Map(manifestItems.map((item) => [normalizeSpeakText(item.text), item]));
 
@@ -172,9 +179,14 @@ function speakWithBrowserFallback(text: string, reason: string, token: number, w
 function playKokoroWav(text: string, token: number, waitForEnd: boolean): Promise<KokoroPlayResult> {
   const item = manifestByText.get(text);
   if (!item) return Promise.resolve("missing");
+  return playWavPath(item.path, token, waitForEnd, item.path, Math.max(3600, text.length * 190));
+}
+
+function playWavPath(path: string, token: number, waitForEnd: boolean, statePath = path, maxWaitMs = 3600): Promise<KokoroPlayResult> {
+  if (!path) return Promise.resolve("missing");
 
   return new Promise((resolve) => {
-    const audio = new Audio(resolveAssetPath(item.path));
+    const audio = new Audio(resolveAssetPath(path));
     activeAudio = audio;
     audio.preload = "auto";
     audio.volume = getSettings().voiceVolume;
@@ -200,7 +212,7 @@ function playKokoroWav(text: string, token: number, waitForEnd: boolean): Promis
       browserFallbackHappened: false,
       fallbackReason: "",
       currentSource: "Kokoro local WAV",
-      lastPath: item.path,
+      lastPath: statePath,
     });
 
     const markStarted = () => {
@@ -227,7 +239,7 @@ function playKokoroWav(text: string, token: number, waitForEnd: boolean): Promis
         return;
       }
       if (!resolved && activeAudio === audio) resolveOnce("played");
-    }, waitForEnd ? Math.max(3600, text.length * 190) : 1800);
+    }, waitForEnd ? maxWaitMs : 1800);
   });
 }
 
@@ -243,13 +255,17 @@ async function playLine(text: string, options: { force?: boolean; waitForEnd?: b
     return;
   }
 
-  const kokoroResult = await playKokoroWav(normalized, token, options.waitForEnd ?? false);
+  await playTextWithToken(normalized, token, options.waitForEnd ?? false);
+}
+
+async function playTextWithToken(normalized: string, token: number, waitForEnd: boolean): Promise<void> {
+  const kokoroResult = await playKokoroWav(normalized, token, waitForEnd);
   if (kokoroResult !== "played" && token === playbackToken) {
     const reason =
       kokoroResult === "missing"
         ? "No matching Kokoro WAV was found for this line."
         : "A matching Kokoro WAV was found but could not play.";
-    await speakWithBrowserFallback(normalized, reason, token, options.waitForEnd ?? false);
+    await speakWithBrowserFallback(normalized, reason, token, waitForEnd);
   }
 }
 
@@ -259,6 +275,30 @@ export function speak(text: string, force = false): void {
 
 export function speakAsync(text: string, force = false): Promise<void> {
   return playLine(text, { force, waitForEnd: true });
+}
+
+export async function speakSequenceAsync(segments: SpeechSegment[], force = false): Promise<void> {
+  const settings = getSettings();
+  const token = nextToken();
+  stopActivePlayback();
+  if (!force && !settings.audioEnabled) {
+    setAudioState({ actualBackend: "none", actualVoice: "muted", currentSource: "muted", lastPath: "", fallbackReason: "" });
+    return;
+  }
+
+  for (const segment of segments) {
+    if (token !== playbackToken) return;
+    const fallback = normalizeSpeakText(segment.fallbackText ?? segment.text ?? "");
+    if (segment.path) {
+      const result = await playWavPath(segment.path, token, true);
+      if (result === "played") {
+        if (segment.pauseMs) await new Promise((resolve) => window.setTimeout(resolve, segment.pauseMs));
+        continue;
+      }
+    }
+    if (fallback) await playTextWithToken(fallback, token, true);
+    if (segment.pauseMs) await new Promise((resolve) => window.setTimeout(resolve, segment.pauseMs));
+  }
 }
 
 function playChimeFile(token: number): Promise<boolean> {

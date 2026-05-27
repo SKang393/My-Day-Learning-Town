@@ -147,7 +147,7 @@ export class ChooseOneOfThreeTemplate extends BaseTemplate {
     recordChoiceDistribution(this.context.content.id, round.id, options, round.correctChoiceId);
     options.forEach((option, index) => {
       const hideChoiceText = this.shouldHideChoiceText(round);
-      const button = this.button(round.mode === "long-vowel" || hideChoiceText ? "" : option.label);
+      const button = this.button(round.mode === "long-vowel" || round.mode === "parking-lot" || hideChoiceText ? "" : option.label);
       button.dataset.optionIndex = String(index);
       if (hideChoiceText) {
         button.classList.add("picture-only-choice");
@@ -162,7 +162,7 @@ export class ChooseOneOfThreeTemplate extends BaseTemplate {
         button.classList.add("parking-space-button");
         button.setAttribute("aria-label", `Parking space ${option.label}`);
         button.dataset.testid = `parking-space-${option.id}`;
-        button.prepend(this.makeNumberDots(Number(option.label)));
+        button.append(this.makeParkingSpace(Number(option.label)));
       }
       if (round.mode === "punctuation-pop") {
         button.classList.add("punctuation-pop-button");
@@ -250,20 +250,37 @@ export class ChooseOneOfThreeTemplate extends BaseTemplate {
     this.context.onSpeak(followUp);
   }
 
-  private makeNumberDots(value: number): HTMLElement {
-    return this.makeDotCue(value, "number-dot-cue");
+  private makeParkingSpace(value: number): HTMLElement {
+    const layout = document.createElement("span");
+    layout.className = "parking-ten-frame-layout";
+    layout.dataset.count = String(value);
+    const count = Number.isFinite(value) ? Math.min(30, Math.max(1, value)) : 1;
+
+    const leftColumn = document.createElement("span");
+    leftColumn.className = "parking-frame-column";
+    leftColumn.append(this.makeParkingTenFrame(count, 0), this.makeParkingTenFrame(count, 10));
+
+    const rightColumn = document.createElement("span");
+    rightColumn.className = "parking-frame-column parking-frame-column-right";
+    rightColumn.append(this.makeParkingTenFrame(count, 20));
+    const number = document.createElement("strong");
+    number.className = "parking-space-number";
+    number.textContent = String(value);
+    rightColumn.append(number);
+
+    layout.append(leftColumn, rightColumn);
+    return layout;
   }
 
-  private makeDotCue(value: number, className: string): HTMLElement {
-    const dotWrap = document.createElement("span");
-    dotWrap.className = className;
-    dotWrap.dataset.count = String(value);
-    const count = Number.isFinite(value) ? Math.min(30, Math.max(1, value)) : 1;
-    for (let index = 0; index < count; index += 1) {
-      const dot = document.createElement("i");
-      dotWrap.append(dot);
+  private makeParkingTenFrame(count: number, offset: number): HTMLElement {
+    const frame = document.createElement("span");
+    frame.className = "parking-ten-frame";
+    for (let index = 0; index < 10; index += 1) {
+      const cell = document.createElement("i");
+      if (offset + index < count) cell.classList.add("is-filled");
+      frame.append(cell);
     }
-    return dotWrap;
+    return frame;
   }
 
   private makeLongVowelWord(label: string): HTMLElement {
@@ -271,33 +288,38 @@ export class ChooseOneOfThreeTemplate extends BaseTemplate {
     word.className = "long-vowel-word";
     const displayWord = label.trim().split(/\s+/)[0] ?? label;
     if (/^alligator$/i.test(displayWord)) {
-      word.textContent = displayWord;
+      this.appendMarkedPattern(word, displayWord, /a/i);
       return word;
     }
     const splitMatch = displayWord.match(/^(.*?)(a)(.+)(e)$/i);
     if (splitMatch && displayWord.length >= 4) {
       word.append(document.createTextNode(splitMatch[1]));
+      const marker = document.createElement("span");
+      marker.className = "long-vowel-split-marker";
       const first = document.createElement("b");
       first.textContent = splitMatch[2];
       const middle = document.createElement("span");
       middle.textContent = splitMatch[3];
       const last = document.createElement("b");
       last.textContent = splitMatch[4];
-      word.append(first, middle, last);
-      word.dataset.connector = "true";
+      marker.append(first, middle, last);
+      word.append(marker);
       return word;
     }
-    const longPatterns = /(ai|ay|a)/i;
-    const match = displayWord.match(longPatterns);
+    this.appendMarkedPattern(word, displayWord, /(ai|ay|a)/i);
+    return word;
+  }
+
+  private appendMarkedPattern(word: HTMLElement, displayWord: string, pattern: RegExp): void {
+    const match = displayWord.match(pattern);
     if (!match || match.index === undefined) {
       word.textContent = displayWord;
-      return word;
+      return;
     }
     word.append(document.createTextNode(displayWord.slice(0, match.index)));
     const mark = document.createElement("b");
     mark.textContent = match[0];
     word.append(mark, document.createTextNode(displayWord.slice(match.index + match[0].length)));
-    return word;
   }
 
   private makeMoneyComparison(context: string): HTMLElement {

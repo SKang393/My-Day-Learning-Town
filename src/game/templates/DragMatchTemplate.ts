@@ -486,6 +486,10 @@ export class DragMatchTemplate extends BaseTemplate {
       row?.append(cell);
     }
 
+    const exampleStack = document.createElement("div");
+    exampleStack.className = "measure-example-stack";
+    exampleStack.append(objectPanel, target);
+
     const tray = document.createElement("div");
     tray.className = "set-object-tray measure-unit-tray";
     tray.dataset.testid = "measure-unit-tray";
@@ -497,7 +501,7 @@ export class DragMatchTemplate extends BaseTemplate {
       tray.append(card);
     }
 
-    workArea.append(objectPanel, target, tray);
+    workArea.append(tray, exampleStack);
 
     const answerPanel = document.createElement("div");
     answerPanel.className = "measure-answer-panel is-hidden";

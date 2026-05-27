@@ -1,7 +1,7 @@
 import { categories, gameRegistry } from "../registry";
 import type { CategoryId, GameDefinition } from "../contentTypes";
 import { getProgress, getSettings, resetProgress, resetSettings, saveRoundProgress, saveSettings } from "../systems/storage";
-import { getAudioDebugState, praiseWithChime, speak, speakAsync, syncAudioDebugSettings } from "../systems/speech";
+import { getAudioDebugState, praiseWithChime, speak, speakAsync, speakSequenceAsync, syncAudioDebugSettings } from "../systems/speech";
 import { audioConfig, type PraiseWaitMode } from "../systems/audioConfig";
 import { resolveAssetPath } from "../systems/assetPath";
 import { createTemplate } from "../templates/templateFactory";
@@ -102,6 +102,21 @@ export class AppShell {
         this.directions = text;
         this.updateInstruction(text);
         return speakAsync(text);
+      },
+      onModelAudio: async (model) => {
+        this.directions = model.instruction;
+        this.updateInstruction(model.instruction);
+        this.modelAudioLocked = true;
+        try {
+          await speakAsync(model.instructionSpeech ?? model.instruction);
+          if (model.speechParts?.length) {
+            await speakSequenceAsync(model.speechParts);
+          } else if (model.explanation?.trim() || model.explanationSpeech?.trim()) {
+            await speakAsync(model.explanationSpeech ?? model.explanation);
+          }
+        } finally {
+          this.modelAudioLocked = false;
+        }
       },
       onModelDirections: async (instruction, explanation) => {
         this.directions = instruction;
@@ -237,7 +252,7 @@ export class AppShell {
         tile.setAttribute("aria-label", game.title);
         tile.title = game.title;
         tile.disabled = game.status !== "playable";
-        tile.innerHTML = `${game.image ? `<img class="game-preview" src="${resolveAssetPath(game.image)}" alt="" />` : ""}`;
+        tile.innerHTML = `${game.image ? `<img class="game-preview" src="${resolveAssetPath(game.image)}" alt="" />` : ""}<strong class="game-title-label" data-fit-text="true" data-fit-lines="2" data-fit-min="14">${game.title}</strong>`;
         tile.addEventListener("click", () => this.showGame(game));
         grid.append(tile);
       });

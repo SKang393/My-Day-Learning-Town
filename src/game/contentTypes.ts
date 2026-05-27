@@ -8,9 +8,17 @@ export interface ChoiceOption {
   count?: number;
 }
 
+export interface SpeechSegment {
+  text?: string;
+  path?: string;
+  fallbackText?: string;
+  pauseMs?: number;
+}
+
 export interface ModelStep {
   title: string;
   instruction: string;
+  instructionSpeech?: string;
   targetWord: string;
   targetImage?: string;
   sceneImage?: string;
@@ -19,6 +27,8 @@ export interface ModelStep {
   examples?: Array<{ label?: string; image?: string }>;
   arrowLabel?: string;
   explanation: string;
+  explanationSpeech?: string;
+  speechParts?: SpeechSegment[];
 }
 
 export interface RhymeBin {

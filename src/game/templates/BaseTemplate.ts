@@ -4,6 +4,7 @@ export interface TemplateContext {
   root: HTMLElement;
   content: GameContent;
   onDirections: (text: string) => void | Promise<void>;
+  onModelAudio?: (model: ModelStep) => Promise<void>;
   onModelDirections?: (instruction: string, explanation?: string) => Promise<void>;
   onSpeak: (text: string) => void;
   onSpeakAsync?: (text: string) => Promise<void>;
@@ -73,7 +74,12 @@ export abstract class BaseTemplate implements MiniGameTemplate {
     start.textContent = "Listen First";
 
     let unlocked = false;
-    const safeTimeoutMs = Math.min(22000, Math.max(9000, `${model.instruction} ${model.explanation}`.length * 150));
+    const speechLength = [
+      model.instructionSpeech ?? model.instruction,
+      ...(model.speechParts ?? []).map((part) => part.fallbackText ?? part.text ?? ""),
+      model.explanationSpeech ?? (model.speechParts?.length ? "" : model.explanation),
+    ].join(" ").length;
+    const safeTimeoutMs = Math.min(30000, Math.max(9000, speechLength * 150));
     const unlock = () => {
       if (unlocked) return;
       unlocked = true;
@@ -87,7 +93,9 @@ export abstract class BaseTemplate implements MiniGameTemplate {
       unlock();
     }, safeTimeoutMs);
 
-    const modelAudio = this.context.onModelDirections
+    const modelAudio = this.context.onModelAudio
+      ? this.context.onModelAudio(model)
+      : this.context.onModelDirections
       ? this.context.onModelDirections(model.instruction, model.explanation)
       : Promise.resolve(this.context.onDirections(model.instruction));
 

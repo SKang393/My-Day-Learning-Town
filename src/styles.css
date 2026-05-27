@@ -353,7 +353,7 @@ h1 {
 
 .game-tile.has-image {
   grid-template-columns: minmax(0, 1fr);
-  grid-template-rows: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr) auto;
   align-content: stretch;
   justify-items: center;
   text-align: center;
@@ -400,12 +400,26 @@ h1 {
   grid-column: 1;
   width: 100%;
   height: 100%;
-  max-height: clamp(166px, 30vh, 330px);
+  max-height: clamp(128px, 23vh, 270px);
   object-fit: contain;
   align-self: center;
   border: 0;
   border-radius: 14px;
   background: transparent;
+}
+
+.game-title-label {
+  grid-row: 2;
+  grid-column: 1;
+  align-self: end;
+  width: 100%;
+  padding: 4px 8px;
+  border: 3px solid var(--border);
+  border-radius: 12px;
+  background: rgba(255, 254, 247, 0.96);
+  text-align: center;
+  font-size: clamp(15px, 1.35vw, 23px);
+  line-height: 1.05;
 }
 
 .page-indicator {
@@ -650,21 +664,62 @@ h1 {
   content: none;
 }
 
-.number-dot-cue {
+.parking-ten-frame-layout {
   display: grid;
-  grid-template-columns: repeat(10, clamp(18px, 1.75vw, 34px));
-  gap: clamp(7px, 0.75vw, 12px);
-  max-height: 240px;
-  overflow: hidden;
-  margin-left: 0;
-  justify-content: center;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(8px, 1vw, 14px);
+  width: min(440px, 92%);
+  padding: clamp(10px, 1.2vw, 16px);
+  border: 5px solid #ffffff;
+  border-radius: 16px;
+  background: #616a72;
+  align-items: stretch;
+  box-shadow: inset 0 0 0 4px rgba(16, 35, 47, 0.22);
 }
 
-.number-dot-cue i {
-  width: clamp(18px, 1.75vw, 34px);
-  height: clamp(18px, 1.75vw, 34px);
+.parking-frame-column {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  gap: clamp(6px, 0.8vw, 10px);
+  min-width: 0;
+}
+
+.parking-frame-column-right {
+  grid-template-rows: auto auto;
+  align-content: start;
+}
+
+.parking-ten-frame {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: clamp(4px, 0.5vw, 7px);
+  padding: clamp(5px, 0.6vw, 8px);
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  background: #f5fbff;
+}
+
+.parking-ten-frame i {
+  aspect-ratio: 1;
+  border: 2px solid #10232f;
   border-radius: 50%;
+  background: transparent;
+}
+
+.parking-ten-frame i.is-filled {
   background: #10232f;
+}
+
+.parking-space-number {
+  display: grid;
+  place-items: center;
+  min-height: clamp(42px, 6vh, 70px);
+  border: 4px solid #ffffff;
+  border-radius: 12px;
+  background: var(--yellow);
+  color: #10232f;
+  font-size: clamp(36px, 4.6vw, 76px);
+  line-height: 1;
 }
 
 .parking-space-button.is-correct {
@@ -692,11 +747,18 @@ h1 {
   color: #c93636;
 }
 
-.long-vowel-word[data-connector="true"]::after {
+.long-vowel-split-marker {
+  position: relative;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 1px;
+}
+
+.long-vowel-split-marker::after {
   content: "";
   position: absolute;
-  left: 14px;
-  right: 14px;
+  left: 3px;
+  right: 3px;
   top: -8px;
   height: 10px;
   border: 4px solid #c93636;
@@ -1292,8 +1354,8 @@ h1 {
 }
 
 .measure-objects-card .measure-work-area {
-  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1.1fr);
-  grid-template-rows: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(180px, 0.72fr) minmax(0, 1.8fr);
+  grid-template-rows: minmax(0, 1fr);
 }
 
 .measure-objects-card .context-line,
@@ -1319,9 +1381,29 @@ h1 {
 }
 
 .measure-object-panel img {
-  width: clamp(360px, 52vw, 980px);
-  height: clamp(130px, 22vh, 280px);
+  width: clamp(340px, 48vw, 940px);
+  height: clamp(104px, 18vh, 220px);
   object-fit: contain;
+}
+
+.measure-example-stack {
+  display: grid;
+  grid-template-rows: minmax(0, auto) minmax(0, auto);
+  gap: 0;
+  align-content: center;
+  min-width: 0;
+}
+
+.measure-example-stack .measure-object-panel {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-width: 4px;
+}
+
+.measure-example-stack .measure-target-area {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-width: 4px;
 }
 
 .measure-unit-row {
@@ -1449,9 +1531,10 @@ h1 {
 }
 
 .measure-objects-card .set-object-tray {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 6px;
-  grid-column: 1 / -1;
+  grid-column: auto;
+  align-content: center;
 }
 
 .measure-objects-card .set-object-card {

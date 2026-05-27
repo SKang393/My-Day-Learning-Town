@@ -280,10 +280,52 @@
   "model": {
     "title": "Long A",
     "instruction": "Long A says /ā/.",
+    "instructionSpeech": "Long A says long a.",
     "targetWord": "",
     "sceneImage": "/assets/generated/current/teaching-long-a-patterns.png",
     "matchingLabel": "",
-    "explanation": "Long A can be a, a_e, ai, or ay. Short a says /ae/ as in alligator."
+    "explanation": "Long A can be a, a_e, ai, or ay. Short a says /ae/ as in alligator.",
+    "speechParts": [
+      {
+        "text": "Long A can be"
+      },
+      {
+        "path": "/assets/audio/letter-sounds/long-a-letter-a.wav",
+        "fallbackText": "long a"
+      },
+      {
+        "path": "/assets/audio/letter-sounds/long-a-pattern-a-e.wav",
+        "fallbackText": "a consonant e"
+      },
+      {
+        "path": "/assets/audio/letter-sounds/long-a-pattern-ai.wav",
+        "fallbackText": "a i"
+      },
+      {
+        "text": "or"
+      },
+      {
+        "path": "/assets/audio/letter-sounds/long-a-pattern-ay.wav",
+        "fallbackText": "a y"
+      },
+      {
+        "text": "Short"
+      },
+      {
+        "path": "/assets/audio/letter-sounds/short-a-letter-a.wav",
+        "fallbackText": "a"
+      },
+      {
+        "text": "says"
+      },
+      {
+        "path": "/assets/audio/letter-sounds/short-a-sound-ae.wav",
+        "fallbackText": "short a sound"
+      },
+      {
+        "text": "as in alligator."
+      }
+    ]
   }
 }
 
