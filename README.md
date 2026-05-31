@@ -1,6 +1,6 @@
 ﻿# My Day Learning Town
 
-**Current version:** v0.7.0
+**Current version:** v0.9.0
 
 My Day Learning Town is a browser-based educational mini-game collection for early literacy, math, science, and social studies practice. It is designed for touch-friendly classroom use with large choices, clear PNG visuals, local audio assets, and simple one-task screens.
 
