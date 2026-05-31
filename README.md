@@ -1,4 +1,4 @@
-﻿# My Day Learning Town
+# My Day Learning Town
 
 **Current version:** v0.9.0
 
@@ -10,12 +10,23 @@ The playable Windows releases are available through GitHub Releases:
 
 https://github.com/sungwoo651/My-Day-Learning-Town/releases
 
-Download one of the release assets for v0.7.0:
+Download one of the release assets for v0.9.0:
 
-- `My-Day-Learning-Town-v0.7-Windows-EXE.zip`: Electron-wrapped Windows app.
-- `My-Day-Learning-Town-v0.7-Windows-Browser.zip`: browser-launch version for school computers that block unsigned EXE apps.
+- `My-Day-Learning-Town-v0.9.0-Windows-EXE.zip`
+  - Electron-wrapped Windows app.
+  - Use this when the computer allows local unsigned Windows apps.
+
+- `My-Day-Learning-Town-v0.9.0-Windows-Browser.zip`
+  - Browser-launch version for school computers that block or discourage unsigned EXE apps.
+  - Open `Open My Day Learning Town.html`.
 
 Extract the full ZIP before running. Do not run the app from inside the compressed ZIP.
+
+## Notes For Windows Users
+
+The EXE version may show a Windows SmartScreen or “unrecognized app” warning on some computers. That warning is controlled by Windows code signing and app reputation. It cannot be removed by the game code alone.
+
+If the EXE does not open on a school computer, use the Browser version instead.
 
 ## Run From Source
 
@@ -23,38 +34,3 @@ Install dependencies:
 
 ```powershell
 npm install
-```
-
-Start the development server:
-
-```powershell
-npm run dev
-```
-
-Build the source:
-
-```powershell
-npm run build
-```
-
-Run the Electron desktop shell during development:
-
-```powershell
-npm run desktop:dev
-```
-
-## Runtime Assets
-
-Student-facing runtime images are PNG files. SVG files are not used as runtime game assets.
-
-Local Kokoro WAV audio is the primary student speech path. Browser speech synthesis is only a fallback when a local WAV cannot play.
-
-## Source Layout
-
-```text
-src/       game source and content JSON
-public/    runtime PNG and WAV assets
-electron/  Electron desktop shell
-```
-
-The repository intentionally excludes packaged runtime output, local QA reports, development utility scripts, dependency folders, and generated release folders.
