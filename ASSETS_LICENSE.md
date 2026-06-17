@@ -8,4 +8,3 @@ These materials may be used for personal, classroom, school, nonprofit education
 
 Commercial reuse, resale, paid redistribution, use in monetized platforms, or incorporation into commercial products requires separate written permission from the copyright holder.
 
-Source code is licensed separately under the PolyForm Noncommercial License 1.0.0.
